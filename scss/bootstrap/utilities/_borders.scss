@@ -1,0 +1,75 @@
+// stylelint-disable property-disallowed-list, declaration-no-important
+
+//
+// Border
+//
+
+.#{$op-prefix}border         { border: $border-width solid $border-color !important; }
+.#{$op-prefix}border-top     { border-top: $border-width solid $border-color !important; }
+.#{$op-prefix}border-right   { border-right: $border-width solid $border-color !important; }
+.#{$op-prefix}border-bottom  { border-bottom: $border-width solid $border-color !important; }
+.#{$op-prefix}border-left    { border-left: $border-width solid $border-color !important; }
+
+.#{$op-prefix}border-0        { border: 0 !important; }
+.#{$op-prefix}border-top-0    { border-top: 0 !important; }
+.#{$op-prefix}border-right-0  { border-right: 0 !important; }
+.#{$op-prefix}border-bottom-0 { border-bottom: 0 !important; }
+.#{$op-prefix}border-left-0   { border-left: 0 !important; }
+
+@each $color, $value in $theme-colors {
+  .#{$op-prefix}border-#{$color} {
+    border-color: $value !important;
+  }
+}
+
+.#{$op-prefix}border-white {
+  border-color: $white !important;
+}
+
+//
+// Border-radius
+//
+
+.#{$op-prefix}rounded-sm {
+  border-radius: $border-radius-sm !important;
+}
+
+.#{$op-prefix}rounded {
+  border-radius: $border-radius !important;
+}
+
+.#{$op-prefix}rounded-top {
+  border-top-left-radius: $border-radius !important;
+  border-top-right-radius: $border-radius !important;
+}
+
+.#{$op-prefix}rounded-right {
+  border-top-right-radius: $border-radius !important;
+  border-bottom-right-radius: $border-radius !important;
+}
+
+.#{$op-prefix}rounded-bottom {
+  border-bottom-right-radius: $border-radius !important;
+  border-bottom-left-radius: $border-radius !important;
+}
+
+.#{$op-prefix}rounded-left {
+  border-top-left-radius: $border-radius !important;
+  border-bottom-left-radius: $border-radius !important;
+}
+
+.#{$op-prefix}rounded-lg {
+  border-radius: $border-radius-lg !important;
+}
+
+.#{$op-prefix}rounded-circle {
+  border-radius: 50% !important;
+}
+
+.#{$op-prefix}rounded-pill {
+  border-radius: $rounded-pill !important;
+}
+
+.#{$op-prefix}rounded-0 {
+  border-radius: 0 !important;
+}

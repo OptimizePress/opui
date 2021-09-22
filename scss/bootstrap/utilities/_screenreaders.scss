@@ -1,0 +1,11 @@
+//
+// Screenreaders
+//
+
+.#{$op-prefix}sr-only {
+  @include sr-only();
+}
+
+.#{$op-prefix}sr-only-focusable {
+  @include sr-only-focusable();
+}

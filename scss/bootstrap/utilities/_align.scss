@@ -1,0 +1,8 @@
+// stylelint-disable declaration-no-important
+
+.#{$op-prefix}align-baseline    { vertical-align: baseline !important; } // Browser default
+.#{$op-prefix}align-top         { vertical-align: top !important; }
+.#{$op-prefix}align-middle      { vertical-align: middle !important; }
+.#{$op-prefix}align-bottom      { vertical-align: bottom !important; }
+.#{$op-prefix}align-text-bottom { vertical-align: text-bottom !important; }
+.#{$op-prefix}align-text-top    { vertical-align: text-top !important; }
