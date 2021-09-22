@@ -5,29 +5,29 @@
   --opui--gray: #6c757d;
   --opui--darkgray: #495057;
   --opui--gray100: #f8f9fa;
-  --opui--gray200: #e9ecef;
-  --opui--gray300: #dee2e6;
-  --opui--gray400: #ced4da;
-  --opui--gray500: #adb5bd;
+  --opui--gray200: #eee;
+  --opui--gray300: #ced4da;
+  --opui--gray400: #97A3B4;
+  --opui--gray500: #8a96a0;
   --opui--gray600: #6c757d;
   --opui--gray700: #495057;
   --opui--gray800: #343a40;
   --opui--gray900: #212529;
-  --opui--blue: #0074ff;
-  --opui--darkblue: #0061D4;
-  --opui--blue100: #b3d5ff;
-  --opui--blue200: #66acff;
-  --opui--blue300: #3390ff;
-  --opui--blue400: #0074ff;
-  --opui--blue500: #0068e6;
-  --opui--blue600: #0061D4;
-  --opui--blue700: #0058c2;
-  --opui--blue800: #004699;
-  --opui--blue900: #00234d;
-  --opui--primary: #0074ff;
-  --opui--secondary: #b3d5ff;
+  --opui--blue: #0063d9;
+  --opui--darkblue: #0051c3;
+  --opui--blue100: #8dc1ff;
+  --opui--blue200: #4097ff;
+  --opui--blue300: #0d7bff;
+  --opui--blue400: #0063d9;
+  --opui--blue500: #0057c0;
+  --opui--blue600: #0051c3;
+  --opui--blue700: #00479c;
+  --opui--blue800: #003473;
+  --opui--blue900: #001227;
+  --opui--primary: #0063d9;
+  --opui--secondary: #8dc1ff;
   --opui--success: #198754;
-  --opui--info: #3390ff;
+  --opui--info: #0d7bff;
   --opui--warning: #ffc107;
   --opui--danger: #dc3545;
   --opui--light: #f8f9fa;
@@ -41,7 +41,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #0074ff;
+  --blue: #0063d9;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -50,14 +50,14 @@
   --yellow: #ffc107;
   --green: #198754;
   --teal: #20c997;
-  --cyan: #3390ff;
+  --cyan: #0d7bff;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #0074ff;
+  --primary: #0063d9;
   --secondary: #6c757d;
   --success: #198754;
-  --info: #3390ff;
+  --info: #0d7bff;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f8f9fa;
@@ -190,12 +190,12 @@ sup {
 }
 
 a {
-  color: #0074ff;
+  color: #0063d9;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0051b3;
+  color: #00408d;
   text-decoration: underline;
 }
 
@@ -512,7 +512,7 @@ mark,
   padding: 0.25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   max-width: 100%;
   height: auto;
 }
@@ -545,7 +545,7 @@ kbd.opui-kbd {
   font-size: 87.5%;
   color: #fff;
   background-color: #212529;
-  border-radius: 0.2rem;
+  border-radius: 8px;
 }
 kbd.opui-kbd kbd.opui-kbd {
   padding: 0;
@@ -1954,21 +1954,21 @@ pre.opui-pre code {
 .opui-table-primary,
 .opui-table-primary > th,
 .opui-table-primary > td {
-  background-color: #b8d8ff;
+  background-color: #b8d3f4;
 }
 .opui-table-primary th,
 .opui-table-primary td,
 .opui-table-primary thead th,
 .opui-table-primary tbody + tbody {
-  border-color: #7ab7ff;
+  border-color: #7aaeeb;
 }
 
 .opui-table-hover .opui-table-primary:hover {
-  background-color: #9fcaff;
+  background-color: #a2c5f1;
 }
 .opui-table-hover .opui-table-primary:hover > td,
 .opui-table-hover .opui-table-primary:hover > th {
-  background-color: #9fcaff;
+  background-color: #a2c5f1;
 }
 
 .opui-table-secondary,
@@ -2014,21 +2014,21 @@ pre.opui-pre code {
 .opui-table-info,
 .opui-table-info > th,
 .opui-table-info > td {
-  background-color: #c6e0ff;
+  background-color: #bbdaff;
 }
 .opui-table-info th,
 .opui-table-info td,
 .opui-table-info thead th,
 .opui-table-info tbody + tbody {
-  border-color: #95c5ff;
+  border-color: #81baff;
 }
 
 .opui-table-hover .opui-table-info:hover {
-  background-color: #add2ff;
+  background-color: #a2ccff;
 }
 .opui-table-hover .opui-table-info:hover > td,
 .opui-table-hover .opui-table-info:hover > th {
-  background-color: #add2ff;
+  background-color: #a2ccff;
 }
 
 .opui-table-warning,
@@ -2233,7 +2233,7 @@ pre.opui-pre code {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2252,9 +2252,9 @@ pre.opui-pre code {
 .opui-form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #80baff;
+  border-color: #5aa5ff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-form-control::-moz-placeholder {
   color: #6c757d;
@@ -2337,7 +2337,7 @@ select.opui-form-control:focus::-ms-value {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+  border-radius: 8px;
 }
 
 .opui-form-control-lg {
@@ -2345,7 +2345,7 @@ select.opui-form-control:focus::-ms-value {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 6px;
 }
 
 select.opui-form-control[size], select.opui-form-control[multiple] {
@@ -2430,7 +2430,7 @@ textarea.opui-form-control {
   line-height: 1.5;
   color: #fff;
   background-color: rgba(25, 135, 84, 0.9);
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .opui-form-row > .opui-col > .opui-valid-tooltip, .opui-form-row > [class*=opui-col-] > .opui-valid-tooltip {
   left: 5px;
@@ -2526,7 +2526,7 @@ textarea.opui-form-control {
   line-height: 1.5;
   color: #fff;
   background-color: rgba(220, 53, 69, 0.9);
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .opui-form-row > .opui-col > .opui-invalid-tooltip, .opui-form-row > [class*=opui-col-] > .opui-invalid-tooltip {
   left: 5px;
@@ -2673,7 +2673,7 @@ textarea.opui-form-control {
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2687,7 +2687,7 @@ textarea.opui-form-control {
 }
 .opui-btn:focus, .opui-btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-btn.disabled, .opui-btn:disabled {
   opacity: 0.65;
@@ -2702,32 +2702,32 @@ fieldset:disabled a.opui-btn {
 
 .opui-btn-primary {
   color: #fff;
-  background-color: #0074ff;
-  border-color: #0074ff;
+  background-color: #0063d9;
+  border-color: #0063d9;
 }
 .opui-btn-primary:hover {
   color: #fff;
-  background-color: #0063d9;
-  border-color: #005dcc;
+  background-color: #0052b3;
+  border-color: #004ca6;
 }
 .opui-btn-primary:focus, .opui-btn-primary.focus {
   color: #fff;
-  background-color: #0063d9;
-  border-color: #005dcc;
-  box-shadow: 0 0 0 0.2rem rgba(38, 137, 255, 0.5);
+  background-color: #0052b3;
+  border-color: #004ca6;
+  box-shadow: 0 0 0 0.2rem rgba(38, 122, 223, 0.5);
 }
 .opui-btn-primary.disabled, .opui-btn-primary:disabled {
   color: #fff;
-  background-color: #0074ff;
-  border-color: #0074ff;
+  background-color: #0063d9;
+  border-color: #0063d9;
 }
 .opui-btn-primary:not(:disabled):not(.disabled):active, .opui-btn-primary:not(:disabled):not(.disabled).active, .show > .opui-btn-primary.opui-dropdown-toggle {
   color: #fff;
-  background-color: #005dcc;
-  border-color: #0057bf;
+  background-color: #004ca6;
+  border-color: #004699;
 }
 .opui-btn-primary:not(:disabled):not(.disabled):active:focus, .opui-btn-primary:not(:disabled):not(.disabled).active:focus, .show > .opui-btn-primary.opui-dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 137, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(38, 122, 223, 0.5);
 }
 
 .opui-btn-secondary {
@@ -2792,32 +2792,32 @@ fieldset:disabled a.opui-btn {
 
 .opui-btn-info {
   color: #fff;
-  background-color: #3390ff;
-  border-color: #3390ff;
+  background-color: #0d7bff;
+  border-color: #0d7bff;
 }
 .opui-btn-info:hover {
   color: #fff;
-  background-color: #0d7bff;
-  border-color: #0074ff;
+  background-color: #0069e6;
+  border-color: #0063d9;
 }
 .opui-btn-info:focus, .opui-btn-info.focus {
   color: #fff;
-  background-color: #0d7bff;
-  border-color: #0074ff;
-  box-shadow: 0 0 0 0.2rem rgba(82, 161, 255, 0.5);
+  background-color: #0069e6;
+  border-color: #0063d9;
+  box-shadow: 0 0 0 0.2rem rgba(49, 143, 255, 0.5);
 }
 .opui-btn-info.disabled, .opui-btn-info:disabled {
   color: #fff;
-  background-color: #3390ff;
-  border-color: #3390ff;
+  background-color: #0d7bff;
+  border-color: #0d7bff;
 }
 .opui-btn-info:not(:disabled):not(.disabled):active, .opui-btn-info:not(:disabled):not(.disabled).active, .show > .opui-btn-info.opui-dropdown-toggle {
   color: #fff;
-  background-color: #0074ff;
-  border-color: #006ef2;
+  background-color: #0063d9;
+  border-color: #005dcc;
 }
 .opui-btn-info:not(:disabled):not(.disabled):active:focus, .opui-btn-info:not(:disabled):not(.disabled).active:focus, .show > .opui-btn-info.opui-dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(82, 161, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(49, 143, 255, 0.5);
 }
 
 .opui-btn-warning {
@@ -2941,28 +2941,28 @@ fieldset:disabled a.opui-btn {
 }
 
 .opui-btn-outline-primary {
-  color: #0074ff;
-  border-color: #0074ff;
+  color: #0063d9;
+  border-color: #0063d9;
 }
 .opui-btn-outline-primary:hover {
   color: #fff;
-  background-color: #0074ff;
-  border-color: #0074ff;
+  background-color: #0063d9;
+  border-color: #0063d9;
 }
 .opui-btn-outline-primary:focus, .opui-btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.5);
 }
 .opui-btn-outline-primary.disabled, .opui-btn-outline-primary:disabled {
-  color: #0074ff;
+  color: #0063d9;
   background-color: transparent;
 }
 .opui-btn-outline-primary:not(:disabled):not(.disabled):active, .opui-btn-outline-primary:not(:disabled):not(.disabled).active, .show > .opui-btn-outline-primary.opui-dropdown-toggle {
   color: #fff;
-  background-color: #0074ff;
-  border-color: #0074ff;
+  background-color: #0063d9;
+  border-color: #0063d9;
 }
 .opui-btn-outline-primary:not(:disabled):not(.disabled):active:focus, .opui-btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > .opui-btn-outline-primary.opui-dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.5);
 }
 
 .opui-btn-outline-secondary {
@@ -3016,28 +3016,28 @@ fieldset:disabled a.opui-btn {
 }
 
 .opui-btn-outline-info {
-  color: #3390ff;
-  border-color: #3390ff;
+  color: #0d7bff;
+  border-color: #0d7bff;
 }
 .opui-btn-outline-info:hover {
   color: #fff;
-  background-color: #3390ff;
-  border-color: #3390ff;
+  background-color: #0d7bff;
+  border-color: #0d7bff;
 }
 .opui-btn-outline-info:focus, .opui-btn-outline-info.focus {
-  box-shadow: 0 0 0 0.2rem rgba(51, 144, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(13, 123, 255, 0.5);
 }
 .opui-btn-outline-info.disabled, .opui-btn-outline-info:disabled {
-  color: #3390ff;
+  color: #0d7bff;
   background-color: transparent;
 }
 .opui-btn-outline-info:not(:disabled):not(.disabled):active, .opui-btn-outline-info:not(:disabled):not(.disabled).active, .show > .opui-btn-outline-info.opui-dropdown-toggle {
   color: #fff;
-  background-color: #3390ff;
-  border-color: #3390ff;
+  background-color: #0d7bff;
+  border-color: #0d7bff;
 }
 .opui-btn-outline-info:not(:disabled):not(.disabled):active:focus, .opui-btn-outline-info:not(:disabled):not(.disabled).active:focus, .show > .opui-btn-outline-info.opui-dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(51, 144, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(13, 123, 255, 0.5);
 }
 
 .opui-btn-outline-warning {
@@ -3142,11 +3142,11 @@ fieldset:disabled a.opui-btn {
 
 .opui-btn-link {
   font-weight: 400;
-  color: #0074ff;
+  color: #0063d9;
   text-decoration: none;
 }
 .opui-btn-link:hover {
-  color: #0051b3;
+  color: #00408d;
   text-decoration: underline;
 }
 .opui-btn-link:focus, .opui-btn-link.focus {
@@ -3161,14 +3161,14 @@ fieldset:disabled a.opui-btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 6px;
 }
 
 .opui-btn-sm, .opui-btn-group-sm > .opui-btn {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+  border-radius: 8px;
 }
 
 .opui-btn-block {
@@ -3254,7 +3254,7 @@ input[type=button].opui-btn-block {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .opui-dropdown-menu-left {
@@ -3430,7 +3430,7 @@ input[type=button].opui-btn-block {
 .opui-dropdown-item.active, .opui-dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #0074ff;
+  background-color: #0063d9;
 }
 .opui-dropdown-item.disabled, .opui-dropdown-item:disabled {
   color: #adb5bd;
@@ -3671,7 +3671,7 @@ input[type=button].opui-btn-block {
   white-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .opui-input-group-text input[type=radio],
 .opui-input-group-text input[type=checkbox] {
@@ -3692,7 +3692,7 @@ input[type=button].opui-btn-block {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
   line-height: 1.5;
-  border-radius: 0.3rem;
+  border-radius: 6px;
 }
 
 .opui-input-group-sm > .opui-form-control:not(textarea),
@@ -3709,7 +3709,7 @@ input[type=button].opui-btn-block {
   padding: 0.25rem 0.5rem;
   font-size: 0.875rem;
   line-height: 1.5;
-  border-radius: 0.2rem;
+  border-radius: 8px;
 }
 
 .opui-input-group-lg > .opui-custom-select,
@@ -3764,19 +3764,19 @@ input[type=button].opui-btn-block {
 }
 .opui-custom-control-input:checked ~ .opui-custom-control-label::before {
   color: #fff;
-  border-color: #0074ff;
-  background-color: #0074ff;
+  border-color: #0063d9;
+  background-color: #0063d9;
 }
 .opui-custom-control-input:focus ~ .opui-custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-custom-control-input:focus:not(:checked) ~ .opui-custom-control-label::before {
-  border-color: #80baff;
+  border-color: #5aa5ff;
 }
 .opui-custom-control-input:not(:disabled):active ~ .opui-custom-control-label::before {
   color: #fff;
-  background-color: #b3d5ff;
-  border-color: #b3d5ff;
+  background-color: #8dc1ff;
+  border-color: #8dc1ff;
 }
 .opui-custom-control-input[disabled] ~ .opui-custom-control-label, .opui-custom-control-input:disabled ~ .opui-custom-control-label {
   color: #6c757d;
@@ -3814,23 +3814,23 @@ input[type=button].opui-btn-block {
 }
 
 .opui-custom-checkbox .opui-custom-control-label::before {
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .opui-custom-checkbox .opui-custom-control-input:checked ~ .opui-custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
 }
 .opui-custom-checkbox .opui-custom-control-input:indeterminate ~ .opui-custom-control-label::before {
-  border-color: #0074ff;
-  background-color: #0074ff;
+  border-color: #0063d9;
+  background-color: #0063d9;
 }
 .opui-custom-checkbox .opui-custom-control-input:indeterminate ~ .opui-custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e");
 }
 .opui-custom-checkbox .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 116, 255, 0.5);
+  background-color: rgba(0, 99, 217, 0.5);
 }
 .opui-custom-checkbox .opui-custom-control-input:disabled:indeterminate ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 116, 255, 0.5);
+  background-color: rgba(0, 99, 217, 0.5);
 }
 
 .opui-custom-radio .opui-custom-control-label::before {
@@ -3840,7 +3840,7 @@ input[type=button].opui-btn-block {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 .opui-custom-radio .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 116, 255, 0.5);
+  background-color: rgba(0, 99, 217, 0.5);
 }
 
 .opui-custom-switch {
@@ -3871,7 +3871,7 @@ input[type=button].opui-btn-block {
   transform: translateX(0.75rem);
 }
 .opui-custom-switch .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 116, 255, 0.5);
+  background-color: rgba(0, 99, 217, 0.5);
 }
 
 .opui-custom-select {
@@ -3886,15 +3886,15 @@ input[type=button].opui-btn-block {
   vertical-align: middle;
   background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") right 0.75rem center/8px 10px no-repeat;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
 }
 .opui-custom-select:focus {
-  border-color: #80baff;
+  border-color: #5aa5ff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-custom-select:focus::-ms-value {
   color: #495057;
@@ -3951,8 +3951,8 @@ input[type=button].opui-btn-block {
   opacity: 0;
 }
 .opui-custom-file-input:focus ~ .opui-custom-file-label {
-  border-color: #80baff;
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  border-color: #5aa5ff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-custom-file-input[disabled] ~ .opui-custom-file-label, .opui-custom-file-input:disabled ~ .opui-custom-file-label {
   background-color: #e9ecef;
@@ -3978,7 +3978,7 @@ input[type=button].opui-btn-block {
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .custom-file-label::after {
   position: absolute;
@@ -3994,7 +3994,7 @@ input[type=button].opui-btn-block {
   content: "Browse";
   background-color: #e9ecef;
   border-left: inherit;
-  border-radius: 0 0.25rem 0.25rem 0;
+  border-radius: 0 4px 4px 0;
 }
 
 .opui-custom-range {
@@ -4010,13 +4010,13 @@ input[type=button].opui-btn-block {
   outline: 0;
 }
 .opui-custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 .opui-custom-range::-moz-focus-outer {
   border: 0;
@@ -4025,7 +4025,7 @@ input[type=button].opui-btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #0074ff;
+  background-color: #0063d9;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4040,7 +4040,7 @@ input[type=button].opui-btn-block {
   }
 }
 .opui-custom-range::-webkit-slider-thumb:active {
-  background-color: #b3d5ff;
+  background-color: #8dc1ff;
 }
 .opui-custom-range::-webkit-slider-runnable-track {
   width: 100%;
@@ -4054,7 +4054,7 @@ input[type=button].opui-btn-block {
 .opui-custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #0074ff;
+  background-color: #0063d9;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4069,7 +4069,7 @@ input[type=button].opui-btn-block {
   }
 }
 .opui-custom-range::-moz-range-thumb:active {
-  background-color: #b3d5ff;
+  background-color: #8dc1ff;
 }
 .opui-custom-range::-moz-range-track {
   width: 100%;
@@ -4086,7 +4086,7 @@ input[type=button].opui-btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #0074ff;
+  background-color: #0063d9;
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4100,7 +4100,7 @@ input[type=button].opui-btn-block {
   }
 }
 .opui-custom-range::-ms-thumb:active {
-  background-color: #b3d5ff;
+  background-color: #8dc1ff;
 }
 .opui-custom-range::-ms-track {
   width: 100%;
@@ -4176,8 +4176,8 @@ input[type=button].opui-btn-block {
 .opui-nav-tabs .opui-nav-link {
   margin-bottom: -1px;
   border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 .opui-nav-tabs .opui-nav-link:hover, .opui-nav-tabs .opui-nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
@@ -4200,12 +4200,12 @@ input[type=button].opui-btn-block {
 }
 
 .opui-nav-pills .opui-nav-link {
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .opui-nav-pills .opui-nav-link.active,
 .opui-nav-pills .show > .opui-nav-link {
   color: #fff;
-  background-color: #0074ff;
+  background-color: #0063d9;
 }
 
 .opui-nav-fill > .opui-nav-link,
@@ -4295,7 +4295,7 @@ input[type=button].opui-btn-block {
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .opui-navbar-toggler:hover, .opui-navbar-toggler:focus {
   text-decoration: none;
@@ -4679,7 +4679,7 @@ input[type=button].opui-btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 .opui-card > hr {
   margin-right: 0;
@@ -4691,13 +4691,13 @@ input[type=button].opui-btn-block {
 }
 .opui-card > .opui-list-group:first-child {
   border-top-width: 0;
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .opui-card > .opui-list-group:last-child {
   border-bottom-width: 0;
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .opui-card > .opui-card-header + .opui-list-group,
 .opui-card > .opui-list-group + .opui-card-footer {
@@ -4737,7 +4737,7 @@ input[type=button].opui-btn-block {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .opui-card-header:first-child {
-  border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+  border-radius: 3px 3px 0 0;
 }
 
 .opui-card-footer {
@@ -4746,7 +4746,7 @@ input[type=button].opui-btn-block {
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 .opui-card-footer:last-child {
-  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
+  border-radius: 0 0 3px 3px;
 }
 
 .opui-card-header-tabs {
@@ -4768,7 +4768,7 @@ input[type=button].opui-btn-block {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
-  border-radius: calc(0.25rem - 1px);
+  border-radius: 3px;
 }
 
 .opui-card-img,
@@ -4780,14 +4780,14 @@ input[type=button].opui-btn-block {
 
 .opui-card-img,
 .opui-card-img-top {
-  border-top-left-radius: calc(0.25rem - 1px);
-  border-top-right-radius: calc(0.25rem - 1px);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .opui-card-img,
 .opui-card-img-bottom {
-  border-bottom-right-radius: calc(0.25rem - 1px);
-  border-bottom-left-radius: calc(0.25rem - 1px);
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 
 .opui-card-deck .opui-card {
@@ -4895,7 +4895,7 @@ input[type=button].opui-btn-block {
   margin-bottom: 1rem;
   list-style: none;
   background-color: #e9ecef;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .opui-breadcrumb-item + .opui-breadcrumb-item {
@@ -4921,7 +4921,7 @@ input[type=button].opui-btn-block {
   display: flex;
   padding-left: 0;
   list-style: none;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .opui-page-link {
@@ -4930,13 +4930,13 @@ input[type=button].opui-btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0074ff;
+  color: #0063d9;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 .opui-page-link:hover {
   z-index: 2;
-  color: #0051b3;
+  color: #00408d;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -4944,23 +4944,23 @@ input[type=button].opui-btn-block {
 .opui-page-link:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.25);
 }
 
 .opui-page-item:first-child .opui-page-link {
   margin-left: 0;
-  border-top-left-radius: 0.25rem;
-  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 .opui-page-item:last-child .opui-page-link {
-  border-top-right-radius: 0.25rem;
-  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 .opui-page-item.active .opui-page-link {
   z-index: 3;
   color: #fff;
-  background-color: #0074ff;
-  border-color: #0074ff;
+  background-color: #0063d9;
+  border-color: #0063d9;
 }
 .opui-page-item.disabled .opui-page-link {
   color: #6c757d;
@@ -4976,12 +4976,12 @@ input[type=button].opui-btn-block {
   line-height: 1.5;
 }
 .opui-pagination-lg .opui-page-item:first-child .opui-page-link {
-  border-top-left-radius: 0.3rem;
-  border-bottom-left-radius: 0.3rem;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 .opui-pagination-lg .opui-page-item:last-child .opui-page-link {
-  border-top-right-radius: 0.3rem;
-  border-bottom-right-radius: 0.3rem;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .opui-pagination-sm .opui-page-link {
@@ -4990,12 +4990,12 @@ input[type=button].opui-btn-block {
   line-height: 1.5;
 }
 .opui-pagination-sm .opui-page-item:first-child .opui-page-link {
-  border-top-left-radius: 0.2rem;
-  border-bottom-left-radius: 0.2rem;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 .opui-pagination-sm .opui-page-item:last-child .opui-page-link {
-  border-top-right-radius: 0.2rem;
-  border-bottom-right-radius: 0.2rem;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .opui-badge {
@@ -5008,7 +5008,7 @@ input[type=button].opui-btn-block {
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 0.25rem;
+  border-radius: 4px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5037,15 +5037,15 @@ a.opui-badge:hover, a.opui-badge:focus {
 
 .opui-badge-primary {
   color: #fff;
-  background-color: #0074ff;
+  background-color: #0063d9;
 }
 a.opui-badge-primary:hover, a.opui-badge-primary:focus {
   color: #fff;
-  background-color: #005dcc;
+  background-color: #004ca6;
 }
 a.opui-badge-primary:focus, a.opui-badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 116, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(0, 99, 217, 0.5);
 }
 
 .opui-badge-secondary {
@@ -5076,15 +5076,15 @@ a.opui-badge-success:focus, a.opui-badge-success.focus {
 
 .opui-badge-info {
   color: #fff;
-  background-color: #3390ff;
+  background-color: #0d7bff;
 }
 a.opui-badge-info:hover, a.opui-badge-info:focus {
   color: #fff;
-  background-color: #0074ff;
+  background-color: #0063d9;
 }
 a.opui-badge-info:focus, a.opui-badge-info.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(51, 144, 255, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(13, 123, 255, 0.5);
 }
 
 .opui-badge-warning {
@@ -5143,7 +5143,7 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  border-radius: 0.3rem;
+  border-radius: 6px;
 }
 @media (min-width: 576px) {
   .opui-jumbotron {
@@ -5162,7 +5162,7 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
   border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .opui-alert-heading {
@@ -5186,15 +5186,15 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
 }
 
 .opui-alert-primary {
-  color: #003c85;
-  background-color: #cce3ff;
-  border-color: #b8d8ff;
+  color: #003371;
+  background-color: #cce0f7;
+  border-color: #b8d3f4;
 }
 .opui-alert-primary hr {
-  border-top-color: #9fcaff;
+  border-top-color: #a2c5f1;
 }
 .opui-alert-primary .opui-alert-link {
-  color: #002552;
+  color: #001c3e;
 }
 
 .opui-alert-secondary {
@@ -5222,15 +5222,15 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
 }
 
 .opui-alert-info {
-  color: #1b4b85;
-  background-color: #d6e9ff;
-  border-color: #c6e0ff;
+  color: #074085;
+  background-color: #cfe5ff;
+  border-color: #bbdaff;
 }
 .opui-alert-info hr {
-  border-top-color: #add2ff;
+  border-top-color: #a2ccff;
 }
 .opui-alert-info .opui-alert-link {
-  color: #12335b;
+  color: #042955;
 }
 
 .opui-alert-warning {
@@ -5305,7 +5305,7 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
   line-height: 0;
   font-size: 0.75rem;
   background-color: #e9ecef;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .opui-progress-bar {
@@ -5316,7 +5316,7 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #0074ff;
+  background-color: #0063d9;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -5355,7 +5355,7 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .opui-list-group-item-action {
@@ -5397,8 +5397,8 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
 .opui-list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #0074ff;
-  border-color: #0074ff;
+  background-color: #0063d9;
+  border-color: #0063d9;
 }
 .opui-list-group-item + .opui-list-group-item {
   border-top-width: 0;
@@ -5412,11 +5412,11 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
   flex-direction: row;
 }
 .opui-list-group-horizontal > .opui-list-group-item:first-child {
-  border-bottom-left-radius: 0.25rem;
+  border-bottom-left-radius: 4px;
   border-top-right-radius: 0;
 }
 .opui-list-group-horizontal > .opui-list-group-item:last-child {
-  border-top-right-radius: 0.25rem;
+  border-top-right-radius: 4px;
   border-bottom-left-radius: 0;
 }
 .opui-list-group-horizontal > .opui-list-group-item.active {
@@ -5436,11 +5436,11 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
     flex-direction: row;
   }
   .opui-list-group-horizontal-sm > .opui-list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 4px;
     border-top-right-radius: 0;
   }
   .opui-list-group-horizontal-sm > .opui-list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 4px;
     border-bottom-left-radius: 0;
   }
   .opui-list-group-horizontal-sm > .opui-list-group-item.active {
@@ -5460,11 +5460,11 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
     flex-direction: row;
   }
   .opui-list-group-horizontal-md > .opui-list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 4px;
     border-top-right-radius: 0;
   }
   .opui-list-group-horizontal-md > .opui-list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 4px;
     border-bottom-left-radius: 0;
   }
   .opui-list-group-horizontal-md > .opui-list-group-item.active {
@@ -5484,11 +5484,11 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
     flex-direction: row;
   }
   .opui-list-group-horizontal-lg > .opui-list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 4px;
     border-top-right-radius: 0;
   }
   .opui-list-group-horizontal-lg > .opui-list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 4px;
     border-bottom-left-radius: 0;
   }
   .opui-list-group-horizontal-lg > .opui-list-group-item.active {
@@ -5508,11 +5508,11 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
     flex-direction: row;
   }
   .opui-list-group-horizontal-xl > .opui-list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 4px;
     border-top-right-radius: 0;
   }
   .opui-list-group-horizontal-xl > .opui-list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 4px;
     border-bottom-left-radius: 0;
   }
   .opui-list-group-horizontal-xl > .opui-list-group-item.active {
@@ -5532,11 +5532,11 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
     flex-direction: row;
   }
   .opui-list-group-horizontal-xxl > .opui-list-group-item:first-child {
-    border-bottom-left-radius: 0.25rem;
+    border-bottom-left-radius: 4px;
     border-top-right-radius: 0;
   }
   .opui-list-group-horizontal-xxl > .opui-list-group-item:last-child {
-    border-top-right-radius: 0.25rem;
+    border-top-right-radius: 4px;
     border-bottom-left-radius: 0;
   }
   .opui-list-group-horizontal-xxl > .opui-list-group-item.active {
@@ -5562,17 +5562,17 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
 }
 
 .opui-list-group-item-primary {
-  color: #003c85;
-  background-color: #b8d8ff;
+  color: #003371;
+  background-color: #b8d3f4;
 }
 .opui-list-group-item-primary.opui-list-group-item-action:hover, .opui-list-group-item-primary.opui-list-group-item-action:focus {
-  color: #003c85;
-  background-color: #9fcaff;
+  color: #003371;
+  background-color: #a2c5f1;
 }
 .opui-list-group-item-primary.opui-list-group-item-action.active {
   color: #fff;
-  background-color: #003c85;
-  border-color: #003c85;
+  background-color: #003371;
+  border-color: #003371;
 }
 
 .opui-list-group-item-secondary {
@@ -5604,17 +5604,17 @@ a.opui-badge-dark:focus, a.opui-badge-dark.focus {
 }
 
 .opui-list-group-item-info {
-  color: #1b4b85;
-  background-color: #c6e0ff;
+  color: #074085;
+  background-color: #bbdaff;
 }
 .opui-list-group-item-info.opui-list-group-item-action:hover, .opui-list-group-item-info.opui-list-group-item-action:focus {
-  color: #1b4b85;
-  background-color: #add2ff;
+  color: #074085;
+  background-color: #a2ccff;
 }
 .opui-list-group-item-info.opui-list-group-item-action.active {
   color: #fff;
-  background-color: #1b4b85;
-  border-color: #1b4b85;
+  background-color: #074085;
+  border-color: #074085;
 }
 
 .opui-list-group-item-warning {
@@ -5845,7 +5845,7 @@ a.opui-close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 6px;
   outline: 0;
 }
 
@@ -5871,8 +5871,8 @@ a.opui-close.disabled {
   justify-content: space-between;
   padding: 1rem 1rem;
   border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .opui-modal-header .opui-close {
   padding: 1rem 1rem;
@@ -5897,8 +5897,8 @@ a.opui-close.disabled {
   justify-content: flex-end;
   padding: 0.75rem;
   border-top: 1px solid #dee2e6;
-  border-bottom-right-radius: calc(0.3rem - 1px);
-  border-bottom-left-radius: calc(0.3rem - 1px);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 .opui-modal-footer > * {
   margin: 0.25rem;
@@ -6047,7 +6047,7 @@ a.opui-close.disabled {
   color: #fff;
   text-align: center;
   background-color: #000;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .opui-popover {
@@ -6076,14 +6076,14 @@ a.opui-close.disabled {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 0.3rem;
+  border-radius: 6px;
 }
 .opui-popover .opui-arrow {
   position: absolute;
   display: block;
   width: 1rem;
   height: 0.5rem;
-  margin: 0 0.3rem;
+  margin: 0 6px;
 }
 .opui-popover .opui-arrow::before, .opui-popover .opui-arrow::after {
   position: absolute;
@@ -6117,7 +6117,7 @@ a.opui-close.disabled {
   left: calc(-0.5rem - 1px);
   width: 0.5rem;
   height: 1rem;
-  margin: 0.3rem 0;
+  margin: 6px 0;
 }
 .opui-bs-popover-right > .opui-arrow::before, .opui-bs-popover-auto[x-placement^=right] > .opui-arrow::before {
   left: 0;
@@ -6164,7 +6164,7 @@ a.opui-close.disabled {
   right: calc(-0.5rem - 1px);
   width: 0.5rem;
   height: 1rem;
-  margin: 0.3rem 0;
+  margin: 6px 0;
 }
 .opui-bs-popover-left > .opui-arrow::before, .opui-bs-popover-auto[x-placement^=left] > .opui-arrow::before {
   right: 0;
@@ -6183,8 +6183,8 @@ a.opui-close.disabled {
   font-size: 1rem;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ebebeb;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .opui-popover-header:empty {
   display: none;
@@ -6471,13 +6471,13 @@ a.opui-close.disabled {
 }
 
 .opui-bg-primary {
-  background-color: #0074ff !important;
+  background-color: #0063d9 !important;
 }
 
 a.opui-bg-primary:hover, a.opui-bg-primary:focus,
 button.opui-bg-primary:hover,
 button.opui-bg-primary:focus {
-  background-color: #005dcc !important;
+  background-color: #004ca6 !important;
 }
 
 .opui-bg-secondary {
@@ -6501,13 +6501,13 @@ button.opui-bg-success:focus {
 }
 
 .opui-bg-info {
-  background-color: #3390ff !important;
+  background-color: #0d7bff !important;
 }
 
 a.opui-bg-info:hover, a.opui-bg-info:focus,
 button.opui-bg-info:hover,
 button.opui-bg-info:focus {
-  background-color: #0074ff !important;
+  background-color: #0063d9 !important;
 }
 
 .opui-bg-warning {
@@ -6599,7 +6599,7 @@ button.opui-bg-dark:focus {
 }
 
 .opui-border-primary {
-  border-color: #0074ff !important;
+  border-color: #0063d9 !important;
 }
 
 .opui-border-secondary {
@@ -6611,7 +6611,7 @@ button.opui-bg-dark:focus {
 }
 
 .opui-border-info {
-  border-color: #3390ff !important;
+  border-color: #0d7bff !important;
 }
 
 .opui-border-warning {
@@ -6635,35 +6635,35 @@ button.opui-bg-dark:focus {
 }
 
 .opui-rounded-sm {
-  border-radius: 0.2rem !important;
+  border-radius: 8px !important;
 }
 
 .opui-rounded {
-  border-radius: 0.25rem !important;
+  border-radius: 4px !important;
 }
 
 .opui-rounded-top {
-  border-top-left-radius: 0.25rem !important;
-  border-top-right-radius: 0.25rem !important;
+  border-top-left-radius: 4px !important;
+  border-top-right-radius: 4px !important;
 }
 
 .opui-rounded-right {
-  border-top-right-radius: 0.25rem !important;
-  border-bottom-right-radius: 0.25rem !important;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
 }
 
 .opui-rounded-bottom {
-  border-bottom-right-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-bottom-right-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
 }
 
 .opui-rounded-left {
-  border-top-left-radius: 0.25rem !important;
-  border-bottom-left-radius: 0.25rem !important;
+  border-top-left-radius: 4px !important;
+  border-bottom-left-radius: 4px !important;
 }
 
 .opui-rounded-lg {
-  border-radius: 0.3rem !important;
+  border-radius: 6px !important;
 }
 
 .opui-rounded-circle {
@@ -10803,11 +10803,11 @@ button.opui-bg-dark:focus {
 }
 
 .opui-text-primary {
-  color: #0074ff !important;
+  color: #0063d9 !important;
 }
 
 a.opui-text-primary:hover, a.opui-text-primary:focus {
-  color: #0051b3 !important;
+  color: #00408d !important;
 }
 
 .opui-text-secondary {
@@ -10827,11 +10827,11 @@ a.opui-text-success:hover, a.opui-text-success:focus {
 }
 
 .opui-text-info {
-  color: #3390ff !important;
+  color: #0d7bff !important;
 }
 
 a.opui-text-info:hover, a.opui-text-info:focus {
-  color: #0068e6 !important;
+  color: #0057c0 !important;
 }
 
 .opui-text-warning {
@@ -11007,6 +11007,313 @@ h3 {
 }
 .opui-col {
   margin-bottom: 1rem;
+}
+
+.op-plugin-app-container {
+  margin-left: -20px;
+}
+
+.opui-main {
+  background-color: #fbfbfd;
+  min-height: 100vh;
+}
+
+.opui-w-25 {
+  width: 25% !important;
+}
+
+.opui-w-50 {
+  width: 50% !important;
+}
+
+.opui-w-75 {
+  width: 75% !important;
+}
+
+.opui-w-100 {
+  width: 100% !important;
+}
+
+.opui-w-auto {
+  width: auto !important;
+}
+
+.opui-h-25 {
+  height: 25% !important;
+}
+
+.opui-h-50 {
+  height: 50% !important;
+}
+
+.opui-h-75 {
+  height: 75% !important;
+}
+
+.opui-h-100 {
+  height: 100% !important;
+}
+
+.opui-h-auto {
+  height: auto !important;
+}
+
+.opui-mw-100 {
+  max-width: 100% !important;
+}
+
+.opui-mh-100 {
+  max-height: 100% !important;
+}
+
+.opui-min-vw-100 {
+  min-width: 100vw !important;
+}
+
+.opui-min-vh-100 {
+  min-height: 100vh !important;
+}
+
+.opui-vw-100 {
+  width: 100vw !important;
+}
+
+.opui-vh-100 {
+  height: 100vh !important;
+}
+
+.opui-w-300 {
+  width: 300px;
+}
+
+.opui-max-900 {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.op-plugin-app-container a {
+  transition: color 150ms ease;
+}
+
+.opui-btn, .opui-btn-default {
+  font-size: 13px;
+  display: inline-block;
+  padding: 11px 22px;
+}
+
+.opui-btn-sm, .opui-btn-group-sm > .opui-btn, .opui-btn-small {
+  font-size: 14px;
+  padding: 8px 14px;
+}
+
+.opui-btn-lg, .opui-btn-group-lg > .opui-btn, .opui-btn-large {
+  font-size: 20px;
+  padding: 15px 28px;
+}
+
+.opui-btn-xs, .opui-btn-xsm, .opui-btn-xsmall, .opui-btn-mini {
+  font-size: 12px;
+  padding: 5px 15px;
+}
+
+.opui-btn-xl, .opui-btn-xlg, .opui-btn-xlargel, .opui-btn-mega {
+  font-size: 24px;
+  padding: 20px 32px;
+}
+
+.opui-item-list h6 {
+  font-size: 13px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #97A3B4;
+  font-weight: 600;
+}
+.opui-item-list ul {
+  padding: 0;
+  margin-bottom: 30px;
+  list-style: none;
+}
+.opui-item-list ul > li, .opui-item-list ul .opui-item-list-item {
+  margin-bottom: 6px;
+}
+.opui-item-list ul > li a, .opui-item-list ul .opui-item-list-item a {
+  background-color: #fff;
+  height: 80px;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.opui-item-list ul > li .opui-left, .opui-item-list ul > li .opui-right, .opui-item-list ul .opui-item-list-item .opui-left, .opui-item-list ul .opui-item-list-item .opui-right {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.opui-item-list ul > li .opui-title, .opui-item-list ul .opui-item-list-item .opui-title {
+  padding-left: 15px;
+}
+.opui-item-list ul > li .opui-title h3, .opui-item-list ul .opui-item-list-item .opui-title h3 {
+  font-size: 16px;
+  line-height: initial;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.opui-form-text {
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 12px 0;
+  color: #97A3B4;
+}
+
+.opui-top-menu {
+  position: relative;
+  background-color: #fff;
+  height: 65px;
+  border-bottom: 1px solid #f0f2f5;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+.opui-top-menu .opui-logo {
+  display: inline-block;
+  height: 35px;
+}
+.opui-top-menu .opui-right-menu nav {
+  display: inline-block;
+}
+.opui-top-menu .opui-right-menu nav ul {
+  line-height: 65px;
+  text-align: center;
+  display: inline-block;
+}
+.opui-top-menu .opui-right-menu nav ul li {
+  display: inline-block;
+  margin-right: 40px;
+}
+.opui-top-menu .opui-right-menu nav ul li a {
+  display: block;
+  position: relative;
+  line-height: 65px;
+  transition: color 0.3s linear;
+}
+.opui-top-menu .opui-right-menu nav ul li a span {
+  font-size: 14px;
+  padding-left: 35px;
+}
+.opui-top-menu .opui-right-menu nav ul li a i {
+  font-size: 25px;
+  line-height: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.opui-top-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.opui-top-menu ul li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.opui-top-menu ul li a {
+  color: #8a96a0;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.opui-submenu {
+  border-bottom: 2px solid #f0f2f5;
+}
+.opui-submenu h1 {
+  font-size: 18px;
+  line-height: 65px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.opui-submenu .opui-btn {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.opui-2-col-settings {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+.opui-2-col-settings .opui-settings-sidenav {
+  background: #fff;
+  width: 300px;
+  border-right: 1px solid #f0f2f5;
+  box-sizing: border-box;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul {
+  list-style-type: none;
+  margin: 0 0 1rem 0;
+  padding: 0;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 75px;
+  margin-bottom: 0;
+  padding: 0 0 0 20px;
+  border-right: 2px solid transparent;
+  border-bottom: 1px solid #f0f2f5;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul li a {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul li h3 {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 0 5px 30px;
+  position: relative;
+  line-height: initial;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul li h3 i.opui-icon {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  left: 0;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul li span {
+  display: block;
+  margin-left: 30px;
+  font-size: 12px;
+  color: #97A3B4;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul li.selected {
+  background-color: #f8f9fa;
+  border-right-color: #0074ff;
+}
+.opui-2-col-settings .opui-settings-sidenav nav ul li.selected h3 {
+  color: #0074ff;
+}
+.opui-2-col-settings .opui-settings-main {
+  background: #fff;
+  width: calc(100% - 300px);
+  box-sizing: border-box;
+}
+.opui-2-col-settings .opui-settings-main h2 {
+  padding: 0 0 0 50px;
+  border-bottom: 1px solid #f0f2f5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 74px;
+}
+.opui-2-col-settings .opui-settings-main .opui-settings-container {
+  padding: 35px 50px 0 50px;
+  max-width: 800px;
 }
 
 .opui-me-auto {

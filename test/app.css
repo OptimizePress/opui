@@ -28,6 +28,18 @@ body {
     display: block;
 }
 
+.opui-main {
+    border: 1px solid #f0f2f5;
+    display: grid;
+    min-height: 500px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.opui-2-col-settings {
+    min-height: 100%;
+}
+
 .opui-progress {
     margin-bottom: 0.5rem;
 }

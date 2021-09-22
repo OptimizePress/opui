@@ -1,0 +1,44 @@
+.#{$op-prefix}item-list {
+    h6 {
+        font-size: 13px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        color: $color--opui-gray400;
+        font-weight: 600;
+    }
+
+    ul {
+        padding: 0;
+        margin-bottom: 30px;
+        list-style: none;
+
+        > li, .#{$op-prefix}item-list-item {
+            margin-bottom: 6px;
+
+            a {
+                background-color: $color--opui-white;
+                height: 80px;
+                padding: 0 20px;
+                text-decoration: none;
+            }
+
+            .#{$op-prefix}left, .#{$op-prefix}right {
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+            }
+
+            .#{$op-prefix}title {
+                padding-left: 15px;
+
+                h3 {
+                    font-size: 16px;
+                    line-height: initial;
+                    margin: 0;
+                    padding: 0;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

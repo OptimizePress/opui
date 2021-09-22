@@ -4,29 +4,29 @@
   --opui--gray: #6c757d;
   --opui--darkgray: #495057;
   --opui--gray100: #f8f9fa;
-  --opui--gray200: #e9ecef;
-  --opui--gray300: #dee2e6;
-  --opui--gray400: #ced4da;
-  --opui--gray500: #adb5bd;
+  --opui--gray200: #eee;
+  --opui--gray300: #ced4da;
+  --opui--gray400: #97A3B4;
+  --opui--gray500: #8a96a0;
   --opui--gray600: #6c757d;
   --opui--gray700: #495057;
   --opui--gray800: #343a40;
   --opui--gray900: #212529;
-  --opui--blue: #0074ff;
-  --opui--darkblue: #0061D4;
-  --opui--blue100: #b3d5ff;
-  --opui--blue200: #66acff;
-  --opui--blue300: #3390ff;
-  --opui--blue400: #0074ff;
-  --opui--blue500: #0068e6;
-  --opui--blue600: #0061D4;
-  --opui--blue700: #0058c2;
-  --opui--blue800: #004699;
-  --opui--blue900: #00234d;
-  --opui--primary: #0074ff;
-  --opui--secondary: #b3d5ff;
+  --opui--blue: #0063d9;
+  --opui--darkblue: #0051c3;
+  --opui--blue100: #8dc1ff;
+  --opui--blue200: #4097ff;
+  --opui--blue300: #0d7bff;
+  --opui--blue400: #0063d9;
+  --opui--blue500: #0057c0;
+  --opui--blue600: #0051c3;
+  --opui--blue700: #00479c;
+  --opui--blue800: #003473;
+  --opui--blue900: #001227;
+  --opui--primary: #0063d9;
+  --opui--secondary: #8dc1ff;
   --opui--success: #198754;
-  --opui--info: #3390ff;
+  --opui--info: #0d7bff;
   --opui--warning: #ffc107;
   --opui--danger: #dc3545;
   --opui--light: #f8f9fa;
@@ -158,12 +158,12 @@ sup {
 }
 
 a {
-  color: #0074ff;
+  color: #0063d9;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #0051b3;
+  color: #00408d;
   text-decoration: underline;
 }
 

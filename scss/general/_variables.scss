@@ -1,4 +1,4 @@
-$op-prefix: 'opui-';
+$op-prefix: 'opui-' !default;
 
 // Spacing
 //$opui-gutter-x: 0.25rem;
@@ -9,30 +9,32 @@ $color--opui-white: #fff;
 $color--opui-black: #000;
 
 // Grays
-$color--opui-gray:     #6c757d;
-$color--opui-darkgray: #495057;
-$color--opui-gray100:  #f8f9fa;
-$color--opui-gray200:  #e9ecef;
-$color--opui-gray300:  #dee2e6;
-$color--opui-gray400:  #ced4da;
-$color--opui-gray500:  #adb5bd;
-$color--opui-gray600:  #6c757d;
-$color--opui-gray700:  #495057;
-$color--opui-gray800:  #343a40;
-$color--opui-gray900:  #212529;
+$color--opui-gray:      #6c757d;
+$color--opui-lightgray: #f0f2f5;
+$color--opui-darkgray:  #495057;
+$color--opui-gray100:   #f8f9fa;
+$color--opui-gray200:   #eee;
+$color--opui-gray300:   #ced4da;
+$color--opui-gray400:   #97A3B4;
+$color--opui-gray500:   #8a96a0;
+$color--opui-gray600:   #6c757d;
+$color--opui-gray700:   #495057;
+$color--opui-gray800:   #343a40;
+$color--opui-gray900:   #212529;
 
 // Blues
-$color--opui-blue:     #0074ff;
-$color--opui-darkblue: #0061D4;
-$color--opui-blue100:  lighten($color--opui-blue, 35%);
-$color--opui-blue200:  lighten($color--opui-blue, 20%);
-$color--opui-blue300:  lighten($color--opui-blue, 10%);
-$color--opui-blue400:  $color--opui-blue;
-$color--opui-blue500:  darken($color--opui-blue, 5%);
-$color--opui-blue600:  $color--opui-darkblue;
-$color--opui-blue700:  darken($color--opui-blue, 12%);
-$color--opui-blue800:  darken($color--opui-blue, 20%);
-$color--opui-blue900:  darken($color--opui-blue, 35%);
+$color--opui-blue:      #0063d9;
+$color--opui-lightblue: #0074ff;
+$color--opui-darkblue:  #0051c3;
+$color--opui-blue100:   lighten($color--opui-blue, 35%);
+$color--opui-blue200:   lighten($color--opui-blue, 20%);
+$color--opui-blue300:   lighten($color--opui-blue, 10%);
+$color--opui-blue400:   $color--opui-blue;
+$color--opui-blue500:   darken($color--opui-blue, 5%);
+$color--opui-blue600:   $color--opui-darkblue;
+$color--opui-blue700:   darken($color--opui-blue, 12%);
+$color--opui-blue800:   darken($color--opui-blue, 20%);
+$color--opui-blue900:   darken($color--opui-blue, 35%);
 
 // Rainbow
 $color--opui-indigo: #6610f2;
@@ -85,6 +87,16 @@ $container-max-widths: (
     xl: 1140px,
     xxl: 1320px
 ) !default;
+
+// Borders
+$border-radius:               4px;
+$border-radius-lg:            6px;
+$border-radius-sm:            8px;
+
+// Fonts
+$font-size-base:              1rem; // Assumes the browser default, typically `16px`
+$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-sm:                $font-size-base * .875 !default;
 
 // Also define CSS variables for our colors and
 :root {

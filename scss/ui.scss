@@ -1,4 +1,12 @@
-@import "variables";
+@import "general/variables";
 @import "bootstrap/bootstrap";
-@import "grid";
-@import "utilities";
+@import "layout/grid";
+@import "layout/main";
+@import "layout/sizing";
+@import "general/animations";
+@import "components/buttons";
+@import "components/data";
+@import "components/forms";
+@import "components/header";
+@import "components/settings";
+@import "general/utilities";
