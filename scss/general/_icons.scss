@@ -1,0 +1,109 @@
+// Global configuration
+.#{$op-prefix}icn {
+    display: inline-block;
+}
+
+[class^="opui-icn"]::before, [class*=" opui-icn"]::before {
+    font-family: "opui-font" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+// Define all icons
+$icons: (
+    "anchor": "\61",
+    "circle-add": "\62",
+    "funnel": "\g3",
+    "page": "\64",
+    "question": "\65",
+    "single-copy": "\66",
+    "arrow-left": "\67",
+    "product": "\68",
+    "settings": "\69",
+    "close": "\6a",
+    "details-arrow-right": "\6b",
+    "eye": "\6d",
+    "funnel-sales": "\6e",
+    "funnel-stats": "\6f",
+    "funnel-steps": "\70",
+    "gear": "\71",
+    "link": "\72",
+    "logout": "\73",
+    "menu": "\74",
+    "play": "\75",
+    "plus": "\76",
+    "fullscreen-fill": "\77",
+    "logo": "\78",
+    "dashboard": "\79",
+    "integrations": "\79",
+    "dashboard-simple": "\41",
+    "window-add": "\42",
+    "op-builder": "\43",
+    "op-funnels": "\44",
+    "op-leads": "\45",
+    "op-member": "\46",
+    "op-urgency": "\47",
+    "smart-theme": "\48",
+    "close-fill": "\49",
+    "zoom-plus": "\4a",
+    "help": "\4b",
+    "layers": "\4c",
+    "dashboard-complex": "\4e",
+    "integrations-round": "\50",
+    "settings-square": "\51",
+    "clone": "\4d",
+    "funnel-lines": "\4f",
+    "shopping-cart": "\53",
+    "trash": "\52",
+    "launch": "\55",
+    "open-in-browser": "\56",
+    "camera": "\54",
+    "save": "\57",
+    "redo": "\58",
+    "undo": "\59",
+    "square-remove": "\5a",
+    "edit": "\30",
+    "basket": "\33",
+    "mail": "\35",
+    "wallet": "\36",
+    "split-branch": "\37",
+    "percentage": "\34",
+    "basket-simple": "\21",
+    "chart": "\39",
+    "multiple": "\32",
+    "chart-bar": "\38",
+    "trophy": "\31",
+    "crown": "\22",
+    "cart": "\23",
+    "coins": "\24",
+    "credit-card": "\25",
+    "house-pricing": "\26",
+    "letter": "\27",
+    "money-coins": "\28",
+    "money": "\29",
+    "percent-sign": "\2a",
+    "percentage-circle": "\2b",
+    "single": "\2c",
+    "traffic": "\2d",
+    "trend-up": "\2e",
+    "animation": "\2f",
+    "animation-alt": "\3a",
+    "lock-circle": "\3b",
+    "check-circle": "\3d",
+    "remove-circle": "\3c",
+) !default;
+
+// Now create CSS rules for defined icons
+@each $name, $glyph in $icons {
+    .#{$op-icn-prefix}#{$name}:before {
+        content: $glyph;
+    }
+}
+
+

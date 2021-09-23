@@ -1,5 +1,9 @@
 {
     "/css/grid.css": "/css/grid.css",
     "/css/reboot.css": "/css/reboot.css",
-    "/css/ui.css": "/css/ui.css"
+    "/css/ui.css": "/css/ui.css",
+    "/fonts/opui-font.eot": "/fonts/opui-font.eot",
+    "/fonts/opui-font.svg": "/fonts/opui-font.svg",
+    "/fonts/opui-font.ttf": "/fonts/opui-font.ttf",
+    "/fonts/opui-font.woff": "/fonts/opui-font.woff"
 }
