@@ -7,14 +7,10 @@ mix.setPublicPath('dist');
 mix.setResourceRoot('../');
 
 // Compile assets
-mix.sass('src/scss/ui.scss', 'dist/css/ui.css')
-    .sourceMaps();
-
-mix.sass('src/scss/ui-reboot.scss', 'dist/css/reboot.css')
-    .sourceMaps();
-
-mix.sass('src/scss/ui-grid.scss', 'dist/css/grid.css')
-    .sourceMaps();
+mix.sass('src/scss/ui.scss', 'dist/css/ui.css').sourceMaps();
+mix.sass('src/scss/ui-reboot.scss', 'dist/css/reboot.css').sourceMaps();
+mix.sass('src/scss/ui-grid.scss', 'dist/css/grid.css').sourceMaps();
+mix.js('src/js/ui.js', 'dist/js/ui.js');
 
 // Copy fonts
 mix.copyDirectory('src/fonts', 'dist/fonts');

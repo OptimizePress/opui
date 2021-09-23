@@ -1,14 +1,1 @@
-@import "general/variables";
-@import "bootstrap/bootstrap";
-@import "general/fonts";
-@import "general/icons";
-@import "layout/grid";
-@import "layout/main";
-@import "layout/sizing";
-@import "general/animations";
-@import "components/buttons";
-@import "components/data";
-@import "components/forms";
-@import "components/header";
-@import "components/settings";
-@import "general/utilities";
+console.log("Loaded OptimizePress UI scrips.");
