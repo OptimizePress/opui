@@ -5,5 +5,7 @@
     "/fonts/opui-font.eot": "/fonts/opui-font.eot",
     "/fonts/opui-font.svg": "/fonts/opui-font.svg",
     "/fonts/opui-font.ttf": "/fonts/opui-font.ttf",
-    "/fonts/opui-font.woff": "/fonts/opui-font.woff"
+    "/fonts/opui-font.woff": "/fonts/opui-font.woff",
+    "/tests/tests.css": "/tests/tests.css",
+    "/tests/tests.js": "/tests/tests.js"
 }

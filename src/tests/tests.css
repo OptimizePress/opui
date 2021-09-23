@@ -1,0 +1,60 @@
+@import "../css/reboot.css";
+@import "../css/ui.css";
+
+body {
+    padding-top: 80px;
+}
+
+.opui-bs-docs-section {
+    margin-top: 4em;
+}
+
+.opui-bs-docs-section .opui-page-header h1 {
+    padding: 2rem 0;
+    font-size: 3rem;
+}
+
+.opui-bs-component + .opui-bs-component {
+    margin-top: 1rem;
+}
+
+.opui-bs-component .opui-modal {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    z-index: 1;
+    display: block;
+}
+
+.opui-main {
+    border: 1px solid #f0f2f5;
+    display: grid;
+    min-height: 500px;
+    margin-bottom: 30px;
+    border-radius: 3px;
+}
+
+.opui-2-col-settings {
+    min-height: 100%;
+}
+
+.opui-progress {
+    margin-bottom: 0.5rem;
+}
+
+#footer {
+    margin: 5em 0;
+}
+
+#footer li {
+    float: left;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#footer p {
+    clear: left;
+    margin-bottom: 0;
+}

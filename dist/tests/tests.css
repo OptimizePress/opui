@@ -1,5 +1,5 @@
-@import "../dist/css/reboot.css";
-@import "../dist/css/ui.css";
+@import "../css/reboot.css";
+@import "../css/ui.css";
 
 body {
     padding-top: 80px;
@@ -58,5 +58,3 @@ body {
     clear: left;
     margin-bottom: 0;
 }
-
-
