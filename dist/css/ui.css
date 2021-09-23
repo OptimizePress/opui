@@ -11005,6 +11005,348 @@ h3 {
     border-color: #dee2e6;
   }
 }
+@font-face {
+  font-family: "opui-font";
+  src: url(../fonts/opui-font.eot?cd119502e4b832d33e76b29d0c3025f2);
+  src: url(../fonts/opui-font.eot?cd119502e4b832d33e76b29d0c3025f2?#iefix) format("embedded-opentype"), url(../fonts/opui-font.woff?e3b25ef28e2abc67a61b00be38f028f0) format("woff"), url(../fonts/opui-font.ttf?30de19ba91b10a7d650a291024d4da6f) format("truetype"), url(../fonts/opui-font.svg?2ad6cb71bea769b2fbca566f4707e579#ops-font) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+[class^=opui-icon], [class*=" opui-icon"] {
+  display: inline-block;
+}
+[class^=opui-icon]::before, [class*=" opui-icon"]::before {
+  font-family: "opui-font" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.opui-icon-anchor:before {
+  content: "a";
+}
+
+.opui-icon-circle-add:before {
+  content: "b";
+}
+
+.opui-icon-funnel:before {
+  content: "g3";
+}
+
+.opui-icon-page:before {
+  content: "d";
+}
+
+.opui-icon-question:before {
+  content: "e";
+}
+
+.opui-icon-single-copy:before {
+  content: "f";
+}
+
+.opui-icon-arrow-left:before {
+  content: "g";
+}
+
+.opui-icon-product:before {
+  content: "h";
+}
+
+.opui-icon-settings:before {
+  content: "i";
+}
+
+.opui-icon-close:before {
+  content: "j";
+}
+
+.opui-icon-details-arrow-right:before {
+  content: "k";
+}
+
+.opui-icon-eye:before {
+  content: "m";
+}
+
+.opui-icon-funnel-sales:before {
+  content: "n";
+}
+
+.opui-icon-funnel-stats:before {
+  content: "o";
+}
+
+.opui-icon-funnel-steps:before {
+  content: "p";
+}
+
+.opui-icon-gear:before {
+  content: "q";
+}
+
+.opui-icon-link:before {
+  content: "r";
+}
+
+.opui-icon-logout:before {
+  content: "s";
+}
+
+.opui-icon-menu:before {
+  content: "t";
+}
+
+.opui-icon-play:before {
+  content: "u";
+}
+
+.opui-icon-plus:before {
+  content: "v";
+}
+
+.opui-icon-fullscreen-fill:before {
+  content: "w";
+}
+
+.opui-icon-logo:before {
+  content: "x";
+}
+
+.opui-icon-dashboard:before {
+  content: "y";
+}
+
+.opui-icon-integrations:before {
+  content: "y";
+}
+
+.opui-icon-dashboard-simple:before {
+  content: "A";
+}
+
+.opui-icon-window-add:before {
+  content: "B";
+}
+
+.opui-icon-op-builder:before {
+  content: "C";
+}
+
+.opui-icon-op-funnels:before {
+  content: "D";
+}
+
+.opui-icon-op-leads:before {
+  content: "E";
+}
+
+.opui-icon-op-member:before {
+  content: "F";
+}
+
+.opui-icon-op-urgency:before {
+  content: "G";
+}
+
+.opui-icon-smart-theme:before {
+  content: "H";
+}
+
+.opui-icon-close-fill:before {
+  content: "I";
+}
+
+.opui-icon-zoom-plus:before {
+  content: "J";
+}
+
+.opui-icon-help:before {
+  content: "K";
+}
+
+.opui-icon-layers:before {
+  content: "L";
+}
+
+.opui-icon-dashboard-complex:before {
+  content: "N";
+}
+
+.opui-icon-integrations-round:before {
+  content: "P";
+}
+
+.opui-icon-settings-square:before {
+  content: "Q";
+}
+
+.opui-icon-clone:before {
+  content: "M";
+}
+
+.opui-icon-funnel-lines:before {
+  content: "O";
+}
+
+.opui-icon-shopping-cart:before {
+  content: "S";
+}
+
+.opui-icon-trash:before {
+  content: "R";
+}
+
+.opui-icon-launch:before {
+  content: "U";
+}
+
+.opui-icon-open-in-browser:before {
+  content: "V";
+}
+
+.opui-icon-camera:before {
+  content: "T";
+}
+
+.opui-icon-save:before {
+  content: "W";
+}
+
+.opui-icon-redo:before {
+  content: "X";
+}
+
+.opui-icon-undo:before {
+  content: "Y";
+}
+
+.opui-icon-square-remove:before {
+  content: "Z";
+}
+
+.opui-icon-edit:before {
+  content: "0";
+}
+
+.opui-icon-basket:before {
+  content: "3";
+}
+
+.opui-icon-mail:before {
+  content: "5";
+}
+
+.opui-icon-wallet:before {
+  content: "6";
+}
+
+.opui-icon-split-branch:before {
+  content: "7";
+}
+
+.opui-icon-percentage:before {
+  content: "4";
+}
+
+.opui-icon-basket-simple:before {
+  content: "!";
+}
+
+.opui-icon-chart:before {
+  content: "9";
+}
+
+.opui-icon-multiple:before {
+  content: "2";
+}
+
+.opui-icon-chart-bar:before {
+  content: "8";
+}
+
+.opui-icon-trophy:before {
+  content: "1";
+}
+
+.opui-icon-crown:before {
+  content: '"';
+}
+
+.opui-icon-cart:before {
+  content: "#";
+}
+
+.opui-icon-coins:before {
+  content: "$";
+}
+
+.opui-icon-credit-card:before {
+  content: "%";
+}
+
+.opui-icon-house-pricing:before {
+  content: "&";
+}
+
+.opui-icon-letter:before {
+  content: "'";
+}
+
+.opui-icon-money-coins:before {
+  content: "(";
+}
+
+.opui-icon-money:before {
+  content: ")";
+}
+
+.opui-icon-percent-sign:before {
+  content: "*";
+}
+
+.opui-icon-percentage-circle:before {
+  content: "+";
+}
+
+.opui-icon-single:before {
+  content: ",";
+}
+
+.opui-icon-traffic:before {
+  content: "-";
+}
+
+.opui-icon-trend-up:before {
+  content: ".";
+}
+
+.opui-icon-animation:before {
+  content: "/";
+}
+
+.opui-icon-animation-alt:before {
+  content: ":";
+}
+
+.opui-icon-lock-circle:before {
+  content: ";";
+}
+
+.opui-icon-check-circle:before {
+  content: "=";
+}
+
+.opui-icon-remove-circle:before {
+  content: "<";
+}
+
 .opui-col {
   margin-bottom: 1rem;
 }
@@ -11174,33 +11516,58 @@ h3 {
   box-sizing: border-box;
   margin-bottom: 25px;
 }
+.opui-top-menu ul, .opui-top-menu li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.opui-top-menu ul a, .opui-top-menu li a {
+  color: #8a96a0;
+  text-decoration: none;
+  font-size: 14px;
+}
 .opui-top-menu .opui-logo {
   display: inline-block;
   height: 35px;
 }
-.opui-top-menu .opui-right-menu nav {
+.opui-top-menu .opui-logo [class^=opui-icon], .opui-top-menu .opui-logo [class*=" opui-icon"] {
+  font-size: 35px;
+  line-height: 35px;
+}
+.opui-top-menu .opui-logo .opui-icon-logo {
+  color: #0074ff;
+}
+.opui-top-menu .opui-right nav {
   display: inline-block;
 }
-.opui-top-menu .opui-right-menu nav ul {
+.opui-top-menu .opui-right ul {
+  margin: 0;
+  padding: 0;
   line-height: 65px;
   text-align: center;
   display: inline-block;
 }
-.opui-top-menu .opui-right-menu nav ul li {
+.opui-top-menu .opui-right ul li {
+  margin: 0;
+  padding: 0;
+  position: relative;
   display: inline-block;
   margin-right: 40px;
 }
-.opui-top-menu .opui-right-menu nav ul li a {
+.opui-top-menu .opui-right ul li a {
   display: block;
+  color: #8a96a0;
   position: relative;
   line-height: 65px;
   transition: color 0.3s linear;
+  text-decoration: none;
+  font-size: 14px;
 }
-.opui-top-menu .opui-right-menu nav ul li a span {
+.opui-top-menu .opui-right ul li a span {
   font-size: 14px;
   padding-left: 35px;
 }
-.opui-top-menu .opui-right-menu nav ul li a i {
+.opui-top-menu .opui-right ul li a [class^=opui-icon], .opui-top-menu .opui-right ul li a [class*=" opui-icon"] {
   font-size: 25px;
   line-height: 25px;
   height: 25px;
@@ -11208,19 +11575,41 @@ h3 {
   top: 50%;
   transform: translateY(-50%);
 }
-.opui-top-menu ul {
-  margin: 0;
-  padding: 0;
+.opui-top-menu .opui-right-static li {
+  border-left: 1px solid #f0f2f5;
 }
-.opui-top-menu ul li {
-  margin: 0;
-  padding: 0;
-  position: relative;
+.opui-top-menu .opui-right-static li a {
+  display: inline-block;
+  width: 80px;
+  line-height: 65px;
+  font-size: 20px;
 }
-.opui-top-menu ul li a {
-  color: #8a96a0;
+.opui-top-menu .opui-right-static li a i {
+  transition: color 0.3s linear;
+}
+.opui-top-menu .opui-right-static .opui-fullscreen-btn {
+  margin-right: 0;
+}
+.opui-top-menu .opui-right-static .opui-fullscreen-btn a {
+  width: 80px;
+  line-height: 65px;
+  display: inline-block;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 20px;
+  color: #000;
+}
+.opui-top-menu .opui-right-static .opui-fullscreen-btn a:hover {
+  color: #8a96a0;
+}
+.opui-top-menu .opui-right-static .opui-fullscreen-btn .opui-icon-fullscreen-fill {
+  font-size: 20px;
+  line-height: 1;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 0;
+  transform: none;
+  vertical-align: middle;
 }
 
 .opui-submenu {

@@ -1,18 +1,20 @@
 // Global configuration
-.#{$op-prefix}icn {
+//[class="#{$op-prefix}icon"], [class^="#{$op-prefix}icon "] {
+//[class~="#{$op-prefix}icon"] {
+[class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
     display: inline-block;
-}
 
-[class^="opui-icn"]::before, [class*=" opui-icn"]::before {
-    font-family: "opui-font" !important;
-    font-style: normal !important;
-    font-weight: normal !important;
-    font-variant: normal !important;
-    text-transform: none !important;
-    speak: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    &::before {
+        font-family: "opui-font" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-variant: normal !important;
+        text-transform: none !important;
+        speak: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
 }
 
 // Define all icons
@@ -101,7 +103,7 @@ $icons: (
 
 // Now create CSS rules for defined icons
 @each $name, $glyph in $icons {
-    .#{$op-icn-prefix}#{$name}:before {
+    .#{$op-icon-prefix}#{$name}:before {
         content: $glyph;
     }
 }
