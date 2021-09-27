@@ -14516,6 +14516,10 @@ p.opui-teaser {
   color: #97A3B4;
 }
 
+.opui-form-group label {
+  padding: 0.375rem 0;
+}
+
 .opui-top-menu {
   position: relative;
   background-color: #fff;

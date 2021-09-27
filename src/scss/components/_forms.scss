@@ -4,3 +4,9 @@
     margin: 12px 0;
     color: $color--opui-gray400;
 }
+
+.opui-form-group {
+    label {
+        padding: 0.375rem 0;
+    }
+}
