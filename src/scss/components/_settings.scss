@@ -11,7 +11,7 @@
 
         nav ul {
             list-style-type: none;
-            margin: 0 0 1rem 0;
+            margin: 0 0 10px 0;
             padding: 0;
 
             li {
@@ -20,7 +20,7 @@
                 align-items: center;
                 height: 75px;
                 margin-bottom: 0;
-                padding: 0 0 0 20px;
+                padding: 0 0 0 30px;
                 border-right: 2px solid transparent;
                 border-bottom: 1px solid $color--opui-lightgray;
 
@@ -38,7 +38,7 @@
                     position: relative;
                     line-height: initial;
 
-                    i.#{$op-prefix}icon {
+                    [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
                         position: absolute;
                         top: 40%;
                         transform: translateY(-50%);

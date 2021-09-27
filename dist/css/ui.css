@@ -14397,7 +14397,7 @@ p.opui-teaser {
 }
 
 .op-plugin-app-container {
-  margin-left: -20px;
+  margin-left: 0;
 }
 
 .opui-main {
@@ -14655,7 +14655,7 @@ p.opui-teaser {
 }
 .opui-2-col-settings .opui-settings-sidenav nav ul {
   list-style-type: none;
-  margin: 0 0 1rem 0;
+  margin: 0 0 10px 0;
   padding: 0;
 }
 .opui-2-col-settings .opui-settings-sidenav nav ul li {
@@ -14664,7 +14664,7 @@ p.opui-teaser {
   align-items: center;
   height: 75px;
   margin-bottom: 0;
-  padding: 0 0 0 20px;
+  padding: 0 0 0 30px;
   border-right: 2px solid transparent;
   border-bottom: 1px solid #f0f2f5;
 }
@@ -14681,7 +14681,7 @@ p.opui-teaser {
   position: relative;
   line-height: initial;
 }
-.opui-2-col-settings .opui-settings-sidenav nav ul li h3 i.opui-icon {
+.opui-2-col-settings .opui-settings-sidenav nav ul li h3 [class^=opui-icon], .opui-2-col-settings .opui-settings-sidenav nav ul li h3 [class*=" opui-icon"] {
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
@@ -14742,6 +14742,7 @@ p.opui-teaser {
 }
 
 .opui-getting-started h2 {
+  font-size: 32px;
   margin: 50px 0 25px 0;
 }
 .opui-getting-started .opui-teaser {
@@ -14749,10 +14750,10 @@ p.opui-teaser {
   margin: 0 0 20px 0;
   font-weight: 400;
 }
-.opui-getting-started .opp-getting-starter-steps {
+.opui-getting-started .opui-getting-starter-steps {
   text-align: center;
 }
-.opui-getting-started .opp-getting-starter-steps ul {
+.opui-getting-started .opui-getting-starter-steps ul {
   padding: 0;
   list-style-type: none;
   display: flex;
@@ -14762,11 +14763,11 @@ p.opui-teaser {
   margin-top: 40px;
   margin-bottom: 50px;
 }
-.opui-getting-started .opp-getting-starter-steps ul li {
+.opui-getting-started .opui-getting-starter-steps ul li {
   justify-self: center;
   min-height: 210px;
 }
-.opui-getting-started .opp-getting-starter-steps ul li a {
+.opui-getting-started .opui-getting-starter-steps ul li a {
   width: 185px;
   height: 100%;
   color: #8a96a0;
@@ -14783,7 +14784,7 @@ p.opui-teaser {
   transition-duration: 0.05s;
   transition-timing-function: ease-in-out;
 }
-.opui-getting-started .opp-getting-starter-steps ul li a svg {
+.opui-getting-started .opui-getting-starter-steps ul li a svg {
   display: block;
   margin: auto;
   padding-top: 10px;
@@ -14793,29 +14794,29 @@ p.opui-teaser {
   transition-duration: 0.05s;
   transition-timing-function: ease-in-out;
 }
-.opui-getting-started .opp-getting-starter-steps ul li a span {
+.opui-getting-started .opui-getting-starter-steps ul li a span {
   margin: 0 10px 20px;
   font-size: 14px;
   font-weight: 600;
 }
-.opui-getting-started .opp-getting-starter-steps ul li a:hover {
+.opui-getting-started .opui-getting-starter-steps ul li a:hover {
   border-color: #001227;
   color: #001227;
 }
-.opui-getting-started .opp-getting-starter-steps ul li a:hover .svg-color {
+.opui-getting-started .opui-getting-starter-steps ul li a:hover .svg-color {
   fill: #001227;
 }
-.opui-getting-started .opp-getting-starter-steps ul li.opui-done {
+.opui-getting-started .opui-getting-starter-steps ul li.opui-done {
   pointer-events: none;
 }
-.opui-getting-started .opp-getting-starter-steps ul li.opui-done a {
+.opui-getting-started .opui-getting-starter-steps ul li.opui-done a {
   color: #001227;
   border-color: #0074ff;
 }
-.opui-getting-started .opp-getting-starter-steps ul li.opui-done a .svg-color {
+.opui-getting-started .opui-getting-starter-steps ul li.opui-done a .svg-color {
   fill: #0074ff;
 }
-.opui-getting-started .opp-getting-starter-steps ul li.opui-done a::after {
+.opui-getting-started .opui-getting-starter-steps ul li.opui-done a::after {
   content: "";
   width: 20px;
   height: 20px;
