@@ -20,3 +20,4 @@ mix.copy('src/tests/tests.css', 'dist/tests');
 mix.copy('src/tests/tests.js', 'dist/tests');
 mix.ejs('src/tests/index.ejs', 'dist/tests');
 mix.ejs('src/tests/bootstrap.ejs', 'dist/tests');
+mix.ejs('src/tests/font-awesome.ejs', 'dist/tests');

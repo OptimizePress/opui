@@ -38,15 +38,16 @@ $color--opui-blue800:   darken($color--opui-blue, 20%);
 $color--opui-blue900:   darken($color--opui-blue, 35%);
 
 // Rainbow
-$color--opui-indigo: #6610f2;
-$color--opui-purple: #6f42c1;
-$color--opui-pink:   #d63384;
-$color--opui-red:    #dc3545;
-$color--opui-orange: #fd7e14;
-$color--opui-yellow: #ffc107;
-$color--opui-green:  #198754;
-$color--opui-teal:   #20c997;
-$color--opui-cyan:   #0dcaf0;
+$color--opui-indigo:       #6610f2;
+$color--opui-purple:       #6f42c1;
+$color--opui-pink:         #d63384;
+$color--opui-red:          #dc3545;
+$color--opui-orange:       #fd7e14;
+$color--opui-yellow:       #ffc107;
+$color--opui-green:        #198754;
+$color--opui-bright-green: #00d88a;
+$color--opui-teal:         #20c997;
+$color--opui-cyan:         #0dcaf0;
 
 // Roles
 $color--opui-primary:   $color--opui-blue;
