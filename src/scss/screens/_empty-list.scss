@@ -1,0 +1,15 @@
+.opui-empty-list {
+    max-width: 900px;
+
+    .opui-empty-list-media {
+        padding-right: 50px;
+
+        img, svg, iframe, video {
+            max-width: 450px;
+        }
+    }
+
+    .opui-btn {
+        padding: 11px 35px;
+    }
+}

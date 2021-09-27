@@ -14826,6 +14826,19 @@ p.opui-teaser {
   border-radius: 100%;
 }
 
+.opui-empty-list {
+  max-width: 900px;
+}
+.opui-empty-list .opui-empty-list-media {
+  padding-right: 50px;
+}
+.opui-empty-list .opui-empty-list-media img, .opui-empty-list .opui-empty-list-media svg, .opui-empty-list .opui-empty-list-media iframe, .opui-empty-list .opui-empty-list-media video {
+  max-width: 450px;
+}
+.opui-empty-list .opui-btn {
+  padding: 11px 35px;
+}
+
 .opui-item-list h6 {
   font-size: 13px;
   text-transform: uppercase;
