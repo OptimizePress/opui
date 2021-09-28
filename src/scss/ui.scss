@@ -4,8 +4,52 @@
 @import "general/icons";
 @import "layout/fullscreen";
 
-#{$opui-wrapper} {
-    @import "bootstrap/bootstrap";
+// Bootstrap setup
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+// Bootstrap wrapped
+#{$opui-wrapper}, html {
+    @import "bootstrap/root";
+    @import "bootstrap/type";
+    @import "bootstrap/images";
+    @import "bootstrap/code";
+    @import "bootstrap/grid";
+    @import "bootstrap/tables";
+    @import "bootstrap/forms";
+    @import "bootstrap/buttons";
+    @import "bootstrap/transitions";
+    @import "bootstrap/dropdown";
+    @import "bootstrap/button-group";
+    @import "bootstrap/input-group";
+    @import "bootstrap/custom-forms";
+    @import "bootstrap/nav";
+    @import "bootstrap/navbar";
+    @import "bootstrap/card";
+    @import "bootstrap/breadcrumb";
+    @import "bootstrap/pagination";
+    @import "bootstrap/badge";
+    @import "bootstrap/jumbotron";
+    @import "bootstrap/alert";
+    @import "bootstrap/progress";
+    @import "bootstrap/media";
+    @import "bootstrap/list-group";
+    @import "bootstrap/close";
+    @import "bootstrap/toasts";
+    @import "bootstrap/tooltip";
+    @import "bootstrap/popover";
+    @import "bootstrap/carousel";
+    @import "bootstrap/spinners";
+    @import "bootstrap/utilities";
+    @import "bootstrap/print";
+}
+
+// Bootstrap un-wrapped
+@import "bootstrap/modal";
+
+// App classes wrapped
+#{$opui-wrapper}, html {
     @import "general/typography";
     @import "layout/grid";
     @import "layout/main";
@@ -24,3 +68,7 @@
     @import "screens/empty-list";
     @import "screens/item-list";
 }
+
+// App classes un-wrapped (overrides)
+@import "components/modal";
+@import "components/select2";

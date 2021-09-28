@@ -1,0 +1,344 @@
+.#{$op-prefix}modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.#{$op-prefix}modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 0.5rem;
+    pointer-events: none;
+}
+.#{$op-prefix}modal.fade .#{$op-prefix}modal-dialog {
+    transition: transform 0.3s ease-out;
+    transform: translate(0, -50px);
+}
+@media (prefers-reduced-motion: reduce) {
+    .#{$op-prefix}modal.fade .#{$op-prefix}modal-dialog {
+        transition: none;
+    }
+}
+.#{$op-prefix}modal.show .#{$op-prefix}modal-dialog {
+    transform: none;
+}
+.#{$op-prefix}modal.#{$op-prefix}modal-static .#{$op-prefix}modal-dialog {
+    transform: scale(1.02);
+}
+
+.#{$op-prefix}modal-dialog-scrollable {
+    height: calc(100% - 1rem);
+}
+.#{$op-prefix}modal-dialog-scrollable .#{$op-prefix}modal-content {
+    max-height: 100%;
+    overflow: hidden;
+}
+.#{$op-prefix}modal-dialog-scrollable .#{$op-prefix}modal-body {
+    overflow-y: auto;
+}
+
+.#{$op-prefix}modal-dialog-centered {
+    display: flex;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+.#{$op-prefix}modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(80, 80, 80, 0.1);
+    border-radius: 0.5rem;
+    outline: 0;
+}
+
+.#{$op-prefix}modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999998;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    display: none;
+}
+.#{$op-prefix}modal-backdrop.#{$op-prefix}fade {
+    opacity: 0;
+}
+.#{$op-prefix}modal-backdrop.#{$op-prefix}show {
+    opacity: 0.5;
+}
+
+.#{$op-prefix}modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #dee2e6;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+.#{$op-prefix}modal-header .btn-close {
+    padding: 0.5rem 0.5rem;
+    margin: -0.5rem -0.5rem -0.5rem auto;
+}
+
+.#{$op-prefix}modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.#{$op-prefix}modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+.#{$op-prefix}modal-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    border-top: 1px solid #dee2e6;
+    border-bottom-right-radius: calc(0.3rem - 1px);
+    border-bottom-left-radius: calc(0.3rem - 1px);
+}
+.#{$op-prefix}modal-footer > * {
+    margin: 0.25rem;
+}
+
+@media (min-width: 576px) {
+    .#{$op-prefix}modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+
+    .#{$op-prefix}modal-dialog-scrollable {
+        height: calc(100% - 3.5rem);
+    }
+
+    .#{$op-prefix}modal-dialog-centered {
+        min-height: calc(100% - 3.5rem);
+    }
+
+    .#{$op-prefix}modal-sm {
+        max-width: 300px;
+    }
+}
+@media (min-width: 992px) {
+    .#{$op-prefix}modal-lg,
+    .#{$op-prefix}modal-xl {
+        max-width: 800px;
+    }
+}
+@media (min-width: 1200px) {
+    .#{$op-prefix}modal-xl {
+        max-width: 1140px;
+    }
+}
+.#{$op-prefix}modal-fullscreen {
+    width: 100vw;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+}
+.#{$op-prefix}modal-fullscreen .#{$op-prefix}modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+}
+.#{$op-prefix}modal-fullscreen .#{$op-prefix}modal-header {
+    border-radius: 0;
+}
+.#{$op-prefix}modal-fullscreen .#{$op-prefix}modal-body {
+    overflow-y: auto;
+}
+.#{$op-prefix}modal-fullscreen .#{$op-prefix}modal-footer {
+    border-radius: 0;
+}
+
+@media (max-width: 575.98px) {
+    .#{$op-prefix}modal-fullscreen-sm-down {
+        width: 100vw;
+        max-width: none;
+        height: 100%;
+        margin: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-sm-down .#{$op-prefix}modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-sm-down .#{$op-prefix}modal-header {
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-sm-down .#{$op-prefix}modal-body {
+        overflow-y: auto;
+    }
+    .#{$op-prefix}modal-fullscreen-sm-down .#{$op-prefix}modal-footer {
+        border-radius: 0;
+    }
+}
+@media (max-width: 767.98px) {
+    .#{$op-prefix}modal-fullscreen-md-down {
+        width: 100vw;
+        max-width: none;
+        height: 100%;
+        margin: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-md-down .#{$op-prefix}modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-md-down .#{$op-prefix}modal-header {
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-md-down .#{$op-prefix}modal-body {
+        overflow-y: auto;
+    }
+    .#{$op-prefix}modal-fullscreen-md-down .#{$op-prefix}modal-footer {
+        border-radius: 0;
+    }
+}
+@media (max-width: 991.98px) {
+    .#{$op-prefix}modal-fullscreen-lg-down {
+        width: 100vw;
+        max-width: none;
+        height: 100%;
+        margin: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-lg-down .#{$op-prefix}modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-lg-down .#{$op-prefix}modal-header {
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-lg-down .#{$op-prefix}modal-body {
+        overflow-y: auto;
+    }
+    .#{$op-prefix}modal-fullscreen-lg-down .#{$op-prefix}modal-footer {
+        border-radius: 0;
+    }
+}
+@media (max-width: 1199.98px) {
+    .#{$op-prefix}modal-fullscreen-xl-down {
+        width: 100vw;
+        max-width: none;
+        height: 100%;
+        margin: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-xl-down .#{$op-prefix}modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-xl-down .#{$op-prefix}modal-header {
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-xl-down .#{$op-prefix}modal-body {
+        overflow-y: auto;
+    }
+    .#{$op-prefix}modal-fullscreen-xl-down .#{$op-prefix}modal-footer {
+        border-radius: 0;
+    }
+}
+@media (max-width: 1399.98px) {
+    .#{$op-prefix}modal-fullscreen-xxl-down {
+        width: 100vw;
+        max-width: none;
+        height: 100%;
+        margin: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-xxl-down .#{$op-prefix}modal-content {
+        height: 100%;
+        border: 0;
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-xxl-down .#{$op-prefix}modal-header {
+        border-radius: 0;
+    }
+    .#{$op-prefix}modal-fullscreen-xxl-down .#{$op-prefix}modal-body {
+        overflow-y: auto;
+    }
+    .#{$op-prefix}modal-fullscreen-xxl-down .#{$op-prefix}modal-footer {
+        border-radius: 0;
+    }
+}
+
+
+
+
+
+/**
+ * Overrides
+ */
+.#{$op-prefix}modal-header {
+    position: relative;
+    display: block;
+    padding: 30px 15px;
+
+    h1 {
+        display: block;
+        color: rgb(13, 23, 38);
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    }
+
+    .#{$op-prefix}close-icon {
+        position: absolute;
+        top: 32px;
+        right: 30px;
+        cursor: pointer;
+
+        &::before {
+            transition: color linear .1s;
+            color: #ccc;
+            font-size: 14px;
+        }
+
+        &:hover::before {
+            color: #000;
+        }
+    }
+}
+
+.#{$op-prefix}modal-body {
+    padding: 30px;
+}
+
+@media (min-width: 576px) {
+    .#{$op-prefix}modal-dialog {
+        max-width: 75%;
+    }
+}
+@media (min-width: 992px) {
+    .#{$op-prefix}modal-lg,
+    .#{$op-prefix}modal-xl {
+        max-width: 75%;
+    }
+}
+@media (min-width: 1200px) {
+    .#{$op-prefix}modal-xl {
+        max-width: 1140px;
+    }
+}
