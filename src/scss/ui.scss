@@ -1,21 +1,25 @@
 @import "general/variables";
-@import "bootstrap/bootstrap";
 @import "fontawesome/fontawesome";
 @import "general/fonts";
-@import "general/typography";
 @import "general/icons";
-@import "layout/grid";
-@import "layout/main";
-@import "layout/sizing";
-@import "general/animations";
-@import "components/buttons";
-@import "components/data";
-@import "components/forms";
-@import "components/header";
-@import "components/settings";
-@import "general/utilities";
 
-// Screens
-@import "screens/getting-started";
-@import "screens/empty-list";
-@import "screens/item-list";
+#{$opui-wrapper} {
+    @import "bootstrap/bootstrap";
+    @import "general/typography";
+    @import "layout/grid";
+    @import "layout/main";
+    @import "layout/sizing";
+    @import "general/animations";
+    @import "components/buttons";
+    @import "components/data";
+    @import "components/forms";
+    @import "components/header";
+    @import "components/settings";
+    @import "components/navbar";
+    @import "general/utilities";
+
+    // Screens
+    @import "screens/getting-started";
+    @import "screens/empty-list";
+    @import "screens/item-list";
+}

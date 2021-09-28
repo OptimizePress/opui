@@ -1,5 +1,7 @@
-$op-prefix: 'opui-' !default;
+// Main settings
+$op-prefix:      'opui-' !default;
 $op-icon-prefix: 'opui-icon-' !default;
+$opui-wrapper:   'body' !default;
 
 // Spacing
 //$opui-gutter-x: 0.25rem;
@@ -100,6 +102,9 @@ $font-size-base:              1.6rem; // Assumes the browser default, typically 
 $font-size-lg:                $font-size-base * 1.25 !default;
 $font-size-sm:                $font-size-base * .875 !default;
 $navbar-brand-font-size:      2rem;
+
+// Forms
+$input-border-color: $color--opui-gray300;
 
 // Also define CSS variables for our colors and
 :root {
