@@ -3,16 +3,16 @@
     "/css/grid.css": "/css/grid.css",
     "/css/reboot.css": "/css/reboot.css",
     "/css/ui.css": "/css/ui.css",
-    "/fonts/opui-font.eot": "/fonts/opui-font.eot",
-    "/fonts/opui-font.svg": "/fonts/opui-font.svg",
-    "/fonts/opui-font.ttf": "/fonts/opui-font.ttf",
-    "/fonts/opui-font.woff": "/fonts/opui-font.woff",
-    "/tests/tests.css": "/tests/tests.css",
-    "/tests/tests.js": "/tests/tests.js",
     "/fonts/fontawesome-webfont.eot": "/fonts/fontawesome-webfont.eot",
     "/fonts/fontawesome-webfont.svg": "/fonts/fontawesome-webfont.svg",
     "/fonts/fontawesome-webfont.ttf": "/fonts/fontawesome-webfont.ttf",
     "/fonts/fontawesome-webfont.woff": "/fonts/fontawesome-webfont.woff",
     "/fonts/fontawesome-webfont.woff2": "/fonts/fontawesome-webfont.woff2",
-    "/fonts/fontawesome.otf": "/fonts/fontawesome.otf"
+    "/fonts/fontawesome.otf": "/fonts/fontawesome.otf",
+    "/fonts/opui-font.eot": "/fonts/opui-font.eot",
+    "/fonts/opui-font.svg": "/fonts/opui-font.svg",
+    "/fonts/opui-font.ttf": "/fonts/opui-font.ttf",
+    "/fonts/opui-font.woff": "/fonts/opui-font.woff",
+    "/tests/tests.css": "/tests/tests.css",
+    "/tests/tests.js": "/tests/tests.js"
 }

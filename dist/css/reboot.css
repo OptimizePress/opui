@@ -1,36 +1,36 @@
 :root {
-  --opui--white: #fff;
-  --opui--black: #000;
-  --opui--gray: #6c757d;
-  --opui--darkgray: #495057;
-  --opui--gray100: #f8f9fa;
-  --opui--gray200: #eee;
+  --opui--white: white;
+  --opui--black: black;
+  --opui--gray: #6d767e;
+  --opui--darkgray: #484f56;
+  --opui--gray100: #f9fafb;
+  --opui--gray200: #ededed;
   --opui--gray300: #ced4da;
-  --opui--gray400: #97A3B4;
-  --opui--gray500: #8a96a0;
-  --opui--gray600: #6c757d;
-  --opui--gray700: #495057;
-  --opui--gray800: #343a40;
-  --opui--gray900: #212529;
-  --opui--blue: #0063d9;
-  --opui--darkblue: #0051c3;
-  --opui--blue100: #8dc1ff;
-  --opui--blue200: #4097ff;
-  --opui--blue300: #0d7bff;
-  --opui--blue400: #0063d9;
-  --opui--blue500: #0057c0;
-  --opui--blue600: #0051c3;
-  --opui--blue700: #00479c;
-  --opui--blue800: #003473;
-  --opui--blue900: #001227;
-  --opui--primary: #0063d9;
-  --opui--secondary: #8dc1ff;
-  --opui--success: #198754;
-  --opui--info: #0d7bff;
-  --opui--warning: #ffc107;
-  --opui--danger: #dc3545;
-  --opui--light: #f8f9fa;
-  --opui--dark: #495057;
+  --opui--gray400: #97a3b4;
+  --opui--gray500: #89959f;
+  --opui--gray600: #6d767e;
+  --opui--gray700: #484f56;
+  --opui--gray800: #353b41;
+  --opui--gray900: #22262a;
+  --opui--blue: #0063db;
+  --opui--darkblue: #0051c2;
+  --opui--blue100: #8fc1ff;
+  --opui--blue200: #4297ff;
+  --opui--blue300: #0f7bff;
+  --opui--blue400: #0063db;
+  --opui--blue500: #0057c2;
+  --opui--blue600: #0051c2;
+  --opui--blue700: #00479e;
+  --opui--blue800: #003575;
+  --opui--blue900: #001229;
+  --opui--primary: #0063db;
+  --opui--secondary: #8fc1ff;
+  --opui--success: #198653;
+  --opui--info: #0f7bff;
+  --opui--warning: #ffc105;
+  --opui--danger: #dc3848;
+  --opui--light: #f9fafb;
+  --opui--dark: #484f56;
 }
 
 /*!
@@ -60,7 +60,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -158,12 +158,12 @@ sup {
 }
 
 a {
-  color: #0063d9;
+  color: #0063db;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #00408d;
+  color: #00408f;
   text-decoration: underline;
 }
 
