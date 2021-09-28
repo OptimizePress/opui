@@ -1,6 +1,10 @@
 @import "../css/reboot.css";
 @import "../css/ui.css";
 
+html {
+    font-size: 62.5% !important;
+}
+
 body {
     padding-top: 80px;
 }
