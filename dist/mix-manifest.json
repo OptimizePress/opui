@@ -1,5 +1,6 @@
 {
     "/js/ui.js": "/js/ui.js",
+    "/tests/tests.js": "/tests/tests.js",
     "/css/grid.css": "/css/grid.css",
     "/css/reboot.css": "/css/reboot.css",
     "/css/ui.css": "/css/ui.css",
@@ -13,6 +14,5 @@
     "/fonts/opui-font.svg": "/fonts/opui-font.svg",
     "/fonts/opui-font.ttf": "/fonts/opui-font.ttf",
     "/fonts/opui-font.woff": "/fonts/opui-font.woff",
-    "/tests/tests.css": "/tests/tests.css",
-    "/tests/tests.js": "/tests/tests.js"
+    "/tests/tests.css": "/tests/tests.css"
 }

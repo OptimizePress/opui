@@ -7,15 +7,26 @@
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/js/fullscreen.js":
+/*!******************************!*\
+  !*** ./src/js/fullscreen.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"toggleFullscreen\": () => (/* binding */ toggleFullscreen)\n/* harmony export */ });\nfunction toggleFullscreen(apiEndpoint) {\n  var fullscreenClass = 'opui-app-is-fullscreen';\n  var isFullscreen = document.body.classList.contains(fullscreenClass); // Check if class exists in list\n\n  if (!isFullscreen) {\n    document.body.classList.add(fullscreenClass);\n  } else {\n    document.body.classList.remove(fullscreenClass);\n  } // Send toggle request to API backend if needed\n\n\n  if (apiEndpoint) {\n    fetch(apiEndpoint).then(function (response) {// console.log(\"Toggled fullscreen\");\n    });\n  }\n}//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvZnVsbHNjcmVlbi5qcy5qcyIsIm1hcHBpbmdzIjoiOzs7O0FBQU8sU0FBU0EsZ0JBQVQsQ0FBMEJDLFdBQTFCLEVBQXVDO0FBQzFDLE1BQUlDLGVBQWUsR0FBRyx3QkFBdEI7QUFDQSxNQUFJQyxZQUFZLEdBQU1DLFFBQVEsQ0FBQ0MsSUFBVCxDQUFjQyxTQUFkLENBQXdCQyxRQUF4QixDQUFpQ0wsZUFBakMsQ0FBdEIsQ0FGMEMsQ0FJMUM7O0FBQ0EsTUFBSSxDQUFFQyxZQUFOLEVBQW9CO0FBQ2hCQyxJQUFBQSxRQUFRLENBQUNDLElBQVQsQ0FBY0MsU0FBZCxDQUF3QkUsR0FBeEIsQ0FBNEJOLGVBQTVCO0FBQ0gsR0FGRCxNQUVPO0FBQ0hFLElBQUFBLFFBQVEsQ0FBQ0MsSUFBVCxDQUFjQyxTQUFkLENBQXdCRyxNQUF4QixDQUErQlAsZUFBL0I7QUFDSCxHQVR5QyxDQVcxQzs7O0FBQ0EsTUFBSUQsV0FBSixFQUFpQjtBQUNiUyxJQUFBQSxLQUFLLENBQUNULFdBQUQsQ0FBTCxDQUNLVSxJQURMLENBQ1UsVUFBU0MsUUFBVCxFQUFtQixDQUNyQjtBQUNILEtBSEw7QUFJSDtBQUNKIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vb3B0aW1pemVwcmVzcy11aS8uL3NyYy9qcy9mdWxsc2NyZWVuLmpzP2E0ODciXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGZ1bmN0aW9uIHRvZ2dsZUZ1bGxzY3JlZW4oYXBpRW5kcG9pbnQpIHtcbiAgICBsZXQgZnVsbHNjcmVlbkNsYXNzID0gJ29wdWktYXBwLWlzLWZ1bGxzY3JlZW4nO1xuICAgIGxldCBpc0Z1bGxzY3JlZW4gICAgPSBkb2N1bWVudC5ib2R5LmNsYXNzTGlzdC5jb250YWlucyhmdWxsc2NyZWVuQ2xhc3MpO1xuXG4gICAgLy8gQ2hlY2sgaWYgY2xhc3MgZXhpc3RzIGluIGxpc3RcbiAgICBpZiAoISBpc0Z1bGxzY3JlZW4pIHtcbiAgICAgICAgZG9jdW1lbnQuYm9keS5jbGFzc0xpc3QuYWRkKGZ1bGxzY3JlZW5DbGFzcyk7XG4gICAgfSBlbHNlIHtcbiAgICAgICAgZG9jdW1lbnQuYm9keS5jbGFzc0xpc3QucmVtb3ZlKGZ1bGxzY3JlZW5DbGFzcyk7XG4gICAgfVxuXG4gICAgLy8gU2VuZCB0b2dnbGUgcmVxdWVzdCB0byBBUEkgYmFja2VuZCBpZiBuZWVkZWRcbiAgICBpZiAoYXBpRW5kcG9pbnQpIHtcbiAgICAgICAgZmV0Y2goYXBpRW5kcG9pbnQpXG4gICAgICAgICAgICAudGhlbihmdW5jdGlvbihyZXNwb25zZSkge1xuICAgICAgICAgICAgICAgIC8vIGNvbnNvbGUubG9nKFwiVG9nZ2xlZCBmdWxsc2NyZWVuXCIpO1xuICAgICAgICAgICAgfSk7XG4gICAgfVxufVxuIl0sIm5hbWVzIjpbInRvZ2dsZUZ1bGxzY3JlZW4iLCJhcGlFbmRwb2ludCIsImZ1bGxzY3JlZW5DbGFzcyIsImlzRnVsbHNjcmVlbiIsImRvY3VtZW50IiwiYm9keSIsImNsYXNzTGlzdCIsImNvbnRhaW5zIiwiYWRkIiwicmVtb3ZlIiwiZmV0Y2giLCJ0aGVuIiwicmVzcG9uc2UiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/js/fullscreen.js\n");
+
+/***/ }),
 
 /***/ "./src/js/ui.js":
 /*!**********************!*\
   !*** ./src/js/ui.js ***!
   \**********************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("console.log(\"Loaded OptimizePress UI scrips.\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9vcHRpbWl6ZXByZXNzLXVpLy4vc3JjL2pzL3VpLmpzP2FhZjciXSwibmFtZXMiOlsiY29uc29sZSIsImxvZyJdLCJtYXBwaW5ncyI6IkFBQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZLGlDQUFaIiwic291cmNlc0NvbnRlbnQiOlsiY29uc29sZS5sb2coXCJMb2FkZWQgT3B0aW1pemVQcmVzcyBVSSBzY3JpcHMuXCIpO1xuIl0sImZpbGUiOiIuL3NyYy9qcy91aS5qcy5qcyIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/js/ui.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _fullscreen__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fullscreen */ \"./src/js/fullscreen.js\");\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  console.log(\"Loaded OPUI scripts\", _fullscreen__WEBPACK_IMPORTED_MODULE_0__.toggleFullscreen);\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvanMvdWkuanMuanMiLCJtYXBwaW5ncyI6Ijs7QUFBQTtBQUVBQyxRQUFRLENBQUNDLGdCQUFULENBQTBCLGtCQUExQixFQUE4QyxZQUFXO0FBQ3JEQyxFQUFBQSxPQUFPLENBQUNDLEdBQVIsQ0FBWSxxQkFBWixFQUFtQ0oseURBQW5DO0FBQ0gsQ0FGRCIsInNvdXJjZXMiOlsid2VicGFjazovL29wdGltaXplcHJlc3MtdWkvLi9zcmMvanMvdWkuanM/YWFmNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge3RvZ2dsZUZ1bGxzY3JlZW59IGZyb20gJy4vZnVsbHNjcmVlbidcblxuZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcihcIkRPTUNvbnRlbnRMb2FkZWRcIiwgZnVuY3Rpb24oKSB7XG4gICAgY29uc29sZS5sb2coXCJMb2FkZWQgT1BVSSBzY3JpcHRzXCIsIHRvZ2dsZUZ1bGxzY3JlZW4pO1xufSk7XG4iXSwibmFtZXMiOlsidG9nZ2xlRnVsbHNjcmVlbiIsImRvY3VtZW50IiwiYWRkRXZlbnRMaXN0ZW5lciIsImNvbnNvbGUiLCJsb2ciXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/js/ui.js\n");
 
 /***/ }),
 
@@ -25,7 +36,6 @@ eval("console.log(\"Loaded OptimizePress UI scrips.\");//# sourceURL=[module]\n/
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc2Nzcy91aS5zY3NzLmpzIiwibWFwcGluZ3MiOiI7QUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL29wdGltaXplcHJlc3MtdWkvLi9zcmMvc2Nzcy91aS5zY3NzPzhjMzIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/scss/ui.scss\n");
 
 /***/ }),
@@ -36,7 +46,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc2Nzcy91aS1yZWJvb3Quc2Nzcy5qcyIsIm1hcHBpbmdzIjoiO0FBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9vcHRpbWl6ZXByZXNzLXVpLy4vc3JjL3Njc3MvdWktcmVib290LnNjc3M/ODM3YSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/scss/ui-reboot.scss\n");
 
 /***/ }),
@@ -47,7 +56,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc2Nzcy91aS1ncmlkLnNjc3MuanMiLCJtYXBwaW5ncyI6IjtBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vb3B0aW1pemVwcmVzcy11aS8uL3NyYy9zY3NzL3VpLWdyaWQuc2Nzcz80YjZlIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGV4dHJhY3RlZCBieSBtaW5pLWNzcy1leHRyYWN0LXBsdWdpblxuZXhwb3J0IHt9OyJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/scss/ui-grid.scss\n");
 
 /***/ })
@@ -111,6 +119,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /******/ 				}
 /******/ 			}
 /******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
 /******/ 		};
 /******/ 	})();
 /******/ 	

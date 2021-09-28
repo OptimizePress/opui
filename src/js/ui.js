@@ -1,1 +1,5 @@
-console.log("Loaded OptimizePress UI scrips.");
+import {toggleFullscreen} from './fullscreen'
+
+document.addEventListener("DOMContentLoaded", function() {
+    console.log("Loaded OPUI scripts", toggleFullscreen);
+});
