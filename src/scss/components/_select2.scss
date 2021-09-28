@@ -1,4 +1,4 @@
-#op-protect-app, .ops-modal {
+.op-plugin-app-container, .#{$op-prefix}modal {
     .select2 {
         display: block;
         width: 100% !important;

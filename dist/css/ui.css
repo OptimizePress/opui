@@ -3070,7 +3070,7 @@
 @font-face {
   font-family: "opui-font";
   src: url(../fonts/opui-font.eot?cd119502e4b832d33e76b29d0c3025f2);
-  src: url(../fonts/opui-font.eot?cd119502e4b832d33e76b29d0c3025f2?#iefix) format("embedded-opentype"), url(../fonts/opui-font.woff?e3b25ef28e2abc67a61b00be38f028f0) format("woff"), url(../fonts/opui-font.ttf?30de19ba91b10a7d650a291024d4da6f) format("truetype"), url(../fonts/opui-font.svg?2ad6cb71bea769b2fbca566f4707e579#ops-font) format("svg");
+  src: url(../fonts/opui-font.eot?cd119502e4b832d33e76b29d0c3025f2?#iefix) format("embedded-opentype"), url(../fonts/opui-font.woff?e3b25ef28e2abc67a61b00be38f028f0) format("woff"), url(../fonts/opui-font.ttf?30de19ba91b10a7d650a291024d4da6f) format("truetype"), url(../fonts/opui-font.svg?2ad6cb71bea769b2fbca566f4707e579#opui-font) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -14144,21 +14144,21 @@ body .opui-item-list ul > li .opui-right .opui-btn, body .opui-item-list ul .opu
     max-width: 1140px;
   }
 }
-#op-protect-app .select2, .ops-modal .select2 {
+.op-plugin-app-container .select2, .opui-modal .select2 {
   display: block;
   width: 100% !important;
   font-size: 16px;
 }
-#op-protect-app .select2 .select2-selection, .ops-modal .select2 .select2-selection {
+.op-plugin-app-container .select2 .select2-selection, .opui-modal .select2 .select2-selection {
   border: 1px solid #f1f1f1;
   padding: 0.75rem 1.5rem !important;
   margin-bottom: 20px !important;
   height: auto;
 }
-#op-protect-app .select2 .select2-selection__rendered, .ops-modal .select2 .select2-selection__rendered {
+.op-plugin-app-container .select2 .select2-selection__rendered, .opui-modal .select2 .select2-selection__rendered {
   padding: 0 !important;
 }
-#op-protect-app .select2 .select2-selection__arrow, .ops-modal .select2 .select2-selection__arrow {
+.op-plugin-app-container .select2 .select2-selection__arrow, .opui-modal .select2 .select2-selection__arrow {
   height: 96%;
   top: 8px !important;
   right: 10px !important;
