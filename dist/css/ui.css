@@ -3409,6 +3409,21 @@
   content: "<";
 }
 
+html.wp-toolbar body.opui-app-is-fullscreen {
+  margin-top: -32px;
+}
+html body.opui-app-is-fullscreen #wpadminbar,
+html body.opui-app-is-fullscreen #adminmenumain,
+html body.opui-app-is-fullscreen #wpfooter {
+  display: none;
+}
+html body.opui-app-is-fullscreen #wpcontent {
+  margin: 0;
+}
+html body.opui-app-is-fullscreen #wpbody-content {
+  padding-bottom: 0;
+}
+
 body {
   /*!
    * Bootstrap v4.6.0 (https://getbootstrap.com/)

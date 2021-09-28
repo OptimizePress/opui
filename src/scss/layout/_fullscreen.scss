@@ -1,0 +1,27 @@
+html {
+    &.wp-toolbar {
+        body {
+            &.opui-app-is-fullscreen {
+                margin-top: -32px;
+            }
+        }
+    }
+
+    body.opui-app-is-fullscreen {
+        & {
+            #wpadminbar,
+            #adminmenumain,
+            #wpfooter {
+                display: none;
+            }
+
+            #wpcontent {
+                margin: 0;
+            }
+
+            #wpbody-content {
+                padding-bottom: 0;
+            }
+        }
+    }
+}

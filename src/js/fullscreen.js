@@ -17,3 +17,13 @@ export function toggleFullscreen(apiEndpoint) {
             });
     }
 }
+
+// Old functionality (need to add request to API)
+// let $body = jQuery('body')
+// $body.toggleClass('ops_isFullScreen')
+//
+// const params = new URLSearchParams()
+// params.append('action', 'op3toggleFullScreen')
+// params.append('isFullScreen', $body.hasClass('ops_isFullScreen'))
+//
+// this.$http.post(this.$store.state.settings.ajax_url, params)
