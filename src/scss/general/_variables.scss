@@ -18,7 +18,7 @@ $color--opui-darkgray:  hsl(210, 9%, 31%); // #495057;
 $color--opui-gray100:   hsl(210, 17%, 98%); // #f8f9fa;
 $color--opui-gray200:   hsl(0, 0%, 93%); // #eee;
 $color--opui-gray300:   hsl(210, 14%, 83%); // #ced4da;
-$color--opui-gray400:   hsl(215, 16%, 65%); // #97A3B4;
+$color--opui-gray400:   hsl(215, 16%, 70%); // #97A3B4;
 $color--opui-gray500:   hsl(207, 10%, 58%); // #8a96a0;
 $color--opui-gray600:   hsl(208, 7%, 46%); // #6c757d;
 $color--opui-gray700:   hsl(210, 9%, 31%); // #495057;
@@ -46,7 +46,7 @@ $color--opui-pink:         hsl(330, 67%, 52%); // #d63384;
 $color--opui-red:          hsl(354, 70%, 54%); // #dc3545;
 $color--opui-orange:       hsl(27, 98%, 54%);  // #fd7e14;
 $color--opui-yellow:       hsl(45, 100%, 51%); // #ffc107;
-$color--opui-green:        hsl(152, 69%, 31%); // #198754;
+$color--opui-green:        hsl(158, 100%, 42%); //#00d88a;
 $color--opui-bright-green: hsl(158, 100%, 42%); //#00d88a;
 $color--opui-teal:         hsl(162, 73%, 46%); // #20c997;
 $color--opui-cyan:         hsl(190, 90%, 50%); //#0dcaf0;
@@ -54,7 +54,7 @@ $color--opui-cyan:         hsl(190, 90%, 50%); //#0dcaf0;
 // Roles
 $color--opui-primary:   $color--opui-blue;
 $color--opui-secondary: $color--opui-blue100;
-$color--opui-success:   $color--opui-green;
+$color--opui-success:   $color--opui-bright-green;
 $color--opui-info:      $color--opui-blue300;
 $color--opui-warning:   $color--opui-yellow;
 $color--opui-danger:    $color--opui-red;
@@ -72,10 +72,11 @@ $teal:     hsl(162, 73%, 46%); // #20c997 !default;
 $cyan:     $color--opui-blue300;
 $gray:     $color--opui-gray;
 $gray-100: $color--opui-gray100;
+$gray-300: $color--opui-gray200;
 $gray-800: $color--opui-gray800;
 
 // Grid
-$grid-gutter-height: 1rem;
+$grid-gutter-height: 30px;
 $grid-breakpoints: (
     xs: 0,
     sm: 576px,
@@ -105,6 +106,26 @@ $navbar-brand-font-size:      2rem;
 
 // Forms
 $input-border-color: $color--opui-gray300;
+
+// Spacing
+$spacer: 10px !default;
+$spacers: () !default;
+$spacers: map-merge(
+    (
+        0: 0,
+        1: ($spacer * .25),
+        2: ($spacer * .5),
+        3: $spacer,
+        4: ($spacer * 1.5),
+        5: ($spacer * 3),
+        6: ($spacer * 4.5),
+        7: ($spacer * 6),
+        8: ($spacer * 7.5),
+        9: ($spacer * 9),
+        10: ($spacer * 12)
+    ),
+    $spacers
+);
 
 // Also define CSS variables for our colors and
 :root {

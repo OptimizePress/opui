@@ -144,3 +144,48 @@
         padding-right: 35px;
     }
 }
+
+.#{$op-prefix}title-w-icon {
+    margin: 0 0 40px 0;
+
+    h1 {
+        font-size: 36px;
+        margin: 50px 0 25px 0;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin: 50px 0 25px 0;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 15px;
+    }
+
+    p.#{$op-prefix}teaser {
+        font-size: 18px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
+            color: $color--opui-blue;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 4rem;
+            font-weight: 500;
+            line-height: 1.2;
+        }
+    }
+}

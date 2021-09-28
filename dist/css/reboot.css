@@ -6,7 +6,7 @@
   --opui--gray100: #f9fafb;
   --opui--gray200: #ededed;
   --opui--gray300: #ced4da;
-  --opui--gray400: #97a3b4;
+  --opui--gray400: #a6b0bf;
   --opui--gray500: #89959f;
   --opui--gray600: #6d767e;
   --opui--gray700: #484f56;
@@ -25,7 +25,7 @@
   --opui--blue900: #001229;
   --opui--primary: #0063db;
   --opui--secondary: #8fc1ff;
-  --opui--success: #198653;
+  --opui--success: #00d688;
   --opui--info: #0f7bff;
   --opui--warning: #ffc105;
   --opui--danger: #dc3848;
@@ -80,7 +80,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-bottom: 5px;
 }
 
 p {

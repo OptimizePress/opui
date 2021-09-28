@@ -1,0 +1,41 @@
+.#{$op-prefix}product-card {
+    min-height: 100%;
+    margin-bottom: 20px;
+
+    h6 {
+        color: $color--opui-blue;
+    }
+
+    p {
+        font-size: 14px;
+        color: $color--opui-gray600;
+    }
+
+    [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
+        margin: 5px 20px 0 0;
+        font-size: 50px;
+        line-height: 50px;
+        color: $color--opui-lightblue;
+    }
+
+    .#{$op-prefix}product-head {
+        margin: 0 0 20px 0;
+    }
+
+    .#{$op-prefix}product-description {
+        margin: 0 0 15px 0;
+        padding: 0;
+        border-bottom: 1px solid $color--opui-lightgray;
+    }
+
+    .#{$op-prefix}product-actions {
+        p {
+            color: $color--opui-gray400;
+            margin: 0 0 20px 0;
+        }
+
+        .opui-btn {
+
+        }
+    }
+}

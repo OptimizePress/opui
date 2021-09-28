@@ -9,6 +9,11 @@
     padding: 8px 14px;
 }
 
+.#{$op-prefix}btn-md, .#{$op-prefix}btn-medium {
+    font-size: 18px;
+    padding: 12px 16px;
+}
+
 .#{$op-prefix}btn-lg, .#{$op-prefix}btn-large {
     font-size: 20px;
     padding: 15px 28px;

@@ -1,7 +1,7 @@
 .#{$op-prefix}2-col-settings {
     display: flex;
     flex-wrap: wrap;
-    min-height: 100vh;
+    // min-height: 100vh;
 
     .#{$op-prefix}settings-sidenav {
         background: $color--opui-white;

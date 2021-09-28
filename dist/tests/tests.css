@@ -36,7 +36,7 @@ body {
 .opui-main {
     border: 1px solid #f0f2f5;
     display: grid;
-    min-height: 500px;
+    min-height: 200px;
     margin-bottom: 30px;
     border-radius: 3px;
 }
