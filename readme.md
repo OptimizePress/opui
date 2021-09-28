@@ -49,6 +49,22 @@ so the correct version will be installed when running the command for the first 
 
 After that you simply need to run the command one more time, and it should all be good.
 
+## Scripts
+
+The only script included for now is toggling the fullscreen mode in WordPress plugins. This is achieved by toggling a body class.
+An example on how to use the script can be found in the **tests** directory:
+
+    import {toggleFullscreen} from "../js/fullscreen";
+
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector('.opui-fullscreen-btn').addEventListener('click', function (event) {
+            event.preventDefault();
+            toggleFullscreen('https://jsonplaceholder.typicode.com/posts/1');
+        }, false);
+    });
+
+The function accepts an attribute for an API endpoint URL. This endpoint should be used to store the current fullscreen state.
+
 ## Contributing
 
 To contribute to the package, simply clone the repository, make you changes, build the assets, and make a pull request.
