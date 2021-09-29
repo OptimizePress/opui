@@ -42,7 +42,7 @@ body {
 }
 
 .opui-2-col-settings {
-    min-height: 100%;
+    min-height: auto !important;
 }
 
 .opui-progress {

@@ -12,3 +12,11 @@
     min-height: auto;
     padding-bottom: 50px;
 }
+
+.#{$op-prefix}min-10vw {
+    min-height: 100vw;
+}
+
+.#{$op-prefix}min-10vh {
+    min-height: 100vh;
+}
