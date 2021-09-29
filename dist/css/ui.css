@@ -7,7 +7,7 @@
   --opui--gray100: #f9fafb;
   --opui--gray200: #ededed;
   --opui--gray300: #ced4da;
-  --opui--gray400: #a6b0bf;
+  --opui--gray400: #acb6c3;
   --opui--gray500: #89959f;
   --opui--gray600: #6d767e;
   --opui--gray700: #484f56;
@@ -15364,7 +15364,7 @@ body .opui-container, html .opui-container {
   font-family: "Open Sans", sans-serif;
 }
 body .opui-subline, body .opui-teaser, html .opui-subline, html .opui-teaser {
-  color: #a6b0bf;
+  color: #acb6c3;
 }
 body div[class^=opui-col], body div[class*=" opui-ccol"], html div[class^=opui-col], html div[class*=" opui-ccol"] {
   margin-bottom: 30px;
@@ -15484,7 +15484,7 @@ body .opui-form-text, html .opui-form-text {
   font-size: 13px;
   line-height: 1.5;
   margin: 12px 0;
-  color: #a6b0bf;
+  color: #acb6c3;
 }
 body .opui-opui-form form label, body .opui-form-group label, body label.opui-form-label, html .opui-opui-form form label, html .opui-form-group label, html label.opui-form-label {
   font-size: 15px;
@@ -15701,7 +15701,7 @@ body .opui-2-col-settings .opui-settings-sidenav nav ul li span, html .opui-2-co
   display: block;
   margin-left: 30px;
   font-size: 12px;
-  color: #a6b0bf;
+  color: #acb6c3;
 }
 body .opui-2-col-settings .opui-settings-sidenav nav ul li.selected, html .opui-2-col-settings .opui-settings-sidenav nav ul li.selected {
   background-color: #f9fafb;
@@ -15814,7 +15814,7 @@ body .opui-product-card .opui-product-description, html .opui-product-card .opui
   border-bottom: 1px solid #f0f2f5;
 }
 body .opui-product-card .opui-product-actions p, html .opui-product-card .opui-product-actions p {
-  color: #a6b0bf;
+  color: #acb6c3;
   margin: 0 0 20px 0;
 }
 body .opui-getting-started h2, html .opui-getting-started h2 {
@@ -15922,7 +15922,7 @@ body .opui-item-list h6, html .opui-item-list h6 {
   font-size: 13px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  color: #a6b0bf;
+  color: #acb6c3;
   font-weight: 600;
 }
 body .opui-item-list ul, html .opui-item-list ul {
@@ -15955,8 +15955,13 @@ body .opui-item-list ul > li .opui-title h3, body .opui-item-list ul .opui-item-
   padding: 0;
   font-weight: 400;
 }
+body .opui-item-list ul > li .opui-title p, body .opui-item-list ul .opui-item-list-item .opui-title p, html .opui-item-list ul > li .opui-title p, html .opui-item-list ul .opui-item-list-item .opui-title p {
+  font-size: 12px;
+  margin: 2px 0 0 0;
+  color: #acb6c3;
+}
 body .opui-item-list ul > li .opui-right [class^=opui-icon], body .opui-item-list ul > li .opui-right [class*=" opui-icon"], body .opui-item-list ul .opui-item-list-item .opui-right [class^=opui-icon], body .opui-item-list ul .opui-item-list-item .opui-right [class*=" opui-icon"], html .opui-item-list ul > li .opui-right [class^=opui-icon], html .opui-item-list ul > li .opui-right [class*=" opui-icon"], html .opui-item-list ul .opui-item-list-item .opui-right [class^=opui-icon], html .opui-item-list ul .opui-item-list-item .opui-right [class*=" opui-icon"] {
-  color: #a6b0bf;
+  color: #acb6c3;
   padding: 8px 7px 5px 7px;
   transition: color 0.3s linear;
   font-size: 14px;
