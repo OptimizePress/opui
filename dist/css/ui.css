@@ -3455,101 +3455,101 @@ body :root, html :root {
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-body h1, body h2, body h3, body h4, body h5, body h6,
-body .h1, body .h2, body .h3, body .h4, body .h5, body .h6, html h1, html h2, html h3, html h4, html h5, html h6,
-html .h1, html .h2, html .h3, html .h4, html .h5, html .h6 {
+body .op-plugin-app-container h1, body .op-plugin-app-container h2, body .op-plugin-app-container h3, body .op-plugin-app-container h4, body .op-plugin-app-container h5, body .op-plugin-app-container h6,
+body .op-plugin-app-container .h1, body .op-plugin-app-container .h2, body .op-plugin-app-container .h3, body .op-plugin-app-container .h4, body .op-plugin-app-container .h5, body .op-plugin-app-container .h6, html .op-plugin-app-container h1, html .op-plugin-app-container h2, html .op-plugin-app-container h3, html .op-plugin-app-container h4, html .op-plugin-app-container h5, html .op-plugin-app-container h6,
+html .op-plugin-app-container .h1, html .op-plugin-app-container .h2, html .op-plugin-app-container .h3, html .op-plugin-app-container .h4, html .op-plugin-app-container .h5, html .op-plugin-app-container .h6 {
   margin-bottom: 5px;
   font-weight: 500;
   line-height: 1.2;
 }
-body h1, body .h1, html h1, html .h1 {
+body .op-plugin-app-container h1, body .op-plugin-app-container .h1, html .op-plugin-app-container h1, html .op-plugin-app-container .h1 {
   font-size: 4rem;
 }
-body h2, body .h2, html h2, html .h2 {
+body .op-plugin-app-container h2, body .op-plugin-app-container .h2, html .op-plugin-app-container h2, html .op-plugin-app-container .h2 {
   font-size: 3.2rem;
 }
-body h3, body .h3, html h3, html .h3 {
+body .op-plugin-app-container h3, body .op-plugin-app-container .h3, html .op-plugin-app-container h3, html .op-plugin-app-container .h3 {
   font-size: 2.8rem;
 }
-body h4, body .h4, html h4, html .h4 {
+body .op-plugin-app-container h4, body .op-plugin-app-container .h4, html .op-plugin-app-container h4, html .op-plugin-app-container .h4 {
   font-size: 2.4rem;
 }
-body h5, body .h5, html h5, html .h5 {
+body .op-plugin-app-container h5, body .op-plugin-app-container .h5, html .op-plugin-app-container h5, html .op-plugin-app-container .h5 {
   font-size: 2rem;
 }
-body h6, body .h6, html h6, html .h6 {
+body .op-plugin-app-container h6, body .op-plugin-app-container .h6, html .op-plugin-app-container h6, html .op-plugin-app-container .h6 {
   font-size: 1.6rem;
 }
-body .opui-lead, html .opui-lead {
+body .op-plugin-app-container .opui-lead, html .op-plugin-app-container .opui-lead {
   font-size: 2rem;
   font-weight: 300;
 }
-body .opui-display-1, html .opui-display-1 {
+body .op-plugin-app-container .opui-display-1, html .op-plugin-app-container .opui-display-1 {
   font-size: 6rem;
   font-weight: 300;
   line-height: 1.2;
 }
-body .opui-display-2, html .opui-display-2 {
+body .op-plugin-app-container .opui-display-2, html .op-plugin-app-container .opui-display-2 {
   font-size: 5.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
-body .opui-display-3, html .opui-display-3 {
+body .op-plugin-app-container .opui-display-3, html .op-plugin-app-container .opui-display-3 {
   font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
-body .opui-display-4, html .opui-display-4 {
+body .op-plugin-app-container .opui-display-4, html .op-plugin-app-container .opui-display-4 {
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
 }
-body hr, html hr {
+body .op-plugin-app-container hr, html .op-plugin-app-container hr {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
-body small,
-body .opui-small, html small,
-html .opui-small {
+body .op-plugin-app-container small,
+body .op-plugin-app-container .opui-small, html .op-plugin-app-container small,
+html .op-plugin-app-container .opui-small {
   font-size: 80%;
   font-weight: 400;
 }
-body mark,
-body .opui-mark, html mark,
-html .opui-mark {
+body .op-plugin-app-container mark,
+body .op-plugin-app-container .opui-mark, html .op-plugin-app-container mark,
+html .op-plugin-app-container .opui-mark {
   padding: 0.2em;
   background-color: #fcf8e3;
 }
-body .opui-list-unstyled, html .opui-list-unstyled {
+body .op-plugin-app-container .opui-list-unstyled, html .op-plugin-app-container .opui-list-unstyled {
   padding-left: 0;
   list-style: none;
 }
-body .opui-list-inline, html .opui-list-inline {
+body .op-plugin-app-container .opui-list-inline, html .op-plugin-app-container .opui-list-inline {
   padding-left: 0;
   list-style: none;
 }
-body .opui-list-inline-item, html .opui-list-inline-item {
+body .op-plugin-app-container .opui-list-inline-item, html .op-plugin-app-container .opui-list-inline-item {
   display: inline-block;
 }
-body .opui-list-inline-item:not(:last-child), html .opui-list-inline-item:not(:last-child) {
+body .op-plugin-app-container .opui-list-inline-item:not(:last-child), html .op-plugin-app-container .opui-list-inline-item:not(:last-child) {
   margin-right: 0.5rem;
 }
-body .opui-initialism, html .opui-initialism {
+body .op-plugin-app-container .opui-initialism, html .op-plugin-app-container .opui-initialism {
   font-size: 90%;
   text-transform: uppercase;
 }
-body .opui-blockquote, html .opui-blockquote {
+body .op-plugin-app-container .opui-blockquote, html .op-plugin-app-container .opui-blockquote {
   margin-bottom: 10px;
   font-size: 2rem;
 }
-body .opui-blockquote-footer, html .opui-blockquote-footer {
+body .op-plugin-app-container .opui-blockquote-footer, html .op-plugin-app-container .opui-blockquote-footer {
   display: block;
   font-size: 80%;
   color: #6c757d;
 }
-body .opui-blockquote-footer::before, html .opui-blockquote-footer::before {
+body .op-plugin-app-container .opui-blockquote-footer::before, html .op-plugin-app-container .opui-blockquote-footer::before {
   content: "— ";
 }
 body .opui-img-fluid, html .opui-img-fluid {
@@ -15498,6 +15498,16 @@ body .opui-form-control, html .opui-form-control {
   line-height: 100%;
   padding: 1rem 1.5rem;
 }
+body .opui-form-check-input, html .opui-form-check-input {
+  font-size: 18px;
+  width: 15px;
+  height: 15px;
+}
+body .opui-form-check-input:checked::before, html .opui-form-check-input:checked::before {
+  margin: -1px 0 0 -2px;
+  height: 16px;
+  width: 16px;
+}
 body .opui-top-menu, html .opui-top-menu {
   position: relative;
   background-color: white;
@@ -15769,6 +15779,85 @@ body .opui-navbar .opui-btn, html .opui-navbar .opui-btn {
   line-height: 100%;
   padding: 10px 25px;
   margin: 0;
+}
+body .opui-check-switch, html .opui-check-switch {
+  position: relative;
+  width: 73px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+body .opui-check-switch input[type=checkbox], html .opui-check-switch input[type=checkbox] {
+  display: none !important;
+}
+body .opui-check-switch .opui-check-switch-label, html .opui-check-switch .opui-check-switch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 2px solid #0063db;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0;
+}
+body .opui-check-switch .opui-check-switch-inner, html .opui-check-switch .opui-check-switch-inner {
+  display: block;
+  width: 200%;
+  margin-left: -100%;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  transition: margin 0.3s ease-in 0s;
+}
+body .opui-check-switch .opui-check-switch-inner:before,
+body .opui-check-switch .opui-check-switch-inner:after, html .opui-check-switch .opui-check-switch-inner:before,
+html .opui-check-switch .opui-check-switch-inner:after {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  box-sizing: border-box;
+}
+body .opui-check-switch .opui-check-switch-inner:before, html .opui-check-switch .opui-check-switch-inner:before {
+  content: "ON";
+  padding-left: 15px;
+  background-color: #0063db;
+  color: white;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 700 !important;
+  line-height: 30px;
+}
+body .opui-check-switch .opui-check-switch-inner:after, html .opui-check-switch .opui-check-switch-inner:after {
+  content: "OFF";
+  padding-right: 12px;
+  background-color: white;
+  color: #6d767e;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+body .opui-check-switch .opui-check-switch-toggle, html .opui-check-switch .opui-check-switch-toggle {
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  background: white;
+  position: absolute;
+  top: 3px;
+  bottom: 0;
+  right: 39px;
+  border: 2px solid #0063db;
+  border-radius: 20px;
+  transition: all 0.3s ease-in 0s;
+}
+body .ops-onoffswitch-checkbox:checked + .ops-onoffswitch-label .ops-onoffswitch-inner, html .ops-onoffswitch-checkbox:checked + .ops-onoffswitch-label .ops-onoffswitch-inner {
+  margin-left: 0;
+}
+body .ops-onoffswitch-checkbox:checked + .ops-onoffswitch-label .ops-onoffswitch-switch, html .ops-onoffswitch-checkbox:checked + .ops-onoffswitch-label .ops-onoffswitch-switch {
+  right: 0px;
 }
 body .opui-me-auto, html .opui-me-auto {
   margin-right: auto !important;
@@ -16073,7 +16162,7 @@ body .opui-item-list ul > li .opui-right .opui-btn, body .opui-item-list ul .opu
   border-top-right-radius: calc(0.3rem - 1px);
 }
 
-.opui-modal-header .btn-close {
+.opui-modal-header .opui-btn-close {
   padding: 0.5rem 0.5rem;
   margin: -0.5rem -0.5rem -0.5rem auto;
 }
@@ -16306,18 +16395,18 @@ body .opui-item-list ul > li .opui-right .opui-btn, body .opui-item-list ul .opu
   margin: 0;
   padding: 0;
 }
-.opui-modal-header .opui-close-icon {
+.opui-modal-header .opui-close-icon, .opui-modal-header .opui-icon-close {
   position: absolute;
   top: 32px;
   right: 30px;
   cursor: pointer;
 }
-.opui-modal-header .opui-close-icon::before {
+.opui-modal-header .opui-close-icon::before, .opui-modal-header .opui-icon-close::before {
   transition: color linear 0.1s;
   color: #ccc;
   font-size: 14px;
 }
-.opui-modal-header .opui-close-icon:hover::before {
+.opui-modal-header .opui-close-icon:hover::before, .opui-modal-header .opui-icon-close:hover::before {
   color: #000;
 }
 
