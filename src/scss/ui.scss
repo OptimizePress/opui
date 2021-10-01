@@ -12,7 +12,13 @@
 // Bootstrap wrapped
 #{$opui-wrapper}, html {
     @import "bootstrap/root";
-    @import "bootstrap/type";
+
+    // Prefix typography to be used only in OP plugins
+    .op-plugin-app-container {
+        @import "bootstrap/type";
+    }
+
+    // Rest of bootstrap
     @import "bootstrap/images";
     @import "bootstrap/code";
     @import "bootstrap/grid";
@@ -63,6 +69,7 @@
     @import "components/cards";
     @import "components/badges";
     @import "components/navbar";
+    @import "components/check-switch";
     @import "general/utilities";
 
     // Screens
