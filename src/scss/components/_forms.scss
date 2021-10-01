@@ -18,3 +18,15 @@
     line-height: 100%;
     padding: 1rem 1.5rem;
 }
+
+.#{$op-prefix}form-check-input {
+    font-size: 18px;
+    width: 15px;
+    height: 15px;
+
+    &:checked::before {
+        margin: -1px 0 0 -2px;
+        height: 16px;
+        width: 16px;
+    }
+}
