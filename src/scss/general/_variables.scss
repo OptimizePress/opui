@@ -8,20 +8,20 @@ $opui-wrapper:   'body' !default;
 //$opui-gutter-y: 0.25rem;
 
 // Colors
-$color--opui-white: hsl(0, 0%, 100%); // #fff
-$color--opui-black: hsl(0, 0%, 0%); // #000
+$color--opui-white: hsl(0, 0%, 100%); // #ffffff
+$color--opui-black: hsl(0, 0%, 0%);   // #000000
 
 // Grays
-$color--opui-gray:      hsl(208, 7%, 46%); // #6c757d
-$color--opui-lightgray: hsl(216, 20%, 95%); //#f0f2f5;
-$color--opui-darkgray:  hsl(210, 9%, 31%); // #495057;
+$color--opui-gray:      hsl(208, 7%, 46%);  // #6c757d
+$color--opui-lightgray: hsl(216, 20%, 95%);  //#f0f2f5;
+$color--opui-darkgray:  hsl(210, 9%, 31%);  // #495057;
 $color--opui-gray100:   hsl(210, 17%, 98%); // #f8f9fa;
-$color--opui-gray200:   hsl(0, 0%, 93%); // #eee;
+$color--opui-gray200:   hsl(0, 0%, 93%);    // #eeeeee;
 $color--opui-gray300:   hsl(210, 14%, 83%); // #ced4da;
 $color--opui-gray400:   hsl(215, 16%, 72%); // #97A3B4;
 $color--opui-gray500:   hsl(207, 10%, 58%); // #8a96a0;
-$color--opui-gray600:   hsl(208, 7%, 46%); // #6c757d;
-$color--opui-gray700:   hsl(210, 9%, 31%); // #495057;
+$color--opui-gray600:   hsl(208, 7%, 46%);  // #6c757d;
+$color--opui-gray700:   hsl(210, 9%, 31%);  // #495057;
 $color--opui-gray800:   hsl(210, 10%, 23%); // #343a40;
 $color--opui-gray900:   hsl(210, 11%, 15%); // #212529;
 
@@ -29,15 +29,15 @@ $color--opui-gray900:   hsl(210, 11%, 15%); // #212529;
 $color--opui-blue:      hsl(213, 100%, 43%); // #0063d9;
 $color--opui-lightblue: hsl(213, 100%, 50%); // #0074ff;
 $color--opui-darkblue:  hsl(215, 100%, 38%); // #0051c3;
-$color--opui-blue100:   lighten($color--opui-blue, 35%);
-$color--opui-blue200:   lighten($color--opui-blue, 20%);
-$color--opui-blue300:   lighten($color--opui-blue, 10%);
-$color--opui-blue400:   $color--opui-blue;
-$color--opui-blue500:   darken($color--opui-blue, 5%);
-$color--opui-blue600:   $color--opui-darkblue;
-$color--opui-blue700:   darken($color--opui-blue, 12%);
-$color--opui-blue800:   darken($color--opui-blue, 20%);
-$color--opui-blue900:   darken($color--opui-blue, 35%);
+$color--opui-blue100:   hsl(213, 100%, 78%); // #8fc1ff
+$color--opui-blue200:   hsl(213, 100%, 63%); // #4297ff
+$color--opui-blue300:   hsl(213, 100%, 53%); // #0f7bff
+$color--opui-blue400:   $color--opui-blue;     // #0063db
+$color--opui-blue500:   hsl(213, 100%, 38%); // #0057c2
+$color--opui-blue600:   $color--opui-darkblue; // #0051c2
+$color--opui-blue700:   hsl(213, 100%, 31%); // #00479e
+$color--opui-blue800:   hsl(213, 100%, 23%); // #003575
+$color--opui-blue900:   hsl(214, 100%, 8%);  // #001229
 
 // Rainbow
 $color--opui-indigo:       hsl(263, 90%, 51%); // #6610f2;
@@ -62,7 +62,7 @@ $color--opui-light:     $color--opui-gray100;
 $color--opui-dark:      $color--opui-gray900;
 
 // Also define colors for Bootstrap
-$blue:     $color--opui-primary;
+$blue:     $color--opui-blue;
 $pink:     hsl(332, 79%, 58%); // #e83e8c !default;
 $red:      $color--opui-red;
 $orange:   hsl(27, 98%, 54%); // #fd7e14 !default;
@@ -72,7 +72,12 @@ $teal:     hsl(162, 73%, 46%); // #20c997 !default;
 $cyan:     $color--opui-blue300;
 $gray:     $color--opui-gray;
 $gray-100: $color--opui-gray100;
-$gray-300: $color--opui-gray200;
+$gray-200: $color--opui-gray200;
+$gray-300: $color--opui-gray300;
+$gray-400: $color--opui-gray400;
+$gray-500: $color--opui-gray500;
+$gray-600: $color--opui-gray600;
+$gray-700: $color--opui-gray700;
 $gray-800: $color--opui-gray800;
 
 // Grid
@@ -159,12 +164,12 @@ $spacers: map-merge(
     --#{$op-prefix}-blue900:  #{$color--opui-blue900};
 
     // Roles
-    --#{$op-prefix}-primary:   #{$color--opui-primary};
-    --#{$op-prefix}-secondary: #{$color--opui-secondary};
-    --#{$op-prefix}-success:   #{$color--opui-success};
-    --#{$op-prefix}-info:      #{$color--opui-info};
-    --#{$op-prefix}-warning:   #{$color--opui-warning};
-    --#{$op-prefix}-danger:    #{$color--opui-danger};
+    --#{$op-prefix}-primary:   #{$color--opui-blue};
+    --#{$op-prefix}-secondary: #{$color--opui-blue100};
+    --#{$op-prefix}-success:   #{$color--opui-bright-green};
+    --#{$op-prefix}-info:      #{$color--opui-blue300};
+    --#{$op-prefix}-warning:   #{$color--opui-yellow};
+    --#{$op-prefix}-danger:    #{$color--opui-red};
     --#{$op-prefix}-light:     #{$color--opui-gray100};
     --#{$op-prefix}-dark:      #{$color--opui-darkgray};
 }
