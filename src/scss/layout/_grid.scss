@@ -1,5 +1,9 @@
-div[class^='#{$op-prefix}col'], div[class*=' #{$op-prefix}ccol']{
+div[class^='#{$op-prefix}col'], div[class*=' #{$op-prefix}col'] {
     margin-bottom: $grid-gutter-height;
+}
+
+div[class^='#{$op-prefix}collapse'], div[class*=' #{$op-prefix}collapse'] {
+    margin-bottom: 0;
 }
 
 .#{$op-prefix}vertical-flex {
