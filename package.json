@@ -24,7 +24,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/OptimizePress/opui.git"
+        "url": "git+https://github.com/OptimizePress/opui.git"
     },
     "keywords": [
         "scss",
@@ -32,5 +32,14 @@
         "optimizepress",
         "wordpress",
         "components"
-    ]
+    ],
+    "bugs": {
+        "url": "https://github.com/OptimizePress/opui/issues"
+    },
+    "main": "webpack.mix.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "author": "Boris Strahija",
+    "license": "ISC"
 }
