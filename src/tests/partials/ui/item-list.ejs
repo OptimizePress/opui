@@ -13,7 +13,7 @@
             <h6>Memberships</h6>
             <ul>
                 <li>
-                    <a href="#/memberships/1" class="opui-d-flex opui-justify-content-between opui-align-items-center">
+                    <a href="#/memberships/1" class="opui-item opui-d-flex opui-justify-content-between opui-align-items-center">
                         <div class="opui-left">
                             <div class="opui-title">
                                 <h3>M001</h3>
@@ -28,7 +28,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#/memberships/1" class="opui-d-flex opui-justify-content-between opui-align-items-center">
+                    <a href="#/memberships/1" class="opui-item opui-d-flex opui-justify-content-between opui-align-items-center">
                         <div class="opui-left">
                             <div class="opui-title">
                                 <h3>M002</h3>
@@ -37,24 +37,40 @@
                         <div class="opui-right">
                             <div><i class="opui-icon-clone"></i></div>
                             <div><i class="opui-icon-trash"></i></div>
+                            <div class="opui-toggle-container" tabindex="0" aria-checked="false" role="switch">
+                                <input type="checkbox" id="toggle" name="toggle" value="true" style="display: none;">
+                                <div class="opui-toggle opui-toggle-off">
+                                    <span class="opui-toggle-handle opui-toggle-handle-off"></span>
+                                    <span class="opui-toggle-label">Off</span>
+                                </div>
+                            </div>
                             <div><span class="opui-btn opui-btn-primary opui-btn-small opui-btn-mini">Edit</span></div>
                         </div>
                     </a>
                 </li>
                 <li>
-                    <a href="#/memberships/1" class="opui-d-flex opui-justify-content-between opui-align-items-center">
+                    <div class="opui-item opui-d-flex opui-justify-content-between opui-align-items-center">
                         <div class="opui-left">
                             <div class="opui-title">
-                                <h3>M003</h3>
-                                <p>This is the item description</p>
+                                <a href="#/memberships/1">
+                                    <h3>M003</h3>
+                                    <p>This is the item description</p>
+                                </a>
                             </div>
                         </div>
                         <div class="opui-right">
                             <div><i class="opui-icon-clone"></i></div>
                             <div><i class="opui-icon-trash"></i></div>
+                            <div class="opui-toggle-container" tabindex="0" aria-checked="true" role="switch">
+                                <input type="checkbox" id="toggle" name="toggle" value="true" style="display: none;">
+                                <div class="opui-toggle opui-toggle-on">
+                                    <span class="opui-toggle-handle opui-toggle-handle-on"></span>
+                                    <span class="opui-toggle-label">On</span>
+                                </div>
+                            </div>
                             <div><span class="opui-btn opui-btn-primary opui-btn-small opui-btn-mini">Edit</span></div>
                         </div>
-                    </a>
+                    </div>
                 </li>
             </ul>
         </div>

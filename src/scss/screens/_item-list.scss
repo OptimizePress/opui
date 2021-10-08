@@ -15,11 +15,16 @@
         > li, .#{$op-prefix}item-list-item {
             margin-bottom: 6px;
 
-            a {
+            .#{$op-prefix}item {
                 color: $color--opui-black;
                 background-color: $color--opui-white;
                 height: 80px;
                 padding: 0 20px;
+                text-decoration: none;
+            }
+
+            a {
+                color: $color--opui-black;
                 text-decoration: none;
             }
 
@@ -45,6 +50,10 @@
                     margin: 2px 0 0 0;
                     color: $color--opui-gray400;
                 }
+            }
+
+            .#{$op-prefix}toggle-container {
+                margin-left: 5px;
             }
 
             .#{$op-prefix}right {
