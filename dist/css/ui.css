@@ -15788,6 +15788,50 @@ body .opui-2-col-settings-are-loading .opui-settings-sidenav nav ul li h3, html 
 body .opui-2-col-settings-are-loading .opui-settings-sidenav nav ul li span, html .opui-2-col-settings-are-loading .opui-settings-sidenav nav ul li span {
   width: 79%;
 }
+body .opui-2-col-settings-are-loading .opui-settings-main h2 span, html .opui-2-col-settings-are-loading .opui-settings-main h2 span {
+  position: relative;
+  top: 24px;
+  display: inline-block;
+  width: 40%;
+  height: 28px;
+}
+body .opui-2-col-settings-are-loading .opui-settings-main h2 span, body .opui-2-col-settings-are-loading .opui-settings-main label, body .opui-2-col-settings-are-loading .opui-settings-main .opui-btn, body .opui-2-col-settings-are-loading .opui-settings-main .opui-input-placeholder, body .opui-2-col-settings-are-loading .opui-settings-main .opui-form-text, html .opui-2-col-settings-are-loading .opui-settings-main h2 span, html .opui-2-col-settings-are-loading .opui-settings-main label, html .opui-2-col-settings-are-loading .opui-settings-main .opui-btn, html .opui-2-col-settings-are-loading .opui-settings-main .opui-input-placeholder, html .opui-2-col-settings-are-loading .opui-settings-main .opui-form-text {
+  text-indent: -9999px;
+  white-space: nowrap;
+  -webkit-animation-duration: 1.25s;
+          animation-duration: 1.25s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: skeleton-loading-shimmer;
+          animation-name: skeleton-loading-shimmer;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  background: #F6F6F6;
+  background: linear-gradient(to right, #ededed 8%, whitesmoke 18%, #ededed 33%);
+  background-size: 800px 104px;
+  position: relative;
+}
+body .opui-2-col-settings-are-loading .opui-settings-main label, html .opui-2-col-settings-are-loading .opui-settings-main label {
+  width: 85%;
+  height: 25px;
+}
+body .opui-2-col-settings-are-loading .opui-settings-main .opui-input-placeholder, html .opui-2-col-settings-are-loading .opui-settings-main .opui-input-placeholder {
+  width: 100%;
+  height: 45px;
+  border-radius: 4px;
+}
+body .opui-2-col-settings-are-loading .opui-settings-main .opui-form-text, html .opui-2-col-settings-are-loading .opui-settings-main .opui-form-text {
+  display: inline-block;
+  width: auto;
+  width: 65%;
+  height: 18px;
+}
+body .opui-2-col-settings-are-loading .opui-settings-main .opui-btn, html .opui-2-col-settings-are-loading .opui-settings-main .opui-btn {
+  width: 128px;
+  height: 44px;
+}
 body .opui-card, html .opui-card {
   background-color: white;
   box-shadow: 0px 4px 17px 0px rgba(56, 79, 134, 0.1);

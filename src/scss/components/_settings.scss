@@ -97,6 +97,8 @@
         }
     }
 
+
+    // Handle loading skeleton
     .#{$op-prefix}settings-sidenav {
         nav ul {
             li {
@@ -128,4 +130,54 @@
             }
         }
     }
+
+    .#{$op-prefix}settings-main {
+        h2 {
+            span {
+                position: relative;
+                top: 24px;
+                display: inline-block;
+                width: 40%;
+                height: 28px;
+            }
+        }
+
+        h2 span, label, .#{$op-prefix}btn, .#{$op-prefix}input-placeholder, .#{$op-prefix}form-text {
+            text-indent: -9999px;
+            white-space: nowrap;
+            animation-duration: 1.25s;
+            animation-fill-mode: forwards;
+            animation-iteration-count: infinite;
+            animation-name: skeleton-loading-shimmer;
+            animation-timing-function: linear;
+            background: #F6F6F6;
+            background: linear-gradient(to right, hsl(0, 0%, 93%) 8%, hsl(0, 0%, 96%) 18%, hsl(0, 0%, 93%) 33%);
+            background-size: 800px 104px;
+            position: relative;
+        }
+
+        label {
+            width: 85%;
+            height: 25px;
+        }
+
+        .#{$op-prefix}input-placeholder {
+            width: 100%;
+            height: 45px;
+            border-radius: 4px;
+        }
+
+        .#{$op-prefix}form-text {
+            display: inline-block;
+            width: auto;
+            width: 65%;
+            height: 18px;
+        }
+
+        .#{$op-prefix}btn {
+            width: 128px;
+            height: 44px;
+        }
+    }
+
 }
