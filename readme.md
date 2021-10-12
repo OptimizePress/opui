@@ -65,6 +65,10 @@ An example on how to use the script can be found in the **tests** directory:
 
 The function accepts an attribute for an API endpoint URL. This endpoint should be used to store the current fullscreen state.
 
+## Preview
+
+You can preview all components here: [Preview UI Components](https://op3demo.com/opui/tests/index.html)
+
 ## Contributing
 
 To contribute to the package, simply clone the repository, make you changes, build the assets, and make a pull request.
