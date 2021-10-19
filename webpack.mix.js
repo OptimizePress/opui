@@ -20,4 +20,5 @@ mix.copyDirectory('src/fonts', 'dist/fonts');
 mix.copy('src/tests/tests.css', 'dist/tests');
 mix.ejs('src/tests/index.ejs', 'dist/tests');
 mix.ejs('src/tests/bootstrap.ejs', 'dist/tests');
+mix.ejs('src/tests/icons.ejs', 'dist/tests');
 mix.ejs('src/tests/font-awesome.ejs', 'dist/tests');
