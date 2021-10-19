@@ -1,5 +1,6 @@
 @charset "UTF-8";
 :root {
+  --opui--font-family: Open Sans, sans-serif;
   --opui--white: white;
   --opui--black: black;
   --opui--gray: #6d767e;
@@ -15360,7 +15361,7 @@ html .opui-table-dark tbody + tbody {
     max-width: 1140px;
   }
 }
-body .opui-container, html .opui-container {
+body .opui-container, body .opui-plugin-container, html .opui-container, html .opui-plugin-container {
   font-family: "Open Sans", sans-serif;
 }
 body .opui-subline, body .opui-subtitle, body .opui-teaser, html .opui-subline, html .opui-subtitle, html .opui-teaser {

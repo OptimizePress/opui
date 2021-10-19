@@ -1,5 +1,5 @@
-.#{$op-prefix}container {
-    font-family: "Open Sans", sans-serif;
+.#{$op-prefix}container, .#{$op-prefix}plugin-container {
+    font-family: $font-family;
 }
 
 .#{$op-prefix}subline, .#{$op-prefix}subtitle, .#{$op-prefix}teaser {
