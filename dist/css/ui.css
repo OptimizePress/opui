@@ -15462,7 +15462,10 @@ body .opui-max-900, html .opui-max-900 {
 body .op-plugin-app-container a, html .op-plugin-app-container a {
   transition: color 150ms ease;
 }
-body .opui-btn.primary, html .opui-btn.primary {
+body .opui-btn-primary, html .opui-btn-primary {
+  color: white !important;
+}
+body .opui-btn-danger, html .opui-btn-danger {
   color: white !important;
 }
 body .opui-btn, body .opui-btn-default, html .opui-btn, html .opui-btn-default {
@@ -16058,6 +16061,168 @@ body .opui-me-sm-2, html .opui-me-sm-2 {
 }
 body .opui-float-end, html .opui-float-end {
   float: right !important;
+}
+body .opui-text-white, html .opui-text-white {
+  color: white;
+}
+body .opui-text-black, html .opui-text-black {
+  color: black;
+}
+body .opui-text-transparent, html .opui-text-transparent {
+  color: transparent;
+}
+body .opui-bg-white, html .opui-bg-white {
+  background-color: white;
+}
+body .opui-bg-black, html .opui-bg-black {
+  background-color: black;
+}
+body .opui-bg-transparent, html .opui-bg-transparent {
+  background-color: transparent;
+}
+body .opui-text-gray, html .opui-text-gray {
+  color: #6d767e;
+}
+body .opui-text-lightgray, html .opui-text-lightgray {
+  color: #f0f2f5;
+}
+body .opui-text-darkgray, html .opui-text-darkgray {
+  color: #484f56;
+}
+body .opui-text-gray-100, html .opui-text-gray-100 {
+  color: #f9fafb;
+}
+body .opui-text-gray-200, html .opui-text-gray-200 {
+  color: #ededed;
+}
+body .opui-text-gray-300, html .opui-text-gray-300 {
+  color: #ced4da;
+}
+body .opui-text-gray-400, html .opui-text-gray-400 {
+  color: #acb6c3;
+}
+body .opui-text-gray-500, html .opui-text-gray-500 {
+  color: #89959f;
+}
+body .opui-text-gray-600, html .opui-text-gray-600 {
+  color: #6d767e;
+}
+body .opui-text-gray-700, html .opui-text-gray-700 {
+  color: #484f56;
+}
+body .opui-text-gray-800, html .opui-text-gray-800 {
+  color: #353b41;
+}
+body .opui-text-gray-900, html .opui-text-gray-900 {
+  color: #22262a;
+}
+body .opui-bg-gray, html .opui-bg-gray {
+  background-color: #6d767e;
+}
+body .opui-bg-lightgray, html .opui-bg-lightgray {
+  background-color: #f0f2f5;
+}
+body .opui-bg-darkgray, html .opui-bg-darkgray {
+  background-color: #484f56;
+}
+body .opui-bg-gray-100, html .opui-bg-gray-100 {
+  background-color: #f9fafb;
+}
+body .opui-bg-gray-200, html .opui-bg-gray-200 {
+  background-color: #ededed;
+}
+body .opui-bg-gray-300, html .opui-bg-gray-300 {
+  background-color: #ced4da;
+}
+body .opui-bg-gray-400, html .opui-bg-gray-400 {
+  background-color: #acb6c3;
+}
+body .opui-bg-gray-500, html .opui-bg-gray-500 {
+  background-color: #89959f;
+}
+body .opui-bg-gray-600, html .opui-bg-gray-600 {
+  background-color: #6d767e;
+}
+body .opui-bg-gray-700, html .opui-bg-gray-700 {
+  background-color: #484f56;
+}
+body .opui-bg-gray-800, html .opui-bg-gray-800 {
+  background-color: #353b41;
+}
+body .opui-bg-gray-900, html .opui-bg-gray-900 {
+  background-color: #22262a;
+}
+body .opui-text-blue, html .opui-text-blue {
+  color: #0063db;
+}
+body .opui-text-lightblue, html .opui-text-lightblue {
+  color: #0073ff;
+}
+body .opui-text-darkblue, html .opui-text-darkblue {
+  color: #0051c2;
+}
+body .opui-text-blue-100, html .opui-text-blue-100 {
+  color: #8fc1ff;
+}
+body .opui-text-blue-200, html .opui-text-blue-200 {
+  color: #4297ff;
+}
+body .opui-text-blue-300, html .opui-text-blue-300 {
+  color: #0f7bff;
+}
+body .opui-text-blue-400, html .opui-text-blue-400 {
+  color: #0063db;
+}
+body .opui-text-blue-500, html .opui-text-blue-500 {
+  color: #0057c2;
+}
+body .opui-text-blue-600, html .opui-text-blue-600 {
+  color: #0051c2;
+}
+body .opui-text-blue-700, html .opui-text-blue-700 {
+  color: #00479e;
+}
+body .opui-text-blue-800, html .opui-text-blue-800 {
+  color: #003575;
+}
+body .opui-text-blue-900, html .opui-text-blue-900 {
+  color: #001229;
+}
+body .opui-bg-blue, html .opui-bg-blue {
+  background-color: #0063db;
+}
+body .opui-bg-lightblue, html .opui-bg-lightblue {
+  background-color: #0073ff;
+}
+body .opui-bg-darkblue, html .opui-bg-darkblue {
+  background-color: #0051c2;
+}
+body .opui-bg-blue-100, html .opui-bg-blue-100 {
+  background-color: #8fc1ff;
+}
+body .opui-bg-blue-200, html .opui-bg-blue-200 {
+  background-color: #4297ff;
+}
+body .opui-bg-blue-300, html .opui-bg-blue-300 {
+  background-color: #0f7bff;
+}
+body .opui-bg-blue-400, html .opui-bg-blue-400 {
+  background-color: #0063db;
+}
+body .opui-bg-blue-500, html .opui-bg-blue-500 {
+  background-color: #0057c2;
+}
+body .opui-bg-blue-600, html .opui-bg-blue-600 {
+  background-color: #0051c2;
+}
+body .opui-bg-blue-700, html .opui-bg-blue-700 {
+  background-color: #00479e;
+}
+body .opui-bg-blue-800, html .opui-bg-blue-800 {
+  background-color: #003575;
+}
+body .opui-bg-blue-900, html .opui-bg-blue-900 {
+  background-color: #001229;
 }
 body .opui-product-card, html .opui-product-card {
   min-height: 100%;

@@ -1,4 +1,8 @@
-.#{$op-prefix}btn.primary {
+.#{$op-prefix}btn-primary {
+    color: $color--opui-white !important;
+}
+
+.#{$op-prefix}btn-danger {
     color: $color--opui-white !important;
 }
 
