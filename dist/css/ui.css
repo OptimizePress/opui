@@ -16351,6 +16351,21 @@ body .opui-empty-list .opui-empty-list-media, html .opui-empty-list .opui-empty-
 body .opui-empty-list .opui-empty-list-media img, body .opui-empty-list .opui-empty-list-media svg, body .opui-empty-list .opui-empty-list-media iframe, body .opui-empty-list .opui-empty-list-media video, html .opui-empty-list .opui-empty-list-media img, html .opui-empty-list .opui-empty-list-media svg, html .opui-empty-list .opui-empty-list-media iframe, html .opui-empty-list .opui-empty-list-media video {
   max-width: 450px;
 }
+body .opui-empty-list .opui-empty-list-text h2, html .opui-empty-list .opui-empty-list-text h2 {
+  font-size: 32px;
+  margin-bottom: 18px;
+}
+body .opui-empty-list .opui-empty-list-text h3, html .opui-empty-list .opui-empty-list-text h3 {
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+body .opui-empty-list .opui-empty-list-text h4, html .opui-empty-list .opui-empty-list-text h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+body .opui-empty-list .opui-empty-list-text p, html .opui-empty-list .opui-empty-list-text p {
+  font-size: 18px;
+}
 body .opui-empty-list .opui-btn, html .opui-empty-list .opui-btn {
   padding: 11px 35px;
 }
