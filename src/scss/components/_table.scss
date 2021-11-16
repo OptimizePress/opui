@@ -1,0 +1,42 @@
+.#{$op-prefix}advanced-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+    width: 100%;
+
+    thead {
+        border-bottom: 1px solid $color--opui-gray200;
+
+        th {
+            background-color: $color--opui-gray100;
+            color: $color--opui-gray700;
+            text-align: left;
+            font-weight: bold;
+            padding: 20px;
+        }
+    }
+
+    tbody,
+    tfoot {
+        tr {
+            border-bottom: 1px solid $color--opui-gray200;
+
+            &.active-row {
+                font-weight: bold;
+                color: #009879;
+            }
+        }
+
+        th,
+        td {
+            font-size: 14px;
+            font-weight: normal;
+            padding: 20px;
+            color: $color--opui-gray600;
+        }
+    }
+}
