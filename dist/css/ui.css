@@ -16053,6 +16053,7 @@ body .opui-advanced-table, html .opui-advanced-table {
   overflow: hidden;
   box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
   width: 100%;
+  background-color: #fff;
 }
 body .opui-advanced-table thead, html .opui-advanced-table thead {
   border-bottom: 1px solid #ededed;
