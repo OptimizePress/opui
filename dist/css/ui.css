@@ -16044,6 +16044,50 @@ body .opui-toggle-label, html .opui-toggle-label {
       -ms-user-select: none;
           user-select: none;
 }
+body .opui-advanced-table, html .opui-advanced-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 14px;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  background-color: #fff;
+}
+body .opui-advanced-table thead, html .opui-advanced-table thead {
+  border-bottom: 1px solid #ededed;
+}
+body .opui-advanced-table thead th, html .opui-advanced-table thead th {
+  background-color: #f9fafb;
+  color: #484f56;
+  text-align: left;
+  font-weight: bold;
+  padding: 20px;
+}
+body .opui-advanced-table tbody tr,
+body .opui-advanced-table tfoot tr, html .opui-advanced-table tbody tr,
+html .opui-advanced-table tfoot tr {
+  border-bottom: 1px solid #ededed;
+}
+body .opui-advanced-table tbody tr.active-row,
+body .opui-advanced-table tfoot tr.active-row, html .opui-advanced-table tbody tr.active-row,
+html .opui-advanced-table tfoot tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+body .opui-advanced-table tbody th,
+body .opui-advanced-table tbody td,
+body .opui-advanced-table tfoot th,
+body .opui-advanced-table tfoot td, html .opui-advanced-table tbody th,
+html .opui-advanced-table tbody td,
+html .opui-advanced-table tfoot th,
+html .opui-advanced-table tfoot td {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 20px;
+  color: #6d767e;
+}
 body .opui-me-auto, html .opui-me-auto {
   margin-right: auto !important;
 }
