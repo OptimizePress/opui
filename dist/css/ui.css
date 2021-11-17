@@ -15675,6 +15675,17 @@ body .opui-title-w-icon h1 [class^=opui-icon], body .opui-title-w-icon h1 [class
   font-weight: 500;
   line-height: 1.2;
 }
+body .opui-header, html .opui-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+body .opui-header h1, body .opui-header h2, body .opui-header h3, body .opui-header h4, body .opui-header h5, body .opui-header h6, html .opui-header h1, html .opui-header h2, html .opui-header h3, html .opui-header h4, html .opui-header h5, html .opui-header h6 {
+  margin-bottom: 0;
+}
 body .opui-2-col-settings, html .opui-2-col-settings {
   display: flex;
   flex-wrap: wrap;
