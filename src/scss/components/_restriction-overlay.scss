@@ -36,8 +36,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: #fff;
-        box-shadow: 0 0 8px #0000000f;
+        background-color: $color--opui-white;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
         border-radius: 5px;
 
         .#{$op-prefix}message {
@@ -47,7 +47,7 @@
 
         .#{$op-prefix}description {
             font-size: 1.4rem;
-            color: gray;
+            color: $color--opui-gray500;
         }
     }
 
@@ -57,7 +57,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: #fbfbfd;
+        background: $color--opui-gray100;
         opacity: 0.9;
         z-index: 100;
     }
