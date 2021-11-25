@@ -15,20 +15,21 @@
     ul {
         display: flex;
         list-style-type: none;
-        padding: 12px 0;
+        padding: 2rem 0;
         margin: 0;
 
         li {
             position: relative;
-            font-size: 16px;
-            padding: 0px 24px;
+            font-size: 1.4rem;
+            padding: 0px 2.4rem;
+            margin: 0;
 
             &:first-child {
-                padding-left: 0px;
+                padding-left: 0;
             }
 
             &:last-child {
-                padding-right: 0px;
+                padding-right: 0;
             }
 
             &.active > a {
@@ -37,7 +38,7 @@
 
             a {
                 color: inherit;
-                padding: 16px 0px;
+                padding: 2rem 0px;
                 text-decoration: none;
             }
 
@@ -46,14 +47,14 @@
                 height: 50px;
                 position: absolute;
                 z-index: 2;
-                top: -12px;
-                left: -12px;
+                top: -1.2rem;
+                left: -1.2rem;
                 cursor: pointer;
                 opacity: 0;
 
                 ~ ul li .opui-nested-navigation {
                     top: 0;
-                    left: calc(100% + 20px);
+                    left: calc(100% + 2rem);
                 }
 
                 &:checked ~ .#{$op-prefix}nested-navigation {
@@ -64,9 +65,9 @@
 
             .#{$op-prefix}nested-navigation {
                 position: absolute;
-                top: calc(100% + 13px);
+                top: calc(100% + 1.3rem);
                 display: none;
-                padding: 0 20px;
+                padding: 0 2rem;
                 z-index: 1000;
                 background: #fff;
                 text-align: left;

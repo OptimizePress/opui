@@ -15900,26 +15900,27 @@ body .opui-navigation, html .opui-navigation {
 body .opui-navigation ul, html .opui-navigation ul {
   display: flex;
   list-style-type: none;
-  padding: 12px 0;
+  padding: 2rem 0;
   margin: 0;
 }
 body .opui-navigation ul li, html .opui-navigation ul li {
   position: relative;
-  font-size: 16px;
-  padding: 0px 24px;
+  font-size: 1.4rem;
+  padding: 0px 2.4rem;
+  margin: 0;
 }
 body .opui-navigation ul li:first-child, html .opui-navigation ul li:first-child {
-  padding-left: 0px;
+  padding-left: 0;
 }
 body .opui-navigation ul li:last-child, html .opui-navigation ul li:last-child {
-  padding-right: 0px;
+  padding-right: 0;
 }
 body .opui-navigation ul li.active > a, html .opui-navigation ul li.active > a {
   border-bottom: 2px solid #0063db;
 }
 body .opui-navigation ul li a, html .opui-navigation ul li a {
   color: inherit;
-  padding: 16px 0px;
+  padding: 2rem 0px;
   text-decoration: none;
 }
 body .opui-navigation ul li .opui-nested-input[type=checkbox], html .opui-navigation ul li .opui-nested-input[type=checkbox] {
@@ -15927,14 +15928,14 @@ body .opui-navigation ul li .opui-nested-input[type=checkbox], html .opui-naviga
   height: 50px;
   position: absolute;
   z-index: 2;
-  top: -12px;
-  left: -12px;
+  top: -1.2rem;
+  left: -1.2rem;
   cursor: pointer;
   opacity: 0;
 }
 body .opui-navigation ul li .opui-nested-input[type=checkbox] ~ ul li .opui-nested-navigation, html .opui-navigation ul li .opui-nested-input[type=checkbox] ~ ul li .opui-nested-navigation {
   top: 0;
-  left: calc(100% + 20px);
+  left: calc(100% + 2rem);
 }
 body .opui-navigation ul li .opui-nested-input[type=checkbox]:checked ~ .opui-nested-navigation, html .opui-navigation ul li .opui-nested-input[type=checkbox]:checked ~ .opui-nested-navigation {
   display: flex;
@@ -15942,9 +15943,9 @@ body .opui-navigation ul li .opui-nested-input[type=checkbox]:checked ~ .opui-ne
 }
 body .opui-navigation ul li .opui-nested-navigation, html .opui-navigation ul li .opui-nested-navigation {
   position: absolute;
-  top: calc(100% + 13px);
+  top: calc(100% + 1.3rem);
   display: none;
-  padding: 0 20px;
+  padding: 0 2rem;
   z-index: 1000;
   background: #fff;
   text-align: left;
@@ -16132,7 +16133,7 @@ body .opui-advanced-table, html .opui-advanced-table {
   min-width: 400px;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05);
   width: 100%;
   background-color: #fff;
 }
@@ -16140,7 +16141,7 @@ body .opui-advanced-table thead, html .opui-advanced-table thead {
   border-bottom: 1px solid #ededed;
 }
 body .opui-advanced-table thead th, html .opui-advanced-table thead th {
-  background-color: #f9fafb;
+  background-color: #f7f7f8;
   color: #484f56;
   text-align: left;
   font-weight: bold;
@@ -16168,6 +16169,140 @@ html .opui-advanced-table tfoot td {
   font-weight: normal;
   padding: 20px;
   color: #6d767e;
+}
+body .opui-advanced-table tbody th a,
+body .opui-advanced-table tbody td a,
+body .opui-advanced-table tfoot th a,
+body .opui-advanced-table tfoot td a, html .opui-advanced-table tbody th a,
+html .opui-advanced-table tbody td a,
+html .opui-advanced-table tfoot th a,
+html .opui-advanced-table tfoot td a {
+  color: inherit;
+  cursor: pointer;
+}
+body .opui-advanced-table tbody th i,
+body .opui-advanced-table tbody td i,
+body .opui-advanced-table tfoot th i,
+body .opui-advanced-table tfoot td i, html .opui-advanced-table tbody th i,
+html .opui-advanced-table tbody td i,
+html .opui-advanced-table tfoot th i,
+html .opui-advanced-table tfoot td i {
+  color: #b0b0b0;
+}
+body .opui-advanced-table tbody th .opui-pagination,
+body .opui-advanced-table tbody td .opui-pagination,
+body .opui-advanced-table tfoot th .opui-pagination,
+body .opui-advanced-table tfoot td .opui-pagination, html .opui-advanced-table tbody th .opui-pagination,
+html .opui-advanced-table tbody td .opui-pagination,
+html .opui-advanced-table tfoot th .opui-pagination,
+html .opui-advanced-table tfoot td .opui-pagination {
+  float: right;
+  margin-bottom: 0;
+}
+body .opui-advanced-table tbody th .opui-pagination .opui-page-item,
+body .opui-advanced-table tbody td .opui-pagination .opui-page-item,
+body .opui-advanced-table tfoot th .opui-pagination .opui-page-item,
+body .opui-advanced-table tfoot td .opui-pagination .opui-page-item, html .opui-advanced-table tbody th .opui-pagination .opui-page-item,
+html .opui-advanced-table tbody td .opui-pagination .opui-page-item,
+html .opui-advanced-table tfoot th .opui-pagination .opui-page-item,
+html .opui-advanced-table tfoot td .opui-pagination .opui-page-item {
+  margin-bottom: 0;
+}
+body .opui-advanced-table tbody th .opui-pagination .opui-page-item.active span,
+body .opui-advanced-table tbody td .opui-pagination .opui-page-item.active span,
+body .opui-advanced-table tfoot th .opui-pagination .opui-page-item.active span,
+body .opui-advanced-table tfoot td .opui-pagination .opui-page-item.active span, html .opui-advanced-table tbody th .opui-pagination .opui-page-item.active span,
+html .opui-advanced-table tbody td .opui-pagination .opui-page-item.active span,
+html .opui-advanced-table tfoot th .opui-pagination .opui-page-item.active span,
+html .opui-advanced-table tfoot td .opui-pagination .opui-page-item.active span {
+  color: #4249ff;
+}
+body .opui-advanced-table tbody th .opui-pagination .opui-page-item .opui-page-link,
+body .opui-advanced-table tbody td .opui-pagination .opui-page-item .opui-page-link,
+body .opui-advanced-table tfoot th .opui-pagination .opui-page-item .opui-page-link,
+body .opui-advanced-table tfoot td .opui-pagination .opui-page-item .opui-page-link, html .opui-advanced-table tbody th .opui-pagination .opui-page-item .opui-page-link,
+html .opui-advanced-table tbody td .opui-pagination .opui-page-item .opui-page-link,
+html .opui-advanced-table tfoot th .opui-pagination .opui-page-item .opui-page-link,
+html .opui-advanced-table tfoot td .opui-pagination .opui-page-item .opui-page-link {
+  border: 0;
+  background-color: transparent;
+  color: inherit;
+}
+body .opui-advanced-table tbody th select,
+body .opui-advanced-table tbody td select,
+body .opui-advanced-table tfoot th select,
+body .opui-advanced-table tfoot td select, html .opui-advanced-table tbody th select,
+html .opui-advanced-table tbody td select,
+html .opui-advanced-table tfoot th select,
+html .opui-advanced-table tfoot td select {
+  border: 0;
+  color: inherit;
+  outline: none;
+  box-shadow: none;
+}
+body .opui-restriction h1,
+body .opui-restriction h2,
+body .opui-restriction h3,
+body .opui-restriction h4,
+body .opui-restriction h5,
+body .opui-restriction td,
+body .opui-restriction th,
+body .opui-restriction p, html .opui-restriction h1,
+html .opui-restriction h2,
+html .opui-restriction h3,
+html .opui-restriction h4,
+html .opui-restriction h5,
+html .opui-restriction td,
+html .opui-restriction th,
+html .opui-restriction p {
+  opacity: 0.4 !important;
+}
+body .opui-restriction-overlay, html .opui-restriction-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  z-index: 101;
+}
+body .opui-restriction-overlay .opui-restriction-content, html .opui-restriction-overlay .opui-restriction-content {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  height: 200px;
+  z-index: 101;
+  text-align: center;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+body .opui-restriction-overlay .opui-restriction-content .opui-message, html .opui-restriction-overlay .opui-restriction-content .opui-message {
+  font-weight: normal;
+  font-size: 1.9rem;
+}
+body .opui-restriction-overlay .opui-restriction-content .opui-description, html .opui-restriction-overlay .opui-restriction-content .opui-description {
+  font-size: 1.4rem;
+  color: #89959f;
+}
+body .opui-restriction-overlay .opui-restriction-overlay-background, html .opui-restriction-overlay .opui-restriction-overlay-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f9fafb;
+  opacity: 0.9;
+  z-index: 100;
 }
 body .opui-me-auto, html .opui-me-auto {
   margin-right: auto !important;
@@ -16280,6 +16415,9 @@ body .opui-bg-gray-900, html .opui-bg-gray-900 {
 body .opui-text-blue, html .opui-text-blue {
   color: #0063db;
 }
+body .opui-text-blue2, html .opui-text-blue2 {
+  color: #4249ff;
+}
 body .opui-text-lightblue, html .opui-text-lightblue {
   color: #0073ff;
 }
@@ -16315,6 +16453,9 @@ body .opui-text-blue-900, html .opui-text-blue-900 {
 }
 body .opui-bg-blue, html .opui-bg-blue {
   background-color: #0063db;
+}
+body .opui-bg-blue-2, html .opui-bg-blue-2 {
+  background-color: #4249ff;
 }
 body .opui-bg-lightblue, html .opui-bg-lightblue {
   background-color: #0073ff;
