@@ -1180,12 +1180,30 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th scope="row" colspan="2">
-                        Rows Per Page
-                        <select name="" id="">
-                            <option value="10">5</option>
-                            <option value="10">10</option>
+                    <th scope="row" colspan="8">
+                        Rows per page                
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <select name="per_pg" id="per_pg">
+                                <option value="5">5</option>
+                                <option value="10" selected="selected">10</option>
+                                <option value="15">15</option>
                         </select>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        1 - 10 of 15                
+                        <ul class="opui-pagination opui-justify-content-center" role="navigation">
+                            <li class="opui-page-item" disabled"="" aria-disabled="true" aria-label="Previous">
+                                <span class="opui-page-link" aria-hidden="true">‹</span>
+                            </li>
+                            <li class="opui-page-item active" aria-current="page">
+                                <span class="opui-page-link">1</span>
+                            </li>
+                            <li class="opui-page-item">
+                                <a class="opui-page-link" href="https://wp.local/wp-admin/admin.php?page=op-dashboard-conversions&amp;op-conversions-group=leads&amp;pg=2">2</a>
+                            </li>
+                            <li class="opui-page-item">
+                                <a class="opui-page-link" href="https://wp.local/wp-admin/admin.php?page=op-dashboard-conversions&amp;op-conversions-group=leads&amp;pg=2" rel="next" aria-label="Next">›</a>
+                            </li>
+                        </ul>
                     </th>
                 </tr>
             </tfoot>
