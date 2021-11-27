@@ -1,2 +1,9 @@
 @import "general/variables";
 @import "bootstrap/bootstrap-reboot";
+
+.op-plugin-app-container {
+    a {
+        outline: none;
+        box-shadow: none;
+    }
+}

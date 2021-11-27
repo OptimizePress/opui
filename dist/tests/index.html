@@ -34,17 +34,12 @@
             </ul>
             <ul class="opui-navbar-nav opui-ms-md-auto">
                 <li class="opui-nav-item">
-                    <a target="_blank" rel="noopener" class="opui-nav-link" href="#"><i class="fa fa-github"></i> GitHub</a>
-                </li>
-                <li class="opui-nav-item">
-                    <a target="_blank" rel="noopener" class="opui-nav-link" href="#"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a target="_blank" rel="noopener" class="opui-nav-link" href="https://github.com/OptimizePress/opui"><i class="fa fa-github"></i> GitHub</a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
-<link rel="stylesheet" href="tests.css">
-
 
 
 <div class="op-plugin-app-container opui-plugin-container">
@@ -107,7 +102,6 @@
         </div>
     </div>
 </main>
-
 
 
         <div class="opui-bs-docs-section clearfix">
@@ -1127,6 +1121,253 @@
     </div>
 </div>
 
+
+        <div class="opui-bs-docs-section clearfix">
+    <div class="opui-row">
+        <div class="opui-col-lg-12">
+            <div class="opui-page-header">
+                <h1>Table</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="opui-main opui-main-auto">
+    <div class="opui-p-5">
+        <table class="opui-advanced-table">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" /></th>
+                    <th>Contact Email</th>
+                    <th>Name</th>
+                    <th>Date/Time</th>
+                    <th>Page URL</th>
+                    <th>Form ID</th>
+                    <th>Integration</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>info@optimizepress.com</td>
+                    <td>Optimizepress</td>
+                    <td>Nov, 10 2012</td>
+                    <td>/test-page</td>
+                    <td>t8a123ls</td>
+                    <td>email</td>
+                    <td>Link</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>info@optimizepress.com</td>
+                    <td>Optimizepress</td>
+                    <td>Nov, 10 2012</td>
+                    <td>/test-page</td>
+                    <td>t8a123ls</td>
+                    <td>email</td>
+                    <td>Link</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>info@optimizepress.com</td>
+                    <td>Optimizepress</td>
+                    <td>Sep, 10 2012</td>
+                    <td>/test-page</td>
+                    <td>t8a123ls</td>
+                    <td>email</td>
+                    <td>Link</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="8">
+                        Rows per page                
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        <select name="per_pg" id="per_pg">
+                                <option value="5">5</option>
+                                <option value="10" selected="selected">10</option>
+                                <option value="15">15</option>
+                        </select>
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        1 - 10 of 15                
+                        <ul class="opui-pagination opui-justify-content-center" role="navigation">
+                            <li class="opui-page-item" disabled"="" aria-disabled="true" aria-label="Previous">
+                                <span class="opui-page-link" aria-hidden="true">‹</span>
+                            </li>
+                            <li class="opui-page-item active" aria-current="page">
+                                <span class="opui-page-link">1</span>
+                            </li>
+                            <li class="opui-page-item">
+                                <a class="opui-page-link" href="https://wp.local/wp-admin/admin.php?page=op-dashboard-conversions&amp;op-conversions-group=leads&amp;pg=2">2</a>
+                            </li>
+                            <li class="opui-page-item">
+                                <a class="opui-page-link" href="https://wp.local/wp-admin/admin.php?page=op-dashboard-conversions&amp;op-conversions-group=leads&amp;pg=2" rel="next" aria-label="Next">›</a>
+                            </li>
+                        </ul>
+                    </th>
+                </tr>
+            </tfoot>
+        </table> 
+    </div>
+</main>
+
+
+        <div class="opui-bs-docs-section clearfix">
+    <div class="opui-row">
+        <div class="opui-col-lg-12">
+            <div class="opui-page-header">
+                <h1>Header</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="opui-main opui-main-auto">
+    <div class="opui-p-5">
+        <header class="opui-header">
+            <h2>Title</h2>
+        </header> 
+    </div>
+</main>
+
+
+        <div class="opui-bs-docs-section clearfix">
+    <div class="opui-row">
+        <div class="opui-col-lg-12">
+            <div class="opui-page-header">
+                <h1>Navigation</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="opui-main opui-main-auto">
+    <div class="opui-p-5">
+        <nav class="opui-navigation">
+            <ul>
+                <li class="active">
+                    <input class="opui-nested-input" type="checkbox" checked="checked">
+                    <a href="">Plugins</a>
+                    <ul class="opui-nested-navigation">
+                        <li class=""><a href="#" title="Dashboard"><span>Dashboard</span></a></li>
+                        <li class=""><a href="#" title="Checkouts"><span>Checkouts</span></a></li>
+                        <li class="">
+                            <input class="opui-nested-input" type="checkbox" checked="checked">
+                            <a href="#" title="Funnels"><span>Funnels</span></a>
+                            <ul class="opui-nested-navigation">
+                                <li class=""><a href="#" title="Dashboard"><span>Dashboard</span></a></li>
+                                <li class=""><a href="#" title="Checkouts"><span>Checkouts</span></a></li>
+                                <li class=""><a href="#" title="Funnels"><span>Funnels</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Leads</a></li>
+                <li><a href="">Report</a></li>
+                <li><a href="">Setings</a></li>
+            </ul>
+        </nav>
+        </br>
+        <nav class="opui-navigation opui-justify-content-end">
+            <ul>
+                <li><a href="">Conversion Dashboard</a></li>
+                <li><a href="">Leads</a></li>
+                <li><a href="">Report</a></li>
+                <li class="active"><a href="#">Setings</a></li>
+            </ul>
+        </nav>
+        </br>
+        <nav class="opui-navigation opui-justify-content-center">
+            <ul>
+                <li><a href="">Conversion Dashboard</a></li>
+                <li><a href="">Leads</a></li>
+                <li class="active"><a href="">Report</a></li>
+                <li><a href="">Setings</a></li>
+            </ul>
+        </nav>
+    </div>
+</main>
+
+
+        <div class="opui-bs-docs-section clearfix">
+    <div class="opui-row">
+        <div class="opui-col-lg-12">
+            <div class="opui-page-header">
+                <h1>Restriction Overlay</h1>
+            </div>
+        </div>
+    </div>
+</div>
+<main class="opui-main opui-main-auto">
+    <div class="opui-p-5 opui-position-relative">
+        <table class="opui-advanced-table opui-restriction">
+            <thead>
+                <tr>
+                    <th><input type="checkbox" /></th>
+                    <th>Contact Email</th>
+                    <th>Name</th>
+                    <th>Date/Time</th>
+                    <th>Page URL</th>
+                    <th>Form ID</th>
+                    <th>Integration</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>info@optimizepress.com</td>
+                    <td>Optimizepress</td>
+                    <td>Nov, 10 2012</td>
+                    <td>/test-page</td>
+                    <td>t8a123ls</td>
+                    <td>email</td>
+                    <td>Link</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>info@optimizepress.com</td>
+                    <td>Optimizepress</td>
+                    <td>Nov, 10 2012</td>
+                    <td>/test-page</td>
+                    <td>t8a123ls</td>
+                    <td>email</td>
+                    <td>Link</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" /></td>
+                    <td>info@optimizepress.com</td>
+                    <td>Optimizepress</td>
+                    <td>Sep, 10 2012</td>
+                    <td>/test-page</td>
+                    <td>t8a123ls</td>
+                    <td>email</td>
+                    <td>Link</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th scope="row" colspan="2">
+                        Rows Per Page
+                        <select name="" id="">
+                            <option value="10">5</option>
+                            <option value="10">10</option>
+                        </select>
+                    </th>
+                </tr>
+            </tfoot>
+        </table> 
+        <div class="opui-restriction-overlay">
+            <div class="opui-restriction-content">
+                <p class="opui-message opui-mb-4">Conversions stats are available as part of the Suite plan</p>
+                <p class="opui-description opui-mb-4">Upgrade your plan to see your site conversion stats</p>
+                <div>
+                    <a class="opui-btn opui-text-white opui-bg-blue-2" href="https://www.optimizepress.com/pricing/" target="_blank">Upgrade to Suite</a>
+                </div>
+            </div>
+            <div class="opui-restriction-overlay-background"></div>
+        </div> 
+    </div>
+</main>
+
     </div>
 </div>
 
@@ -1136,14 +1377,10 @@
             <div class="opui-col-lg-12">
                 <ul class="opui-list-unstyled">
                     <li class="opui-float-end"><a href="#top">Back to top</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">GitHub</a></li>
-                    <li><a href="#">API</a></li>
-                    <li><a href="#">Donate</a></li>
+                    <li><a href="https://github.com/OptimizePress/opui">GitHub</a></li>
                 </ul>
                 <p>Made by <a href="https://optimizepress.com/">OptimizePress</a>.</p>
                 <p>Based on <a href="https://getbootstrap.com/" rel="nofollow">Bootstrap</a>. </p>
-
             </div>
         </div>
     </footer>
