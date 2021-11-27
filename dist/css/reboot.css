@@ -356,3 +356,8 @@ template {
 [hidden] {
   display: none !important;
 }
+
+.op-plugin-app-container a {
+  outline: none;
+  box-shadow: none;
+}

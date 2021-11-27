@@ -1,0 +1,80 @@
+.#{$op-prefix}advanced-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 14px;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    background-color: #fff;
+
+    thead {
+        border-bottom: 1px solid $color--opui-gray200;
+
+        th {
+            background-color: #f7f7f8;
+            color: $color--opui-gray700;
+            text-align: left;
+            font-weight: bold;
+            padding: 20px;
+        }
+    }
+
+    tbody,
+    tfoot {
+        tr {
+            border-bottom: 1px solid $color--opui-gray200;
+
+            &.active-row {
+                font-weight: bold;
+                color: #009879;
+            }
+        }
+
+        th,
+        td {
+            font-size: 14px;
+            font-weight: normal;
+            padding: 20px;
+            color: $color--opui-gray600;
+
+            a {
+                color: inherit;
+                cursor: pointer;
+            }
+
+            i {
+                color: #b0b0b0;
+            }
+
+            .#{$op-prefix}pagination {
+                float: right;
+                margin-bottom: 0;
+
+                .#{$op-prefix}page-item {
+                    margin-bottom: 0;
+
+                    &.active {
+                        span {
+                            color: $color--opui-blue2;
+                        }
+                    }
+
+                    .#{$op-prefix}page-link {
+                        border: 0;
+                        background-color: transparent;
+                        color: inherit;
+                    }
+                }
+            }
+
+            select {
+                border: 0;
+                color: inherit;
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+}
