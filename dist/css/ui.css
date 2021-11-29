@@ -15529,12 +15529,16 @@ body .opui-top-menu, html .opui-top-menu {
   box-sizing: border-box;
   margin-bottom: 25px;
 }
-body .opui-top-menu ul, body .opui-top-menu li, html .opui-top-menu ul, html .opui-top-menu li {
+body .opui-top-menu ul,
+body .opui-top-menu li, html .opui-top-menu ul,
+html .opui-top-menu li {
   margin: 0;
   padding: 0;
   position: relative;
 }
-body .opui-top-menu ul a, body .opui-top-menu li a, html .opui-top-menu ul a, html .opui-top-menu li a {
+body .opui-top-menu ul a,
+body .opui-top-menu li a, html .opui-top-menu ul a,
+html .opui-top-menu li a {
   color: #89959f;
   text-decoration: none;
   font-size: 14px;
@@ -15543,7 +15547,9 @@ body .opui-top-menu .opui-logo, html .opui-top-menu .opui-logo {
   display: inline-block;
   height: 35px;
 }
-body .opui-top-menu .opui-logo [class^=opui-icon], body .opui-top-menu .opui-logo [class*=" opui-icon"], html .opui-top-menu .opui-logo [class^=opui-icon], html .opui-top-menu .opui-logo [class*=" opui-icon"] {
+body .opui-top-menu .opui-logo [class^=opui-icon],
+body .opui-top-menu .opui-logo [class*=" opui-icon"], html .opui-top-menu .opui-logo [class^=opui-icon],
+html .opui-top-menu .opui-logo [class*=" opui-icon"] {
   font-size: 35px;
   line-height: 35px;
 }
@@ -15580,7 +15586,9 @@ body .opui-top-menu .opui-right ul li a span, html .opui-top-menu .opui-right ul
   font-size: 14px;
   padding-left: 35px;
 }
-body .opui-top-menu .opui-right ul li a [class^=opui-icon], body .opui-top-menu .opui-right ul li a [class*=" opui-icon"], html .opui-top-menu .opui-right ul li a [class^=opui-icon], html .opui-top-menu .opui-right ul li a [class*=" opui-icon"] {
+body .opui-top-menu .opui-right ul li a [class^=opui-icon],
+body .opui-top-menu .opui-right ul li a [class*=" opui-icon"], html .opui-top-menu .opui-right ul li a [class^=opui-icon],
+html .opui-top-menu .opui-right ul li a [class*=" opui-icon"] {
   font-size: 25px;
   line-height: 25px;
   height: 25px;
@@ -15667,7 +15675,29 @@ body .opui-title-w-icon h6, html .opui-title-w-icon h6 {
 body .opui-title-w-icon p.opui-teaser, html .opui-title-w-icon p.opui-teaser {
   font-size: 18px;
 }
-body .opui-title-w-icon h1 [class^=opui-icon], body .opui-title-w-icon h1 [class*=" opui-icon"], body .opui-title-w-icon h2 [class^=opui-icon], body .opui-title-w-icon h2 [class*=" opui-icon"], body .opui-title-w-icon h3 [class^=opui-icon], body .opui-title-w-icon h3 [class*=" opui-icon"], body .opui-title-w-icon h4 [class^=opui-icon], body .opui-title-w-icon h4 [class*=" opui-icon"], body .opui-title-w-icon h5 [class^=opui-icon], body .opui-title-w-icon h5 [class*=" opui-icon"], body .opui-title-w-icon h6 [class^=opui-icon], body .opui-title-w-icon h6 [class*=" opui-icon"], html .opui-title-w-icon h1 [class^=opui-icon], html .opui-title-w-icon h1 [class*=" opui-icon"], html .opui-title-w-icon h2 [class^=opui-icon], html .opui-title-w-icon h2 [class*=" opui-icon"], html .opui-title-w-icon h3 [class^=opui-icon], html .opui-title-w-icon h3 [class*=" opui-icon"], html .opui-title-w-icon h4 [class^=opui-icon], html .opui-title-w-icon h4 [class*=" opui-icon"], html .opui-title-w-icon h5 [class^=opui-icon], html .opui-title-w-icon h5 [class*=" opui-icon"], html .opui-title-w-icon h6 [class^=opui-icon], html .opui-title-w-icon h6 [class*=" opui-icon"] {
+body .opui-title-w-icon h1 [class^=opui-icon],
+body .opui-title-w-icon h1 [class*=" opui-icon"],
+body .opui-title-w-icon h2 [class^=opui-icon],
+body .opui-title-w-icon h2 [class*=" opui-icon"],
+body .opui-title-w-icon h3 [class^=opui-icon],
+body .opui-title-w-icon h3 [class*=" opui-icon"],
+body .opui-title-w-icon h4 [class^=opui-icon],
+body .opui-title-w-icon h4 [class*=" opui-icon"],
+body .opui-title-w-icon h5 [class^=opui-icon],
+body .opui-title-w-icon h5 [class*=" opui-icon"],
+body .opui-title-w-icon h6 [class^=opui-icon],
+body .opui-title-w-icon h6 [class*=" opui-icon"], html .opui-title-w-icon h1 [class^=opui-icon],
+html .opui-title-w-icon h1 [class*=" opui-icon"],
+html .opui-title-w-icon h2 [class^=opui-icon],
+html .opui-title-w-icon h2 [class*=" opui-icon"],
+html .opui-title-w-icon h3 [class^=opui-icon],
+html .opui-title-w-icon h3 [class*=" opui-icon"],
+html .opui-title-w-icon h4 [class^=opui-icon],
+html .opui-title-w-icon h4 [class*=" opui-icon"],
+html .opui-title-w-icon h5 [class^=opui-icon],
+html .opui-title-w-icon h5 [class*=" opui-icon"],
+html .opui-title-w-icon h6 [class^=opui-icon],
+html .opui-title-w-icon h6 [class*=" opui-icon"] {
   color: #0063db;
   display: inline-block;
   vertical-align: middle;
@@ -15677,14 +15707,29 @@ body .opui-title-w-icon h1 [class^=opui-icon], body .opui-title-w-icon h1 [class
 }
 body .opui-header, html .opui-header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 32px;
   border-bottom: 1px solid #eee;
   background-color: #fff;
 }
-body .opui-header h1, body .opui-header h2, body .opui-header h3, body .opui-header h4, body .opui-header h5, body .opui-header h6, html .opui-header h1, html .opui-header h2, html .opui-header h3, html .opui-header h4, html .opui-header h5, html .opui-header h6 {
+body .opui-header h1,
+body .opui-header h2,
+body .opui-header h3,
+body .opui-header h4,
+body .opui-header h5,
+body .opui-header h6, html .opui-header h1,
+html .opui-header h2,
+html .opui-header h3,
+html .opui-header h4,
+html .opui-header h5,
+html .opui-header h6 {
   margin-bottom: 0;
+}
+body .opui-header .opui-header-helplink, html .opui-header .opui-header-helplink {
+  font-size: 1.6rem;
+  color: #89959f;
+  margin-left: 1.6rem;
+  text-decoration: none;
 }
 body .opui-2-col-settings, html .opui-2-col-settings {
   display: flex;
@@ -15916,7 +15961,7 @@ body .opui-navigation ul li:last-child, html .opui-navigation ul li:last-child {
   padding-right: 0;
 }
 body .opui-navigation ul li.active > a, html .opui-navigation ul li.active > a {
-  border-bottom: 2px solid #0063db;
+  border-bottom: 2px solid #4249ff;
 }
 body .opui-navigation ul li a, html .opui-navigation ul li a {
   color: inherit;
