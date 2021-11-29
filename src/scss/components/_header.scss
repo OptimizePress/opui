@@ -6,7 +6,8 @@
     box-sizing: border-box;
     margin-bottom: 25px;
 
-    ul, li {
+    ul,
+    li {
         margin: 0;
         padding: 0;
         position: relative;
@@ -22,7 +23,8 @@
         display: inline-block;
         height: 35px;
 
-        [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
+        [class^="#{$op-prefix}icon"],
+        [class*=" #{$op-prefix}icon"] {
             font-size: 35px;
             line-height: 35px;
         }
@@ -65,7 +67,8 @@
                         padding-left: 35px;
                     }
 
-                    [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
+                    [class^="#{$op-prefix}icon"],
+                    [class*=" #{$op-prefix}icon"] {
                         font-size: 25px;
                         line-height: 25px;
                         height: 25px;
@@ -178,8 +181,14 @@
         font-size: 18px;
     }
 
-    h1, h2, h3, h4, h5, h6 {
-        [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        [class^="#{$op-prefix}icon"],
+        [class*=" #{$op-prefix}icon"] {
             color: $color--opui-blue;
             display: inline-block;
             vertical-align: middle;
@@ -192,13 +201,24 @@
 
 .#{$op-prefix}header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 32px;
     border-bottom: 1px solid #eee;
     background-color: #fff;
 
-    h1, h2, h3, h4, h5, h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
         margin-bottom: 0;
+    }
+
+    .#{$op-prefix}header-helplink {
+        font-size: 1.6rem;
+        color: $color--opui-gray500;
+        margin-left: 1.6rem;
+        text-decoration: none;
     }
 }
