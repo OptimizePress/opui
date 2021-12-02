@@ -15602,6 +15602,10 @@ body .op-plugin-app-container a, html .op-plugin-app-container a {
 body .opui-btn-primary, html .opui-btn-primary {
   color: white !important;
 }
+body .opui-btn-admin, html .opui-btn-admin {
+  color: white !important;
+  background: #4249ff !important;
+}
 body .opui-btn-danger, html .opui-btn-danger {
   color: white !important;
 }
@@ -16673,7 +16677,7 @@ body .opui-bg-gray-900, html .opui-bg-gray-900 {
 body .opui-text-blue, html .opui-text-blue {
   color: #0063db;
 }
-body .opui-text-blue2, html .opui-text-blue2 {
+body .opui-text-blue-2, html .opui-text-blue-2 {
   color: #4249ff;
 }
 body .opui-text-lightblue, html .opui-text-lightblue {
