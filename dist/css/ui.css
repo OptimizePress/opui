@@ -3447,6 +3447,7 @@ body :root, html :root {
   --danger: #dc3848;
   --light: #f9fafb;
   --dark: #353b41;
+  --admin: #4349ff;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -4930,6 +4931,30 @@ body .opui-table-hover .opui-table-dark:hover > th, html .opui-table-hover .opui
 html .opui-table-hover .opui-table-dark:hover > th {
   background-color: #b9bbbe;
 }
+body .opui-table-admin,
+body .opui-table-admin > th,
+body .opui-table-admin > td, html .opui-table-admin,
+html .opui-table-admin > th,
+html .opui-table-admin > td {
+  background-color: #caccff;
+}
+body .opui-table-admin th,
+body .opui-table-admin td,
+body .opui-table-admin thead th,
+body .opui-table-admin tbody + tbody, html .opui-table-admin th,
+html .opui-table-admin td,
+html .opui-table-admin thead th,
+html .opui-table-admin tbody + tbody {
+  border-color: #9da0ff;
+}
+body .opui-table-hover .opui-table-admin:hover, html .opui-table-hover .opui-table-admin:hover {
+  background-color: #b1b3ff;
+}
+body .opui-table-hover .opui-table-admin:hover > td,
+body .opui-table-hover .opui-table-admin:hover > th, html .opui-table-hover .opui-table-admin:hover > td,
+html .opui-table-hover .opui-table-admin:hover > th {
+  background-color: #b1b3ff;
+}
 body .opui-table-active,
 body .opui-table-active > th,
 body .opui-table-active > td, html .opui-table-active,
@@ -5725,6 +5750,35 @@ body .opui-btn-dark:not(:disabled):not(.disabled):active, body .opui-btn-dark:no
 body .opui-btn-dark:not(:disabled):not(.disabled):active:focus, body .opui-btn-dark:not(:disabled):not(.disabled).active:focus, .show > body .opui-btn-dark.opui-dropdown-toggle:focus, html .opui-btn-dark:not(:disabled):not(.disabled):active:focus, html .opui-btn-dark:not(:disabled):not(.disabled).active:focus, .show > html .opui-btn-dark.opui-dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(83, 88, 94, 0.5);
 }
+body .opui-btn-admin, html .opui-btn-admin {
+  color: #fff;
+  background-color: #4349ff;
+  border-color: #4349ff;
+}
+body .opui-btn-admin:hover, html .opui-btn-admin:hover {
+  color: #fff;
+  background-color: #1d24ff;
+  border-color: #1018ff;
+}
+body .opui-btn-admin:focus, body .opui-btn-admin.focus, html .opui-btn-admin:focus, html .opui-btn-admin.focus {
+  color: #fff;
+  background-color: #1d24ff;
+  border-color: #1018ff;
+  box-shadow: 0 0 0 0.2rem rgba(95, 100, 255, 0.5);
+}
+body .opui-btn-admin.disabled, body .opui-btn-admin:disabled, html .opui-btn-admin.disabled, html .opui-btn-admin:disabled {
+  color: #fff;
+  background-color: #4349ff;
+  border-color: #4349ff;
+}
+body .opui-btn-admin:not(:disabled):not(.disabled):active, body .opui-btn-admin:not(:disabled):not(.disabled).active, .show > body .opui-btn-admin.opui-dropdown-toggle, html .opui-btn-admin:not(:disabled):not(.disabled):active, html .opui-btn-admin:not(:disabled):not(.disabled).active, .show > html .opui-btn-admin.opui-dropdown-toggle {
+  color: #fff;
+  background-color: #1018ff;
+  border-color: #030bff;
+}
+body .opui-btn-admin:not(:disabled):not(.disabled):active:focus, body .opui-btn-admin:not(:disabled):not(.disabled).active:focus, .show > body .opui-btn-admin.opui-dropdown-toggle:focus, html .opui-btn-admin:not(:disabled):not(.disabled):active:focus, html .opui-btn-admin:not(:disabled):not(.disabled).active:focus, .show > html .opui-btn-admin.opui-dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(95, 100, 255, 0.5);
+}
 body .opui-btn-outline-primary, html .opui-btn-outline-primary {
   color: #0063db;
   border-color: #0063db;
@@ -5916,6 +5970,30 @@ body .opui-btn-outline-dark:not(:disabled):not(.disabled):active, body .opui-btn
 }
 body .opui-btn-outline-dark:not(:disabled):not(.disabled):active:focus, body .opui-btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > body .opui-btn-outline-dark.opui-dropdown-toggle:focus, html .opui-btn-outline-dark:not(:disabled):not(.disabled):active:focus, html .opui-btn-outline-dark:not(:disabled):not(.disabled).active:focus, .show > html .opui-btn-outline-dark.opui-dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(53, 59, 65, 0.5);
+}
+body .opui-btn-outline-admin, html .opui-btn-outline-admin {
+  color: #4349ff;
+  border-color: #4349ff;
+}
+body .opui-btn-outline-admin:hover, html .opui-btn-outline-admin:hover {
+  color: #fff;
+  background-color: #4349ff;
+  border-color: #4349ff;
+}
+body .opui-btn-outline-admin:focus, body .opui-btn-outline-admin.focus, html .opui-btn-outline-admin:focus, html .opui-btn-outline-admin.focus {
+  box-shadow: 0 0 0 0.2rem rgba(67, 73, 255, 0.5);
+}
+body .opui-btn-outline-admin.disabled, body .opui-btn-outline-admin:disabled, html .opui-btn-outline-admin.disabled, html .opui-btn-outline-admin:disabled {
+  color: #4349ff;
+  background-color: transparent;
+}
+body .opui-btn-outline-admin:not(:disabled):not(.disabled):active, body .opui-btn-outline-admin:not(:disabled):not(.disabled).active, .show > body .opui-btn-outline-admin.opui-dropdown-toggle, html .opui-btn-outline-admin:not(:disabled):not(.disabled):active, html .opui-btn-outline-admin:not(:disabled):not(.disabled).active, .show > html .opui-btn-outline-admin.opui-dropdown-toggle {
+  color: #fff;
+  background-color: #4349ff;
+  border-color: #4349ff;
+}
+body .opui-btn-outline-admin:not(:disabled):not(.disabled):active:focus, body .opui-btn-outline-admin:not(:disabled):not(.disabled).active:focus, .show > body .opui-btn-outline-admin.opui-dropdown-toggle:focus, html .opui-btn-outline-admin:not(:disabled):not(.disabled):active:focus, html .opui-btn-outline-admin:not(:disabled):not(.disabled).active:focus, .show > html .opui-btn-outline-admin.opui-dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(67, 73, 255, 0.5);
 }
 body .opui-btn-link, html .opui-btn-link {
   font-weight: 400;
@@ -7989,6 +8067,19 @@ abody .opui-badge-dark:focus, abody .opui-badge-dark.focus, html .opui-badge-dar
   box-shadow: 0 0 0 0.2rem rgba(53, 59, 65, 0.5);
 }
 
+body .opui-badge-admin, html .opui-badge-admin {
+  color: #fff;
+  background-color: #4349ff;
+}
+abody .opui-badge-admin:hover, abody .opui-badge-admin:focus, html .opui-badge-admin:hover, html .opui-badge-admin:focus {
+  color: #fff;
+  background-color: #1018ff;
+}
+abody .opui-badge-admin:focus, abody .opui-badge-admin.focus, html .opui-badge-admin:focus, html .opui-badge-admin.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(67, 73, 255, 0.5);
+}
+
 body .opui-jumbotron, html .opui-jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
@@ -8116,6 +8207,17 @@ body .opui-alert-dark hr, html .opui-alert-dark hr {
 }
 body .opui-alert-dark .opui-alert-link, html .opui-alert-dark .opui-alert-link {
   color: #050606;
+}
+body .opui-alert-admin, html .opui-alert-admin {
+  color: #232685;
+  background-color: #d9dbff;
+  border-color: #caccff;
+}
+body .opui-alert-admin hr, html .opui-alert-admin hr {
+  border-top-color: #b1b3ff;
+}
+body .opui-alert-admin .opui-alert-link, html .opui-alert-admin .opui-alert-link {
+  color: #181a5d;
 }
 @-webkit-keyframes progress-bar-stripes {
   from {
@@ -8488,6 +8590,19 @@ body .opui-list-group-item-dark.opui-list-group-item-action.active, html .opui-l
   color: #fff;
   background-color: #1c1f22;
   border-color: #1c1f22;
+}
+body .opui-list-group-item-admin, html .opui-list-group-item-admin {
+  color: #232685;
+  background-color: #caccff;
+}
+body .opui-list-group-item-admin.opui-list-group-item-action:hover, body .opui-list-group-item-admin.opui-list-group-item-action:focus, html .opui-list-group-item-admin.opui-list-group-item-action:hover, html .opui-list-group-item-admin.opui-list-group-item-action:focus {
+  color: #232685;
+  background-color: #b1b3ff;
+}
+body .opui-list-group-item-admin.opui-list-group-item-action.active, html .opui-list-group-item-admin.opui-list-group-item-action.active {
+  color: #fff;
+  background-color: #232685;
+  border-color: #232685;
 }
 body .opui-close, html .opui-close {
   float: right;
@@ -9135,6 +9250,16 @@ html button.opui-bg-dark:hover,
 html button.opui-bg-dark:focus {
   background-color: #1e2124 !important;
 }
+body .opui-bg-admin, html .opui-bg-admin {
+  background-color: #4349ff !important;
+}
+body a.opui-bg-admin:hover, body a.opui-bg-admin:focus,
+body button.opui-bg-admin:hover,
+body button.opui-bg-admin:focus, html a.opui-bg-admin:hover, html a.opui-bg-admin:focus,
+html button.opui-bg-admin:hover,
+html button.opui-bg-admin:focus {
+  background-color: #1018ff !important;
+}
 body .opui-bg-white, html .opui-bg-white {
   background-color: #fff !important;
 }
@@ -9194,6 +9319,9 @@ body .opui-border-light, html .opui-border-light {
 }
 body .opui-border-dark, html .opui-border-dark {
   border-color: #353b41 !important;
+}
+body .opui-border-admin, html .opui-border-admin {
+  border-color: #4349ff !important;
 }
 body .opui-border-white, html .opui-border-white {
   border-color: #fff !important;
@@ -15036,6 +15164,12 @@ body .opui-text-dark, html .opui-text-dark {
 body a.opui-text-dark:hover, body a.opui-text-dark:focus, html a.opui-text-dark:hover, html a.opui-text-dark:focus {
   color: #121416 !important;
 }
+body .opui-text-admin, html .opui-text-admin {
+  color: #4349ff !important;
+}
+body a.opui-text-admin:hover, body a.opui-text-admin:focus, html a.opui-text-admin:hover, html a.opui-text-admin:focus {
+  color: #0008f6 !important;
+}
 body .opui-text-body, html .opui-text-body {
   color: #212529 !important;
 }
@@ -15467,10 +15601,6 @@ body .op-plugin-app-container a, html .op-plugin-app-container a {
 }
 body .opui-btn-primary, html .opui-btn-primary {
   color: white !important;
-}
-body .opui-btn-admin, html .opui-btn-admin {
-  color: white !important;
-  background: #4249ff !important;
 }
 body .opui-btn-danger, html .opui-btn-danger {
   color: white !important;
