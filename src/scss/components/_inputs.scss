@@ -1,0 +1,57 @@
+.#{$op-prefix}checkbox-label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 3.2rem;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    user-select: none;
+    font-size: 1.6rem;
+    line-height: 1;
+
+    .#{$op-prefix}checkbox {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+
+        &:checked {
+            ~ .#{$op-prefix}checkmark {
+                background-color: $color--opui-blue2;
+                border-color: $color--opui-blue2;
+                box-shadow: 0 0 0 2px rgba($color--opui-blue2, 0.2);
+
+                &:after {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .#{$op-prefix}checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 1.6rem;
+        width: 1.6rem;
+        background-color: transparent;
+        border: 2px solid $color--opui-gray400;
+        border-radius: 3px;
+        transition: background-color 0.15s ease-in-out,
+            border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+        &::after {
+            content: "";
+            position: absolute;
+            display: none;
+            left: 4px;
+            top: 0;
+            width: 5px;
+            height: 10px;
+            border: solid white;
+            border-width: 0 3px 3px 0;
+            transform: rotate(45deg);
+        }
+    }
+}

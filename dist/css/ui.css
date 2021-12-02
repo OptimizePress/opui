@@ -15389,6 +15389,9 @@ body .op-plugin-app-container, html .op-plugin-app-container {
   margin-left: 0;
   font-size: 2.56rem;
 }
+body .op-plugin-app-container *, html .op-plugin-app-container * {
+  box-sizing: border-box;
+}
 body .opui-main, html .opui-main {
   background-color: #fbfbfd;
   min-height: 100vh;
@@ -15465,31 +15468,55 @@ body .op-plugin-app-container a, html .op-plugin-app-container a {
 body .opui-btn-primary, html .opui-btn-primary {
   color: white !important;
 }
+body .opui-btn-admin, html .opui-btn-admin {
+  color: white !important;
+  background: #4249ff !important;
+}
 body .opui-btn-danger, html .opui-btn-danger {
   color: white !important;
 }
-body .opui-btn, body .opui-btn-default, html .opui-btn, html .opui-btn-default {
+body .opui-btn,
+body .opui-btn-default, html .opui-btn,
+html .opui-btn-default {
   font-size: 13px;
   display: inline-block;
   padding: 11px 22px;
 }
-body .opui-btn-sm, body .opui-btn-group-sm > .opui-btn, body .opui-btn-small, html .opui-btn-sm, html .opui-btn-group-sm > .opui-btn, html .opui-btn-small {
+body .opui-btn-sm, body .opui-btn-group-sm > .opui-btn,
+body .opui-btn-small, html .opui-btn-sm, html .opui-btn-group-sm > .opui-btn,
+html .opui-btn-small {
   font-size: 14px;
   padding: 8px 14px;
 }
-body .opui-btn-md, body .opui-btn-medium, html .opui-btn-md, html .opui-btn-medium {
+body .opui-btn-md,
+body .opui-btn-medium, html .opui-btn-md,
+html .opui-btn-medium {
   font-size: 18px;
   padding: 12px 16px;
 }
-body .opui-btn-lg, body .opui-btn-group-lg > .opui-btn, body .opui-btn-large, html .opui-btn-lg, html .opui-btn-group-lg > .opui-btn, html .opui-btn-large {
+body .opui-btn-lg, body .opui-btn-group-lg > .opui-btn,
+body .opui-btn-large, html .opui-btn-lg, html .opui-btn-group-lg > .opui-btn,
+html .opui-btn-large {
   font-size: 20px;
   padding: 15px 28px;
 }
-body .opui-btn-xs, body .opui-btn-xsm, body .opui-btn-xsmall, body .opui-btn-mini, html .opui-btn-xs, html .opui-btn-xsm, html .opui-btn-xsmall, html .opui-btn-mini {
+body .opui-btn-xs,
+body .opui-btn-xsm,
+body .opui-btn-xsmall,
+body .opui-btn-mini, html .opui-btn-xs,
+html .opui-btn-xsm,
+html .opui-btn-xsmall,
+html .opui-btn-mini {
   font-size: 12px;
   padding: 5px 15px;
 }
-body .opui-btn-xl, body .opui-btn-xlg, body .opui-btn-xlargel, body .opui-btn-mega, html .opui-btn-xl, html .opui-btn-xlg, html .opui-btn-xlargel, html .opui-btn-mega {
+body .opui-btn-xl,
+body .opui-btn-xlg,
+body .opui-btn-xlargel,
+body .opui-btn-mega, html .opui-btn-xl,
+html .opui-btn-xlg,
+html .opui-btn-xlargel,
+html .opui-btn-mega {
   font-size: 24px;
   padding: 20px 32px;
 }
@@ -15504,6 +15531,7 @@ body .opui-opui-form form label, body .opui-form-group label, body label.opui-fo
   color: black;
   padding: 11px 0;
   margin-bottom: 0.5rem;
+  display: inline-block;
 }
 body .opui-form-control, html .opui-form-control {
   font-size: 16px;
@@ -15633,6 +15661,7 @@ body .opui-top-menu .opui-right-static .opui-fullscreen-btn .opui-icon-fullscree
   vertical-align: middle;
 }
 body .opui-submenu, html .opui-submenu {
+  background-color: white;
   border-bottom: 2px solid #f0f2f5;
 }
 body .opui-submenu h1, html .opui-submenu h1 {
@@ -15769,6 +15798,7 @@ body .opui-2-col-settings .opui-settings-sidenav nav ul li h3, html .opui-2-col-
   padding: 0 0 5px 30px;
   position: relative;
   line-height: initial;
+  margin: 0 0 5px 0;
 }
 body .opui-2-col-settings .opui-settings-sidenav nav ul li h3 [class^=opui-icon], body .opui-2-col-settings .opui-settings-sidenav nav ul li h3 [class*=" opui-icon"], html .opui-2-col-settings .opui-settings-sidenav nav ul li h3 [class^=opui-icon], html .opui-2-col-settings .opui-settings-sidenav nav ul li h3 [class*=" opui-icon"] {
   position: absolute;
@@ -15800,6 +15830,7 @@ body .opui-2-col-settings .opui-settings-main h2, html .opui-2-col-settings .opu
   font-size: 20px;
   font-weight: 600;
   line-height: 74px;
+  margin: 0 0 5px 0;
 }
 body .opui-2-col-settings .opui-settings-main .opui-settings-container, html .opui-2-col-settings .opui-settings-main .opui-settings-container {
   padding: 35px 50px 0 50px;
@@ -16284,6 +16315,58 @@ html .opui-advanced-table tfoot td select {
   color: inherit;
   outline: none;
   box-shadow: none;
+}
+body .opui-checkbox-label, html .opui-checkbox-label {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-left: 3.2rem;
+  margin-bottom: 1.2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 1.6rem;
+  line-height: 1;
+}
+body .opui-checkbox-label .opui-checkbox, html .opui-checkbox-label .opui-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+body .opui-checkbox-label .opui-checkbox:checked ~ .opui-checkmark, html .opui-checkbox-label .opui-checkbox:checked ~ .opui-checkmark {
+  background-color: #4249ff;
+  border-color: #4249ff;
+  box-shadow: 0 0 0 2px rgba(66, 73, 255, 0.2);
+}
+body .opui-checkbox-label .opui-checkbox:checked ~ .opui-checkmark:after, html .opui-checkbox-label .opui-checkbox:checked ~ .opui-checkmark:after {
+  display: block;
+}
+body .opui-checkbox-label .opui-checkmark, html .opui-checkbox-label .opui-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.6rem;
+  width: 1.6rem;
+  background-color: transparent;
+  border: 2px solid #acb6c3;
+  border-radius: 3px;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+body .opui-checkbox-label .opui-checkmark::after, html .opui-checkbox-label .opui-checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 4px;
+  top: 0;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
 }
 body .opui-restriction h1,
 body .opui-restriction h2,
