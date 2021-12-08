@@ -15602,10 +15602,6 @@ body .op-plugin-app-container a, html .op-plugin-app-container a {
 body .opui-btn-primary, html .opui-btn-primary {
   color: white !important;
 }
-body .opui-btn-admin, html .opui-btn-admin {
-  color: white !important;
-  background: #4249ff !important;
-}
 body .opui-btn-danger, html .opui-btn-danger {
   color: white !important;
 }
@@ -15954,12 +15950,13 @@ body .opui-2-col-settings .opui-settings-sidenav nav ul li.selected h3, html .op
   color: #0073ff;
 }
 body .opui-2-col-settings .opui-settings-main, html .opui-2-col-settings .opui-settings-main {
-  background: white;
+  background: #f9fafb;
   width: calc(100% - 300px);
   box-sizing: border-box;
 }
 body .opui-2-col-settings .opui-settings-main h2, html .opui-2-col-settings .opui-settings-main h2 {
   padding: 0 0 0 50px;
+  background-color: white;
   border-bottom: 1px solid #f0f2f5;
   font-size: 20px;
   font-weight: 600;
@@ -16502,6 +16499,18 @@ body .opui-checkbox-label .opui-checkmark::after, html .opui-checkbox-label .opu
   border-width: 0 3px 3px 0;
   transform: rotate(45deg);
 }
+body .opui-select, html .opui-select {
+  font-size: 1.4rem;
+  line-height: 2;
+  border: none;
+  background-color: #f4f4f5;
+  padding: 0.3rem 2rem 0.3rem 0.5rem;
+  border-bottom: 2px solid #ced4da;
+  border-radius: 0;
+  color: #22262a;
+  outline: none;
+  box-shadow: none;
+}
 body .opui-restriction h1,
 body .opui-restriction h2,
 body .opui-restriction h3,
@@ -16649,6 +16658,9 @@ body .opui-bg-darkgray, html .opui-bg-darkgray {
 }
 body .opui-bg-gray-100, html .opui-bg-gray-100 {
   background-color: #f9fafb;
+}
+body .opui-bg-gray-150, html .opui-bg-gray-150 {
+  background-color: #f4f4f5;
 }
 body .opui-bg-gray-200, html .opui-bg-gray-200 {
   background-color: #ededed;
