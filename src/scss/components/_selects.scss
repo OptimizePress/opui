@@ -1,0 +1,12 @@
+.#{$op-prefix}select {
+    font-size: 1.4rem;
+    line-height: 2;
+    border: none;
+    background-color: $color--opui-gray150;
+    padding: 0.3rem 2rem 0.3rem 0.5rem;
+    border-bottom: 2px solid $color--opui-gray300;
+    border-radius: 0;
+    color: $color--opui-gray900;
+    outline: none;
+    box-shadow: none;
+}

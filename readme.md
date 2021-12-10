@@ -12,9 +12,9 @@ Or to use FontAwesome:
 
 ## Installation
 
-To install the package you need to run the following command **(NOT YET TESTED!)**:
+To install the package you need to run the following command:
 
-    npm install git+https://github.com/OptimizePress/opui.git
+    npm install optimizepress-ui
 
 ## WordPress
 
@@ -24,10 +24,10 @@ To use the package inside an OptimizePress plugin, the best way is to use Larave
     mix.sass('resources/scss/app.scss', 'public/assets/css')
     mix.js(['resources/js/app.js'], 'public/assets/js')
 
-Inside your **app.scss** you simply need to include the UI like this **(THE IMPORT PATH WILL BE CHANGED WHEN PACKAGE IS READY)**:
+Inside your **app.scss** you simply need to include the UI like this:
 
     $opui-wrapper: '#wpbody';
-    @import '../vendor/opui/src/scss/ui';
+    @import '~optimizepress-ui/src/scss/ui';
 
 The **$opui-wrapper** is required because WordPress loads some style of its own, and to keep everything consistent we need to wrap all the classes.
 

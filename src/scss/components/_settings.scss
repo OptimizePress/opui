@@ -38,6 +38,7 @@
                     padding: 0 0 5px 30px;
                     position: relative;
                     line-height: initial;
+                    margin: 0 0 5px 0;
 
                     [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
                         position: absolute;
@@ -67,16 +68,18 @@
     }
 
     .#{$op-prefix}settings-main {
-        background: $color--opui-white;
+        background: $color--opui-gray100;
         width: calc(100% - 300px);
         box-sizing: border-box;
 
         h2 {
             padding: 0 0 0 50px;
+            background-color: $color--opui-white;
             border-bottom: 1px solid $color--opui-lightgray;
             font-size: 20px;
             font-weight: 600;
             line-height: 74px;
+            margin: 0 0 5px 0;
         }
 
         .#{$op-prefix}settings-container {

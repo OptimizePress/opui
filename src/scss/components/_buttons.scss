@@ -6,33 +6,43 @@
     color: $color--opui-white !important;
 }
 
-.#{$op-prefix}btn, .#{$op-prefix}btn-default {
+.#{$op-prefix}btn,
+.#{$op-prefix}btn-default {
     font-size: 13px;
     display: inline-block;
     padding: 11px 22px;
 }
 
-.#{$op-prefix}btn-sm, .#{$op-prefix}btn-small {
+.#{$op-prefix}btn-sm,
+.#{$op-prefix}btn-small {
     font-size: 14px;
     padding: 8px 14px;
 }
 
-.#{$op-prefix}btn-md, .#{$op-prefix}btn-medium {
+.#{$op-prefix}btn-md,
+.#{$op-prefix}btn-medium {
     font-size: 18px;
     padding: 12px 16px;
 }
 
-.#{$op-prefix}btn-lg, .#{$op-prefix}btn-large {
+.#{$op-prefix}btn-lg,
+.#{$op-prefix}btn-large {
     font-size: 20px;
     padding: 15px 28px;
 }
 
-.#{$op-prefix}btn-xs, .#{$op-prefix}btn-xsm, .#{$op-prefix}btn-xsmall, .#{$op-prefix}btn-mini{
+.#{$op-prefix}btn-xs,
+.#{$op-prefix}btn-xsm,
+.#{$op-prefix}btn-xsmall,
+.#{$op-prefix}btn-mini {
     font-size: 12px;
     padding: 5px 15px;
 }
 
-.#{$op-prefix}btn-xl, .#{$op-prefix}btn-xlg, .#{$op-prefix}btn-xlargel, .#{$op-prefix}btn-mega {
+.#{$op-prefix}btn-xl,
+.#{$op-prefix}btn-xlg,
+.#{$op-prefix}btn-xlargel,
+.#{$op-prefix}btn-mega {
     font-size: 24px;
     padding: 20px 32px;
 }

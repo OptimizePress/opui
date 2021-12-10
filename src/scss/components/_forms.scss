@@ -5,11 +5,17 @@
     color: $color--opui-gray400;
 }
 
+.opui-form-control:focus {
+    border-color: $color--opui-gray900;
+    box-shadow: none;
+}
+
 .#{$op-prefix}opui-form form label, .#{$op-prefix}form-group label, label.#{$op-prefix}form-label {
     font-size: 15px;
     color: $color--opui-black;
     padding: 11px 0;
     margin-bottom: 0.5rem;
+    display: inline-block;
 }
 
 .#{$op-prefix}form-control {

@@ -129,6 +129,7 @@
 }
 
 .#{$op-prefix}submenu {
+    background-color: $color--opui-white;
     border-bottom: 2px solid $color--opui-lightgray;
 
     h1 {
