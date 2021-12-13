@@ -6,6 +6,7 @@
   --opui--gray: #6d767e;
   --opui--darkgray: #484f56;
   --opui--gray100: #f9fafb;
+  --opui--gray150: #f4f4f5;
   --opui--gray200: #ededed;
   --opui--gray300: #ced4da;
   --opui--gray400: #acb6c3;
@@ -15,7 +16,9 @@
   --opui--gray800: #353b41;
   --opui--gray900: #22262a;
   --opui--blue: #0063db;
+  --opui--blue2: #4249ff;
   --opui--darkblue: #0051c2;
+  --opui--lightblue: #0073ff;
   --opui--blue100: #8fc1ff;
   --opui--blue200: #4297ff;
   --opui--blue300: #0f7bff;
@@ -25,6 +28,7 @@
   --opui--blue700: #00479e;
   --opui--blue800: #003575;
   --opui--blue900: #001229;
+  --opui--logo: #4249ff;
   --opui--primary: #0063db;
   --opui--secondary: #8fc1ff;
   --opui--success: #00d688;
@@ -33,6 +37,16 @@
   --opui--danger: #dc3848;
   --opui--light: #f9fafb;
   --opui--dark: #484f56;
+  --opui--indigo: #6812f3;
+  --opui--purple: #6f42c2;
+  --opui--pink: #d73385;
+  --opui--red: #dc3848;
+  --opui--orange: #fd7e17;
+  --opui--yellow: #ffc105;
+  --opui--green: #00d688;
+  --opui--bright-green: #00d688;
+  --opui--teal: #20cb98;
+  --opui--cyan: #0dccf2;
 }
 
 /*!
@@ -15656,6 +15670,10 @@ body .opui-form-text, html .opui-form-text {
   margin: 12px 0;
   color: #acb6c3;
 }
+body .opui-form-control:focus, html .opui-form-control:focus {
+  border-color: #22262a;
+  box-shadow: none;
+}
 body .opui-opui-form form label, body .opui-form-group label, body label.opui-form-label, html .opui-opui-form form label, html .opui-form-group label, html label.opui-form-label {
   font-size: 15px;
   color: black;
@@ -16692,6 +16710,9 @@ body .opui-text-blue, html .opui-text-blue {
 body .opui-text-blue-2, html .opui-text-blue-2 {
   color: #4249ff;
 }
+body .opui-text-logo, html .opui-text-logo {
+  color: #4249ff;
+}
 body .opui-text-lightblue, html .opui-text-lightblue {
   color: #0073ff;
 }
@@ -16731,6 +16752,9 @@ body .opui-bg-blue, html .opui-bg-blue {
 body .opui-bg-blue-2, html .opui-bg-blue-2 {
   background-color: #4249ff;
 }
+body .opui-bg-logo, html .opui-bg-logo {
+  background-color: #4249ff;
+}
 body .opui-bg-lightblue, html .opui-bg-lightblue {
   background-color: #0073ff;
 }
@@ -16763,6 +16787,69 @@ body .opui-bg-blue-800, html .opui-bg-blue-800 {
 }
 body .opui-bg-blue-900, html .opui-bg-blue-900 {
   background-color: #001229;
+}
+body .opui-text-indigo, html .opui-text-indigo {
+  color: #6812f3;
+}
+body .opui-text-purple, html .opui-text-purple {
+  color: #6f42c2;
+}
+body .opui-text-pink, html .opui-text-pink {
+  color: #d73385;
+}
+body .opui-text-red, html .opui-text-red {
+  color: #dc3848;
+}
+body .opui-text-orange, html .opui-text-orange {
+  color: #fd7e17;
+}
+body .opui-text-yellow, html .opui-text-yellow {
+  color: #ffc105;
+}
+body .opui-text-green, html .opui-text-green {
+  color: #00d688;
+}
+body .opui-text-bright-green, html .opui-text-bright-green {
+  color: #00d688;
+}
+body .opui-text-teal, html .opui-text-teal {
+  color: #20cb98;
+}
+body .opui-text-cyan, html .opui-text-cyan {
+  color: #0dccf2;
+}
+body .opui-bg-indigo, html .opui-bg-indigo {
+  background-color: #6812f3;
+}
+body .opui-bg-purple, html .opui-bg-purple {
+  background-color: #6f42c2;
+}
+body .opui-bg-pink, html .opui-bg-pink {
+  background-color: #d73385;
+}
+body .opui-bg-red, html .opui-bg-red {
+  background-color: #dc3848;
+}
+body .opui-bg-orange, html .opui-bg-orange {
+  background-color: #fd7e17;
+}
+body .opui-bg-yellow, html .opui-bg-yellow {
+  background-color: #ffc105;
+}
+body .opui-bg-green, html .opui-bg-green {
+  background-color: #00d688;
+}
+body .opui-bg-bright-green, html .opui-bg-bright-green {
+  background-color: #00d688;
+}
+body .opui-bg-teal, html .opui-bg-teal {
+  background-color: #20cb98;
+}
+body .opui-bg-cyan, html .opui-bg-cyan {
+  background-color: #0dccf2;
+}
+body .opui-bg-indigo, html .opui-bg-indigo {
+  background-color: #6812f3;
 }
 body .opui-product-card, html .opui-product-card {
   min-height: 100%;
@@ -17416,7 +17503,7 @@ body .opui-item-list .opui-item-list-is-loading > li .opui-btn, html .opui-item-
   font-size: 16px;
 }
 .op-plugin-app-container .select2 .select2-selection, .opui-modal .select2 .select2-selection {
-  border: 1px solid #f1f1f1;
+  border: 1px solid #ced4da;
   padding: 0.75rem 1.5rem !important;
   margin-bottom: 20px !important;
   height: auto;
@@ -17429,20 +17516,23 @@ body .opui-item-list .opui-item-list-is-loading > li .opui-btn, html .opui-item-
   top: 8px !important;
   right: 10px !important;
 }
+.op-plugin-app-container .select2-container--focus .select2-selection, .op-plugin-app-container .select2-container--open .select2-selection, .opui-modal .select2-container--focus .select2-selection, .opui-modal .select2-container--open .select2-selection {
+  border-color: #22262a;
+}
 
 .toplevel_page_op-protect .select2-container {
   z-index: 9999999 !important;
 }
 
 .toplevel_page_op-protect .select2-dropdown {
-  border-color: #f1f1f1 !important;
+  border-color: #22262a !important;
 }
 .toplevel_page_op-protect .select2-dropdown .select2-search {
   display: block;
   padding: 8px;
 }
 .toplevel_page_op-protect .select2-dropdown .select2-search .select2-search__field {
-  border: 1px solid #f1f1f1 !important;
+  border: 1px solid #ced4da !important;
   font-size: 14px !important;
   padding: 4px 10px !important;
 }
@@ -17455,5 +17545,5 @@ body .opui-item-list .opui-item-list-is-loading > li .opui-btn, html .opui-item-
   display: block !important;
 }
 .toplevel_page_op-protect .select2-dropdown .select2-results__option--highlighted {
-  background-color: #0063d9 !important;
+  background-color: #0063db !important;
 }

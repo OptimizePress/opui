@@ -5,6 +5,7 @@
   --opui--gray: #6d767e;
   --opui--darkgray: #484f56;
   --opui--gray100: #f9fafb;
+  --opui--gray150: #f4f4f5;
   --opui--gray200: #ededed;
   --opui--gray300: #ced4da;
   --opui--gray400: #acb6c3;
@@ -14,7 +15,9 @@
   --opui--gray800: #353b41;
   --opui--gray900: #22262a;
   --opui--blue: #0063db;
+  --opui--blue2: #4249ff;
   --opui--darkblue: #0051c2;
+  --opui--lightblue: #0073ff;
   --opui--blue100: #8fc1ff;
   --opui--blue200: #4297ff;
   --opui--blue300: #0f7bff;
@@ -24,6 +27,7 @@
   --opui--blue700: #00479e;
   --opui--blue800: #003575;
   --opui--blue900: #001229;
+  --opui--logo: #4249ff;
   --opui--primary: #0063db;
   --opui--secondary: #8fc1ff;
   --opui--success: #00d688;
@@ -32,6 +36,16 @@
   --opui--danger: #dc3848;
   --opui--light: #f9fafb;
   --opui--dark: #484f56;
+  --opui--indigo: #6812f3;
+  --opui--purple: #6f42c2;
+  --opui--pink: #d73385;
+  --opui--red: #dc3848;
+  --opui--orange: #fd7e17;
+  --opui--yellow: #ffc105;
+  --opui--green: #00d688;
+  --opui--bright-green: #00d688;
+  --opui--teal: #20cb98;
+  --opui--cyan: #0dccf2;
 }
 
 /*!

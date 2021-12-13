@@ -17,7 +17,7 @@ mix.js('src/tests/tests.js', 'dist/tests/tests.js');
 mix.copyDirectory('src/fonts', 'dist/fonts');
 
 // Test UI
-mix.copy('src/tests/tests.css', 'dist/tests');
+mix.sass('src/tests/scss/tests.scss', 'dist/tests');
 mix.ejs('src/tests/index.ejs', 'dist/tests');
 mix.ejs('src/tests/bootstrap.ejs', 'dist/tests');
 mix.ejs('src/tests/icons.ejs', 'dist/tests');

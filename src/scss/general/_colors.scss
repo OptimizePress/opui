@@ -34,7 +34,8 @@
 
 // Blues
 .#{$op-prefix}text-blue      { color: $color--opui-blue; }
-.#{$op-prefix}text-blue-2     { color: $color--opui-blue2; }
+.#{$op-prefix}text-blue-2    { color: $color--opui-blue2; }
+.#{$op-prefix}text-logo      { color: $color--opui-logo; }
 .#{$op-prefix}text-lightblue { color: $color--opui-lightblue; }
 .#{$op-prefix}text-darkblue  { color: $color--opui-darkblue; }
 .#{$op-prefix}text-blue-100  { color: $color--opui-blue100; }
@@ -48,6 +49,7 @@
 .#{$op-prefix}text-blue-900  {  color: $color--opui-blue900; }
 .#{$op-prefix}bg-blue        { background-color: $color--opui-blue; }
 .#{$op-prefix}bg-blue-2      { background-color: $color--opui-blue2; }
+.#{$op-prefix}bg-logo        { background-color: $color--opui-logo; }
 .#{$op-prefix}bg-lightblue   { background-color: $color--opui-lightblue; }
 .#{$op-prefix}bg-darkblue    { background-color: $color--opui-darkblue; }
 .#{$op-prefix}bg-blue-100    { background-color: $color--opui-blue100; }
@@ -59,3 +61,26 @@
 .#{$op-prefix}bg-blue-700    { background-color: $color--opui-blue700; }
 .#{$op-prefix}bg-blue-800    { background-color: $color--opui-blue800; }
 .#{$op-prefix}bg-blue-900    { background-color: $color--opui-blue900; }
+
+// Rainbow
+.#{$op-prefix}text-indigo       { color: $color--opui-indigo; }
+.#{$op-prefix}text-purple       { color: $color--opui-purple; }
+.#{$op-prefix}text-pink         { color: $color--opui-pink; }
+.#{$op-prefix}text-red          { color: $color--opui-red; }
+.#{$op-prefix}text-orange       { color: $color--opui-orange; }
+.#{$op-prefix}text-yellow       { color: $color--opui-yellow; }
+.#{$op-prefix}text-green        { color: $color--opui-green; }
+.#{$op-prefix}text-bright-green { color: $color--opui-bright-green; }
+.#{$op-prefix}text-teal         { color: $color--opui-teal; }
+.#{$op-prefix}text-cyan         { color: $color--opui-cyan; }
+.#{$op-prefix}bg-indigo         { background-color: $color--opui-indigo; }
+.#{$op-prefix}bg-purple         { background-color: $color--opui-purple; }
+.#{$op-prefix}bg-pink           { background-color: $color--opui-pink; }
+.#{$op-prefix}bg-red            { background-color: $color--opui-red; }
+.#{$op-prefix}bg-orange         { background-color: $color--opui-orange; }
+.#{$op-prefix}bg-yellow         { background-color: $color--opui-yellow; }
+.#{$op-prefix}bg-green          { background-color: $color--opui-green; }
+.#{$op-prefix}bg-bright-green   { background-color: $color--opui-bright-green; }
+.#{$op-prefix}bg-teal           { background-color: $color--opui-teal; }
+.#{$op-prefix}bg-cyan           { background-color: $color--opui-cyan; }
+.#{$op-prefix}bg-indigo         { background-color: $color--opui-indigo; }
