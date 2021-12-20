@@ -90,3 +90,25 @@
         }
     }
 }
+
+@include media-breakpoint-down(sm) {
+    .#{$op-prefix}navigation {
+        border-bottom: none;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            li {
+                width: 100%;
+                border-bottom: 1px solid $color--opui-gray200;
+                padding: 1rem 0;
+
+                a {
+                    padding: 1rem 0px;
+                }
+            }
+        }
+    }
+}
