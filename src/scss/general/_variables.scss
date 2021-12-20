@@ -28,7 +28,6 @@ $color--opui-gray900:   hsl(210, 11%, 15%); // #212529;
 
 // Blues
 $color--opui-blue:      hsl(213, 100%, 43%); // #0063d9;
-$color--opui-blue2:     hsl(238, 100%, 63%); // #4349ff;
 $color--opui-lightblue: hsl(213, 100%, 50%); // #0074ff;
 $color--opui-darkblue:  hsl(215, 100%, 38%); // #0051c3;
 $color--opui-blue100:   hsl(213, 100%, 78%); // #8fc1ff
@@ -161,7 +160,6 @@ $spacers: map-merge(
 
     // Blues
     --#{$op-prefix}-blue:      #{$color--opui-blue};
-    --#{$op-prefix}-blue2:     #{$color--opui-blue2};
     --#{$op-prefix}-darkblue:  #{$color--opui-darkblue};
     --#{$op-prefix}-lightblue: #{$color--opui-lightblue};
     --#{$op-prefix}-blue100:   #{$color--opui-blue100};

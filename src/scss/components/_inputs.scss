@@ -18,9 +18,9 @@
 
         &:checked {
             ~ .#{$op-prefix}checkmark {
-                background-color: $color--opui-blue2;
-                border-color: $color--opui-blue2;
-                box-shadow: 0 0 0 2px rgba($color--opui-blue2, 0.2);
+                background-color: $color--opui-logo;
+                border-color: $color--opui-logo;
+                box-shadow: 0 0 0 2px rgba($color--opui-logo, 0.2);
 
                 &:after {
                     display: block;
