@@ -1,0 +1,54 @@
+.#{$op-prefix}headline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 32px;
+    border-bottom: 1px solid #eee;
+    background-color: #fff;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 0;
+    }
+
+    a {
+        color: $color--opui-logo;
+        text-decoration: none;
+    }
+
+    .#{$op-prefix}headline-helplink {
+        font-size: 1.6rem;
+        color: $color--opui-gray500;
+        margin-left: 1.6rem;
+        text-decoration: none;
+    }
+
+    .#{$op-prefix}headline-description {
+        font-size: 1.4rem;
+        color: $color--opui-gray500;
+        margin-top: 1.6rem;
+        margin-bottom: 0;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .#{$op-prefix}headline {
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            flex-basis: 85%;
+        }
+
+        .#{$op-prefix}headline-helplink {
+            flex-basis: 15%;
+            margin-left: 0;
+        }
+    }
+}
