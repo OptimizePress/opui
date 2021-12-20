@@ -1,13 +1,12 @@
 .#{$op-prefix}advanced-table {
     border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 14px;
-    min-width: 400px;
-    border-radius: 5px 5px 0 0;
+    margin: 2.5rem 0;
+    font-size: 1.4rem;
+    border-radius: $border-radius $border-radius 0 0;
     overflow: hidden;
-    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: $box-shadow;
     width: 100%;
-    background-color: #fff;
+    background-color: $color--opui-white;
 
     thead {
         border-bottom: 1px solid $color--opui-gray200;
@@ -17,7 +16,7 @@
             color: $color--opui-gray700;
             text-align: left;
             font-weight: bold;
-            padding: 20px;
+            padding: 2rem;
         }
     }
 
@@ -34,9 +33,9 @@
 
         th,
         td {
-            font-size: 14px;
+            font-size: 1.4rem;
             font-weight: normal;
-            padding: 20px;
+            padding: 2rem;
             color: $color--opui-gray600;
 
             a {
@@ -45,7 +44,7 @@
             }
 
             i {
-                color: #b0b0b0;
+                color: $color--opui-gray400;
             }
 
             .#{$op-prefix}pagination {
@@ -75,6 +74,46 @@
                 outline: none;
                 box-shadow: none;
             }
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .#{$op-prefix}advanced-table {
+        background-color: transparent;
+        box-shadow: none;
+
+        thead {
+            display: none;
+        }
+
+        tbody {
+            tr {
+                display: flex;
+                flex-direction: column;
+                border-bottom: none;
+                box-shadow: $box-shadow;
+                background-color: $color--opui-white;
+                margin-bottom: 1.6rem;
+
+                td {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px solid $color--opui-gray200;
+                    padding: 1rem;
+
+                    &:before {
+                        content: attr(data-label);
+                        float: left;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        tfoot {
+            box-shadow: $box-shadow;
+            background-color: #fff;
         }
     }
 }

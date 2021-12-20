@@ -8,6 +8,7 @@ $opui-wrapper:   'body' !default;
 //$opui-gutter-y: 0.25rem;
 
 // Colors
+$color--opui-logo:  hsl(237.8, 100%, 62.9%); // #4249ff
 $color--opui-white: hsl(0, 0%, 100%); // #ffffff
 $color--opui-black: hsl(0, 0%, 0%);   // #000000
 
@@ -53,7 +54,6 @@ $color--opui-teal:         hsl(162, 73%, 46%); // #20c997;
 $color--opui-cyan:         hsl(190, 90%, 50%); //#0dcaf0;
 
 // Roles
-$color--opui-logo:      $color--opui-blue2;
 $color--opui-primary:   $color--opui-blue;
 $color--opui-secondary: $color--opui-blue100;
 $color--opui-success:   $color--opui-bright-green;
@@ -114,6 +114,9 @@ $navbar-brand-font-size:      2rem;
 
 // Forms
 $input-border-color: $color--opui-gray300;
+
+// Box Shadows
+$box-shadow: 2px 2px 4px 0px rgba($color--opui-black, 0.05);
 
 // Spacing
 $spacer: 10px !default;
