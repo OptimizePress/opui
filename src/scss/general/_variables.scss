@@ -3,21 +3,16 @@ $op-prefix:      'opui-' !default;
 $op-icon-prefix: 'opui-icon-' !default;
 $opui-wrapper:   'body' !default;
 
-// Spacing
-//$opui-gutter-x: 0.25rem;
-//$opui-gutter-y: 0.25rem;
-
 // Colors
-$color--opui-logo:  hsl(237.8, 100%, 62.9%); // #4249ff
 $color--opui-white: hsl(0, 0%, 100%); // #ffffff
 $color--opui-black: hsl(0, 0%, 0%);   // #000000
 
 // Grays
 $color--opui-gray:      hsl(208, 7%, 46%);  // #6c757d
-$color--opui-lightgray: hsl(216, 20%, 95%);  //#f0f2f5;
+$color--opui-lightgray: hsl(216, 20%, 95%); // #f0f2f5;
 $color--opui-darkgray:  hsl(210, 9%, 31%);  // #495057;
 $color--opui-gray100:   hsl(210, 17%, 98%); // #f8f9fa;
-$color--opui-gray150:   hsl(240, 5%, 96%); // #f5f5f6;
+$color--opui-gray150:   hsl(240, 5%, 96%);  // #f5f5f6;
 $color--opui-gray200:   hsl(0, 0%, 93%);    // #eeeeee;
 $color--opui-gray300:   hsl(210, 14%, 83%); // #ced4da;
 $color--opui-gray400:   hsl(215, 16%, 72%); // #97A3B4;
@@ -28,30 +23,30 @@ $color--opui-gray800:   hsl(210, 10%, 23%); // #343a40;
 $color--opui-gray900:   hsl(210, 11%, 15%); // #212529;
 
 // Blues
-$color--opui-blue:      hsl(213, 100%, 43%); // #0063d9;
-$color--opui-lightblue: hsl(213, 100%, 50%); // #0074ff;
-$color--opui-darkblue:  hsl(215, 100%, 38%); // #0051c3;
-$color--opui-blue100:   hsl(213, 100%, 78%); // #8fc1ff
-$color--opui-blue200:   hsl(213, 100%, 63%); // #4297ff
-$color--opui-blue300:   hsl(213, 100%, 53%); // #0f7bff
-$color--opui-blue400:   $color--opui-blue;     // #0063db
-$color--opui-blue500:   hsl(213, 100%, 38%); // #0057c2
-$color--opui-blue600:   $color--opui-darkblue; // #0051c2
-$color--opui-blue700:   hsl(213, 100%, 31%); // #00479e
-$color--opui-blue800:   hsl(213, 100%, 23%); // #003575
-$color--opui-blue900:   hsl(214, 100%, 8%);  // #001229
+$color--opui-blue:      hsl(237.8, 100%, 62.9%); // #4249FF;
+$color--opui-lightblue: hsl(237.8, 100%, 50%);   // #0074ff;
+$color--opui-darkblue:  hsl(237.8, 100%, 38%);   // #0051c3;
+$color--opui-blue100:   hsl(237.8, 100%, 78%);   // #8fc1ff
+$color--opui-blue200:   hsl(237.8, 100%, 63%);   // #4297ff
+$color--opui-blue300:   hsl(237.8, 100%, 53%);   // #0f7bff
+$color--opui-blue400:   $color--opui-blue;         // #0063db
+$color--opui-blue500:   hsl(237.8, 100%, 38%);   // #0057c2
+$color--opui-blue600:   $color--opui-darkblue;     // #0051c2
+$color--opui-blue700:   hsl(237.8, 100%, 31%);   // #00479e
+$color--opui-blue800:   hsl(237.8, 100%, 23%);   // #003575
+$color--opui-blue900:   hsl(237.8, 100%, 8%);    // #001229
 
 // Rainbow
-$color--opui-indigo:       hsl(263, 90%, 51%); // #6610f2;
-$color--opui-purple:       hsl(261, 51%, 51%); // #6f42c1;
-$color--opui-pink:         hsl(330, 67%, 52%); // #d63384;
-$color--opui-red:          hsl(354, 70%, 54%); // #dc3545;
-$color--opui-orange:       hsl(27, 98%, 54%);  // #fd7e14;
-$color--opui-yellow:       hsl(45, 100%, 51%); // #ffc107;
-$color--opui-green:        hsl(158, 100%, 42%); //#00d88a;
-$color--opui-bright-green: hsl(158, 100%, 42%); //#00d88a;
-$color--opui-teal:         hsl(162, 73%, 46%); // #20c997;
-$color--opui-cyan:         hsl(190, 90%, 50%); //#0dcaf0;
+$color--opui-indigo:       hsl(263, 90%, 51%);  // #6610f2;
+$color--opui-purple:       hsl(261, 51%, 51%);  // #6f42c1;
+$color--opui-pink:         hsl(330, 67%, 52%);  // #d63384;
+$color--opui-red:          hsl(354, 70%, 54%);  // #dc3545;
+$color--opui-orange:       hsl(27, 98%, 54%);   // #fd7e14;
+$color--opui-yellow:       hsl(45, 100%, 51%);  // #ffc107;
+$color--opui-green:        hsl(158, 100%, 42%); // #00d88a;
+$color--opui-bright-green: hsl(158, 100%, 42%); // #00d88a;
+$color--opui-teal:         hsl(162, 73%, 46%);  // #20c997;
+$color--opui-cyan:         hsl(190, 90%, 50%);  // #0dcaf0;
 
 // Roles
 $color--opui-primary:   $color--opui-blue;
@@ -179,7 +174,6 @@ $spacers: map-merge(
     --#{$op-prefix}-blue900:   #{$color--opui-blue900};
 
     // Roles
-    --#{$op-prefix}-logo:      #{$color--opui-logo};
     --#{$op-prefix}-primary:   #{$color--opui-blue};
     --#{$op-prefix}-secondary: #{$color--opui-blue100};
     --#{$op-prefix}-success:   #{$color--opui-bright-green};
