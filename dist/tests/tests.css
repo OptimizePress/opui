@@ -16531,6 +16531,8 @@ html .opui-headline h6 {
   body .opui-headline .opui-headline-helplink, html .opui-headline .opui-headline-helplink {
     flex-basis: 15%;
     margin-left: 0;
+    justify-content: flex-end;
+    display: flex;
   }
 }
 body .opui-2-col-settings, html .opui-2-col-settings {
