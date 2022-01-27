@@ -251,6 +251,37 @@
                         <button type="button" class="opui-btn opui-btn-outline-dark">Dark</button>
                     </p>
 
+                    <p class="opui-bs-component opui-btn-spinners">
+                        <button type="button" class="opui-btn opui-btn-primary saving">
+                            <span class="opui-spinner opui-spinner-border opui-text-light opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
+                        <button type="button" class="opui-btn opui-btn-secondary saving">
+                            <span class="opui-spinner opui-spinner-border opui-text-light opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
+                        <button type="button" class="opui-btn opui-btn-success saving">
+                            <span class="opui-spinner opui-spinner-border opui-text-light opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
+                        <button type="button" class="opui-btn opui-btn-warning saving">
+                            <span class="opui-spinner opui-spinner-border opui-text-dark opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
+                        <script>
+                        $(function() {
+                            var $buttons = $('.opui-btn-spinners .opui-btn');
+                            $buttons.click(function() {
+                                $(this).toggleClass('saving');
+                            });
+                        });
+                        </script>
+                    </p>
+
                     <div class="opui-bs-component">
                         <div class="opui-btn-group" role="group" aria-label="Button group with nested dropdown">
                             <button type="button" class="opui-btn opui-btn-primary">Primary</button>

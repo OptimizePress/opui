@@ -46,3 +46,33 @@
     font-size: 24px;
     padding: 20px 32px;
 }
+
+.#{$op-prefix}btn {
+    .#{$op-prefix}spinner {
+        display: none !important;
+    }
+
+    .#{$op-prefix}btn-saving-label {
+        display: none !important;
+    }
+
+    .#{$op-prefix}btn-label {
+        display: inline-block;
+    }
+
+    &.saving {
+        // opacity: .7;
+
+        .#{$op-prefix}spinner {
+            display: inline-block !important;
+        }
+
+        .#{$op-prefix}btn-saving-label {
+            display: inline-block !important;
+        }
+
+        .#{$op-prefix}btn-label {
+            display: none;
+        }
+    }
+}
