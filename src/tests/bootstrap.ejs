@@ -230,14 +230,29 @@
                             <span class="opui-btn-label">Save changes</span>
                             <span class="opui-btn-saving-label">Saving...</span>
                         </button>
-                        <script>
-                        $(function() {
-                            var $buttons = $('.opui-btn-spinners .opui-btn');
-                            $buttons.click(function() {
-                                $(this).toggleClass('saving');
-                            });
-                        });
-                        </script>
+                    </p>
+
+                    <p class="opui-bs-component opui-btn-spinners">
+                        <button type="button" class="opui-btn opui-btn-primary saving">
+                            <span class="opui-spinner opui-spinner-grow opui-text-light opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
+                        <button type="button" class="opui-btn opui-btn-secondary saving">
+                            <span class="opui-spinner opui-spinner-grow opui-text-light opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
+                        <button type="button" class="opui-btn opui-btn-success saving">
+                            <span class="opui-spinner opui-spinner-grow opui-text-light opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
+                        <button type="button" class="opui-btn opui-btn-warning saving">
+                            <span class="opui-spinner opui-spinner-grow opui-text-dark opui-mr-2"></span>
+                            <span class="opui-btn-label">Save changes</span>
+                            <span class="opui-btn-saving-label">Saving...</span>
+                        </button>
                     </p>
 
                     <div class="opui-bs-component">
@@ -1526,4 +1541,14 @@
     </div>
 </div>
 
+<script>
+$(function() {
+    var $buttons = $('.opui-btn-spinners .opui-btn');
+    $buttons.click(function() {
+        $(this).toggleClass('saving');
+    });
+});
+</script>
+
 <%- include('partials/global/footer'); %>
+
