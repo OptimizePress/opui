@@ -791,6 +791,7 @@
             <ul>
                 <li>
                     <a href="#/memberships/1" class="opui-item opui-d-flex opui-justify-content-between opui-align-items-center">
+                        <div class="opui-drag-handle"><i class="opui-fa opui-fa-reorder"></i></div>
                         <div class="opui-left">
                             <div class="opui-title">
                                 <h3>M001</h3>
@@ -920,7 +921,11 @@
                             </div>
                         </div>
                         <div class="opui-form-actions">
-                            <button type="submit" class="opui-btn opui-btn-primary"> Save Changes </button>
+                            <button type="button" class="opui-btn opui-btn-primary saving">
+                                <span class="opui-spinner opui-spinner-border opui-text-light opui-mr-2"></span>
+                                <span class="opui-btn-label">Save changes</span>
+                                <span class="opui-btn-saving-label">Saving...</span>
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -928,6 +933,15 @@
         </div>
     </div>
 </div>
+
+<script>
+$(function() {
+    var $buttons = $('.opui-2-col-settings .opui-btn');
+    $buttons.click(function() {
+        $(this).toggleClass('saving');
+    });
+});
+</script>
 
 
         <div class="opui-bs-docs-section clearfix">

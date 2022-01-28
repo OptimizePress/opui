@@ -38,6 +38,41 @@
                 align-items: center;
             }
 
+            .#{$op-prefix}left {
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
+
+            .#{$op-prefix}right {
+                flex-grow: 0;
+                flex-shrink: 1;
+            }
+
+            .#{$op-prefix}drag-handle {
+                flex-shrink: 1;
+                width: 25px;
+                height: 100%;
+                background: $color--opui-gray200;
+                margin-left: -20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10px;
+                font-weight: 100;
+                color: $color--opui-gray700;
+                cursor: move;
+                opacity: .8;
+                transition: all linear .3s;
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                > i {
+                    flex-shrink: 1;
+                }
+            }
+
             .#{$op-prefix}title {
                 padding-left: 15px;
 
@@ -47,12 +82,13 @@
                     margin: 0;
                     padding: 0;
                     font-weight: 400;
+                    color: $color--opui-gray900;
                 }
 
                 p {
                     font-size: 12px;
                     margin: 2px 0 0 0;
-                    color: $color--opui-gray400;
+                    color: $color--opui-gray500;
                 }
             }
 

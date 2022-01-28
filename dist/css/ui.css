@@ -15674,11 +15674,37 @@ html .opui-btn-mega {
   font-size: 24px;
   padding: 20px 32px;
 }
+body .opui-btn .opui-spinner, html .opui-btn .opui-spinner {
+  display: none !important;
+}
+body .opui-btn .opui-spinner-border, html .opui-btn .opui-spinner-border {
+  width: 16px;
+  height: 16px;
+}
+body .opui-btn .opui-spinner-grow, html .opui-btn .opui-spinner-grow {
+  width: 16px;
+  height: 16px;
+}
+body .opui-btn .opui-btn-saving-label, html .opui-btn .opui-btn-saving-label {
+  display: none !important;
+}
+body .opui-btn .opui-btn-label, html .opui-btn .opui-btn-label {
+  display: inline-block;
+}
+body .opui-btn.saving .opui-spinner, html .opui-btn.saving .opui-spinner {
+  display: inline-block !important;
+}
+body .opui-btn.saving .opui-btn-saving-label, html .opui-btn.saving .opui-btn-saving-label {
+  display: inline-block !important;
+}
+body .opui-btn.saving .opui-btn-label, html .opui-btn.saving .opui-btn-label {
+  display: none;
+}
 body .opui-form-text, html .opui-form-text {
   font-size: 13px;
   line-height: 1.5;
   margin: 12px 0;
-  color: #acb6c3;
+  color: #89959f;
 }
 body .opui-form-control:focus, html .opui-form-control:focus {
   border-color: #22262a;
@@ -16196,7 +16222,7 @@ body .opui-2-col-settings .opui-settings-sidenav nav ul li span, html .opui-2-co
   display: block;
   margin-left: 30px;
   font-size: 12px;
-  color: #acb6c3;
+  color: #89959f;
 }
 body .opui-2-col-settings .opui-settings-sidenav nav ul li.selected, html .opui-2-col-settings .opui-settings-sidenav nav ul li.selected {
   background-color: #f9fafb;
@@ -16218,6 +16244,9 @@ body .opui-2-col-settings .opui-settings-main h2, html .opui-2-col-settings .opu
   font-weight: 600;
   line-height: 74px;
   margin: 0 0 5px 0;
+}
+body .opui-2-col-settings .opui-settings-main h6, html .opui-2-col-settings .opui-settings-main h6 {
+  color: #89959f;
 }
 body .opui-2-col-settings .opui-settings-main .opui-settings-container, html .opui-2-col-settings .opui-settings-main .opui-settings-container {
   padding: 35px 50px 0 50px;
@@ -17222,6 +17251,36 @@ body .opui-item-list ul > li .opui-left, body .opui-item-list ul > li .opui-righ
   flex-wrap: nowrap;
   align-items: center;
 }
+body .opui-item-list ul > li .opui-left, body .opui-item-list ul .opui-item-list-item .opui-left, html .opui-item-list ul > li .opui-left, html .opui-item-list ul .opui-item-list-item .opui-left {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+body .opui-item-list ul > li .opui-right, body .opui-item-list ul .opui-item-list-item .opui-right, html .opui-item-list ul > li .opui-right, html .opui-item-list ul .opui-item-list-item .opui-right {
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+body .opui-item-list ul > li .opui-drag-handle, body .opui-item-list ul .opui-item-list-item .opui-drag-handle, html .opui-item-list ul > li .opui-drag-handle, html .opui-item-list ul .opui-item-list-item .opui-drag-handle {
+  flex-shrink: 1;
+  width: 25px;
+  height: 100%;
+  background: #ededed;
+  margin-left: -20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: 100;
+  color: #484f56;
+  cursor: move;
+  opacity: 0.8;
+  transition: all linear 0.3s;
+}
+body .opui-item-list ul > li .opui-drag-handle:hover, body .opui-item-list ul .opui-item-list-item .opui-drag-handle:hover, html .opui-item-list ul > li .opui-drag-handle:hover, html .opui-item-list ul .opui-item-list-item .opui-drag-handle:hover {
+  opacity: 1;
+}
+body .opui-item-list ul > li .opui-drag-handle > i, body .opui-item-list ul .opui-item-list-item .opui-drag-handle > i, html .opui-item-list ul > li .opui-drag-handle > i, html .opui-item-list ul .opui-item-list-item .opui-drag-handle > i {
+  flex-shrink: 1;
+}
 body .opui-item-list ul > li .opui-title, body .opui-item-list ul .opui-item-list-item .opui-title, html .opui-item-list ul > li .opui-title, html .opui-item-list ul .opui-item-list-item .opui-title {
   padding-left: 15px;
 }
@@ -17231,11 +17290,12 @@ body .opui-item-list ul > li .opui-title h3, body .opui-item-list ul .opui-item-
   margin: 0;
   padding: 0;
   font-weight: 400;
+  color: #22262a;
 }
 body .opui-item-list ul > li .opui-title p, body .opui-item-list ul .opui-item-list-item .opui-title p, html .opui-item-list ul > li .opui-title p, html .opui-item-list ul .opui-item-list-item .opui-title p {
   font-size: 12px;
   margin: 2px 0 0 0;
-  color: #acb6c3;
+  color: #89959f;
 }
 body .opui-item-list ul > li .opui-toggle-container, body .opui-item-list ul .opui-item-list-item .opui-toggle-container, html .opui-item-list ul > li .opui-toggle-container, html .opui-item-list ul .opui-item-list-item .opui-toggle-container {
   margin-left: 5px;
