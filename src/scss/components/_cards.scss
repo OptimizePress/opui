@@ -13,8 +13,10 @@
     .#{$op-prefix}header {
         display: flex;
         align-items: center;
+        justify-content: space-between;
         padding: 20px 30px;
         border-bottom: 1px solid #e8e8eb;
+        height: 70px;
 
         .#{$op-prefix}title {
             font-weight: 700;
@@ -34,6 +36,11 @@
             display: flex;
             gap: 30px;
             border-bottom: 1px solid $color--opui-gray200;
+
+            @include media-breakpoint-down(sm) {
+                flex-direction: column;
+                gap: 10px;
+            }
 
             &:first-child {
                 padding-top: 0;
@@ -65,8 +72,9 @@
                 }
             }
 
+            p,
+            label,
             .#{$op-prefix}item-description {
-                margin: 0;
                 font-size: 1.4rem;
                 color: $color--opui-gray900;
             }
@@ -75,17 +83,6 @@
         > div {
             margin: 0;
             padding: 0;
-        }
-    }
-}
-
-@include media-breakpoint-down(sm) {
-    .#{$op-prefix}card {
-        .#{$op-prefix}content {
-            .#{$op-prefix}item {
-                flex-direction: column;
-                gap: 10px;
-            }
         }
     }
 }
