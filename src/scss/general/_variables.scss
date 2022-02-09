@@ -111,7 +111,7 @@ $navbar-brand-font-size:      2rem;
 $input-border-color: $color--opui-gray300;
 
 // Box Shadows
-$box-shadow: 0px 0px 3px 0px rgba($color--opui-black, 0.05);
+$box-shadow: 0px 0px 5px 0px rgba($color--opui-black, 0.05);
 
 // Transitions
 $transition--opui-color-linear: color .3s linear;
@@ -140,6 +140,12 @@ $spacers: map-merge(
 :root {
     // Fonts
     --#{$op-prefix}-font-family: #{$font-family};
+
+    // Borders
+    --#{$op-prefix}-border-radius: #{$border-radius};
+
+    // Box Shadow
+    --#{$op-prefix}-box-shadow: #{$box-shadow};
 
     // Black/White
     --#{$op-prefix}-white: #{$color--opui-white};
