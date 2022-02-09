@@ -306,10 +306,6 @@
                 padding-right: 0;
             }
 
-            &.active > a {
-                border-bottom: 2px solid $color--opui-blue;
-            }
-
             a {
                 color: inherit;
                 padding: 2rem 0px;
@@ -362,6 +358,18 @@
                 }
             }
         }
+    }
+
+    .#{$op-prefix}navigation-hover {
+        background-color: var(--opui--blue);
+        bottom: 0;
+        display: block;
+        height: 2px;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        transition: width 0.3s ease, left 0.3s ease;
+        width: 0;
     }
 }
 
