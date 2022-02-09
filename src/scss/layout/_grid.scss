@@ -19,3 +19,8 @@ div[class^='#{$op-prefix}collapse'], div[class*=' #{$op-prefix}collapse'] {
         width: 50%;
     }
 }
+
+.#{$op-prefix}container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
