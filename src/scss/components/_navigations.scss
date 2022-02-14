@@ -283,6 +283,7 @@
     justify-content: space-between;
     border-bottom: 1px solid $color--opui-gray200;
     width: 100%;
+    margin: 1.5rem 0;
 
     ul {
         display: flex;
@@ -303,6 +304,10 @@
 
             &:last-child {
                 padding-right: 0;
+            }
+
+            &.active {
+                color: var(--opui--blue);
             }
 
             a {
@@ -361,7 +366,7 @@
 
     .#{$op-prefix}navigation-hover {
         background-color: var(--opui--blue);
-        bottom: 0;
+        bottom: 1.5rem;
         display: block;
         height: 2px;
         left: 0;
