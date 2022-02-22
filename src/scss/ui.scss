@@ -79,6 +79,10 @@
     @import "general/utilities";
     @import "general/colors";
 
+    .op-plugin-app-container {
+        @import "general/forms";
+    }
+
     // Screens
     @import "screens/products";
     @import "screens/getting-started";

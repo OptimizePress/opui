@@ -15609,6 +15609,11 @@ body .opui-max-900, html .opui-max-900 {
   margin-left: auto;
   margin-right: auto;
 }
+body .opui-max-1200, html .opui-max-1200 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 body .op-plugin-app-container a, html .op-plugin-app-container a {
   transition: color 150ms ease;
 }
@@ -16966,6 +16971,12 @@ body .opui-bg-cyan, html .opui-bg-cyan {
 }
 body .opui-bg-indigo, html .opui-bg-indigo {
   background-color: #6812f3;
+}
+body .op-plugin-app-container .opui-form-control, html .op-plugin-app-container .opui-form-control {
+  padding: 10px 15px;
+}
+body .op-plugin-app-container select.opui-form-control, html .op-plugin-app-container select.opui-form-control {
+  padding: 13px 15px;
 }
 body .opui-product-card, html .opui-product-card {
   min-height: 100%;
