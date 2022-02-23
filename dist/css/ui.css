@@ -16738,6 +16738,147 @@ body .opui-me-sm-2, html .opui-me-sm-2 {
 body .opui-float-end, html .opui-float-end {
   float: right !important;
 }
+body .opui-flex, html .opui-flex {
+  display: flex !important;
+}
+body .opui-inline-flex, html .opui-inline-flex {
+  display: inline-flex !important;
+}
+body .opui-flex-1, html .opui-flex-1 {
+  flex: 1 1 0 !important;
+}
+body .opui-flex-auto, html .opui-flex-auto {
+  flex: 1 1 auto !important;
+}
+body .opui-flex-initial, html .opui-flex-initial {
+  flex: 0 1 auto !important;
+}
+body .opui-flex-none, html .opui-flex-none {
+  flex: none !important;
+}
+body .opui-flex-fill, html .opui-flex-fill {
+  flex: 1 1 auto !important;
+}
+body .opui-flex-row, html .opui-flex-row {
+  flex-direction: row !important;
+}
+body .opui-flex-column, html .opui-flex-column {
+  flex-direction: column !important;
+}
+body .opui-flex-row-reverse, html .opui-flex-row-reverse {
+  flex-direction: row-reverse !important;
+}
+body .opui-flex-column-reverse, html .opui-flex-column-reverse {
+  flex-direction: column-reverse !important;
+}
+body .opui-flex-grow-0, html .opui-flex-grow-0 {
+  flex-grow: 0 !important;
+}
+body .opui-flex-grow-1, html .opui-flex-grow-1 {
+  flex-grow: 1 !important;
+}
+body .opui-flex-shrink-0, html .opui-flex-shrink-0 {
+  flex-shrink: 0 !important;
+}
+body .opui-flex-shrink-1, html .opui-flex-shrink-1 {
+  flex-shrink: 1 !important;
+}
+body .opui-flex-wrap, html .opui-flex-wrap {
+  flex-wrap: wrap !important;
+}
+body .opui-flex-nowrap, html .opui-flex-nowrap {
+  flex-wrap: nowrap !important;
+}
+body .opui-flex-wrap-reverse, html .opui-flex-wrap-reverse {
+  flex-wrap: wrap-reverse !important;
+}
+body .opui-gap-0, html .opui-gap-0 {
+  gap: 0 !important;
+}
+body .opui-gap-1, html .opui-gap-1 {
+  gap: 0.25rem !important;
+}
+body .opui-gap-2, html .opui-gap-2 {
+  gap: 0.5rem !important;
+}
+body .opui-gap-3, html .opui-gap-3 {
+  gap: 1rem !important;
+}
+body .opui-gap-4, html .opui-gap-4 {
+  gap: 1.5rem !important;
+}
+body .opui-gap-5, html .opui-gap-5 {
+  gap: 3rem !important;
+}
+body .opui-justify-content-start, html .opui-justify-content-start {
+  justify-content: flex-start !important;
+}
+body .opui-justify-content-end, html .opui-justify-content-end {
+  justify-content: flex-end !important;
+}
+body .opui-justify-content-center, html .opui-justify-content-center {
+  justify-content: center !important;
+}
+body .opui-justify-content-between, html .opui-justify-content-between {
+  justify-content: space-between !important;
+}
+body .opui-justify-content-around, html .opui-justify-content-around {
+  justify-content: space-around !important;
+}
+body .opui-justify-content-evenly, html .opui-justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+body .opui-align-items-start, html .opui-align-items-start {
+  align-items: flex-start !important;
+}
+body .opui-align-items-end, html .opui-align-items-end {
+  align-items: flex-end !important;
+}
+body .opui-align-items-center, html .opui-align-items-center {
+  align-items: center !important;
+}
+body .opui-align-items-baseline, html .opui-align-items-baseline {
+  align-items: baseline !important;
+}
+body .opui-align-items-stretch, html .opui-align-items-stretch {
+  align-items: stretch !important;
+}
+body .opui-align-content-start, html .opui-align-content-start {
+  align-content: flex-start !important;
+}
+body .opui-align-content-end, html .opui-align-content-end {
+  align-content: flex-end !important;
+}
+body .opui-align-content-center, html .opui-align-content-center {
+  align-content: center !important;
+}
+body .opui-align-content-between, html .opui-align-content-between {
+  align-content: space-between !important;
+}
+body .opui-align-content-around, html .opui-align-content-around {
+  align-content: space-around !important;
+}
+body .opui-align-content-stretch, html .opui-align-content-stretch {
+  align-content: stretch !important;
+}
+body .opui-align-self-auto, html .opui-align-self-auto {
+  align-self: auto !important;
+}
+body .opui-align-self-start, html .opui-align-self-start {
+  align-self: flex-start !important;
+}
+body .opui-align-self-end, html .opui-align-self-end {
+  align-self: flex-end !important;
+}
+body .opui-align-self-center, html .opui-align-self-center {
+  align-self: center !important;
+}
+body .opui-align-self-baseline, html .opui-align-self-baseline {
+  align-self: baseline !important;
+}
+body .opui-align-self-stretch, html .opui-align-self-stretch {
+  align-self: stretch !important;
+}
 body .opui-text-white, html .opui-text-white {
   color: white;
 }

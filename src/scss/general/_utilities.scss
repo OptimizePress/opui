@@ -21,3 +21,189 @@
 .#{$op-prefix}float-end {
     float: right !important;
 }
+
+.#{$op-prefix}flex {
+    display: flex !important;
+}
+
+.#{$op-prefix}inline-flex {
+    display: inline-flex !important;
+}
+
+.#{$op-prefix}flex-1 {
+    flex: 1 1 0 !important;
+}
+.#{$op-prefix}flex-auto {
+    flex: 1 1 auto !important;
+}
+
+.#{$op-prefix}flex-initial {
+    flex: 0 1 auto !important;
+}
+.#{$op-prefix}flex-none {
+    flex: none !important;
+}
+
+.#{$op-prefix}flex-fill {
+    flex: 1 1 auto !important;
+}
+
+.#{$op-prefix}flex-row {
+    flex-direction: row !important;
+}
+
+.#{$op-prefix}flex-column {
+    flex-direction: column !important;
+}
+
+.#{$op-prefix}flex-row-reverse {
+    flex-direction: row-reverse !important;
+}
+
+.#{$op-prefix}flex-column-reverse {
+    flex-direction: column-reverse !important;
+}
+
+.#{$op-prefix}flex-grow-0 {
+    flex-grow: 0 !important;
+}
+
+.#{$op-prefix}flex-grow-1 {
+    flex-grow: 1 !important;
+}
+
+.#{$op-prefix}flex-shrink-0 {
+    flex-shrink: 0 !important;
+}
+
+.#{$op-prefix}flex-shrink-1 {
+    flex-shrink: 1 !important;
+}
+
+.#{$op-prefix}flex-wrap {
+    flex-wrap: wrap !important;
+}
+
+.#{$op-prefix}flex-nowrap {
+    flex-wrap: nowrap !important;
+}
+
+.#{$op-prefix}flex-wrap-reverse {
+    flex-wrap: wrap-reverse !important;
+}
+
+.#{$op-prefix}gap-0 {
+    gap: 0 !important;
+}
+
+.#{$op-prefix}gap-1 {
+    gap: 0.25rem !important;
+}
+
+.#{$op-prefix}gap-2 {
+    gap: 0.5rem !important;
+}
+
+.#{$op-prefix}gap-3 {
+    gap: 1rem !important;
+}
+
+.#{$op-prefix}gap-4 {
+    gap: 1.5rem !important;
+}
+
+.#{$op-prefix}gap-5 {
+    gap: 3rem !important;
+}
+
+.#{$op-prefix}justify-content-start {
+    justify-content: flex-start !important;
+}
+
+.#{$op-prefix}justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.#{$op-prefix}justify-content-center {
+    justify-content: center !important;
+}
+
+.#{$op-prefix}justify-content-between {
+    justify-content: space-between !important;
+}
+
+.#{$op-prefix}justify-content-around {
+    justify-content: space-around !important;
+}
+
+.#{$op-prefix}justify-content-evenly {
+    justify-content: space-evenly !important;
+}
+
+.#{$op-prefix}align-items-start {
+    align-items: flex-start !important;
+}
+
+.#{$op-prefix}align-items-end {
+    align-items: flex-end !important;
+}
+
+.#{$op-prefix}align-items-center {
+    align-items: center !important;
+}
+
+.#{$op-prefix}align-items-baseline {
+    align-items: baseline !important;
+}
+
+.#{$op-prefix}align-items-stretch {
+    align-items: stretch !important;
+}
+
+.#{$op-prefix}align-content-start {
+    align-content: flex-start !important;
+}
+
+.#{$op-prefix}align-content-end {
+    align-content: flex-end !important;
+}
+
+.#{$op-prefix}align-content-center {
+    align-content: center !important;
+}
+
+.#{$op-prefix}align-content-between {
+    align-content: space-between !important;
+}
+
+.#{$op-prefix}align-content-around {
+    align-content: space-around !important;
+}
+
+.#{$op-prefix}align-content-stretch {
+    align-content: stretch !important;
+}
+
+.#{$op-prefix}align-self-auto {
+    align-self: auto !important;
+}
+
+.#{$op-prefix}align-self-start {
+    align-self: flex-start !important;
+}
+
+.#{$op-prefix}align-self-end {
+    align-self: flex-end !important;
+}
+
+.#{$op-prefix}align-self-center {
+    align-self: center !important;
+}
+
+.#{$op-prefix}align-self-baseline {
+    align-self: baseline !important;
+}
+
+.#{$op-prefix}align-self-stretch {
+    align-self: stretch !important;
+}
