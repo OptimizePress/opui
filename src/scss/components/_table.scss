@@ -76,6 +76,12 @@
             }
         }
     }
+
+    .#{$op-prefix}form-check-input {
+        position: relative;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 @include media-breakpoint-down(sm) {

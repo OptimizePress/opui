@@ -16949,6 +16949,11 @@ html .opui-advanced-table tfoot td select {
   outline: none;
   box-shadow: none;
 }
+body .opui-advanced-table .opui-form-check-input, html .opui-advanced-table .opui-form-check-input {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
 @media (max-width: 767.98px) {
   body .opui-advanced-table, html .opui-advanced-table {
     background-color: transparent;
