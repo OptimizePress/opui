@@ -5505,7 +5505,7 @@ body .opui-btn, html .opui-btn {
   font-size: 1.6rem;
   line-height: 1.5;
   border-radius: 4px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 @media (prefers-reduced-motion: reduce) {
   body .opui-btn, html .opui-btn {
@@ -7953,7 +7953,7 @@ body .opui-badge, html .opui-badge {
   white-space: nowrap;
   vertical-align: baseline;
   border-radius: 4px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out !important;
 }
 @media (prefers-reduced-motion: reduce) {
   body .opui-badge, html .opui-badge {
