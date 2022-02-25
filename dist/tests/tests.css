@@ -15,20 +15,20 @@
   --opui--gray700: #484f56;
   --opui--gray800: #353b41;
   --opui--gray900: #22262a;
-  --opui--blue: #0063db;
+  --opui--blue: #4249ff;
   --opui--darkblue: #0051c2;
   --opui--lightblue: #0073ff;
   --opui--blue100: #8fc1ff;
   --opui--blue200: #4297ff;
   --opui--blue300: #0f7bff;
-  --opui--blue400: #0063db;
+  --opui--blue400: #4249ff;
   --opui--blue500: #0057c2;
   --opui--blue600: #0051c2;
   --opui--blue700: #00479e;
   --opui--blue800: #003575;
   --opui--blue900: #001229;
   --opui--logo: #4249ff;
-  --opui--primary: #0063db;
+  --opui--primary: #4249ff;
   --opui--secondary: #8fc1ff;
   --opui--success: #00d688;
   --opui--info: #0f7bff;
@@ -173,12 +173,12 @@ sup {
 }
 
 a {
-  color: #0063db;
+  color: #4249ff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #00408f;
+  color: #0008f5;
   text-decoration: underline;
 }
 
@@ -392,20 +392,20 @@ template {
   --opui--gray700: #484f56;
   --opui--gray800: #353b41;
   --opui--gray900: #22262a;
-  --opui--blue: #0063db;
+  --opui--blue: #4249ff;
   --opui--darkblue: #0051c2;
   --opui--lightblue: #0073ff;
   --opui--blue100: #8fc1ff;
   --opui--blue200: #4297ff;
   --opui--blue300: #0f7bff;
-  --opui--blue400: #0063db;
+  --opui--blue400: #4249ff;
   --opui--blue500: #0057c2;
   --opui--blue600: #0051c2;
   --opui--blue700: #00479e;
   --opui--blue800: #003575;
   --opui--blue900: #001229;
   --opui--logo: #4249ff;
-  --opui--primary: #0063db;
+  --opui--primary: #4249ff;
   --opui--secondary: #8fc1ff;
   --opui--success: #00d688;
   --opui--info: #0f7bff;
@@ -3816,7 +3816,7 @@ html body.opui-app-is-fullscreen #wpbody-content {
 }
 
 body :root, html :root {
-  --blue: #0063db;
+  --blue: #4249ff;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e93f8e;
@@ -3829,7 +3829,7 @@ body :root, html :root {
   --white: #fff;
   --gray: #6d767e;
   --gray-dark: #353b41;
-  --primary: #0063db;
+  --primary: #4249ff;
   --secondary: #6d767e;
   --success: #00d688;
   --info: #0f7bff;
@@ -5134,7 +5134,7 @@ body .opui-table-primary > th,
 body .opui-table-primary > td, html .opui-table-primary,
 html .opui-table-primary > th,
 html .opui-table-primary > td {
-  background-color: #b8d3f5;
+  background-color: #caccff;
 }
 body .opui-table-primary th,
 body .opui-table-primary td,
@@ -5143,15 +5143,15 @@ body .opui-table-primary tbody + tbody, html .opui-table-primary th,
 html .opui-table-primary td,
 html .opui-table-primary thead th,
 html .opui-table-primary tbody + tbody {
-  border-color: #7aaeec;
+  border-color: #9da0ff;
 }
 body .opui-table-hover .opui-table-primary:hover, html .opui-table-hover .opui-table-primary:hover {
-  background-color: #a2c5f2;
+  background-color: #b1b3ff;
 }
 body .opui-table-hover .opui-table-primary:hover > td,
 body .opui-table-hover .opui-table-primary:hover > th, html .opui-table-hover .opui-table-primary:hover > td,
 html .opui-table-hover .opui-table-primary:hover > th {
-  background-color: #a2c5f2;
+  background-color: #b1b3ff;
 }
 body .opui-table-secondary,
 body .opui-table-secondary > th,
@@ -5486,9 +5486,9 @@ body .opui-form-control:-moz-focusring, html .opui-form-control:-moz-focusring {
 body .opui-form-control:focus, html .opui-form-control:focus {
   color: #484f56;
   background-color: #fff;
-  border-color: #5ca5ff;
+  border-color: #c2c4ff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-form-control::-moz-placeholder, html .opui-form-control::-moz-placeholder {
   color: #6d767e;
@@ -5895,7 +5895,7 @@ body .opui-btn:hover, html .opui-btn:hover {
 }
 body .opui-btn:focus, body .opui-btn.focus, html .opui-btn:focus, html .opui-btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-btn.disabled, body .opui-btn:disabled, html .opui-btn.disabled, html .opui-btn:disabled {
   opacity: 0.65;
@@ -5910,32 +5910,32 @@ html fieldset:disabled a.opui-btn {
 }
 body .opui-btn-primary, html .opui-btn-primary {
   color: #fff;
-  background-color: #0063db;
-  border-color: #0063db;
+  background-color: #4249ff;
+  border-color: #4249ff;
 }
 body .opui-btn-primary:hover, html .opui-btn-primary:hover {
   color: #fff;
-  background-color: #0051b5;
-  border-color: #004ca8;
+  background-color: #1c24ff;
+  border-color: #0f17ff;
 }
 body .opui-btn-primary:focus, body .opui-btn-primary.focus, html .opui-btn-primary:focus, html .opui-btn-primary.focus {
   color: #fff;
-  background-color: #0051b5;
-  border-color: #004ca8;
-  box-shadow: 0 0 0 0.2rem rgba(38, 122, 224, 0.5);
+  background-color: #1c24ff;
+  border-color: #0f17ff;
+  box-shadow: 0 0 0 0.2rem rgba(94, 100, 255, 0.5);
 }
 body .opui-btn-primary.disabled, body .opui-btn-primary:disabled, html .opui-btn-primary.disabled, html .opui-btn-primary:disabled {
   color: #fff;
-  background-color: #0063db;
-  border-color: #0063db;
+  background-color: #4249ff;
+  border-color: #4249ff;
 }
 body .opui-btn-primary:not(:disabled):not(.disabled):active, body .opui-btn-primary:not(:disabled):not(.disabled).active, .show > body .opui-btn-primary.opui-dropdown-toggle, html .opui-btn-primary:not(:disabled):not(.disabled):active, html .opui-btn-primary:not(:disabled):not(.disabled).active, .show > html .opui-btn-primary.opui-dropdown-toggle {
   color: #fff;
-  background-color: #004ca8;
-  border-color: #00469c;
+  background-color: #0f17ff;
+  border-color: #030bff;
 }
 body .opui-btn-primary:not(:disabled):not(.disabled):active:focus, body .opui-btn-primary:not(:disabled):not(.disabled).active:focus, .show > body .opui-btn-primary.opui-dropdown-toggle:focus, html .opui-btn-primary:not(:disabled):not(.disabled):active:focus, html .opui-btn-primary:not(:disabled):not(.disabled).active:focus, .show > html .opui-btn-primary.opui-dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(38, 122, 224, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(94, 100, 255, 0.5);
 }
 body .opui-btn-secondary, html .opui-btn-secondary {
   color: #fff;
@@ -6170,28 +6170,28 @@ body .opui-btn-admin:not(:disabled):not(.disabled):active:focus, body .opui-btn-
   box-shadow: 0 0 0 0.2rem rgba(95, 100, 255, 0.5);
 }
 body .opui-btn-outline-primary, html .opui-btn-outline-primary {
-  color: #0063db;
-  border-color: #0063db;
+  color: #4249ff;
+  border-color: #4249ff;
 }
 body .opui-btn-outline-primary:hover, html .opui-btn-outline-primary:hover {
   color: #fff;
-  background-color: #0063db;
-  border-color: #0063db;
+  background-color: #4249ff;
+  border-color: #4249ff;
 }
 body .opui-btn-outline-primary:focus, body .opui-btn-outline-primary.focus, html .opui-btn-outline-primary:focus, html .opui-btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.5);
 }
 body .opui-btn-outline-primary.disabled, body .opui-btn-outline-primary:disabled, html .opui-btn-outline-primary.disabled, html .opui-btn-outline-primary:disabled {
-  color: #0063db;
+  color: #4249ff;
   background-color: transparent;
 }
 body .opui-btn-outline-primary:not(:disabled):not(.disabled):active, body .opui-btn-outline-primary:not(:disabled):not(.disabled).active, .show > body .opui-btn-outline-primary.opui-dropdown-toggle, html .opui-btn-outline-primary:not(:disabled):not(.disabled):active, html .opui-btn-outline-primary:not(:disabled):not(.disabled).active, .show > html .opui-btn-outline-primary.opui-dropdown-toggle {
   color: #fff;
-  background-color: #0063db;
-  border-color: #0063db;
+  background-color: #4249ff;
+  border-color: #4249ff;
 }
 body .opui-btn-outline-primary:not(:disabled):not(.disabled):active:focus, body .opui-btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > body .opui-btn-outline-primary.opui-dropdown-toggle:focus, html .opui-btn-outline-primary:not(:disabled):not(.disabled):active:focus, html .opui-btn-outline-primary:not(:disabled):not(.disabled).active:focus, .show > html .opui-btn-outline-primary.opui-dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.5);
 }
 body .opui-btn-outline-secondary, html .opui-btn-outline-secondary {
   color: #6d767e;
@@ -6387,11 +6387,11 @@ body .opui-btn-outline-admin:not(:disabled):not(.disabled):active:focus, body .o
 }
 body .opui-btn-link, html .opui-btn-link {
   font-weight: 400;
-  color: #0063db;
+  color: #4249ff;
   text-decoration: none;
 }
 body .opui-btn-link:hover, html .opui-btn-link:hover {
-  color: #00408f;
+  color: #0008f5;
   text-decoration: underline;
 }
 body .opui-btn-link:focus, body .opui-btn-link.focus, html .opui-btn-link:focus, html .opui-btn-link.focus {
@@ -6657,7 +6657,7 @@ body .opui-dropdown-item:hover, body .opui-dropdown-item:focus, html .opui-dropd
 body .opui-dropdown-item.active, body .opui-dropdown-item:active, html .opui-dropdown-item.active, html .opui-dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #0063db;
+  background-color: #4249ff;
 }
 body .opui-dropdown-item.disabled, body .opui-dropdown-item:disabled, html .opui-dropdown-item.disabled, html .opui-dropdown-item:disabled {
   color: #89959f;
@@ -7039,19 +7039,19 @@ body .opui-custom-control-input, html .opui-custom-control-input {
 }
 body .opui-custom-control-input:checked ~ .opui-custom-control-label::before, html .opui-custom-control-input:checked ~ .opui-custom-control-label::before {
   color: #fff;
-  border-color: #0063db;
-  background-color: #0063db;
+  border-color: #4249ff;
+  background-color: #4249ff;
 }
 body .opui-custom-control-input:focus ~ .opui-custom-control-label::before, html .opui-custom-control-input:focus ~ .opui-custom-control-label::before {
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-control-input:focus:not(:checked) ~ .opui-custom-control-label::before, html .opui-custom-control-input:focus:not(:checked) ~ .opui-custom-control-label::before {
-  border-color: #5ca5ff;
+  border-color: #c2c4ff;
 }
 body .opui-custom-control-input:not(:disabled):active ~ .opui-custom-control-label::before, html .opui-custom-control-input:not(:disabled):active ~ .opui-custom-control-label::before {
   color: #fff;
-  background-color: #8fc1ff;
-  border-color: #8fc1ff;
+  background-color: #f5f5ff;
+  border-color: #f5f5ff;
 }
 body .opui-custom-control-input[disabled] ~ .opui-custom-control-label, body .opui-custom-control-input:disabled ~ .opui-custom-control-label, html .opui-custom-control-input[disabled] ~ .opui-custom-control-label, html .opui-custom-control-input:disabled ~ .opui-custom-control-label {
   color: #6d767e;
@@ -7093,17 +7093,17 @@ body .opui-custom-checkbox .opui-custom-control-input:checked ~ .opui-custom-con
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/%3e%3c/svg%3e");
 }
 body .opui-custom-checkbox .opui-custom-control-input:indeterminate ~ .opui-custom-control-label::before, html .opui-custom-checkbox .opui-custom-control-input:indeterminate ~ .opui-custom-control-label::before {
-  border-color: #0063db;
-  background-color: #0063db;
+  border-color: #4249ff;
+  background-color: #4249ff;
 }
 body .opui-custom-checkbox .opui-custom-control-input:indeterminate ~ .opui-custom-control-label::after, html .opui-custom-checkbox .opui-custom-control-input:indeterminate ~ .opui-custom-control-label::after {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e");
 }
 body .opui-custom-checkbox .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before, html .opui-custom-checkbox .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 99, 219, 0.5);
+  background-color: rgba(66, 73, 255, 0.5);
 }
 body .opui-custom-checkbox .opui-custom-control-input:disabled:indeterminate ~ .opui-custom-control-label::before, html .opui-custom-checkbox .opui-custom-control-input:disabled:indeterminate ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 99, 219, 0.5);
+  background-color: rgba(66, 73, 255, 0.5);
 }
 body .opui-custom-radio .opui-custom-control-label::before, html .opui-custom-radio .opui-custom-control-label::before {
   border-radius: 50%;
@@ -7112,7 +7112,7 @@ body .opui-custom-radio .opui-custom-control-input:checked ~ .opui-custom-contro
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
 }
 body .opui-custom-radio .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before, html .opui-custom-radio .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 99, 219, 0.5);
+  background-color: rgba(66, 73, 255, 0.5);
 }
 body .opui-custom-switch, html .opui-custom-switch {
   padding-left: 2.25rem;
@@ -7142,7 +7142,7 @@ body .opui-custom-switch .opui-custom-control-input:checked ~ .opui-custom-contr
   transform: translateX(0.75rem);
 }
 body .opui-custom-switch .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before, html .opui-custom-switch .opui-custom-control-input:disabled:checked ~ .opui-custom-control-label::before {
-  background-color: rgba(0, 99, 219, 0.5);
+  background-color: rgba(66, 73, 255, 0.5);
 }
 body .opui-custom-select, html .opui-custom-select {
   display: inline-block;
@@ -7162,9 +7162,9 @@ body .opui-custom-select, html .opui-custom-select {
           appearance: none;
 }
 body .opui-custom-select:focus, html .opui-custom-select:focus {
-  border-color: #5ca5ff;
+  border-color: #c2c4ff;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-select:focus::-ms-value, html .opui-custom-select:focus::-ms-value {
   color: #484f56;
@@ -7217,8 +7217,8 @@ body .opui-custom-file-input, html .opui-custom-file-input {
   opacity: 0;
 }
 body .opui-custom-file-input:focus ~ .opui-custom-file-label, html .opui-custom-file-input:focus ~ .opui-custom-file-label {
-  border-color: #5ca5ff;
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  border-color: #c2c4ff;
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-file-input[disabled] ~ .opui-custom-file-label, body .opui-custom-file-input:disabled ~ .opui-custom-file-label, html .opui-custom-file-input[disabled] ~ .opui-custom-file-label, html .opui-custom-file-input:disabled ~ .opui-custom-file-label {
   background-color: #ededed;
@@ -7274,13 +7274,13 @@ body .opui-custom-range:focus, html .opui-custom-range:focus {
   outline: 0;
 }
 body .opui-custom-range:focus::-webkit-slider-thumb, html .opui-custom-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-range:focus::-moz-range-thumb, html .opui-custom-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-range:focus::-ms-thumb, html .opui-custom-range:focus::-ms-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-range::-moz-focus-outer, html .opui-custom-range::-moz-focus-outer {
   border: 0;
@@ -7289,7 +7289,7 @@ body .opui-custom-range::-webkit-slider-thumb, html .opui-custom-range::-webkit-
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #0063db;
+  background-color: #4249ff;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -7304,7 +7304,7 @@ body .opui-custom-range::-webkit-slider-thumb, html .opui-custom-range::-webkit-
   }
 }
 body .opui-custom-range::-webkit-slider-thumb:active, html .opui-custom-range::-webkit-slider-thumb:active {
-  background-color: #8fc1ff;
+  background-color: #f5f5ff;
 }
 body .opui-custom-range::-webkit-slider-runnable-track, html .opui-custom-range::-webkit-slider-runnable-track {
   width: 100%;
@@ -7318,7 +7318,7 @@ body .opui-custom-range::-webkit-slider-runnable-track, html .opui-custom-range:
 body .opui-custom-range::-moz-range-thumb, html .opui-custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #0063db;
+  background-color: #4249ff;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -7333,7 +7333,7 @@ body .opui-custom-range::-moz-range-thumb, html .opui-custom-range::-moz-range-t
   }
 }
 body .opui-custom-range::-moz-range-thumb:active, html .opui-custom-range::-moz-range-thumb:active {
-  background-color: #8fc1ff;
+  background-color: #f5f5ff;
 }
 body .opui-custom-range::-moz-range-track, html .opui-custom-range::-moz-range-track {
   width: 100%;
@@ -7350,7 +7350,7 @@ body .opui-custom-range::-ms-thumb, html .opui-custom-range::-ms-thumb {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #0063db;
+  background-color: #4249ff;
   border: 0;
   border-radius: 1rem;
   -ms-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -7364,7 +7364,7 @@ body .opui-custom-range::-ms-thumb, html .opui-custom-range::-ms-thumb {
   }
 }
 body .opui-custom-range::-ms-thumb:active, html .opui-custom-range::-ms-thumb:active {
-  background-color: #8fc1ff;
+  background-color: #f5f5ff;
 }
 body .opui-custom-range::-ms-track, html .opui-custom-range::-ms-track {
   width: 100%;
@@ -7470,7 +7470,7 @@ body .opui-nav-pills .opui-nav-link.active,
 body .opui-nav-pills .show > .opui-nav-link, html .opui-nav-pills .opui-nav-link.active,
 html .opui-nav-pills .show > .opui-nav-link {
   color: #fff;
-  background-color: #0063db;
+  background-color: #4249ff;
 }
 body .opui-nav-fill > .opui-nav-link,
 body .opui-nav-fill .opui-nav-item, html .opui-nav-fill > .opui-nav-link,
@@ -8255,13 +8255,13 @@ body .opui-page-link, html .opui-page-link {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0063db;
+  color: #4249ff;
   background-color: #fff;
   border: 1px solid #ced4da;
 }
 body .opui-page-link:hover, html .opui-page-link:hover {
   z-index: 2;
-  color: #00408f;
+  color: #0008f5;
   text-decoration: none;
   background-color: #ededed;
   border-color: #ced4da;
@@ -8269,7 +8269,7 @@ body .opui-page-link:hover, html .opui-page-link:hover {
 body .opui-page-link:focus, html .opui-page-link:focus {
   z-index: 3;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-page-item:first-child .opui-page-link, html .opui-page-item:first-child .opui-page-link {
   margin-left: 0;
@@ -8283,8 +8283,8 @@ body .opui-page-item:last-child .opui-page-link, html .opui-page-item:last-child
 body .opui-page-item.active .opui-page-link, html .opui-page-item.active .opui-page-link {
   z-index: 3;
   color: #fff;
-  background-color: #0063db;
-  border-color: #0063db;
+  background-color: #4249ff;
+  border-color: #4249ff;
 }
 body .opui-page-item.disabled .opui-page-link, html .opui-page-item.disabled .opui-page-link {
   color: #6d767e;
@@ -8355,15 +8355,15 @@ body .opui-badge-pill, html .opui-badge-pill {
 }
 body .opui-badge-primary, html .opui-badge-primary {
   color: #fff;
-  background-color: #0063db;
+  background-color: #4249ff;
 }
 abody .opui-badge-primary:hover, abody .opui-badge-primary:focus, html .opui-badge-primary:hover, html .opui-badge-primary:focus {
   color: #fff;
-  background-color: #004ca8;
+  background-color: #0f17ff;
 }
 abody .opui-badge-primary:focus, abody .opui-badge-primary.focus, html .opui-badge-primary:focus, html .opui-badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 99, 219, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.5);
 }
 
 body .opui-badge-secondary, html .opui-badge-secondary {
@@ -8511,15 +8511,15 @@ body .opui-alert-dismissible .opui-close, html .opui-alert-dismissible .opui-clo
   color: inherit;
 }
 body .opui-alert-primary, html .opui-alert-primary {
-  color: #003372;
-  background-color: #cce0f8;
-  border-color: #b8d3f5;
+  color: #222685;
+  background-color: #d9dbff;
+  border-color: #caccff;
 }
 body .opui-alert-primary hr, html .opui-alert-primary hr {
-  border-top-color: #a2c5f2;
+  border-top-color: #b1b3ff;
 }
 body .opui-alert-primary .opui-alert-link, html .opui-alert-primary .opui-alert-link {
-  color: #001c3f;
+  color: #181a5c;
 }
 body .opui-alert-secondary, html .opui-alert-secondary {
   color: #393d42;
@@ -8642,7 +8642,7 @@ body .opui-progress-bar, html .opui-progress-bar {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #0063db;
+  background-color: #4249ff;
   transition: width 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -8716,8 +8716,8 @@ body .opui-list-group-item.disabled, body .opui-list-group-item:disabled, html .
 body .opui-list-group-item.active, html .opui-list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #0063db;
-  border-color: #0063db;
+  background-color: #4249ff;
+  border-color: #4249ff;
 }
 body .opui-list-group-item + body .opui-list-group-item, body .opui-list-group-item + html .opui-list-group-item, html .opui-list-group-item + body .opui-list-group-item, html .opui-list-group-item + html .opui-list-group-item {
   border-top-width: 0;
@@ -8878,17 +8878,17 @@ body .opui-list-group-flush > .opui-list-group-item:last-child, html .opui-list-
   border-bottom-width: 0;
 }
 body .opui-list-group-item-primary, html .opui-list-group-item-primary {
-  color: #003372;
-  background-color: #b8d3f5;
+  color: #222685;
+  background-color: #caccff;
 }
 body .opui-list-group-item-primary.opui-list-group-item-action:hover, body .opui-list-group-item-primary.opui-list-group-item-action:focus, html .opui-list-group-item-primary.opui-list-group-item-action:hover, html .opui-list-group-item-primary.opui-list-group-item-action:focus {
-  color: #003372;
-  background-color: #a2c5f2;
+  color: #222685;
+  background-color: #b1b3ff;
 }
 body .opui-list-group-item-primary.opui-list-group-item-action.active, html .opui-list-group-item-primary.opui-list-group-item-action.active {
   color: #fff;
-  background-color: #003372;
-  border-color: #003372;
+  background-color: #222685;
+  border-color: #222685;
 }
 body .opui-list-group-item-secondary, html .opui-list-group-item-secondary {
   color: #393d42;
@@ -9561,14 +9561,14 @@ body .opui-align-text-top, html .opui-align-text-top {
   vertical-align: text-top !important;
 }
 body .opui-bg-primary, html .opui-bg-primary {
-  background-color: #0063db !important;
+  background-color: #4249ff !important;
 }
 body a.opui-bg-primary:hover, body a.opui-bg-primary:focus,
 body button.opui-bg-primary:hover,
 body button.opui-bg-primary:focus, html a.opui-bg-primary:hover, html a.opui-bg-primary:focus,
 html button.opui-bg-primary:hover,
 html button.opui-bg-primary:focus {
-  background-color: #004ca8 !important;
+  background-color: #0f17ff !important;
 }
 body .opui-bg-secondary, html .opui-bg-secondary {
   background-color: #6d767e !important;
@@ -9687,7 +9687,7 @@ body .opui-border-left-0, html .opui-border-left-0 {
   border-left: 0 !important;
 }
 body .opui-border-primary, html .opui-border-primary {
-  border-color: #0063db !important;
+  border-color: #4249ff !important;
 }
 body .opui-border-secondary, html .opui-border-secondary {
   border-color: #6d767e !important;
@@ -15519,10 +15519,10 @@ body .opui-text-white, html .opui-text-white {
   color: #fff !important;
 }
 body .opui-text-primary, html .opui-text-primary {
-  color: #0063db !important;
+  color: #4249ff !important;
 }
 body a.opui-text-primary:hover, body a.opui-text-primary:focus, html a.opui-text-primary:hover, html a.opui-text-primary:focus {
-  color: #00408f !important;
+  color: #0008f5 !important;
 }
 body .opui-text-secondary, html .opui-text-secondary {
   color: #6d767e !important;
@@ -16294,7 +16294,7 @@ html .opui-title-w-icon h5 [class^=opui-icon],
 html .opui-title-w-icon h5 [class*=" opui-icon"],
 html .opui-title-w-icon h6 [class^=opui-icon],
 html .opui-title-w-icon h6 [class*=" opui-icon"] {
-  color: #0063db;
+  color: #4249ff;
   display: inline-block;
   vertical-align: middle;
   font-size: 4rem;
@@ -16687,7 +16687,7 @@ body .opui-check-switch .opui-check-switch-label, html .opui-check-switch .opui-
   display: block;
   overflow: hidden;
   cursor: pointer;
-  border: 2px solid #0063db;
+  border: 2px solid #4249ff;
   border-radius: 20px;
   padding: 0;
   margin: 0;
@@ -16716,7 +16716,7 @@ html .opui-check-switch .opui-check-switch-inner:after {
 body .opui-check-switch .opui-check-switch-inner:before, html .opui-check-switch .opui-check-switch-inner:before {
   content: "ON";
   padding-left: 15px;
-  background-color: #0063db;
+  background-color: #4249ff;
   color: white;
   font-family: "Open Sans", sans-serif !important;
   font-weight: 700 !important;
@@ -16741,7 +16741,7 @@ body .opui-check-switch .opui-check-switch-toggle, html .opui-check-switch .opui
   top: 3px;
   bottom: 0;
   right: 39px;
-  border: 2px solid #0063db;
+  border: 2px solid #4249ff;
   border-radius: 20px;
   transition: all 0.3s ease-in 0s;
 }
@@ -17367,7 +17367,7 @@ body .opui-bg-gray-900, html .opui-bg-gray-900 {
   background-color: #22262a;
 }
 body .opui-text-blue, html .opui-text-blue {
-  color: #0063db;
+  color: #4249ff;
 }
 body .opui-text-logo, html .opui-text-logo {
   color: #4249ff;
@@ -17388,7 +17388,7 @@ body .opui-text-blue-300, html .opui-text-blue-300 {
   color: #0f7bff;
 }
 body .opui-text-blue-400, html .opui-text-blue-400 {
-  color: #0063db;
+  color: #4249ff;
 }
 body .opui-text-blue-500, html .opui-text-blue-500 {
   color: #0057c2;
@@ -17406,7 +17406,7 @@ body .opui-text-blue-900, html .opui-text-blue-900 {
   color: #001229;
 }
 body .opui-bg-blue, html .opui-bg-blue {
-  background-color: #0063db;
+  background-color: #4249ff;
 }
 body .opui-bg-logo, html .opui-bg-logo {
   background-color: #4249ff;
@@ -17427,7 +17427,7 @@ body .opui-bg-blue-300, html .opui-bg-blue-300 {
   background-color: #0f7bff;
 }
 body .opui-bg-blue-400, html .opui-bg-blue-400 {
-  background-color: #0063db;
+  background-color: #4249ff;
 }
 body .opui-bg-blue-500, html .opui-bg-blue-500 {
   background-color: #0057c2;
@@ -17518,7 +17518,7 @@ body .opui-product-card, html .opui-product-card {
   margin-bottom: 20px;
 }
 body .opui-product-card h6, html .opui-product-card h6 {
-  color: #0063db;
+  color: #4249ff;
 }
 body .opui-product-card p, html .opui-product-card p {
   font-size: 14px;
@@ -18238,7 +18238,7 @@ body .opui-item-list .opui-item-list-is-loading > li .opui-btn, html .opui-item-
   display: block !important;
 }
 .toplevel_page_op-protect .select2-dropdown .select2-results__option--highlighted {
-  background-color: #0063db !important;
+  background-color: #4249ff !important;
 }
 
 html {
