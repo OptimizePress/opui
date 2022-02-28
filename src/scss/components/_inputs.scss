@@ -18,9 +18,9 @@
 
         &:checked {
             ~ .#{$op-prefix}checkmark {
-                background-color: $color--opui-logo;
-                border-color: $color--opui-logo;
-                box-shadow: 0 0 0 2px rgba($color--opui-logo, 0.2);
+                background-color: $color--opui-blue;
+                border-color: $color--opui-blue;
+                box-shadow: 0 0 0 2px rgba($color--opui-blue, 0.2);
 
                 &:after {
                     display: block;
@@ -52,6 +52,33 @@
             border: solid white;
             border-width: 0 3px 3px 0;
             transform: rotate(45deg);
+        }
+    }
+}
+
+// Input type radio
+
+.opui-input-radio-label {
+    display: flex;
+    align-items: center;
+
+    .opui-input[type="radio"] {
+        font-size: 1.6rem;
+        width: 1.6rem;
+        height: 1.6rem;
+        border-color: $color--opui-gray300;
+        box-shadow: none;
+        padding: 0;
+        margin: 0 0.5rem 0 0;
+
+        &:before {
+            background-color: $color--opui-blue;
+            border-radius: 50%;
+            line-height: 1;
+            content: "";
+            width: 1rem;
+            height: 1rem;
+            float: none;
         }
     }
 }

@@ -1,5 +1,7 @@
 :root {
-  --opui--font-family: Open Sans, sans-serif;
+  --opui--font-family: Inter, sans-serif;
+  --opui--border-radius: 4px;
+  --opui--box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
   --opui--white: white;
   --opui--black: black;
   --opui--gray: #6d767e;
@@ -14,23 +16,22 @@
   --opui--gray700: #484f56;
   --opui--gray800: #353b41;
   --opui--gray900: #22262a;
-  --opui--blue: #0063db;
-  --opui--darkblue: #0051c2;
-  --opui--lightblue: #0073ff;
-  --opui--blue100: #8fc1ff;
-  --opui--blue200: #4297ff;
-  --opui--blue300: #0f7bff;
-  --opui--blue400: #0063db;
-  --opui--blue500: #0057c2;
-  --opui--blue600: #0051c2;
-  --opui--blue700: #00479e;
-  --opui--blue800: #003575;
-  --opui--blue900: #001229;
-  --opui--logo: #4249ff;
-  --opui--primary: #0063db;
-  --opui--secondary: #8fc1ff;
+  --opui--blue: #4249ff;
+  --opui--darkblue: #0007c2;
+  --opui--lightblue: #0009ff;
+  --opui--blue100: #8f93ff;
+  --opui--blue200: #4249ff;
+  --opui--blue300: #0f18ff;
+  --opui--blue400: #4249ff;
+  --opui--blue500: #0007c2;
+  --opui--blue600: #0007c2;
+  --opui--blue700: #00069e;
+  --opui--blue800: #000475;
+  --opui--blue900: #000129;
+  --opui--primary: #4249ff;
+  --opui--secondary: #8f93ff;
   --opui--success: #00d688;
-  --opui--info: #0f7bff;
+  --opui--info: #0f18ff;
   --opui--warning: #ffc105;
   --opui--danger: #dc3848;
   --opui--light: #f9fafb;
@@ -172,12 +173,12 @@ sup {
 }
 
 a {
-  color: #0063db;
+  color: #4249ff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #00408f;
+  color: #0009f4;
   text-decoration: underline;
 }
 
@@ -226,7 +227,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6d767e;
+  color: #6c757d;
   text-align: left;
   caption-side: bottom;
 }

@@ -66,6 +66,10 @@
     width: 300px;
 }
 
+.#{$op-prefix}w-80 {
+    width: 80px !important;
+}
+
 .#{$op-prefix}max-900 {
     max-width: 900px;
     margin-left: auto;

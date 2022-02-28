@@ -1,6 +1,4 @@
 // Global configuration
-//[class="#{$op-prefix}icon"], [class^="#{$op-prefix}icon "] {
-//[class~="#{$op-prefix}icon"] {
 [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
     display: inline-block;
 
