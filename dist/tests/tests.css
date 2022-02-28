@@ -17421,53 +17421,258 @@ body .opui-align-self-baseline, html .opui-align-self-baseline {
 body .opui-align-self-stretch, html .opui-align-self-stretch {
   align-self: stretch !important;
 }
-body .opui-.w-25, html .opui-.w-25 {
+body .opui-w-25, html .opui-w-25 {
   width: 25% !important;
 }
-body .opui-.w-50, html .opui-.w-50 {
+body .opui-w-50, html .opui-w-50 {
   width: 50% !important;
 }
-body .opui-.w-75, html .opui-.w-75 {
+body .opui-w-75, html .opui-w-75 {
   width: 75% !important;
 }
-body .opui-.w-100, html .opui-.w-100 {
+body .opui-w-100, html .opui-w-100 {
   width: 100% !important;
 }
-body .opui-.w-auto, html .opui-.w-auto {
+body .opui-w-auto, html .opui-w-auto {
   width: auto !important;
 }
-body .opui-.mw-100, html .opui-.mw-100 {
+body .opui-mw-100, html .opui-mw-100 {
   max-width: 100% !important;
 }
-body .opui-.vw-100, html .opui-.vw-100 {
+body .opui-vw-100, html .opui-vw-100 {
   width: 100vw !important;
 }
-body .opui-.min-vw-100, html .opui-.min-vw-100 {
+body .opui-min-vw-100, html .opui-min-vw-100 {
   min-width: 100vw !important;
 }
-body .opui-.h-25, html .opui-.h-25 {
+body .opui-h-25, html .opui-h-25 {
   height: 25% !important;
 }
-body .opui-.h-50, html .opui-.h-50 {
+body .opui-h-50, html .opui-h-50 {
   height: 50% !important;
 }
-body .opui-.h-75, html .opui-.h-75 {
+body .opui-h-75, html .opui-h-75 {
   height: 75% !important;
 }
-body .opui-.h-100, html .opui-.h-100 {
+body .opui-h-100, html .opui-h-100 {
   height: 100% !important;
 }
-body .opui-.h-auto, html .opui-.h-auto {
+body .opui-h-auto, html .opui-h-auto {
   height: auto !important;
 }
-body .opui-.mh-100, html .opui-.mh-100 {
+body .opui-mh-100, html .opui-mh-100 {
   max-height: 100% !important;
 }
-body .opui-.vh-100, html .opui-.vh-100 {
+body .opui-vh-100, html .opui-vh-100 {
   height: 100vh !important;
 }
-body .opui-.min-vh-100, html .opui-.min-vh-100 {
+body .opui-min-vh-100, html .opui-min-vh-100 {
   min-height: 100vh !important;
+}
+body .opui-auto, html .opui-auto {
+  overflow: auto !important;
+}
+body .opui-hidden, html .opui-hidden {
+  overflow: hidden !important;
+}
+body .opui-visible, html .opui-visible {
+  overflow: visible !important;
+}
+body .opui-scroll, html .opui-scroll {
+  overflow: scroll !important;
+}
+body .opui-fs-1, html .opui-fs-1 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+body .opui-fs-2, html .opui-fs-2 {
+  font-size: calc(1.325rem + 0.9vw) !important;
+}
+body .opui-fs-3, html .opui-fs-3 {
+  font-size: calc(1.3rem + 0.6vw) !important;
+}
+body .opui-fs-4, html .opui-fs-4 {
+  font-size: calc(1.275rem + 0.3vw) !important;
+}
+body .opui-fs-5, html .opui-fs-5 {
+  font-size: 1.25rem !important;
+}
+body .opui-fs-6, html .opui-fs-6 {
+  font-size: 1rem !important;
+}
+body .opui-fst-italic, html .opui-fst-italic {
+  font-style: italic !important;
+}
+body .opui-fst-normal, html .opui-fst-normal {
+  font-style: normal !important;
+}
+body .opui-fw-light, html .opui-fw-light {
+  font-weight: 300 !important;
+}
+body .opui-fw-lighter, html .opui-fw-lighter {
+  font-weight: lighter !important;
+}
+body .opui-fw-normal, html .opui-fw-normal {
+  font-weight: 400 !important;
+}
+body .opui-fw-bold, html .opui-fw-bold {
+  font-weight: 700 !important;
+}
+body .opui-fw-bolder, html .opui-fw-bolder {
+  font-weight: bolder !important;
+}
+body .opui-lh-1, html .opui-lh-1 {
+  line-height: 1 !important;
+}
+body .opui-lh-sm, html .opui-lh-sm {
+  line-height: 1.25 !important;
+}
+body .opui-lh-base, html .opui-lh-base {
+  line-height: 1.5 !important;
+}
+body .opui-lh-lg, html .opui-lh-lg {
+  line-height: 2 !important;
+}
+body .opui-text-start, html .opui-text-start {
+  text-align: left !important;
+}
+body .opui-text-end, html .opui-text-end {
+  text-align: right !important;
+}
+body .opui-text-center, html .opui-text-center {
+  text-align: center !important;
+}
+body .opui-text-decoration-none, html .opui-text-decoration-none {
+  text-decoration: none !important;
+}
+body .opui-text-decoration-underline, html .opui-text-decoration-underline {
+  text-decoration: underline !important;
+}
+body .opui-text-decoration-line-through, html .opui-text-decoration-line-through {
+  text-decoration: line-through !important;
+}
+body .opui-text-lowercase, html .opui-text-lowercase {
+  text-transform: lowercase !important;
+}
+body .opui-text-uppercase, html .opui-text-uppercase {
+  text-transform: uppercase !important;
+}
+body .opui-text-capitalize, html .opui-text-capitalize {
+  text-transform: capitalize !important;
+}
+body .opui-text-wrap, html .opui-text-wrap {
+  white-space: normal !important;
+}
+body .opui-text-nowrap, html .opui-text-nowrap {
+  white-space: nowrap !important;
+}
+body .opui-rounded, html .opui-rounded {
+  border-radius: 0.25rem !important;
+}
+body .opui-rounded-0, html .opui-rounded-0 {
+  border-radius: 0 !important;
+}
+body .opui-rounded-1, html .opui-rounded-1 {
+  border-radius: 0.2rem !important;
+}
+body .opui-rounded-2, html .opui-rounded-2 {
+  border-radius: 0.25rem !important;
+}
+body .opui-rounded-3, html .opui-rounded-3 {
+  border-radius: 0.3rem !important;
+}
+body .opui-rounded-circle, html .opui-rounded-circle {
+  border-radius: 50% !important;
+}
+body .opui-rounded-pill, html .opui-rounded-pill {
+  border-radius: 50rem !important;
+}
+body .opui-rounded-top, html .opui-rounded-top {
+  border-top-left-radius: 0.25rem !important;
+  border-top-right-radius: 0.25rem !important;
+}
+body .opui-rounded-end, html .opui-rounded-end {
+  border-top-right-radius: 0.25rem !important;
+  border-bottom-right-radius: 0.25rem !important;
+}
+body .opui-rounded-bottom, html .opui-rounded-bottom {
+  border-bottom-right-radius: 0.25rem !important;
+  border-bottom-left-radius: 0.25rem !important;
+}
+body .opui-rounded-start, html .opui-rounded-start {
+  border-bottom-left-radius: 0.25rem !important;
+  border-top-left-radius: 0.25rem !important;
+}
+body .opui-border, html .opui-border {
+  border: 1px solid #f9fafb !important;
+}
+body .opui-border-0, html .opui-border-0 {
+  border: 0 !important;
+}
+body .opui-border-top, html .opui-border-top {
+  border-top: 1px solid #f9fafb !important;
+}
+body .opui-border-top-0, html .opui-border-top-0 {
+  border-top: 0 !important;
+}
+body .opui-border-end, html .opui-border-end {
+  border-right: 1px solid #f9fafb !important;
+}
+body .opui-border-end-0, html .opui-border-end-0 {
+  border-right: 0 !important;
+}
+body .opui-border-bottom, html .opui-border-bottom {
+  border-bottom: 1px solid #f9fafb !important;
+}
+body .opui-border-bottom-0, html .opui-border-bottom-0 {
+  border-bottom: 0 !important;
+}
+body .opui-border-start, html .opui-border-start {
+  border-left: 1px solid #f9fafb !important;
+}
+body .opui-border-start-0, html .opui-border-start-0 {
+  border-left: 0 !important;
+}
+body .opui-border-primary, html .opui-border-primary {
+  border-color: #4249ff !important;
+}
+body .opui-border-secondary, html .opui-border-secondary {
+  border-color: #8f93ff !important;
+}
+body .opui-border-success, html .opui-border-success {
+  border-color: #00d688 !important;
+}
+body .opui-border-info, html .opui-border-info {
+  border-color: #0f18ff !important;
+}
+body .opui-border-warning, html .opui-border-warning {
+  border-color: #ffc105 !important;
+}
+body .opui-border-danger, html .opui-border-danger {
+  border-color: #dc3848 !important;
+}
+body .opui-border-light, html .opui-border-light {
+  border-color: #f9fafb !important;
+}
+body .opui-border-dark, html .opui-border-dark {
+  border-color: #22262a !important;
+}
+body .opui-border-white, html .opui-border-white {
+  border-color: white !important;
+}
+body .opui-border-1, html .opui-border-1 {
+  border-width: 1px !important;
+}
+body .opui-border-2, html .opui-border-2 {
+  border-width: 2px !important;
+}
+body .opui-border-3, html .opui-border-3 {
+  border-width: 3px !important;
+}
+body .opui-border-4, html .opui-border-4 {
+  border-width: 4px !important;
+}
+body .opui-border-5, html .opui-border-5 {
+  border-width: 5px !important;
 }
 body .opui-text-white, html .opui-text-white {
   color: white;

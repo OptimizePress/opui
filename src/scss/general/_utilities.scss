@@ -208,66 +208,338 @@
     align-self: stretch !important;
 }
 
-.#{$op-prefix}.w-25 {
+.#{$op-prefix}w-25 {
     width: 25% !important;
 }
 
-.#{$op-prefix}.w-50 {
+.#{$op-prefix}w-50 {
     width: 50% !important;
 }
 
-.#{$op-prefix}.w-75 {
+.#{$op-prefix}w-75 {
     width: 75% !important;
 }
 
-.#{$op-prefix}.w-100 {
+.#{$op-prefix}w-100 {
     width: 100% !important;
 }
 
-.#{$op-prefix}.w-auto {
+.#{$op-prefix}w-auto {
     width: auto !important;
 }
 
-.#{$op-prefix}.mw-100 {
+.#{$op-prefix}mw-100 {
     max-width: 100% !important;
 }
 
-.#{$op-prefix}.vw-100 {
+.#{$op-prefix}vw-100 {
     width: 100vw !important;
 }
 
-.#{$op-prefix}.min-vw-100 {
+.#{$op-prefix}min-vw-100 {
     min-width: 100vw !important;
 }
 
-.#{$op-prefix}.h-25 {
+.#{$op-prefix}h-25 {
     height: 25% !important;
 }
 
-.#{$op-prefix}.h-50 {
+.#{$op-prefix}h-50 {
     height: 50% !important;
 }
 
-.#{$op-prefix}.h-75 {
+.#{$op-prefix}h-75 {
     height: 75% !important;
 }
 
-.#{$op-prefix}.h-100 {
+.#{$op-prefix}h-100 {
     height: 100% !important;
 }
 
-.#{$op-prefix}.h-auto {
+.#{$op-prefix}h-auto {
     height: auto !important;
 }
 
-.#{$op-prefix}.mh-100 {
+.#{$op-prefix}mh-100 {
     max-height: 100% !important;
 }
 
-.#{$op-prefix}.vh-100 {
+.#{$op-prefix}vh-100 {
     height: 100vh !important;
 }
 
-.#{$op-prefix}.min-vh-100 {
+.#{$op-prefix}min-vh-100 {
     min-height: 100vh !important;
+}
+
+.#{$op-prefix}auto {
+    overflow: auto !important;
+}
+
+.#{$op-prefix}hidden {
+    overflow: hidden !important;
+}
+
+.#{$op-prefix}visible {
+    overflow: visible !important;
+}
+
+.#{$op-prefix}scroll {
+    overflow: scroll !important;
+}
+
+.#{$op-prefix}fs-1 {
+    font-size: calc(1.375rem + 1.5vw) !important;
+}
+
+.#{$op-prefix}fs-2 {
+    font-size: calc(1.325rem + 0.9vw) !important;
+}
+
+.#{$op-prefix}fs-3 {
+    font-size: calc(1.3rem + 0.6vw) !important;
+}
+
+.#{$op-prefix}fs-4 {
+    font-size: calc(1.275rem + 0.3vw) !important;
+}
+
+.#{$op-prefix}fs-5 {
+    font-size: 1.25rem !important;
+}
+
+.#{$op-prefix}fs-6 {
+    font-size: 1rem !important;
+}
+
+.#{$op-prefix}fst-italic {
+    font-style: italic !important;
+}
+
+.#{$op-prefix}fst-normal {
+    font-style: normal !important;
+}
+
+.#{$op-prefix}fw-light {
+    font-weight: 300 !important;
+}
+
+.#{$op-prefix}fw-lighter {
+    font-weight: lighter !important;
+}
+
+.#{$op-prefix}fw-normal {
+    font-weight: 400 !important;
+}
+
+.#{$op-prefix}fw-bold {
+    font-weight: 700 !important;
+}
+
+.#{$op-prefix}fw-bolder {
+    font-weight: bolder !important;
+}
+
+.#{$op-prefix}lh-1 {
+    line-height: 1 !important;
+}
+
+.#{$op-prefix}lh-sm {
+    line-height: 1.25 !important;
+}
+
+.#{$op-prefix}lh-base {
+    line-height: 1.5 !important;
+}
+
+.#{$op-prefix}lh-lg {
+    line-height: 2 !important;
+}
+
+.#{$op-prefix}text-start {
+    text-align: left !important;
+}
+
+.#{$op-prefix}text-end {
+    text-align: right !important;
+}
+
+.#{$op-prefix}text-center {
+    text-align: center !important;
+}
+
+.#{$op-prefix}text-decoration-none {
+    text-decoration: none !important;
+}
+
+.#{$op-prefix}text-decoration-underline {
+    text-decoration: underline !important;
+}
+
+.#{$op-prefix}text-decoration-line-through {
+    text-decoration: line-through !important;
+}
+
+.#{$op-prefix}text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.#{$op-prefix}text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.#{$op-prefix}text-capitalize {
+    text-transform: capitalize !important;
+}
+
+.#{$op-prefix}text-wrap {
+    white-space: normal !important;
+}
+
+.#{$op-prefix}text-nowrap {
+    white-space: nowrap !important;
+}
+
+.#{$op-prefix}rounded {
+    border-radius: 0.25rem !important;
+}
+
+.#{$op-prefix}rounded-0 {
+    border-radius: 0 !important;
+}
+
+.#{$op-prefix}rounded-1 {
+    border-radius: 0.2rem !important;
+}
+
+.#{$op-prefix}rounded-2 {
+    border-radius: 0.25rem !important;
+}
+
+.#{$op-prefix}rounded-3 {
+    border-radius: 0.3rem !important;
+}
+
+.#{$op-prefix}rounded-circle {
+    border-radius: 50% !important;
+}
+
+.#{$op-prefix}rounded-pill {
+    border-radius: 50rem !important;
+}
+
+.#{$op-prefix}rounded-top {
+    border-top-left-radius: 0.25rem !important;
+    border-top-right-radius: 0.25rem !important;
+}
+
+.#{$op-prefix}rounded-end {
+    border-top-right-radius: 0.25rem !important;
+    border-bottom-right-radius: 0.25rem !important;
+}
+
+.#{$op-prefix}rounded-bottom {
+    border-bottom-right-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
+}
+
+.#{$op-prefix}rounded-start {
+    border-bottom-left-radius: 0.25rem !important;
+    border-top-left-radius: 0.25rem !important;
+}
+
+.#{$op-prefix}border {
+    border: 1px solid $color--opui-light !important;
+}
+
+.#{$op-prefix}border-0 {
+    border: 0 !important;
+}
+
+.#{$op-prefix}border-top {
+    border-top: 1px solid $color--opui-light !important;
+}
+
+.#{$op-prefix}border-top-0 {
+    border-top: 0 !important;
+}
+
+.#{$op-prefix}border-end {
+    border-right: 1px solid $color--opui-light !important;
+}
+
+.#{$op-prefix}border-end-0 {
+    border-right: 0 !important;
+}
+
+.#{$op-prefix}border-bottom {
+    border-bottom: 1px solid $color--opui-light !important;
+}
+
+.#{$op-prefix}border-bottom-0 {
+    border-bottom: 0 !important;
+}
+
+.#{$op-prefix}border-start {
+    border-left: 1px solid $color--opui-light !important;
+}
+
+.#{$op-prefix}border-start-0 {
+    border-left: 0 !important;
+}
+
+.#{$op-prefix}border-primary {
+    border-color: $color--opui-primary !important;
+}
+
+.#{$op-prefix}border-secondary {
+    border-color: $color--opui-secondary !important;
+}
+
+.#{$op-prefix}border-success {
+    border-color: $color--opui-success !important;
+}
+
+.#{$op-prefix}border-info {
+    border-color: $color--opui-info !important;
+}
+
+.#{$op-prefix}border-warning {
+    border-color: $color--opui-warning !important;
+}
+
+.#{$op-prefix}border-danger {
+    border-color: $color--opui-danger !important;
+}
+
+.#{$op-prefix}border-light {
+    border-color: $color--opui-light !important;
+}
+
+.#{$op-prefix}border-dark {
+    border-color: $color--opui-dark !important;
+}
+
+.#{$op-prefix}border-white {
+    border-color: $color--opui-white !important;
+}
+
+.#{$op-prefix}border-1 {
+    border-width: 1px !important;
+}
+
+.#{$op-prefix}border-2 {
+    border-width: 2px !important;
+}
+
+.#{$op-prefix}border-3 {
+    border-width: 3px !important;
+}
+
+.#{$op-prefix}border-4 {
+    border-width: 4px !important;
+}
+
+.#{$op-prefix}border-5 {
+    border-width: 5px !important;
 }
