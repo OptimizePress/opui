@@ -5110,7 +5110,7 @@ body .opui-form-control:-moz-focusring, html .opui-form-control:-moz-focusring {
 body .opui-form-control:focus, html .opui-form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #c1c4ff;
+  border-color: #c2c4ff;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
@@ -5540,12 +5540,12 @@ body .opui-btn-primary, html .opui-btn-primary {
 body .opui-btn-primary:hover, html .opui-btn-primary:hover {
   color: #fff;
   background-color: #1c24ff;
-  border-color: #0f18ff;
+  border-color: #0f17ff;
 }
 body .opui-btn-primary:focus, body .opui-btn-primary.focus, html .opui-btn-primary:focus, html .opui-btn-primary.focus {
   color: #fff;
   background-color: #1c24ff;
-  border-color: #0f18ff;
+  border-color: #0f17ff;
   box-shadow: 0 0 0 0.2rem rgba(94, 100, 255, 0.5);
 }
 body .opui-btn-primary.disabled, body .opui-btn-primary:disabled, html .opui-btn-primary.disabled, html .opui-btn-primary:disabled {
@@ -5555,8 +5555,8 @@ body .opui-btn-primary.disabled, body .opui-btn-primary:disabled, html .opui-btn
 }
 body .opui-btn-primary:not(:disabled):not(.disabled):active, body .opui-btn-primary:not(:disabled):not(.disabled).active, .show > body .opui-btn-primary.opui-dropdown-toggle, html .opui-btn-primary:not(:disabled):not(.disabled):active, html .opui-btn-primary:not(:disabled):not(.disabled).active, .show > html .opui-btn-primary.opui-dropdown-toggle {
   color: #fff;
-  background-color: #0f18ff;
-  border-color: #020bff;
+  background-color: #0f17ff;
+  border-color: #030bff;
 }
 body .opui-btn-primary:not(:disabled):not(.disabled):active:focus, body .opui-btn-primary:not(:disabled):not(.disabled).active:focus, .show > body .opui-btn-primary.opui-dropdown-toggle:focus, html .opui-btn-primary:not(:disabled):not(.disabled):active:focus, html .opui-btn-primary:not(:disabled):not(.disabled).active:focus, .show > html .opui-btn-primary.opui-dropdown-toggle:focus {
   box-shadow: 0 0 0 0.2rem rgba(94, 100, 255, 0.5);
@@ -6015,7 +6015,7 @@ body .opui-btn-link, html .opui-btn-link {
   text-decoration: none;
 }
 body .opui-btn-link:hover, html .opui-btn-link:hover {
-  color: #0009f4;
+  color: #0008f5;
   text-decoration: underline;
 }
 body .opui-btn-link:focus, body .opui-btn-link.focus, html .opui-btn-link:focus, html .opui-btn-link.focus {
@@ -6670,12 +6670,12 @@ body .opui-custom-control-input:focus ~ .opui-custom-control-label::before, html
   box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-control-input:focus:not(:checked) ~ .opui-custom-control-label::before, html .opui-custom-control-input:focus:not(:checked) ~ .opui-custom-control-label::before {
-  border-color: #c1c4ff;
+  border-color: #c2c4ff;
 }
 body .opui-custom-control-input:not(:disabled):active ~ .opui-custom-control-label::before, html .opui-custom-control-input:not(:disabled):active ~ .opui-custom-control-label::before {
   color: #fff;
-  background-color: #f4f5ff;
-  border-color: #f4f5ff;
+  background-color: #f5f5ff;
+  border-color: #f5f5ff;
 }
 body .opui-custom-control-input[disabled] ~ .opui-custom-control-label, body .opui-custom-control-input:disabled ~ .opui-custom-control-label, html .opui-custom-control-input[disabled] ~ .opui-custom-control-label, html .opui-custom-control-input:disabled ~ .opui-custom-control-label {
   color: #6c757d;
@@ -6786,7 +6786,7 @@ body .opui-custom-select, html .opui-custom-select {
           appearance: none;
 }
 body .opui-custom-select:focus, html .opui-custom-select:focus {
-  border-color: #c1c4ff;
+  border-color: #c2c4ff;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
@@ -6841,7 +6841,7 @@ body .opui-custom-file-input, html .opui-custom-file-input {
   opacity: 0;
 }
 body .opui-custom-file-input:focus ~ .opui-custom-file-label, html .opui-custom-file-input:focus ~ .opui-custom-file-label {
-  border-color: #c1c4ff;
+  border-color: #c2c4ff;
   box-shadow: 0 0 0 0.2rem rgba(66, 73, 255, 0.25);
 }
 body .opui-custom-file-input[disabled] ~ .opui-custom-file-label, body .opui-custom-file-input:disabled ~ .opui-custom-file-label, html .opui-custom-file-input[disabled] ~ .opui-custom-file-label, html .opui-custom-file-input:disabled ~ .opui-custom-file-label {
@@ -6928,7 +6928,7 @@ body .opui-custom-range::-webkit-slider-thumb, html .opui-custom-range::-webkit-
   }
 }
 body .opui-custom-range::-webkit-slider-thumb:active, html .opui-custom-range::-webkit-slider-thumb:active {
-  background-color: #f4f5ff;
+  background-color: #f5f5ff;
 }
 body .opui-custom-range::-webkit-slider-runnable-track, html .opui-custom-range::-webkit-slider-runnable-track {
   width: 100%;
@@ -6957,7 +6957,7 @@ body .opui-custom-range::-moz-range-thumb, html .opui-custom-range::-moz-range-t
   }
 }
 body .opui-custom-range::-moz-range-thumb:active, html .opui-custom-range::-moz-range-thumb:active {
-  background-color: #f4f5ff;
+  background-color: #f5f5ff;
 }
 body .opui-custom-range::-moz-range-track, html .opui-custom-range::-moz-range-track {
   width: 100%;
@@ -6988,7 +6988,7 @@ body .opui-custom-range::-ms-thumb, html .opui-custom-range::-ms-thumb {
   }
 }
 body .opui-custom-range::-ms-thumb:active, html .opui-custom-range::-ms-thumb:active {
-  background-color: #f4f5ff;
+  background-color: #f5f5ff;
 }
 body .opui-custom-range::-ms-track, html .opui-custom-range::-ms-track {
   width: 100%;
@@ -7885,7 +7885,7 @@ body .opui-page-link, html .opui-page-link {
 }
 body .opui-page-link:hover, html .opui-page-link:hover {
   z-index: 2;
-  color: #0009f4;
+  color: #0008f5;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -7983,7 +7983,7 @@ body .opui-badge-primary, html .opui-badge-primary {
 }
 abody .opui-badge-primary:hover, abody .opui-badge-primary:focus, html .opui-badge-primary:hover, html .opui-badge-primary:focus {
   color: #fff;
-  background-color: #0f18ff;
+  background-color: #0f17ff;
 }
 abody .opui-badge-primary:focus, abody .opui-badge-primary.focus, html .opui-badge-primary:focus, html .opui-badge-primary.focus {
   outline: 0;
@@ -9192,7 +9192,7 @@ body button.opui-bg-primary:hover,
 body button.opui-bg-primary:focus, html a.opui-bg-primary:hover, html a.opui-bg-primary:focus,
 html button.opui-bg-primary:hover,
 html button.opui-bg-primary:focus {
-  background-color: #0f18ff !important;
+  background-color: #0f17ff !important;
 }
 body .opui-bg-secondary, html .opui-bg-secondary {
   background-color: #6c757d !important;
@@ -15134,7 +15134,7 @@ body .opui-text-primary, html .opui-text-primary {
   color: #4249ff !important;
 }
 body a.opui-text-primary:hover, body a.opui-text-primary:focus, html a.opui-text-primary:hover, html a.opui-text-primary:focus {
-  color: #0009f4 !important;
+  color: #0008f5 !important;
 }
 body .opui-text-secondary, html .opui-text-secondary {
   color: #6c757d !important;
