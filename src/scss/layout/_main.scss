@@ -24,3 +24,7 @@
 .#{$op-prefix}min-10vh {
     min-height: 100vh;
 }
+
+.#{$op-prefix}section {
+    border-bottom: 1px solid $color--opui-gray200;
+}

@@ -154,80 +154,6 @@
     <div class="opui-row">
         <div class="opui-col-lg-12">
             <div class="opui-page-header">
-                <h1>Top menus</h1>
-                <p class="opui-lead">Used by all OptimizePress plugins</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="opui-top-menu opui-d-flex opui-justify-content-between opui-align-items-center opui-mb-0">
-    <nav class="opui-left opui-pl-5">
-        <ul>
-            <li class="opui-d-flex opui-align-items-center"><a class="opui-logo" href="/wp-admin/admin.php?page=op-suite"><i class="opui-icon-logo"></i></a></li>
-        </ul>
-    </nav>
-    <nav class="opui-right">
-        <nav class="opui-main-menu">
-            <ul class="opui-right-menu">
-                <li class="">
-                    <a href="#">
-                        <i class="opui-icon-dashboard-complex"></i>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="#">
-                        <i class="opui-icon-link"></i>
-                        <span>Membership</span>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="#" title="Content">
-                        <i class="opui-icon-layers"></i>
-                        <span>Content</span>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="https://optimizepress.local/wp-admin/admin.php?page=op-protect#/members" title="Members">
-                        <i class="opui-icon-mail"></i>
-                        <span>Members</span>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="https://optimizepress.local/wp-admin/admin.php?page=op-protect#/settings" title="Settings">
-                        <i class="opui-icon-settings-square"></i>
-                        <span>Settings</span>
-                    </a>
-                </li>
-                <li class="">
-                    <a href="http://docs.optimizepress.com/" title="Help">
-                        <i class="opui-icon-help"></i>
-                        <span>Help</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <ul class="opui-right-static">
-            <li class="opui-fullscreen-btn">
-                <a href="#">
-                    <i class="opui-icon-fullscreen-fill"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</div>
-<header>
-    <div class="opui-submenu opui-d-flex opui-justify-content-between opui-align-items-center opui-pl-5 opui-pr-5">
-        <h1>Memberships</h1>
-        <a class="opui-btn opui-btn-primary">Create New Membership</a>
-    </div>
-</header>
-
-
-        <div class="opui-bs-docs-section clearfix">
-    <div class="opui-row">
-        <div class="opui-col-lg-12">
-            <div class="opui-page-header">
                 <h1>Title with Icon (Subtitle)</h1>
             </div>
         </div>
@@ -1308,7 +1234,7 @@ $(function() {
     <div class="opui-row">
         <div class="opui-col-lg-12">
             <div class="opui-page-header">
-                <h1>Navigation</h1>
+                <h1>Navigations</h1>
             </div>
         </div>
     </div>
@@ -1357,6 +1283,164 @@ $(function() {
                 <li><a href="">Setings</a></li>
             </ul>
         </nav>
+    </div>
+
+    <div class="opui-p-5">
+        <div class="opui-top-menu opui-d-flex opui-justify-content-between opui-align-items-center opui-m-0">
+            <ul class="opui-pl-5">
+                <li class="opui-d-flex opui-align-items-center">
+                    <a class="opui-logo" href="<?php echo admin_url('admin.php?page=op-suite'); ?>">
+                        <i class="opui-icon-logo"></i>
+                    </a>
+                </li>
+            </ul>
+            <nav class="opui-main-menu">
+                <input class="opui-hamburger-input" type="checkbox" />
+                <div class="opui-hamburger-menu">
+                    <span class="opui-hamburger-bar"></span>
+                    <span class="opui-hamburger-bar"></span>
+                    <span class="opui-hamburger-bar"></span>
+                </div>
+                <ul class="opui-right-menu">
+                    <li>
+                        <a href="#" title="Dashboard">
+                            <i class="opui-icon-dashboard-complex"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="opui-icon-layers"></i>
+                            <span>Create New Page</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Template Store" target="_blank">
+                            <i class="opui-icon-shopping-cart"></i>
+                            <span>Template Store</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Integrations">
+                            <i class="opui-icon-integrations-round"></i>
+                            <span>Integrations</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Settings">
+                            <i class="opui-icon-settings-square"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Tools" onclick="return false;">
+                            <i class="opui-icon-logo"></i>
+                            <span>Tools</span>
+                        </a>
+                        <input class="opui-submenu-input" type="checkbox">
+                        <ul class="opui-submenu">
+                            <li class=""><a href="" title="Dashboard"><span>Dashboard</span></a></li>
+                            <li class=""><a href="" title="Checkouts"><span>Checkouts</span></a></li>
+                            <li class=""><a href="" title="Funnels"><span>Funnels</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://www.optimizelink.com/helplinkdashboard" title="Help" target="_blank">
+                            <i class="opui-icon-help"></i>
+                            <span>Help</span>
+                        </a>
+                    </li>
+                    <li class="opui-opui-fullscreen-btn">
+                        <a href="#" title="Toggle Fullscreen Mode">
+                            <i class="opui-icon-fullscreen-fill"></i>
+                            <span>Fullscreen</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <div class="opui-submenu opui-d-flex opui-justify-content-between opui-align-items-center opui-pl-5 opui-pr-5">
+                <h1>Memberships</h1>
+                <a class="opui-btn opui-btn-primary">Create New Membership</a>
+            </div>
+        </header>
+    </div>
+
+    <div class="opui-p-5">
+        <div class="opui-top-menu opui-d-flex opui-justify-content-between opui-align-items-center">
+            <ul class="opui-pl-5">
+                <li class="opui-d-flex opui-align-items-center">
+                    <a class="opui-logo" href="<?php echo admin_url('admin.php?page=op-suite'); ?>">
+                        <i class="opui-icon-logo"></i>
+                    </a>
+                </li>
+            </ul>
+            <nav class="opui-main-menu">
+                <input class="opui-hamburger-input" type="checkbox" />
+                <div class="opui-hamburger-menu">
+                    <span class="opui-hamburger-bar"></span>
+                    <span class="opui-hamburger-bar"></span>
+                    <span class="opui-hamburger-bar"></span>
+                </div>
+                <ul class="opui-right-menu">
+                    <li>
+                        <a href="#" title="Dashboard">
+                            <i class="opui-icon-dashboard-complex"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="opui-icon-layers"></i>
+                            <span>Create New Page</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Template Store" target="_blank">
+                            <i class="opui-icon-shopping-cart"></i>
+                            <span>Template Store</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Integrations">
+                            <i class="opui-icon-integrations-round"></i>
+                            <span>Integrations</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Settings">
+                            <i class="opui-icon-settings-square"></i>
+                            <span>Settings</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" title="Tools" onclick="return false;">
+                            <i class="opui-icon-logo"></i>
+                            <span>Tools</span>
+                        </a>
+                        <input class="opui-submenu-input" type="checkbox">
+                        <ul class="opui-submenu">
+                            <li class=""><a href="" title="Dashboard"><span>Dashboard</span></a></li>
+                            <li class=""><a href="" title="Checkouts"><span>Checkouts</span></a></li>
+                            <li class=""><a href="" title="Funnels"><span>Funnels</span></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="https://www.optimizelink.com/helplinkdashboard" title="Help" target="_blank">
+                            <i class="opui-icon-help"></i>
+                            <span>Help</span>
+                        </a>
+                    </li>
+                    <li class="opui-fullscreenBtn">
+                        <a href="#" title="Toggle Fullscreen Mode">
+                            <i class="opui-icon-fullscreen-fill"></i>
+                            <span>Fullscreen</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </main>
 
