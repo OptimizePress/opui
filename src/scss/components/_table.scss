@@ -82,6 +82,20 @@
         margin: 0;
         padding: 0;
     }
+
+    .#{$op-prefix}pagination {
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .disabled a {
+            opacity: .5;
+        }
+
+        .active a {
+            color: $color--opui-primary !important;
+        }
+    }
 }
 
 @include media-breakpoint-down(sm) {

@@ -17075,6 +17075,15 @@ body .opui-advanced-table .opui-form-check-input, html .opui-advanced-table .opu
   margin: 0;
   padding: 0;
 }
+body .opui-advanced-table .opui-pagination a:hover, html .opui-advanced-table .opui-pagination a:hover {
+  text-decoration: underline;
+}
+body .opui-advanced-table .opui-pagination .disabled a, html .opui-advanced-table .opui-pagination .disabled a {
+  opacity: 0.5;
+}
+body .opui-advanced-table .opui-pagination .active a, html .opui-advanced-table .opui-pagination .active a {
+  color: #4249ff !important;
+}
 @media (max-width: 767.98px) {
   body .opui-advanced-table, html .opui-advanced-table {
     background-color: transparent;
