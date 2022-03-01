@@ -74,6 +74,7 @@
     @import "components/toggle";
     @import "components/table";
     @import "components/inputs";
+    @import "components/pagination";
     @import "components/selects";
     @import "components/restriction-overlay";
     @import "general/utilities";
@@ -88,6 +89,7 @@
     @import "screens/getting-started";
     @import "screens/empty-list";
     @import "screens/item-list";
+    @import "screens/table";
 }
 
 // App classes un-wrapped (overrides)

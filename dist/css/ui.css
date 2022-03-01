@@ -16791,6 +16791,15 @@ body .opui-input-radio-label .opui-input[type=radio]:before, html .opui-input-ra
   height: 1rem;
   float: none;
 }
+body .opui-pagination, html .opui-pagination {
+  font-size: 16px;
+}
+body .opui-pagination-lg, html .opui-pagination-lg {
+  font-size: 22px;
+}
+body .opui-pagination-sm, html .opui-pagination-sm {
+  font-size: 18px;
+}
 body .opui-select, html .opui-select {
   font-size: 1.4rem;
   line-height: 2;
@@ -17048,6 +17057,15 @@ body .opui-w-auto, html .opui-w-auto {
 }
 body .opui-mw-100, html .opui-mw-100 {
   max-width: 100% !important;
+}
+body .opui-mw-800, html .opui-mw-800 {
+  max-width: 800px !important;
+}
+body .opui-mw-980, html .opui-mw-980 {
+  max-width: 980px !important;
+}
+body .opui-mw-1200, html .opui-mw-1200 {
+  max-width: 1200px !important;
 }
 body .opui-vw-100, html .opui-vw-100 {
   width: 100vw !important;
@@ -17819,6 +17837,61 @@ body .opui-item-list .opui-item-list-is-loading > li .opui-title p, body .opui-i
   width: 75%;
 }
 body .opui-item-list .opui-item-list-is-loading > li .opui-btn, html .opui-item-list .opui-item-list-is-loading > li .opui-btn {
+  opacity: 0.5;
+  background-color: #ededed;
+  color: #ededed;
+  border: none !important;
+  -webkit-animation: skeleton-loading 1s linear infinite alternate !important;
+          animation: skeleton-loading 1s linear infinite alternate !important;
+}
+@keyframes skeleton-loading {
+  0% {
+    color: #ededed;
+    background-color: #ededed;
+  }
+  100% {
+    color: #d9d9d9;
+    background-color: #d9d9d9;
+  }
+}
+@keyframes skeleton-loading-shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+body .opui-table-is-loading td h3, body .opui-table-is-loading td p, body .opui-table-is-loading td div, body .opui-table-is-loading td span, body .opui-table-is-loading th h3, body .opui-table-is-loading th p, body .opui-table-is-loading th div, body .opui-table-is-loading th span, html .opui-table-is-loading td h3, html .opui-table-is-loading td p, html .opui-table-is-loading td div, html .opui-table-is-loading td span, html .opui-table-is-loading th h3, html .opui-table-is-loading th p, html .opui-table-is-loading th div, html .opui-table-is-loading th span {
+  text-indent: -9999px;
+  white-space: nowrap;
+  -webkit-animation-duration: 1.25s;
+          animation-duration: 1.25s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: skeleton-loading-shimmer;
+          animation-name: skeleton-loading-shimmer;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  background: #F6F6F6;
+  background: linear-gradient(to right, #ededed 8%, whitesmoke 18%, #ededed 33%);
+  background-size: 800px 104px;
+  position: relative;
+}
+body .opui-table-is-loading td h3, body .opui-table-is-loading th h3, html .opui-table-is-loading td h3, html .opui-table-is-loading th h3 {
+  border-radius: 2px;
+  width: 40%;
+}
+body .opui-table-is-loading td p, body .opui-table-is-loading td div, body .opui-table-is-loading td span , body .opui-table-is-loading th p, body .opui-table-is-loading th div, body .opui-table-is-loading th span , html .opui-table-is-loading td p, html .opui-table-is-loading td div, html .opui-table-is-loading td span , html .opui-table-is-loading th p, html .opui-table-is-loading th div, html .opui-table-is-loading th span  {
+  font-size: 11px;
+  display: block;
+  border-radius: 2px;
+  margin-top: 4px;
+  width: 75%;
+}
+body .opui-table-is-loading .opui-btn, html .opui-table-is-loading .opui-btn {
   opacity: 0.5;
   background-color: #ededed;
   color: #ededed;

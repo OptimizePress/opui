@@ -232,6 +232,18 @@
     max-width: 100% !important;
 }
 
+.#{$op-prefix}mw-800 {
+    max-width: 800px !important;
+}
+
+.#{$op-prefix}mw-980 {
+    max-width: 980px !important;
+}
+
+.#{$op-prefix}mw-1200 {
+    max-width: 1200px !important;
+}
+
 .#{$op-prefix}vw-100 {
     width: 100vw !important;
 }
