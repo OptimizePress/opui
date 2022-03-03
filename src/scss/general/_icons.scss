@@ -1,5 +1,6 @@
 // Global configuration
-[class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
+[class^="#{$op-prefix}icon"],
+[class*=" #{$op-prefix}icon"] {
     display: inline-block;
 
     &::before {
@@ -19,6 +20,7 @@
 $icons: (
     "anchor": "\61",
     "circle-add": "\62",
+    "funnel-icon": "\63",
     "funnel": "\g3",
     "page": "\64",
     "question": "\65",
@@ -105,5 +107,3 @@ $icons: (
         content: $glyph;
     }
 }
-
-
