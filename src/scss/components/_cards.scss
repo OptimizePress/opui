@@ -86,3 +86,25 @@
         }
     }
 }
+
+.#{$op-prefix}simple-card {
+    padding: 4.5rem;
+    display: flex;
+    background-color: var(--opui--white);
+
+    i {
+        font-size: 4rem;
+        margin-right: 4.5rem;
+        color: var(--opui--blue);
+    }
+
+    .#{$op-prefix}title {
+        margin-bottom: 1rem;
+    }
+
+    .#{$op-prefix}description {
+        margin-bottom: 1.5rem;
+        color: var(--opui--gray500);
+        font-size: 1.6rem;
+    }
+}
