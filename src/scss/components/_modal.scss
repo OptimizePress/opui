@@ -282,17 +282,13 @@
     }
 }
 
-
-
-
-
 /**
  * Overrides
  */
 .#{$op-prefix}modal-header {
+    display: flex;
     position: relative;
-    display: block;
-    padding: 30px 15px;
+    padding: 3rem;
 
     h1 {
         display: block;
@@ -323,7 +319,7 @@
 }
 
 .#{$op-prefix}modal-body {
-    padding: 30px;
+    padding: 3rem;
 }
 
 @media (min-width: 576px) {

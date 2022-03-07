@@ -1,0 +1,16 @@
+.#{$op-prefix}edit-with-builder {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    color: var(--opui--gray500);
+    gap: 0.7rem;
+
+    i {
+        line-height: 1;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
+}
