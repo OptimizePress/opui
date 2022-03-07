@@ -3089,10 +3089,12 @@
   font-weight: normal;
   font-style: normal;
 }
-[class^=opui-icon], [class*=" opui-icon"] {
+[class^=opui-icon],
+[class*=" opui-icon"] {
   display: inline-block;
 }
-[class^=opui-icon]::before, [class*=" opui-icon"]::before {
+[class^=opui-icon]::before,
+[class*=" opui-icon"]::before {
   font-family: "opui-font" !important;
   font-style: normal !important;
   font-weight: normal !important;
@@ -3110,6 +3112,10 @@
 
 .opui-icon-circle-add:before {
   content: "b";
+}
+
+.opui-icon-funnel-icon:before {
+  content: "c";
 }
 
 .opui-icon-funnel:before {
@@ -16075,6 +16081,42 @@ body .opui-submenu .opui-btn, html .opui-submenu .opui-btn {
   padding-left: 35px;
   padding-right: 35px;
 }
+body .opui-submenu nav, html .opui-submenu nav {
+  line-height: 65px;
+}
+@media (max-width: 1199.98px) {
+  body .opui-submenu nav span, html .opui-submenu nav span {
+    display: none;
+  }
+  body .opui-submenu nav i, html .opui-submenu nav i {
+    margin-right: 0;
+  }
+}
+body .opui-submenu nav ul, html .opui-submenu nav ul {
+  display: flex;
+  font-size: 1.4rem;
+  margin: 0;
+}
+body .opui-submenu nav li, html .opui-submenu nav li {
+  margin: 0;
+  padding: 0 1rem;
+}
+body .opui-submenu nav a, html .opui-submenu nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: var(--opui--gray500);
+  transition: color 300ms ease-in-out;
+}
+body .opui-submenu nav a:hover, html .opui-submenu nav a:hover {
+  color: var(--opui--black);
+}
+body .opui-submenu nav i, html .opui-submenu nav i {
+  font-size: 2rem;
+  margin-right: 0.7rem;
+  line-height: 1;
+}
 body .opui-title-w-icon, html .opui-title-w-icon {
   margin: 0 0 40px 0;
 }
@@ -16448,6 +16490,24 @@ html .opui-card .opui-content .opui-item .opui-item-description {
 body .opui-card .opui-content > div, html .opui-card .opui-content > div {
   margin: 0;
   padding: 0;
+}
+body .opui-simple-card, html .opui-simple-card {
+  padding: 4.5rem;
+  display: flex;
+  background-color: var(--opui--white);
+}
+body .opui-simple-card i, html .opui-simple-card i {
+  font-size: 4rem;
+  margin-right: 4.5rem;
+  color: var(--opui--blue);
+}
+body .opui-simple-card .opui-title, html .opui-simple-card .opui-title {
+  margin-bottom: 1rem;
+}
+body .opui-simple-card .opui-description, html .opui-simple-card .opui-description {
+  margin-bottom: 1.5rem;
+  color: var(--opui--gray500);
+  font-size: 1.6rem;
 }
 body .opui-badge, html .opui-badge {
   position: relative;
