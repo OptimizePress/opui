@@ -15726,7 +15726,11 @@ body .opui-form-control:focus, html .opui-form-control:focus {
   border-color: #22262a;
   box-shadow: none;
 }
-body .opui-opui-form form label, body .opui-form-group label, body label.opui-form-label, html .opui-opui-form form label, html .opui-form-group label, html label.opui-form-label {
+body .opui-opui-form form label,
+body .opui-form-group label,
+body label.opui-form-label, html .opui-opui-form form label,
+html .opui-form-group label,
+html label.opui-form-label {
   font-size: 15px;
   color: black;
   padding: 11px 0;
@@ -15748,6 +15752,26 @@ body .opui-form-check-input:checked::before, html .opui-form-check-input:checked
   margin: -1px 0 0 -2px;
   height: 16px;
   width: 16px;
+}
+body .opui-form-file-upload-wrapper, html .opui-form-file-upload-wrapper {
+  position: relative;
+  border: 1px solid var(--opui--gray300);
+  background-color: var(--opui--gray100);
+  border-radius: 4px;
+  color: #89959f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
+body .opui-form-file-upload-wrapper input, html .opui-form-file-upload-wrapper input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+body .opui-form-file-upload-wrapper img, html .opui-form-file-upload-wrapper img {
+  height: 70px;
 }
 body .opui-top-menu, html .opui-top-menu {
   position: relative;
@@ -16057,6 +16081,115 @@ body .opui-navigation .opui-navigation-hover, html .opui-navigation .opui-naviga
   body .opui-navigation ul li a, html .opui-navigation ul li a {
     padding: 1rem 0px;
   }
+}
+body .opui-top-menu, html .opui-top-menu {
+  position: relative;
+  background-color: white;
+  height: 65px;
+  border-bottom: 1px solid #f0f2f5;
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+body .opui-top-menu ul,
+body .opui-top-menu li, html .opui-top-menu ul,
+html .opui-top-menu li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+body .opui-top-menu ul a,
+body .opui-top-menu li a, html .opui-top-menu ul a,
+html .opui-top-menu li a {
+  color: #89959f;
+  text-decoration: none;
+  font-size: 14px;
+}
+body .opui-top-menu .opui-logo, html .opui-top-menu .opui-logo {
+  display: inline-block;
+  height: 35px;
+}
+body .opui-top-menu .opui-logo [class^=opui-icon],
+body .opui-top-menu .opui-logo [class*=" opui-icon"], html .opui-top-menu .opui-logo [class^=opui-icon],
+html .opui-top-menu .opui-logo [class*=" opui-icon"] {
+  font-size: 35px;
+  line-height: 35px;
+}
+body .opui-top-menu .opui-logo .opui-icon-logo, html .opui-top-menu .opui-logo .opui-icon-logo {
+  color: #0009ff;
+}
+body .opui-top-menu .opui-right nav, html .opui-top-menu .opui-right nav {
+  display: inline-block;
+}
+body .opui-top-menu .opui-right ul, html .opui-top-menu .opui-right ul {
+  margin: 0;
+  padding: 0;
+  line-height: 65px;
+  text-align: center;
+  display: inline-block;
+}
+body .opui-top-menu .opui-right ul li, html .opui-top-menu .opui-right ul li {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: inline-block;
+  margin-right: 40px;
+}
+body .opui-top-menu .opui-right ul li a, html .opui-top-menu .opui-right ul li a {
+  display: block;
+  color: #89959f;
+  position: relative;
+  line-height: 65px;
+  transition: color 0.3s linear;
+  text-decoration: none;
+  font-size: 14px;
+}
+body .opui-top-menu .opui-right ul li a span, html .opui-top-menu .opui-right ul li a span {
+  font-size: 14px;
+  padding-left: 35px;
+}
+body .opui-top-menu .opui-right ul li a i, html .opui-top-menu .opui-right ul li a i {
+  font-size: 25px;
+  line-height: 25px;
+  height: 25px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body .opui-top-menu .opui-right-static li, html .opui-top-menu .opui-right-static li {
+  border-left: 1px solid #f0f2f5;
+}
+body .opui-top-menu .opui-right-static li a, html .opui-top-menu .opui-right-static li a {
+  display: inline-block;
+  width: 80px;
+  line-height: 65px;
+  font-size: 20px;
+}
+body .opui-top-menu .opui-right-static li a i, html .opui-top-menu .opui-right-static li a i {
+  transition: color 0.3s linear;
+}
+body .opui-top-menu .opui-right-static .opui-fullscreen-btn, html .opui-top-menu .opui-right-static .opui-fullscreen-btn {
+  margin-right: 0;
+}
+body .opui-top-menu .opui-right-static .opui-fullscreen-btn a, html .opui-top-menu .opui-right-static .opui-fullscreen-btn a {
+  width: 80px;
+  line-height: 65px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+body .opui-top-menu .opui-right-static .opui-fullscreen-btn a:hover, html .opui-top-menu .opui-right-static .opui-fullscreen-btn a:hover {
+  color: #89959f;
+}
+body .opui-top-menu .opui-right-static .opui-fullscreen-btn .opui-icon-fullscreen-fill, html .opui-top-menu .opui-right-static .opui-fullscreen-btn .opui-icon-fullscreen-fill {
+  font-size: 20px;
+  line-height: 1;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 0;
+  transform: none;
+  vertical-align: middle;
 }
 body .opui-submenu, html .opui-submenu {
   border-bottom: 2px solid #f0f2f5;
@@ -17942,9 +18075,9 @@ body .opui-item-list .opui-item-list-is-loading > li .opui-btn, html .opui-item-
  * Overrides
  */
 .opui-modal-header {
+  display: flex;
   position: relative;
-  display: block;
-  padding: 30px 15px;
+  padding: 3rem;
 }
 .opui-modal-header h1 {
   display: block;
@@ -17971,7 +18104,7 @@ body .opui-item-list .opui-item-list-is-loading > li .opui-btn, html .opui-item-
 }
 
 .opui-modal-body {
-  padding: 30px;
+  padding: 3rem;
 }
 
 @media (min-width: 576px) {
