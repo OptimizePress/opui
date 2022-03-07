@@ -16,6 +16,50 @@
         padding-left: 35px;
         padding-right: 35px;
     }
+
+    nav {
+        line-height: 65px;
+
+        @include media-breakpoint-down(lg) {
+            span {
+                display: none;
+            }
+
+            i {
+                margin-right: 0;
+            }
+        }
+
+        ul {
+            display: flex;
+            font-size: 1.4rem;
+            margin: 0;
+        }
+
+        li {
+            margin: 0;
+            padding: 0 1rem;
+        }
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            color: var(--opui--gray500);
+            transition: color 300ms ease-in-out;
+
+            &:hover {
+                color: var(--opui--black);
+            }
+        }
+
+        i {
+            font-size: 2rem;
+            margin-right: 0.7rem;
+            line-height: 1;
+        }
+    }
 }
 
 .#{$op-prefix}title-w-icon {
