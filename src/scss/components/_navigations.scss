@@ -398,3 +398,57 @@
         }
     }
 }
+
+.#{$op-prefix}navigation-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 13px;
+    gap: 10px;
+
+    .#{$op-prefix}pill {
+        margin: 0;
+        cursor: pointer;
+
+        &.#{$op-prefix}active {
+            .#{$op-prefix}link {
+                color: var(--opui--white);
+                background-color: var(--opui--blue);
+            }
+        }
+    }
+
+    .#{$op-prefix}-pills-more,
+    .#{$op-prefix}-pills-less {
+        display: none;
+
+        a {
+            color: var(--opui--blue);
+        }
+    }
+
+    .#{$op-prefix}link {
+        display: block;
+        padding: 10px 25px;
+        border-radius: 7px;
+        background-color: var(--opui--gray200);
+        color: var(--opui--darkgray);
+        transition: background-color 300ms;
+
+        &:hover {
+            color: var(--opui--white);
+            background-color: var(--opui--blue);
+            text-decoration: none;
+        }
+
+        &.disabled {
+            color: #ccc;
+            pointer-events: none;
+            cursor: default;
+        }
+    }
+}
