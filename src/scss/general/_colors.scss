@@ -80,3 +80,9 @@
 .#{$op-prefix}bg-teal           { background-color: $color--opui-teal; }
 .#{$op-prefix}bg-cyan           { background-color: $color--opui-cyan; }
 .#{$op-prefix}bg-indigo         { background-color: $color--opui-indigo; }
+.#{$op-prefix}bg-cornflower     { background-color: $color--opui-cornflower; }
+.#{$op-prefix}bg-wedgewood      { background-color: $color--opui-wedgewood; }
+
+// Roles
+.#{$op-prefix}bg-chapter     { background-color: $color--opui-chapter; }
+.#{$op-prefix}bg-lesson      { background-color: $color--opui-lesson; }

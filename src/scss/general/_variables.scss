@@ -47,6 +47,8 @@ $color--opui-green:        hsl(158, 100%, 42%); // #00d88a;
 $color--opui-bright-green: hsl(158, 100%, 42%); // #00d88a;
 $color--opui-teal:         hsl(162, 73%, 46%);  // #20c997;
 $color--opui-cyan:         hsl(190, 90%, 50%);  // #0dcaf0;
+$color--opui-cornflower:   hsl(221, 78%, 68%);  // #6d95ed;
+$color--opui-wedgewood:    hsl(221, 26%, 42%);  // #4e6086;
 
 // Roles
 $color--opui-primary: $color--opui-blue;
@@ -57,6 +59,8 @@ $color--opui-warning: $color--opui-yellow;
 $color--opui-danger: $color--opui-red;
 $color--opui-light: $color--opui-gray100;
 $color--opui-dark: $color--opui-gray900;
+$color--opui-chapter: $color--opui-cornflower; // #6d95ed;
+$color--opui-lesson: $color--opui-wedgewood; // #4e6086;
 
 // Also define colors for Bootstrap
 $blue: $color--opui-blue;
@@ -181,6 +185,8 @@ $btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, bord
     --#{$op-prefix}-danger:    #{$color--opui-red};
     --#{$op-prefix}-light:     #{$color--opui-gray100};
     --#{$op-prefix}-dark:      #{$color--opui-darkgray};
+    --#{$op-prefix}-chapter:   #{$color--opui-chapter};
+    --#{$op-prefix}-lesson:    #{$color--opui-lesson};
 
     // Rainbow
     --#{$op-prefix}-indigo:       #{$color--opui-indigo};
