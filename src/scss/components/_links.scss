@@ -1,16 +1,23 @@
-.#{$op-prefix}edit-with-builder {
+.#{$op-prefix}link-with-icon {
     display: flex;
     align-items: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     color: var(--opui--gray500);
     gap: 0.7rem;
 
-    i {
-        line-height: 1;
+    &:hover {
+        color: var(--opui--blue);
     }
 
-    a {
+    i {
+        font-size: 1.6rem;
+        line-height: 1;
+        padding: 0 !important;
         color: inherit;
+    }
+
+    a.link {
+        color: inherit !important;
         text-decoration: none;
     }
 }
