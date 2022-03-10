@@ -1,0 +1,80 @@
+.boxes {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box {
+    width: 270px;
+    min-height: 350px;
+    background-color: white;
+    border: 1px solid var(--opui--gray200);
+    border-radius: var(--opui--border-radius);
+    box-shadow: var(--opui--box-shadow);
+    overflow: hidden;
+
+    &:hover {
+        .details {
+            display: none;
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .details-wrapper {
+        height: 180px;
+        padding: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .actions,
+    .details {
+        height: 100%;
+        width: 100%;
+
+        .opui-btn {
+            width: 100%;
+        }
+    }
+
+    .image-wrapper {
+        height: 180px;
+        width: 100%;
+        overflow: hidden;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .title {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        font-size: 1.5rem;
+        color: #000000;
+        margin-bottom: 0;
+    }
+
+    .actions {
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        buttons {
+            width: 100%;
+        }
+    }
+}
