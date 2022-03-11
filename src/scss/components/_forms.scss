@@ -59,3 +59,41 @@
         height: 70px;
     }
 }
+
+.#{$op-prefix}form-slug-wrapper {
+    display: flex;
+    font-size: 16px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .#{$op-prefix}prefix {
+        width: fit-content;
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        background-color: var(--opui--gray200);
+        height: 100%;
+        line-height: 1;
+        padding: 1rem 0.3rem 1rem 1.5rem;
+        color: var(--opui--gray600);
+    }
+
+    input {
+        border: none;
+        width: 100%;
+        padding: 0;
+        outline: none !important;
+        box-shadow: none !important;
+        border-radius: 0;
+    }
+
+    i {
+        padding: 1rem 1.5rem;
+        background: var(--opui--blue600);
+        color: var(--opui--white);
+        cursor: pointer;
+    }
+}
