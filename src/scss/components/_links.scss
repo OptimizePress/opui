@@ -1,23 +1,19 @@
 .#{$op-prefix}link-with-icon {
     display: flex;
     align-items: center;
-    font-size: 1.4rem;
-    color: var(--opui--gray500);
+    text-decoration: none;
     gap: 0.7rem;
+    font-size: 1.4rem;
+    color: var(--opui--gray500) !important;
 
     &:hover {
-        color: var(--opui--blue);
+        color: var(--opui--blue) !important;
     }
 
     i {
         font-size: 1.6rem;
         line-height: 1;
-        padding: 0 !important;
+        padding: 0;
         color: inherit;
-    }
-
-    a.link {
-        color: inherit !important;
-        text-decoration: none;
     }
 }
