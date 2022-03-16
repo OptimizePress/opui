@@ -945,3 +945,9 @@
 .#{$op-prefix}ps-5 {
     padding-left: 3rem !important;
 }
+
+.#{$op-prefix}text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
