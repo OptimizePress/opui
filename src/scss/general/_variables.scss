@@ -23,18 +23,33 @@ $color--opui-gray800:   hsl(210, 10%, 23%); // #343a40;
 $color--opui-gray900:   hsl(210, 11%, 15%); // #212529;
 
 // Blues
-$color--opui-blue:      hsl(238, 100%, 63%);     // #4249FF;
-$color--opui-lightblue: hsl(237.8, 100%, 50%);   // #0074ff;
-$color--opui-darkblue:  hsl(237.8, 100%, 38%);   // #0051c3;
-$color--opui-blue100:   hsl(237.8, 100%, 78%);   // #8fc1ff
-$color--opui-blue200:   hsl(237.8, 100%, 63%);   // #4297ff
-$color--opui-blue300:   hsl(237.8, 100%, 53%);   // #0f7bff
-$color--opui-blue400:   $color--opui-blue;       // #0063db
-$color--opui-blue500:   hsl(237.8, 100%, 38%);   // #0057c2
-$color--opui-blue600:   $color--opui-darkblue;   // #0051c2
-$color--opui-blue700:   hsl(237.8, 100%, 31%);   // #00479e
-$color--opui-blue800:   hsl(237.8, 100%, 23%);   // #003575
-$color--opui-blue900:   hsl(237.8, 100%, 8%);    // #001229
+$color--opui-blue:      hsl(238, 100%, 63%);   // #4249FF;
+$color--opui-lightblue: hsl(237, 100%, 50%);   // #0074ff;
+$color--opui-darkblue:  hsl(237, 100%, 38%);   // #0051c3;
+$color--opui-blue100:   hsl(237, 100%, 78%);   // #8fc1ff
+$color--opui-blue200:   hsl(237, 100%, 63%);   // #4297ff
+$color--opui-blue300:   hsl(237, 100%, 53%);   // #0f7bff
+$color--opui-blue400:   $color--opui-blue;     // #0063db
+$color--opui-blue500:   hsl(237, 100%, 38%);   // #0057c2
+$color--opui-blue600:   $color--opui-darkblue; // #0051c2
+$color--opui-blue700:   hsl(237, 100%, 31%);   // #00479e
+$color--opui-blue800:   hsl(237, 100%, 23%);   // #003575
+$color--opui-blue900:   hsl(237, 100%, 8%);    // #001229
+
+// Greens
+$color--opui-green:        hsl(158, 100%, 42%);    // #00d688;
+$color--opui-bright-green: hsl(143, 88%, 84%);     // #b2face;
+$color--opui-lightgreen:   hsl(143, 88%, 84%);     // #b2face;
+$color--opui-darkgreen:    hsl(143, 88%, 30%);     // #09903d;
+$color--opui-green100:     hsl(143, 88%, 94%);     // #e2fded
+$color--opui-green200:     hsl(143, 88%, 84%);     // #b2face
+$color--opui-green300:     hsl(128, 42%, 65%);     // #81cb8b
+$color--opui-green400:     $color--opui-green;     // #00d688
+$color--opui-green500:     hsl(143, 88%, 60%);     // #3ff384
+$color--opui-green600:     $color--opui-darkgreen; // #09903d
+$color--opui-green700:     hsl(143, 88%, 25%);     // #087833
+$color--opui-green800:     hsl(143, 88%, 20%);     // #066029
+$color--opui-green900:     hsl(143, 88%, 10%);     // #033014
 
 // Rainbow
 $color--opui-indigo:       hsl(263, 90%, 51%);  // #6610f2;
@@ -43,8 +58,6 @@ $color--opui-pink:         hsl(330, 67%, 52%);  // #d63384;
 $color--opui-red:          hsl(354, 70%, 54%);  // #dc3545;
 $color--opui-orange:       hsl(27, 98%, 54%);   // #fd7e14;
 $color--opui-yellow:       hsl(45, 100%, 51%);  // #ffc107;
-$color--opui-green:        hsl(158, 100%, 42%); // #00d88a;
-$color--opui-bright-green: hsl(158, 100%, 42%); // #00d88a;
 $color--opui-teal:         hsl(162, 73%, 46%);  // #20c997;
 $color--opui-cyan:         hsl(190, 90%, 50%);  // #0dcaf0;
 $color--opui-cornflower:   hsl(221, 78%, 68%);  // #6d95ed;
@@ -53,7 +66,7 @@ $color--opui-wedgewood:    hsl(221, 26%, 42%);  // #4e6086;
 // Roles
 $color--opui-primary: $color--opui-blue;
 $color--opui-secondary: $color--opui-blue100;
-$color--opui-success: $color--opui-bright-green;
+$color--opui-success: $color--opui-green;
 $color--opui-info: $color--opui-blue300;
 $color--opui-warning: $color--opui-yellow;
 $color--opui-danger: $color--opui-red;
@@ -176,10 +189,25 @@ $btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, bord
     --#{$op-prefix}-blue800:   #{$color--opui-blue800};
     --#{$op-prefix}-blue900:   #{$color--opui-blue900};
 
+    // Greens
+    --#{$op-prefix}-green:        #{$color--opui-green};
+    --#{$op-prefix}-darkgreen:    #{$color--opui-darkgreen};
+    --#{$op-prefix}-lightgreen:   #{$color--opui-lightgreen};
+    --#{$op-prefix}-bright-green: #{$color--opui-lightgreen};
+    --#{$op-prefix}-green100:     #{$color--opui-green100};
+    --#{$op-prefix}-green200:     #{$color--opui-green200};
+    --#{$op-prefix}-green300:     #{$color--opui-green300};
+    --#{$op-prefix}-green400:     #{$color--opui-green400};
+    --#{$op-prefix}-green500:     #{$color--opui-green500};
+    --#{$op-prefix}-green600:     #{$color--opui-green600};
+    --#{$op-prefix}-green700:     #{$color--opui-green700};
+    --#{$op-prefix}-green800:     #{$color--opui-green800};
+    --#{$op-prefix}-green900:     #{$color--opui-green900};
+
     // Roles
     --#{$op-prefix}-primary:   #{$color--opui-blue};
     --#{$op-prefix}-secondary: #{$color--opui-blue100};
-    --#{$op-prefix}-success:   #{$color--opui-bright-green};
+    --#{$op-prefix}-success:   #{$color--opui-green};
     --#{$op-prefix}-info:      #{$color--opui-blue300};
     --#{$op-prefix}-warning:   #{$color--opui-yellow};
     --#{$op-prefix}-danger:    #{$color--opui-red};

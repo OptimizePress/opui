@@ -7,3 +7,8 @@
     line-height: 100%;
     vertical-align: baseline;
 }
+
+.#{$op-prefix}badge-status {
+    padding: 10px 15px;
+    font-weight: normal;
+}
