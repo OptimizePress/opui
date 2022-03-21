@@ -17,7 +17,7 @@ $color--opui-gray200:   hsl(0, 0%, 93%);    // #eeeeee;
 $color--opui-gray300:   hsl(216, 12%, 84%); // #d1d5db;
 $color--opui-gray400:   hsl(215, 16%, 72%); // #97A3B4;
 $color--opui-gray500:   hsl(207, 10%, 58%); // #8a96a0;
-$color--opui-gray600:   hsl(208, 7%, 46%);  // #6c757d;
+$color--opui-gray600:   hsl(208, 6%, 40%);  // #60676d;
 $color--opui-gray700:   hsl(210, 9%, 31%);  // #495057;
 $color--opui-gray800:   hsl(210, 10%, 23%); // #343a40;
 $color--opui-gray900:   hsl(210, 11%, 15%); // #212529;
@@ -76,6 +76,7 @@ $color--opui-chapter: $color--opui-cornflower; // #6d95ed;
 $color--opui-lesson: $color--opui-wedgewood; // #4e6086;
 
 // Also define colors for Bootstrap
+$secondary: $color--opui-gray600;
 $blue: $color--opui-blue;
 $pink: hsl(332, 79%, 58%); // #e83e8c !default;
 $red: $color--opui-red;

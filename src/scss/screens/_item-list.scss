@@ -37,6 +37,10 @@
                 display: flex;
                 flex-wrap: nowrap;
                 align-items: center;
+
+                > div, > a {
+                    display: flex;
+                }
             }
 
             .#{$op-prefix}left {
