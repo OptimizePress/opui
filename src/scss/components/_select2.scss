@@ -27,6 +27,15 @@
             border-color: $color--opui-gray900;
         }
     }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice {
+        font-size: 14px;
+        padding: 3px 7px;
+        background: $color--opui-gray200;
+        border: none;
+        margin-top: 8px !important;
+        margin-bottom: 0 !important;
+    }
 }
 
 .toplevel_page_op-protect {
