@@ -37,10 +37,6 @@
                 display: flex;
                 flex-wrap: nowrap;
                 align-items: center;
-
-                > div, > a {
-                    display: flex;
-                }
             }
 
             .#{$op-prefix}left {
@@ -51,6 +47,10 @@
             .#{$op-prefix}right {
                 flex-grow: 0;
                 flex-shrink: 1;
+
+                > div, > a {
+                    display: flex;
+                }
             }
 
             .#{$op-prefix}drag-handle {
