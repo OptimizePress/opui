@@ -76,6 +76,18 @@
                 > i {
                     flex-shrink: 1;
                 }
+
+                &.#{$op-prefix}drag-handle-disabled {
+                    cursor: default;
+
+                    &:hover {
+                        opacity: .8;
+                    }
+
+                    > i {
+                        opacity: .5;
+                    }
+                }
             }
 
             .#{$op-prefix}title {
