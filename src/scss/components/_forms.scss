@@ -5,6 +5,10 @@
     color: $color--opui-gray500;
 }
 
+.#{$op-prefix}form-group, html .#{$op-prefix}form-group {
+    margin-bottom: 16px;
+}
+
 .opui-form-control:focus {
     border-color: $color--opui-gray900;
     box-shadow: none;
@@ -14,8 +18,8 @@
     font-size: 15px;
     font-weight: 500;
     color: $color--opui-gray800;
-    padding: 5px 0 10px 0;
-    margin-bottom: 0.5rem;
+    padding: 12px 0 10px 0;
+    margin-bottom: 8px;
     display: inline-block;
 }
 
@@ -92,7 +96,7 @@ label.#{$op-prefix}form-label-top {
         background-color: var(--opui--gray200);
         height: 100%;
         //line-height: 1;
-        padding: 1rem 0.3rem 1rem 1.5rem;
+        padding: 16px 5px 16px 24px;
         color: var(--opui--gray600);
     }
 
@@ -106,7 +110,7 @@ label.#{$op-prefix}form-label-top {
     }
 
     i {
-        padding: 1rem 1.5rem;
+        padding: 16px 24px;
         background: var(--opui--blue600);
         color: var(--opui--white);
         cursor: pointer;

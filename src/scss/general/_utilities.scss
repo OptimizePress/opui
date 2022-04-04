@@ -3,7 +3,7 @@
 }
 
 .#{$op-prefix}ms-2 {
-    margin-left: 0.5rem !important;
+    margin-left: 8px !important;
 }
 
 .#{$op-prefix}ms-md-auto {
@@ -11,11 +11,11 @@
 }
 
 .#{$op-prefix}me-2 {
-    margin-right: 0.5rem !important;
+    margin-right: 8px !important;
 }
 
 .#{$op-prefix}me-sm-2 {
-    margin-right: 0.5rem !important;
+    margin-right: 8px !important;
 }
 
 .#{$op-prefix}float-end {
@@ -97,23 +97,23 @@
 }
 
 .#{$op-prefix}gap-1 {
-    gap: 0.25rem !important;
+    gap: 4px !important;
 }
 
 .#{$op-prefix}gap-2 {
-    gap: 0.5rem !important;
+    gap: 8px !important;
 }
 
 .#{$op-prefix}gap-3 {
-    gap: 1rem !important;
+    gap: 16px !important;
 }
 
 .#{$op-prefix}gap-4 {
-    gap: 1.5rem !important;
+    gap: 24px !important;
 }
 
 .#{$op-prefix}gap-5 {
-    gap: 3rem !important;
+    gap: 48px !important;
 }
 
 .#{$op-prefix}justify-content-start {
@@ -305,27 +305,27 @@
 }
 
 .#{$op-prefix}fs-1 {
-    font-size: calc(1.375rem + 1.5vw) !important;
+    font-size: calc(22px + 1.5vw) !important;
 }
 
 .#{$op-prefix}fs-2 {
-    font-size: calc(1.325rem + 0.9vw) !important;
+    font-size: calc(21px + 0.9vw) !important;
 }
 
 .#{$op-prefix}fs-3 {
-    font-size: calc(1.3rem + 0.6vw) !important;
+    font-size: calc(24px + 0.6vw) !important;
 }
 
 .#{$op-prefix}fs-4 {
-    font-size: calc(1.275rem + 0.3vw) !important;
+    font-size: calc(20px + 0.3vw) !important;
 }
 
 .#{$op-prefix}fs-5 {
-    font-size: 1.25rem !important;
+    font-size: 20px !important;
 }
 
 .#{$op-prefix}fs-6 {
-    font-size: 1rem !important;
+    font-size: 16px !important;
 }
 
 .#{$op-prefix}fst-italic {
@@ -417,7 +417,7 @@
 }
 
 .#{$op-prefix}rounded {
-    border-radius: 0.25rem !important;
+    border-radius: 4px !important;
 }
 
 .#{$op-prefix}rounded-0 {
@@ -425,15 +425,15 @@
 }
 
 .#{$op-prefix}rounded-1 {
-    border-radius: 0.2rem !important;
+    border-radius: 3px !important;
 }
 
 .#{$op-prefix}rounded-2 {
-    border-radius: 0.25rem !important;
+    border-radius: 4px !important;
 }
 
 .#{$op-prefix}rounded-3 {
-    border-radius: 0.3rem !important;
+    border-radius: 7px !important;
 }
 
 .#{$op-prefix}rounded-circle {
@@ -441,27 +441,27 @@
 }
 
 .#{$op-prefix}rounded-pill {
-    border-radius: 50rem !important;
+    border-radius: 50% !important;
 }
 
 .#{$op-prefix}rounded-top {
-    border-top-left-radius: 0.25rem !important;
-    border-top-right-radius: 0.25rem !important;
+    border-top-left-radius: 4px !important;
+    border-top-right-radius: 4px !important;
 }
 
 .#{$op-prefix}rounded-end {
-    border-top-right-radius: 0.25rem !important;
-    border-bottom-right-radius: 0.25rem !important;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
 }
 
 .#{$op-prefix}rounded-bottom {
-    border-bottom-right-radius: 0.25rem !important;
-    border-bottom-left-radius: 0.25rem !important;
+    border-bottom-right-radius: 4px !important;
+    border-bottom-left-radius: 4px !important;
 }
 
 .#{$op-prefix}rounded-start {
-    border-bottom-left-radius: 0.25rem !important;
-    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 4px !important;
+    border-top-left-radius: 4px !important;
 }
 
 .#{$op-prefix}border {
@@ -565,23 +565,23 @@
 }
 
 .#{$op-prefix}m-1 {
-    margin: 0.25rem !important;
+    margin: 4px !important;
 }
 
 .#{$op-prefix}m-2 {
-    margin: 0.5rem !important;
+    margin: 8px !important;
 }
 
 .#{$op-prefix}m-3 {
-    margin: 1rem !important;
+    margin: 16px !important;
 }
 
 .#{$op-prefix}m-4 {
-    margin: 1.5rem !important;
+    margin: 24px !important;
 }
 
 .#{$op-prefix}m-5 {
-    margin: 3rem !important;
+    margin: 48px !important;
 }
 
 .#{$op-prefix}m-auto {
@@ -594,28 +594,28 @@
 }
 
 .#{$op-prefix}mx-1 {
-    margin-right: 0.25rem !important;
-    margin-left: 0.25rem !important;
+    margin-right: 4px !important;
+    margin-left: 4px !important;
 }
 
 .#{$op-prefix}mx-2 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+    margin-right: 8px !important;
+    margin-left: 8px !important;
 }
 
 .#{$op-prefix}mx-3 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+    margin-right: 16px !important;
+    margin-left: 16px !important;
 }
 
 .#{$op-prefix}mx-4 {
-    margin-right: 1.5rem !important;
-    margin-left: 1.5rem !important;
+    margin-right: 24px !important;
+    margin-left: 24px !important;
 }
 
 .#{$op-prefix}mx-5 {
-    margin-right: 3rem !important;
-    margin-left: 3rem !important;
+    margin-right: 48px !important;
+    margin-left: 48px !important;
 }
 
 .#{$op-prefix}mx-auto {
@@ -629,28 +629,28 @@
 }
 
 .#{$op-prefix}my-1 {
-    margin-top: 0.25rem !important;
-    margin-bottom: 0.25rem !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
 }
 
 .#{$op-prefix}my-2 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;
 }
 
 .#{$op-prefix}my-3 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
 }
 
 .#{$op-prefix}my-4 {
-    margin-top: 1.5rem !important;
-    margin-bottom: 1.5rem !important;
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
 }
 
 .#{$op-prefix}my-5 {
-    margin-top: 3rem !important;
-    margin-bottom: 3rem !important;
+    margin-top: 48px !important;
+    margin-bottom: 48px !important;
 }
 
 .#{$op-prefix}my-auto {
@@ -663,23 +663,23 @@
 }
 
 .#{$op-prefix}mt-1 {
-    margin-top: 0.25rem !important;
+    margin-top: 4px !important;
 }
 
 .#{$op-prefix}mt-2 {
-    margin-top: 0.5rem !important;
+    margin-top: 8px !important;
 }
 
 .#{$op-prefix}mt-3 {
-    margin-top: 1rem !important;
+    margin-top: 16px !important;
 }
 
 .#{$op-prefix}mt-4 {
-    margin-top: 1.5rem !important;
+    margin-top: 24px !important;
 }
 
 .#{$op-prefix}mt-5 {
-    margin-top: 3rem !important;
+    margin-top: 48px !important;
 }
 
 .#{$op-prefix}mt-auto {
@@ -691,23 +691,23 @@
 }
 
 .#{$op-prefix}me-1 {
-    margin-right: 0.25rem !important;
+    margin-right: 4px !important;
 }
 
 .#{$op-prefix}me-2 {
-    margin-right: 0.5rem !important;
+    margin-right: 8px !important;
 }
 
 .#{$op-prefix}me-3 {
-    margin-right: 1rem !important;
+    margin-right: 16px !important;
 }
 
 .#{$op-prefix}me-4 {
-    margin-right: 1.5rem !important;
+    margin-right: 24px !important;
 }
 
 .#{$op-prefix}me-5 {
-    margin-right: 3rem !important;
+    margin-right: 48px !important;
 }
 
 .#{$op-prefix}me-auto {
@@ -719,23 +719,27 @@
 }
 
 .#{$op-prefix}mb-1 {
-    margin-bottom: 0.25rem !important;
+    margin-bottom: 4px !important;
 }
 
 .#{$op-prefix}mb-2 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 8px !important;
 }
 
 .#{$op-prefix}mb-3 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 14px !important;
 }
 
 .#{$op-prefix}mb-4 {
-    margin-bottom: 1.5rem !important;
+    margin-bottom: 20px !important;
 }
 
 .#{$op-prefix}mb-5 {
-    margin-bottom: 3rem !important;
+    margin-bottom: 30px !important;
+}
+
+.#{$op-prefix}mb-6 {
+    margin-bottom: 40px !important;
 }
 
 .#{$op-prefix}mb-auto {
@@ -747,23 +751,27 @@
 }
 
 .#{$op-prefix}ms-1 {
-    margin-left: 0.25rem !important;
+    margin-left: 4px !important;
 }
 
 .#{$op-prefix}ms-2 {
-    margin-left: 0.5rem !important;
+    margin-left: 8px !important;
 }
 
 .#{$op-prefix}ms-3 {
-    margin-left: 1rem !important;
+    margin-left: 14px !important;
 }
 
 .#{$op-prefix}ms-4 {
-    margin-left: 1.5rem !important;
+    margin-left: 20px !important;
 }
 
 .#{$op-prefix}ms-5 {
-    margin-left: 3rem !important;
+    margin-left: 30px !important;
+}
+
+.#{$op-prefix}ms-5 {
+    margin-left: 40px !important;
 }
 
 .#{$op-prefix}ms-auto {
@@ -775,23 +783,23 @@
 }
 
 .#{$op-prefix}p-1 {
-    padding: 0.25rem !important;
+    padding: 4px !important;
 }
 
 .#{$op-prefix}p-2 {
-    padding: 0.5rem !important;
+    padding: 8px !important;
 }
 
 .#{$op-prefix}p-3 {
-    padding: 1rem !important;
+    padding: 16px !important;
 }
 
 .#{$op-prefix}p-4 {
-    padding: 1.5rem !important;
+    padding: 24px !important;
 }
 
 .#{$op-prefix}p-5 {
-    padding: 3rem !important;
+    padding: 48px !important;
 }
 
 .#{$op-prefix}px-0 {
@@ -800,28 +808,28 @@
 }
 
 .#{$op-prefix}px-1 {
-    padding-right: 0.25rem !important;
-    padding-left: 0.25rem !important;
+    padding-right: 4px !important;
+    padding-left: 4px !important;
 }
 
 .#{$op-prefix}px-2 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
 }
 
 .#{$op-prefix}px-3 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
 }
 
 .#{$op-prefix}px-4 {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+    padding-right: 24px !important;
+    padding-left: 24px !important;
 }
 
 .#{$op-prefix}px-5 {
-    padding-right: 3rem !important;
-    padding-left: 3rem !important;
+    padding-right: 48px !important;
+    padding-left: 48px !important;
 }
 
 .#{$op-prefix}py-0 {
@@ -830,28 +838,28 @@
 }
 
 .#{$op-prefix}py-1 {
-    padding-top: 0.25rem !important;
-    padding-bottom: 0.25rem !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
 }
 
 .#{$op-prefix}py-2 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
 }
 
 .#{$op-prefix}py-3 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
 }
 
 .#{$op-prefix}py-4 {
-    padding-top: 1.5rem !important;
-    padding-bottom: 1.5rem !important;
+    padding-top: 24px !important;
+    padding-bottom: 24px !important;
 }
 
 .#{$op-prefix}py-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
 }
 
 .#{$op-prefix}pt-0 {
@@ -859,23 +867,23 @@
 }
 
 .#{$op-prefix}pt-1 {
-    padding-top: 0.25rem !important;
+    padding-top: 4px !important;
 }
 
 .#{$op-prefix}pt-2 {
-    padding-top: 0.5rem !important;
+    padding-top: 8px !important;
 }
 
 .#{$op-prefix}pt-3 {
-    padding-top: 1rem !important;
+    padding-top: 16px !important;
 }
 
 .#{$op-prefix}pt-4 {
-    padding-top: 1.5rem !important;
+    padding-top: 24px !important;
 }
 
 .#{$op-prefix}pt-5 {
-    padding-top: 3rem !important;
+    padding-top: 48px !important;
 }
 
 .#{$op-prefix}pe-0 {
@@ -883,23 +891,23 @@
 }
 
 .#{$op-prefix}pe-1 {
-    padding-right: 0.25rem !important;
+    padding-right: 4px !important;
 }
 
 .#{$op-prefix}pe-2 {
-    padding-right: 0.5rem !important;
+    padding-right: 8px !important;
 }
 
 .#{$op-prefix}pe-3 {
-    padding-right: 1rem !important;
+    padding-right: 16px !important;
 }
 
 .#{$op-prefix}pe-4 {
-    padding-right: 1.5rem !important;
+    padding-right: 24px !important;
 }
 
 .#{$op-prefix}pe-5 {
-    padding-right: 3rem !important;
+    padding-right: 48px !important;
 }
 
 .#{$op-prefix}pb-0 {
@@ -907,23 +915,23 @@
 }
 
 .#{$op-prefix}pb-1 {
-    padding-bottom: 0.25rem !important;
+    padding-bottom: 4px !important;
 }
 
 .#{$op-prefix}pb-2 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 8px !important;
 }
 
 .#{$op-prefix}pb-3 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 16px !important;
 }
 
 .#{$op-prefix}pb-4 {
-    padding-bottom: 1.5rem !important;
+    padding-bottom: 24px !important;
 }
 
 .#{$op-prefix}pb-5 {
-    padding-bottom: 3rem !important;
+    padding-bottom: 48px !important;
 }
 
 .#{$op-prefix}ps-0 {
@@ -931,23 +939,23 @@
 }
 
 .#{$op-prefix}ps-1 {
-    padding-left: 0.25rem !important;
+    padding-left: 4px !important;
 }
 
 .#{$op-prefix}ps-2 {
-    padding-left: 0.5rem !important;
+    padding-left: 8px !important;
 }
 
 .#{$op-prefix}ps-3 {
-    padding-left: 1rem !important;
+    padding-left: 16px !important;
 }
 
 .#{$op-prefix}ps-4 {
-    padding-left: 1.5rem !important;
+    padding-left: 24px !important;
 }
 
 .#{$op-prefix}ps-5 {
-    padding-left: 3rem !important;
+    padding-left: 48px !important;
 }
 
 .#{$op-prefix}text-truncate {

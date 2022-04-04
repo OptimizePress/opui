@@ -1,5 +1,5 @@
 /*
- * Primary navigation which should be used on 
+ * Primary navigation which should be used on
  * admin views through all optimizepress plugins.
  * Currently only op-dashboard and op-funnels are using it.
  */
@@ -12,6 +12,7 @@
     .#{$op-prefix}logo {
         display: inline-block;
         height: 35px;
+        color: $color--opui-blue;
 
         i {
             font-size: 35px;
@@ -274,7 +275,7 @@
     }
 }
 
-/* 
+/*
  * Used as secondary navigation.
  * Currently used on op-dashboard conversions views.
  */
