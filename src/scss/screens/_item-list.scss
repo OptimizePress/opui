@@ -8,25 +8,35 @@
     }
 
     ul {
+        display: grid;
+        gap: 6px;
+        list-style: none;
         padding: 0;
         margin-top: 0;
         margin-bottom: 30px;
-        list-style: none;
-        font-size: 60px !important;
+        // font-size: 60px !important;
 
         > li, .#{$op-prefix}item-list-item {
-            margin-bottom: 6px;
+            margin: 0;
 
             .#{$op-prefix}item {
                 color: $color--opui-black;
                 background-color: $color--opui-white;
-                height: 80px;
+                min-height: 80px;
                 padding: 0 20px;
                 text-decoration: none;
+                display: grid;
+                grid-auto-flow: row;
+                grid-template-columns: 1fr auto;
+                gap: 15px;
 
                 &.#{$op-prefix}inactive {
                     opacity: .7;
                 }
+            }
+
+            .#{$op-prefix}item-with-handle {
+                grid-template-columns: auto 1fr auto;
             }
 
             a:not(.opui-btn-primary, .opui-btn-danger, .opui-btn-secondary, .opui-btn-info) {
@@ -41,21 +51,20 @@
             }
 
             .#{$op-prefix}left {
-                flex-grow: 1;
-                flex-shrink: 0;
+                overflow: hidden;
+                display: flex;
+                flex-wrap: nowrap;
+                align-items: center;
+                gap: 15px;
             }
 
             .#{$op-prefix}right {
-                flex-grow: 0;
-                flex-shrink: 1;
-
-                > div, > a {
-                    display: flex;
-                }
+                display: flex;
+                align-items: center;
+                gap: 15px;
             }
 
             .#{$op-prefix}drag-handle {
-                flex-shrink: 1;
                 width: 25px;
                 height: 100%;
                 background: $color--opui-gray200;
@@ -92,9 +101,11 @@
             }
 
             .#{$op-prefix}title {
-                padding-left: 15px;
+                width: 100%;
+                padding: 10px 0;
 
                 h3 {
+                    width: 100%;
                     font-size: 16px;
                     line-height: initial;
                     margin: 0;
@@ -107,17 +118,17 @@
                     font-size: 12px;
                     margin: 2px 0 0 0;
                     color: $color--opui-gray500;
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
                 }
-            }
-
-            .#{$op-prefix}toggle-container {
-                margin-left: 5px;
             }
 
             .#{$op-prefix}right {
                 [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"], .#{$op-prefix}-fa {
                     color: $color--opui-gray400;
-                    padding: 8px 7px 5px 7px;
+                    padding: 8px 0 5px 0;
                     transition: color 0.3s linear;
                     font-size: 14px;
 
@@ -127,14 +138,14 @@
                 }
 
                 .#{$op-prefix}btn {
-                    margin-left: 15px;
+                    margin-left: 5px;
                 }
             }
 
             .#{$op-prefix}actions {
                 a {
-                    margin-right: 8px;
-                    margin-left: 8px;
+                    margin-right: 0;
+                    margin-left: 0;
                     display: inline-block;
                     color: $color--opui-gray500;
                     font-size: 13px;
@@ -144,7 +155,7 @@
 
             // Nested
             > ul {
-                margin-top: 10px;
+                margin-top: 6px;
                 margin-left: 30px;
                 margin-bottom: 0;
             }
@@ -222,5 +233,3 @@
         }
     }
 }
-
-

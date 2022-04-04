@@ -2,7 +2,7 @@
     "name": "optimizepress-ui",
     "title": "OptimizePress UI",
     "description": "Style framework for OptimizePress Wordpress plugins.",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "homepage": "https://github.com/OptimizePress/opui",
     "authors": [
         "Boris Strahija <bstrahija@gmail.com>"
