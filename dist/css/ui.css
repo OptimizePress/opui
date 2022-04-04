@@ -16387,12 +16387,12 @@ body .opui-submenu nav, html .opui-submenu nav {
 }
 body .opui-submenu nav ul, html .opui-submenu nav ul {
   display: flex;
-  font-size: 1.4rem;
+  font-size: 14px;
   margin: 0;
 }
 body .opui-submenu nav li, html .opui-submenu nav li {
   margin: 0;
-  padding: 0 1rem;
+  padding: 0 10px;
 }
 body .opui-submenu nav a, html .opui-submenu nav a {
   display: flex;
@@ -16401,13 +16401,14 @@ body .opui-submenu nav a, html .opui-submenu nav a {
   cursor: pointer;
   color: var(--opui--gray500);
   transition: color 300ms ease-in-out;
+  text-decoration: none;
 }
 body .opui-submenu nav a:hover, html .opui-submenu nav a:hover {
   color: var(--opui--black);
 }
 body .opui-submenu nav i, html .opui-submenu nav i {
-  font-size: 2rem;
-  margin-right: 0.7rem;
+  font-size: 20px;
+  margin-right: 7px;
   line-height: 1;
 }
 body .opui-title-w-icon, html .opui-title-w-icon {
@@ -16462,7 +16463,7 @@ html .opui-title-w-icon h6 [class*=" opui-icon"] {
   color: #4249ff;
   display: inline-block;
   vertical-align: middle;
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -17214,14 +17215,14 @@ body .opui-link-with-icon, html .opui-link-with-icon {
   align-items: center;
   text-decoration: none;
   gap: 0.7rem;
-  font-size: 1.4rem;
+  font-size: 14px;
   color: var(--opui--gray500) !important;
 }
 body .opui-link-with-icon:hover, html .opui-link-with-icon:hover {
   color: var(--opui--blue) !important;
 }
 body .opui-link-with-icon i, html .opui-link-with-icon i {
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 1;
   padding: 0;
   color: inherit;
@@ -18495,6 +18496,7 @@ body .opui-item-list h6, html .opui-item-list h6 {
 }
 body .opui-item-list ul, html .opui-item-list ul {
   padding: 0;
+  margin-top: 0;
   margin-bottom: 30px;
   list-style: none;
   font-size: 60px !important;

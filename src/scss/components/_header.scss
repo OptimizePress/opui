@@ -33,13 +33,13 @@
 
         ul {
             display: flex;
-            font-size: 1.4rem;
+            font-size: 14px;
             margin: 0;
         }
 
         li {
             margin: 0;
-            padding: 0 1rem;
+            padding: 0 10px;
         }
 
         a {
@@ -49,6 +49,7 @@
             cursor: pointer;
             color: var(--opui--gray500);
             transition: color 300ms ease-in-out;
+            text-decoration: none;
 
             &:hover {
                 color: var(--opui--black);
@@ -56,8 +57,8 @@
         }
 
         i {
-            font-size: 2rem;
-            margin-right: 0.7rem;
+            font-size: 20px;
+            margin-right: 7px;
             line-height: 1;
         }
     }
@@ -107,7 +108,7 @@
             color: $color--opui-blue;
             display: inline-block;
             vertical-align: middle;
-            font-size: 4rem;
+            font-size: 40px;
             font-weight: 500;
             line-height: 1.2;
         }
