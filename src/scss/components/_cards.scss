@@ -20,7 +20,7 @@
 
         .#{$op-prefix}title {
             font-weight: 600;
-            font-size: 1.8rem;
+            font-size: 18px;
             margin: 0;
         }
     }
@@ -29,7 +29,7 @@
         display: flex;
         flex-direction: column;
         padding: 30px;
-        font-size: 1.6rem;
+        font-size: 16px;
 
         .#{$op-prefix}item {
             padding: 30px 0;
@@ -75,7 +75,7 @@
             p,
             label,
             .#{$op-prefix}item-description {
-                font-size: 1.4rem;
+                font-size: 14px;
                 color: $color--opui-gray900;
             }
         }
@@ -88,23 +88,23 @@
 }
 
 .#{$op-prefix}simple-card {
-    padding: 4.5rem;
+    padding: 45px;
     display: flex;
     background-color: var(--opui--white);
 
     i {
-        font-size: 4rem;
-        margin-right: 4.5rem;
+        font-size: 40px;
+        margin-right: 45px;
         color: var(--opui--blue);
     }
 
     .#{$op-prefix}title {
-        margin-bottom: 1rem;
+        margin-bottom: 10px;
     }
 
     .#{$op-prefix}description {
-        margin-bottom: 1.5rem;
+        margin-bottom: 15px;
         color: var(--opui--gray500);
-        font-size: 1.6rem;
+        font-size: 16px;
     }
 }

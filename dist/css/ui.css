@@ -15851,7 +15851,7 @@ body .box:hover .actions, html .box:hover .actions {
 }
 body .box .details-wrapper, html .box .details-wrapper {
   height: 180px;
-  padding: 3rem;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15877,13 +15877,13 @@ body .box .image-wrapper img, html .box .image-wrapper img {
   width: 100%;
 }
 body .box .title, html .box .title {
-  font-size: 1.8rem;
-  line-height: 2.4rem;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 body .box .description, html .box .description {
-  font-size: 1.5rem;
+  font-size: 15px;
   color: #000000;
   margin-bottom: 0;
 }
@@ -15911,6 +15911,7 @@ body .opui-form-control:focus, html .opui-form-control:focus {
 }
 body .opui-opui-form form label, body .opui-form-group label, body label.opui-form-label, html .opui-opui-form form label, html .opui-form-group label, html label.opui-form-label {
   font-size: 15px;
+  line-height: 1.4;
   font-weight: 500;
   color: #353b41;
   padding: 12px 0 10px 0;
@@ -16212,19 +16213,19 @@ body .opui-navigation, html .opui-navigation {
   justify-content: space-between;
   border-bottom: 1px solid #ededed;
   width: 100%;
-  margin: 1.5rem 0;
+  margin: 15px 0;
 }
 body .opui-navigation ul, html .opui-navigation ul {
   display: flex;
   list-style-type: none;
-  padding: 2rem 0;
+  padding: 20px 0;
   margin: 0;
 }
 body .opui-navigation ul li, html .opui-navigation ul li {
   position: relative;
-  font-size: 1.4rem;
+  font-size: 14px;
   font-weight: 500;
-  padding: 0px 2.4rem;
+  padding: 0 24px;
   margin: 0;
 }
 body .opui-navigation ul li:first-child, html .opui-navigation ul li:first-child {
@@ -16238,7 +16239,7 @@ body .opui-navigation ul li.active, html .opui-navigation ul li.active {
 }
 body .opui-navigation ul li a, html .opui-navigation ul li a {
   color: inherit;
-  padding: 2rem 0px;
+  padding: 20px 0px;
   text-decoration: none;
 }
 body .opui-navigation ul li .opui-nested-input[type=checkbox], html .opui-navigation ul li .opui-nested-input[type=checkbox] {
@@ -16246,14 +16247,14 @@ body .opui-navigation ul li .opui-nested-input[type=checkbox], html .opui-naviga
   height: 50px;
   position: absolute;
   z-index: 2;
-  top: -1.2rem;
-  left: -1.2rem;
+  top: -12px;
+  left: -12px;
   cursor: pointer;
   opacity: 0;
 }
 body .opui-navigation ul li .opui-nested-input[type=checkbox] ~ ul li .opui-nested-navigation, html .opui-navigation ul li .opui-nested-input[type=checkbox] ~ ul li .opui-nested-navigation {
   top: 0;
-  left: calc(100% + 2rem);
+  left: calc(100% + 20px);
 }
 body .opui-navigation ul li .opui-nested-input[type=checkbox]:checked ~ .opui-nested-navigation, html .opui-navigation ul li .opui-nested-input[type=checkbox]:checked ~ .opui-nested-navigation {
   display: flex;
@@ -16261,9 +16262,9 @@ body .opui-navigation ul li .opui-nested-input[type=checkbox]:checked ~ .opui-ne
 }
 body .opui-navigation ul li .opui-nested-navigation, html .opui-navigation ul li .opui-nested-navigation {
   position: absolute;
-  top: calc(100% + 1.3rem);
+  top: calc(100% + 13px);
   display: none;
-  padding: 0 2rem;
+  padding: 0 20px;
   z-index: 1000;
   background: #fff;
   text-align: left;
@@ -16282,7 +16283,7 @@ body .opui-navigation ul li .opui-nested-navigation li a span, html .opui-naviga
 }
 body .opui-navigation .opui-navigation-hover, html .opui-navigation .opui-navigation-hover {
   background-color: var(--opui--blue);
-  bottom: 1.5rem;
+  bottom: 15px;
   display: block;
   height: 2px;
   left: 0;
@@ -16303,10 +16304,10 @@ body .opui-navigation .opui-navigation-hover, html .opui-navigation .opui-naviga
   body .opui-navigation ul li, html .opui-navigation ul li {
     width: 100%;
     border-bottom: 1px solid #ededed;
-    padding: 1rem 0;
+    padding: 10px 0;
   }
   body .opui-navigation ul li a, html .opui-navigation ul li a {
-    padding: 1rem 0px;
+    padding: 10px 0;
   }
 }
 body .opui-navigation-pills, html .opui-navigation-pills {
@@ -16493,9 +16494,9 @@ body .opui-headline .opui-break, html .opui-headline .opui-break {
   height: 0;
 }
 body .opui-headline .opui-headline-description, html .opui-headline .opui-headline-description {
-  font-size: 1.4rem;
+  font-size: 14px;
   color: #89959f;
-  margin-top: 0.7rem;
+  margin-top: 7px;
   margin-bottom: 0;
   width: 70%;
 }
@@ -16504,9 +16505,9 @@ body .opui-headline .opui-headline-description a, html .opui-headline .opui-head
   text-decoration: none;
 }
 body .opui-headline-helplink, html .opui-headline-helplink {
-  font-size: 1.6rem;
+  font-size: 16px;
   color: #89959f;
-  margin-left: 1rem;
+  margin-left: 10px;
   text-decoration: none;
 }
 @media (max-width: 1399.98px) {
@@ -16728,14 +16729,14 @@ body .opui-card .opui-header, html .opui-card .opui-header {
 }
 body .opui-card .opui-header .opui-title, html .opui-card .opui-header .opui-title {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 18px;
   margin: 0;
 }
 body .opui-card .opui-content, html .opui-card .opui-content {
   display: flex;
   flex-direction: column;
   padding: 30px;
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 body .opui-card .opui-content .opui-item, html .opui-card .opui-content .opui-item {
   padding: 30px 0;
@@ -16778,7 +16779,7 @@ body .opui-card .opui-content .opui-item label,
 body .opui-card .opui-content .opui-item .opui-item-description, html .opui-card .opui-content .opui-item p,
 html .opui-card .opui-content .opui-item label,
 html .opui-card .opui-content .opui-item .opui-item-description {
-  font-size: 1.4rem;
+  font-size: 14px;
   color: #22262a;
 }
 body .opui-card .opui-content > div, html .opui-card .opui-content > div {
@@ -16786,22 +16787,22 @@ body .opui-card .opui-content > div, html .opui-card .opui-content > div {
   padding: 0;
 }
 body .opui-simple-card, html .opui-simple-card {
-  padding: 4.5rem;
+  padding: 45px;
   display: flex;
   background-color: var(--opui--white);
 }
 body .opui-simple-card i, html .opui-simple-card i {
-  font-size: 4rem;
-  margin-right: 4.5rem;
+  font-size: 40px;
+  margin-right: 45px;
   color: var(--opui--blue);
 }
 body .opui-simple-card .opui-title, html .opui-simple-card .opui-title {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
 }
 body .opui-simple-card .opui-description, html .opui-simple-card .opui-description {
-  margin-bottom: 1.5rem;
+  margin-bottom: 15px;
   color: var(--opui--gray500);
-  font-size: 1.6rem;
+  font-size: 16px;
 }
 body .opui-badge, html .opui-badge {
   position: relative;
@@ -17090,14 +17091,14 @@ body .opui-checkbox-label, html .opui-checkbox-label {
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: 3.2rem;
-  margin-bottom: 1.2rem;
+  padding-left: 32px;
+  margin-bottom: 12px;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  font-size: 1.6rem;
+  font-size: 16px;
   line-height: 1;
 }
 body .opui-checkbox-label .opui-checkbox, html .opui-checkbox-label .opui-checkbox {
@@ -17119,8 +17120,8 @@ body .opui-checkbox-label .opui-checkmark, html .opui-checkbox-label .opui-check
   position: absolute;
   top: 0;
   left: 0;
-  height: 1.6rem;
-  width: 1.6rem;
+  height: 16px;
+  width: 16px;
   background-color: transparent;
   border: 2px solid #acb6c3;
   border-radius: 3px;
@@ -17143,21 +17144,21 @@ body .opui-input-radio-label, html .opui-input-radio-label {
   align-items: center;
 }
 body .opui-input-radio-label .opui-input[type=radio], html .opui-input-radio-label .opui-input[type=radio] {
-  font-size: 1.6rem;
-  width: 1.6rem;
-  height: 1.6rem;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
   border-color: #d1d5db;
   box-shadow: none;
   padding: 0;
-  margin: 0 0.5rem 0 0;
+  margin: 0 5px 0 0;
 }
 body .opui-input-radio-label .opui-input[type=radio]:before, html .opui-input-radio-label .opui-input[type=radio]:before {
   background-color: #4249ff;
   border-radius: 50%;
   line-height: 1;
   content: "";
-  width: 1rem;
-  height: 1rem;
+  width: 10px;
+  height: 10px;
   float: none;
 }
 body .opui-pagination, html .opui-pagination {
@@ -17170,11 +17171,11 @@ body .opui-pagination-sm, html .opui-pagination-sm {
   font-size: 18px;
 }
 body .opui-select, html .opui-select {
-  font-size: 1.4rem;
+  font-size: 14px;
   line-height: 2;
   border: none;
   background-color: #f4f4f5;
-  padding: 0.3rem 2rem 0.3rem 0.5rem;
+  padding: 3px 20px 3px 5px;
   border-bottom: 2px solid #d1d5db;
   border-radius: 0;
   color: #22262a;
@@ -18830,8 +18831,8 @@ body .opui-table-is-loading .opui-btn, html .opui-table-is-loading .opui-btn {
   justify-content: space-between;
   padding: 16px;
   border-bottom: 1px solid #dee2e6;
-  border-top-left-radius: calc(0.3rem - 1px);
-  border-top-right-radius: calc(0.3rem - 1px);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
 }
 .opui-modal-header h1 {
   line-height: 30px;

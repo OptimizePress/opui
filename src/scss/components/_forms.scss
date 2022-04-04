@@ -16,6 +16,7 @@
 
 .#{$op-prefix}opui-form form label, .#{$op-prefix}form-group label, label.#{$op-prefix}form-label {
     font-size: 15px;
+    line-height: 1.4;
     font-weight: 500;
     color: $color--opui-gray800;
     padding: 12px 0 10px 0;

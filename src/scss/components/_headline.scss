@@ -21,9 +21,9 @@
     }
 
     .#{$op-prefix}headline-description {
-        font-size: 1.4rem;
+        font-size: 14px;
         color: $color--opui-gray500;
-        margin-top: 0.7rem;
+        margin-top: 7px;
         margin-bottom: 0;
         width: 70%;
 
@@ -35,9 +35,9 @@
 }
 
 .#{$op-prefix}headline-helplink {
-    font-size: 1.6rem;
+    font-size: 16px;
     color: $color--opui-gray500;
-    margin-left: 1rem;
+    margin-left: 10px;
     text-decoration: none;
 }
 
