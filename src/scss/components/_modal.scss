@@ -98,6 +98,10 @@
     border-bottom: 1px solid #dee2e6;
     border-top-left-radius: calc(0.3rem - 1px);
     border-top-right-radius: calc(0.3rem - 1px);
+
+    h1 {
+        line-height: 30px;
+    }
 }
 
 .#{$op-prefix}modal-header .#{$op-prefix}btn-close {

@@ -15575,7 +15575,7 @@ body .opui-container, html .opui-container {
 }
 body .op-plugin-app-container, html .op-plugin-app-container {
   margin-left: 0;
-  font-size: 2.56rem;
+  font-size: 16px;
 }
 body .op-plugin-app-container *, html .op-plugin-app-container * {
   box-sizing: border-box;
@@ -15903,7 +15903,7 @@ body .opui-form-text, html .opui-form-text {
   color: #89959f;
 }
 body .opui-form-group, body html .opui-form-group, html .opui-form-group, html html .opui-form-group {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 body .opui-form-control:focus, html .opui-form-control:focus {
   border-color: #22262a;
@@ -15982,7 +15982,7 @@ body .opui-form-slug-wrapper .opui-prefix, html .opui-form-slug-wrapper .opui-pr
   white-space: nowrap;
   background-color: var(--opui--gray200);
   height: 100%;
-  padding: 16px 5px 16px 24px;
+  padding: 13px 5px 13px 14px;
   color: var(--opui--gray600);
 }
 body .opui-form-slug-wrapper input, html .opui-form-slug-wrapper input {
@@ -16806,7 +16806,7 @@ body .opui-badge, html .opui-badge {
   position: relative;
   top: -1px;
   display: inline-block;
-  padding: 4px 6px 2px 6px;
+  padding: 4px 6px 3px 6px;
   font-size: 12px;
   line-height: 100%;
   vertical-align: baseline;
@@ -16863,7 +16863,7 @@ body .opui-toggle-switch .opui-toggle-switch-content, html .opui-toggle-switch .
   line-height: 0;
   transition: inherit;
   will-change: transform;
-  font-size: 1.6rem;
+  font-size: 16px;
   --toggle-label-on: "On";
   --toggle-label-off: "Off";
 }
@@ -16922,13 +16922,13 @@ body .opui-toggle-switch input:disabled + .opui-toggle-switch-wrapper .opui-togg
   line-height: 1;
   font-family: "opui-font";
   color: #d1d5db;
-  font-size: 1.4rem;
+  font-size: 14px;
   transform: translate(-50%, -50%);
 }
 body .opui-advanced-table, html .opui-advanced-table {
   border-collapse: collapse;
-  margin: 2.5rem 0;
-  font-size: 1.4rem;
+  margin: 25px 0;
+  font-size: 14px;
   border-radius: 4px 4px 0 0;
   overflow: hidden;
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
@@ -16943,7 +16943,7 @@ body .opui-advanced-table thead th, html .opui-advanced-table thead th {
   color: #22262a;
   text-align: left;
   font-weight: 600;
-  padding: 2rem;
+  padding: 20px;
 }
 body .opui-advanced-table tbody tr,
 body .opui-advanced-table tfoot tr, html .opui-advanced-table tbody tr,
@@ -16963,9 +16963,9 @@ body .opui-advanced-table tfoot td, html .opui-advanced-table tbody th,
 html .opui-advanced-table tbody td,
 html .opui-advanced-table tfoot th,
 html .opui-advanced-table tfoot td {
-  font-size: 1.4rem;
+  font-size: 14px;
   font-weight: normal;
-  padding: 2rem;
+  padding: 20px;
   color: #60666c;
 }
 body .opui-advanced-table tbody th a,
@@ -16977,6 +16977,7 @@ html .opui-advanced-table tfoot th a,
 html .opui-advanced-table tfoot td a {
   color: inherit;
   cursor: pointer;
+  text-decoration: none;
 }
 body .opui-advanced-table tbody th i,
 body .opui-advanced-table tbody td i,
@@ -17066,13 +17067,13 @@ body .opui-advanced-table .opui-pagination .active a, html .opui-advanced-table 
     border-bottom: none;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
     background-color: white;
-    margin-bottom: 1.6rem;
+    margin-bottom: 16px;
   }
   body .opui-advanced-table tbody tr td, html .opui-advanced-table tbody tr td {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid #ededed;
-    padding: 1rem;
+    padding: 10px;
   }
   body .opui-advanced-table tbody tr td:before, html .opui-advanced-table tbody tr td:before {
     content: attr(data-label);
@@ -18830,6 +18831,9 @@ body .opui-table-is-loading .opui-btn, html .opui-table-is-loading .opui-btn {
   border-top-left-radius: calc(0.3rem - 1px);
   border-top-right-radius: calc(0.3rem - 1px);
 }
+.opui-modal-header h1 {
+  line-height: 30px;
+}
 
 .opui-modal-header .opui-btn-close {
   padding: 8px;
@@ -19133,7 +19137,7 @@ body .opui-table-is-loading .opui-btn, html .opui-table-is-loading .opui-btn {
 }
 .op-plugin-app-container .select2 .select2-selection, .opui-modal .select2 .select2-selection {
   border: 1px solid #d1d5db;
-  padding: 0.75rem 1.5rem !important;
+  padding: 8px 15px !important;
   margin-bottom: 20px !important;
   height: auto;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -19154,7 +19158,7 @@ body .opui-table-is-loading .opui-btn, html .opui-table-is-loading .opui-btn {
 }
 .op-plugin-app-container .select2-container--default .select2-selection--multiple .select2-selection__choice, .opui-modal .select2-container--default .select2-selection--multiple .select2-selection__choice {
   font-size: 14px;
-  padding: 3px 7px;
+  padding: 5px 8px;
   background: #ededed;
   border: none;
   margin-top: 8px !important;

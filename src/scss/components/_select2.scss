@@ -6,7 +6,7 @@
 
         .select2-selection {
             border: 1px solid $color--opui-gray300;
-            padding: 0.75rem 1.5rem !important;
+            padding: 8px 15px !important;
             margin-bottom: 20px !important;
             height: auto;
             box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -35,7 +35,7 @@
 
     .select2-container--default .select2-selection--multiple .select2-selection__choice {
         font-size: 14px;
-        padding: 3px 7px;
+        padding: 5px 8px;
         background: $color--opui-gray200;
         border: none;
         margin-top: 8px !important;

@@ -6,7 +6,7 @@
 }
 
 .#{$op-prefix}form-group, html .#{$op-prefix}form-group {
-    margin-bottom: 16px;
+    margin-bottom: 10px;
 }
 
 .opui-form-control:focus {
@@ -96,7 +96,7 @@ label.#{$op-prefix}form-label-top {
         background-color: var(--opui--gray200);
         height: 100%;
         //line-height: 1;
-        padding: 16px 5px 16px 24px;
+        padding: 13px 5px 13px 14px;
         color: var(--opui--gray600);
     }
 
