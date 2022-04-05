@@ -29,6 +29,7 @@
     }
 
     .#{$op-prefix}toggle-switch-wrapper {
+        box-sizing: border-box;
         height: 100%;
         width: 100%;
         padding: 2px;
@@ -42,6 +43,8 @@
 
     .#{$op-prefix}toggle-switch-content {
         position: relative;
+        display: flex;
+        align-items: center;
         height: 100%;
         line-height: 0;
         transition: inherit;
