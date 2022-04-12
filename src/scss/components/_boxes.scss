@@ -1,4 +1,4 @@
-.boxes {
+.boxes, .#{$op-prefix}boxes {
     position: relative;
     z-index: 1;
     display: flex;
@@ -6,7 +6,7 @@
     gap: 30px;
 }
 
-.box {
+.box, .#{$op-prefix}box {
     width: 270px;
     min-height: 350px;
     background-color: white;
@@ -15,27 +15,31 @@
     box-shadow: var(--opui--box-shadow);
     overflow: hidden;
 
+    * {
+        box-sizing: border-box;
+    }
+
     &:hover {
-        .details {
-            display: none;
+        .details, .#{$op-prefix}details {
+            opacity: 0;
         }
 
-        .actions {
+        .actions, .#{$op-prefix}actions {
             display: flex;
             flex-direction: column;
         }
     }
 
-    .details-wrapper {
-        height: 180px;
-        padding: 30px;
+    .details-wrapper, .#{$op-prefix}details-wrapper {
+        padding: 25px;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
     }
 
-    .actions,
-    .details {
+    .actions, .#{$op-prefix}actions,
+    .details, .#{$op-prefix}details {
         height: 100%;
         width: 100%;
 
@@ -44,7 +48,7 @@
         }
     }
 
-    .image-wrapper {
+    .image-wrapper, .#{$op-prefix}image-wrapper {
         height: 180px;
         width: 100%;
         overflow: hidden;
@@ -55,26 +59,32 @@
         }
     }
 
-    .title {
+    .title, .#{$op-prefix}title {
         font-size: 18px;
         line-height: 24px;
         font-weight: 600;
         margin-bottom: 20px;
     }
 
-    .description {
-        font-size: 15px;
-        color: #000000;
+    .description, .#{$op-prefix}description {
+        font-size: 14px;
+        color: $color--opui-gray800;
         margin-bottom: 0;
     }
 
-    .actions {
+    .actions, .#{$op-prefix}actions {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 25px;
         display: none;
         justify-content: center;
         align-items: center;
         gap: 10px;
 
-        buttons {
+        buttons, .#{$op-prefix}btn {
             width: 100%;
         }
     }

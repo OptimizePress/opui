@@ -26,13 +26,13 @@
     }
 
     &:focus,
-    &.focus {
+    &.#{$op-prefix}focus {
         outline: 0;
         box-shadow: $btn-focus-box-shadow;
     }
 
     // Disabled comes first so active can properly restyle
-    &.disabled,
+    &.#{$op-prefix}disabled,
     &:disabled {
         opacity: $btn-disabled-opacity;
         @include box-shadow(none);
