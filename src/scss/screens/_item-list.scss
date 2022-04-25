@@ -56,6 +56,10 @@
                 flex-wrap: nowrap;
                 align-items: center;
                 gap: 15px;
+
+                .#{$op-prefix}toggle-switch {
+                    min-width: 50px;
+                }
             }
 
             .#{$op-prefix}right {
@@ -103,6 +107,7 @@
             .#{$op-prefix}title {
                 width: 100%;
                 padding: 10px 0;
+                overflow: hidden;
 
                 h3 {
                     width: 100%;
@@ -166,6 +171,36 @@
                 margin-top: 6px;
                 margin-left: 30px;
                 margin-bottom: 0;
+            }
+        }
+
+        .#{$op-prefix}add-new-item-between {
+            height: 1px;
+            position: relative;
+            text-align: center;
+
+            a {
+                background: $color--opui-gray100;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(50%,-50%);
+                font-size: 24px;
+                border-radius: 50%;
+                color: $color--opui-green400 !important;
+                display: none;
+                opacity: 0;
+                transition: opacity ease-in-out .2s;
+
+                &:focus, &:active {
+                    outline: 0 !important;
+                    box-shadow: none !important;
+                }
+            }
+
+            &:hover a {
+                display: inline-block;
+                opacity: 1;
             }
         }
     }
