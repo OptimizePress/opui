@@ -101,12 +101,35 @@ $icons: (
     integrations: "ea52",
 );
 
+// Also add product icons
+$productIcons: (
+    op-builder: "ea21",
+    op-courses: "ea1f",
+    op-checkouts: "ea04",
+    op-cart: "ea04",
+    op-dashboard: "ea51",
+    op-funnels: "ea22",
+    op-leads: "ea23",
+    op-member: "ea24",
+    op-protect: "ea02",
+    op-smart-theme: "ea2b",
+    op-smart-theme3: "ea2b",
+    op-templates: "ea41",
+    op-urgency: "ea2c",
+    op-urgency-3: "ea2c",
+);
+
 @function unicode($str) {
     @return unquote('"\\#{$str}"');
 }
 
 @each $name, $code in $icons {
     .#{$op-icon-prefix}#{$name}:before {
+        content: unicode($code);
+    }
+}
+@each $name, $code in $productIcons {
+    .#{$op-icon-prefix}product-#{$name}:before {
         content: unicode($code);
     }
 }
