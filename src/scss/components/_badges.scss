@@ -11,4 +11,9 @@
 .#{$op-prefix}badge-status {
     padding: 10px 15px;
     font-weight: normal;
+    transition: filter linear 1s;
+}
+
+.#{$op-prefix}badge-status:hover {
+    filter: brightness(95%);
 }
