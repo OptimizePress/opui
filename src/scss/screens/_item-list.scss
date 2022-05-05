@@ -276,3 +276,35 @@
         }
     }
 }
+
+.#{$op-prefix}cta-create {
+    background-color: $color--opui-gray200;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+
+    .opui-cta-create-text {
+        padding-left: 35px;
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            color: $color--opui-gray500;
+            margin: 10px 0 18px 0;
+            font-size: 15px;
+        }
+    }
+
+    .opui-btn-outline-secondary {
+        background: $color--opui-white;
+
+        &:hover {
+            border-color: $color--opui-gray400;
+            background: $color--opui-gray400;
+        }
+    }
+}
