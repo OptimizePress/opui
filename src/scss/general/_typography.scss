@@ -10,6 +10,29 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
     color: $color--opui-gray400;
 }
 
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $headings-color;
+}
+
 pre {
     font-size: 16px;
+}
+
+h5.#{$op-prefix}help-text {
+    font-weight: 500;
+    color: $color--opui-gray500;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h6.#{$op-prefix}help-text {
+    font-weight: 400;
+    color: $color--opui-gray500;
+    font-size: 16px;
+    line-height: 26px;
 }

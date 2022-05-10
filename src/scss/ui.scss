@@ -56,7 +56,6 @@
 
 // App classes wrapped
 #{$opui-wrapper}, html {
-    @import "general/typography";
     @import "layout/grid";
     @import "layout/main";
     @import "layout/sizing";
@@ -83,6 +82,7 @@
     @import "components/restriction-overlay";
     @import "general/utilities";
     @import "general/colors";
+    @import "general/typography";
 
     .op-plugin-app-container {
         @import "general/forms";
