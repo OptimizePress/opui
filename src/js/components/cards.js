@@ -6,10 +6,10 @@
  */
 export default class Cards {
     /**
-     * 
-     * @param {String} selector 
-     * @param {Object} options 
-     * @returns 
+     *
+     * @param {String} selector
+     * @param {Object} options
+     * @returns
      */
     constructor(selector = '.opui-card', options = {}) {
         this.selector = selector;
@@ -51,16 +51,19 @@ export default class Cards {
     /**
      * Get HTMLElement value and name attribute and store it to parent elements
      * which are defined by dataAttributeSelectors
-     * 
-     * @param {Event} event 
-     * @returns 
+     *
+     * @param {Event} event
+     * @returns
      */
     eventsHandler(event) {
-        if (!event.target.matches(this.options.formElementsSelector)) {
+        if (!event.target.matches(this.options.formElementsSelector)) {
             return;
         }
 
         let name = event.target.getAttribute('name');
+
+        if (!name)
+            return;
 
         name = name
             .replaceAll('_', '-')
@@ -82,13 +85,13 @@ export default class Cards {
     }
 
     /**
-     * Problem is that input[type="checkbox"] may or may not 
-     * have value attribute, so we can't know for sure 
+     * Problem is that input[type="checkbox"] may or may not
+     * have value attribute, so we can't know for sure
      * which value to set when checkbox is checked.
-     * 
+     *
      * Also we can't know what is value when checkbox is not checked.
      * In that case we assume that there is input[type="hidden"] with value attribute.
-     * 
+     *
      * @param {HTMLElement} element
      * @return {String}
      */
