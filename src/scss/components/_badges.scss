@@ -2,8 +2,18 @@
     position: relative;
     top: -1px;
     display: inline-block;
-    padding: 4px 6px 2px 6px;
+    padding: 4px 6px 3px 6px;
     font-size: 12px;
     line-height: 100%;
     vertical-align: baseline;
+}
+
+.#{$op-prefix}badge-status {
+    padding: 10px 15px;
+    font-weight: normal;
+    transition: filter linear 1s;
+}
+
+.#{$op-prefix}badge-status:hover {
+    filter: brightness(95%);
 }

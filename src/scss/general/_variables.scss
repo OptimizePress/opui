@@ -1,87 +1,90 @@
 // Main settings
-$op-prefix:      'opui-' !default;
+$op-prefix: 'opui-' !default;
 $op-icon-prefix: 'opui-icon-' !default;
-$opui-wrapper:   'body' !default;
-
-// Spacing
-//$opui-gutter-x: 0.25rem;
-//$opui-gutter-y: 0.25rem;
+$opui-wrapper: 'body' !default;
 
 // Colors
 $color--opui-white: hsl(0, 0%, 100%); // #ffffff
-$color--opui-black: hsl(0, 0%, 0%);   // #000000
+$color--opui-black: hsl(0, 0%, 0%); // #000000
 
 // Grays
 $color--opui-gray:      hsl(208, 7%, 46%);  // #6c757d
-$color--opui-lightgray: hsl(216, 20%, 95%);  //#f0f2f5;
+$color--opui-lightgray: hsl(216, 20%, 95%); // #f0f2f5;
 $color--opui-darkgray:  hsl(210, 9%, 31%);  // #495057;
 $color--opui-gray100:   hsl(210, 17%, 98%); // #f8f9fa;
-$color--opui-gray150:   hsl(240, 5%, 96%); // #f5f5f6;
+$color--opui-gray150:   hsl(240, 5%, 96%);  // #f5f5f6;
 $color--opui-gray200:   hsl(0, 0%, 93%);    // #eeeeee;
-$color--opui-gray300:   hsl(210, 14%, 83%); // #ced4da;
+$color--opui-gray300:   hsl(216, 12%, 84%); // #d1d5db;
 $color--opui-gray400:   hsl(215, 16%, 72%); // #97A3B4;
-$color--opui-gray500:   hsl(207, 10%, 58%); // #8a96a0;
-$color--opui-gray600:   hsl(208, 7%, 46%);  // #6c757d;
+$color--opui-gray500:   hsl(208, 8%, 48%); // #727c85;
+$color--opui-gray600:   hsl(208, 6%, 40%);  // #60666c;
 $color--opui-gray700:   hsl(210, 9%, 31%);  // #495057;
 $color--opui-gray800:   hsl(210, 10%, 23%); // #343a40;
 $color--opui-gray900:   hsl(210, 11%, 15%); // #212529;
 
 // Blues
-$color--opui-blue:      hsl(213, 100%, 43%); // #0063d9;
-$color--opui-blue2:     hsl(238, 100%, 63%); // #4349ff;
-$color--opui-lightblue: hsl(213, 100%, 50%); // #0074ff;
-$color--opui-darkblue:  hsl(215, 100%, 38%); // #0051c3;
-$color--opui-blue100:   hsl(213, 100%, 78%); // #8fc1ff
-$color--opui-blue200:   hsl(213, 100%, 63%); // #4297ff
-$color--opui-blue300:   hsl(213, 100%, 53%); // #0f7bff
+$color--opui-blue:      hsl(238, 100%, 63%);   // #4249FF;
+$color--opui-lightblue: hsl(237, 100%, 50%);   // #0074ff;
+$color--opui-darkblue:  hsl(237, 100%, 38%);   // #0051c3;
+$color--opui-blue100:   hsl(237, 100%, 78%);   // #8fc1ff
+$color--opui-blue200:   hsl(237, 100%, 63%);   // #4297ff
+$color--opui-blue300:   hsl(237, 100%, 53%);   // #0f7bff
 $color--opui-blue400:   $color--opui-blue;     // #0063db
-$color--opui-blue500:   hsl(213, 100%, 38%); // #0057c2
+$color--opui-blue500:   hsl(237, 100%, 38%);   // #0057c2
 $color--opui-blue600:   $color--opui-darkblue; // #0051c2
-$color--opui-blue700:   hsl(213, 100%, 31%); // #00479e
-$color--opui-blue800:   hsl(213, 100%, 23%); // #003575
-$color--opui-blue900:   hsl(214, 100%, 8%);  // #001229
+$color--opui-blue700:   hsl(237, 100%, 31%);   // #00479e
+$color--opui-blue800:   hsl(237, 100%, 23%);   // #003575
+$color--opui-blue900:   hsl(237, 100%, 8%);    // #001229
+
+// Greens
+$color--opui-green:        hsl(158, 100%, 42%);    // #00d688;
+$color--opui-bright-green: hsl(143, 88%, 84%);     // #b2face;
+$color--opui-lightgreen:   hsl(143, 88%, 84%);     // #b2face;
+$color--opui-darkgreen:    hsl(143, 88%, 30%);     // #09903d;
+$color--opui-green100:     hsl(143, 88%, 94%);     // #e2fded
+$color--opui-green200:     hsl(143, 88%, 84%);     // #b2face
+$color--opui-green300:     hsl(128, 42%, 65%);     // #81cb8b
+$color--opui-green400:     $color--opui-green;     // #00d688
+$color--opui-green500:     hsl(143, 88%, 60%);     // #3ff384
+$color--opui-green600:     $color--opui-darkgreen; // #09903d
+$color--opui-green700:     hsl(143, 88%, 25%);     // #087833
+$color--opui-green800:     hsl(143, 88%, 20%);     // #066029
+$color--opui-green900:     hsl(143, 88%, 10%);     // #033014
 
 // Rainbow
-$color--opui-indigo:       hsl(263, 90%, 51%); // #6610f2;
-$color--opui-purple:       hsl(261, 51%, 51%); // #6f42c1;
-$color--opui-pink:         hsl(330, 67%, 52%); // #d63384;
-$color--opui-red:          hsl(354, 70%, 54%); // #dc3545;
-$color--opui-orange:       hsl(27, 98%, 54%);  // #fd7e14;
-$color--opui-yellow:       hsl(45, 100%, 51%); // #ffc107;
-$color--opui-green:        hsl(158, 100%, 42%); //#00d88a;
-$color--opui-bright-green: hsl(158, 100%, 42%); //#00d88a;
-$color--opui-teal:         hsl(162, 73%, 46%); // #20c997;
-$color--opui-cyan:         hsl(190, 90%, 50%); //#0dcaf0;
+$color--opui-indigo:       hsl(263, 90%, 51%);  // #6610f2;
+$color--opui-purple:       hsl(261, 51%, 51%);  // #6f42c1;
+$color--opui-pink:         hsl(330, 67%, 52%);  // #d63384;
+$color--opui-red:          hsl(354, 70%, 54%);  // #dc3545;
+$color--opui-orange:       hsl(27, 98%, 54%);   // #fd7e14;
+$color--opui-yellow:       hsl(45, 100%, 51%);  // #ffc107;
+$color--opui-teal:         hsl(162, 73%, 46%);  // #20c997;
+$color--opui-cyan:         hsl(190, 90%, 50%);  // #0dcaf0;
+$color--opui-cornflower:   hsl(221, 78%, 68%);  // #6d95ed;
+$color--opui-wedgewood:    hsl(221, 26%, 42%);  // #4e6086;
 
 // Roles
-$color--opui-primary:   $color--opui-blue;
+$color--opui-primary: $color--opui-blue;
 $color--opui-secondary: $color--opui-blue100;
-$color--opui-success:   $color--opui-bright-green;
-$color--opui-info:      $color--opui-blue300;
-$color--opui-warning:   $color--opui-yellow;
-$color--opui-danger:    $color--opui-red;
-$color--opui-light:     $color--opui-gray100;
-$color--opui-dark:      $color--opui-gray900;
+$color--opui-success: $color--opui-green;
+$color--opui-info: $color--opui-blue300;
+$color--opui-warning: $color--opui-yellow;
+$color--opui-danger: $color--opui-red;
+$color--opui-light: $color--opui-gray100;
+$color--opui-dark: $color--opui-gray900;
+$color--opui-chapter: $color--opui-cornflower; // #6d95ed;
+$color--opui-lesson: $color--opui-wedgewood; // #4e6086;
 
 // Also define colors for Bootstrap
-$blue:     $color--opui-blue;
-$pink:     hsl(332, 79%, 58%); // #e83e8c !default;
-$red:      $color--opui-red;
-$orange:   hsl(27, 98%, 54%); // #fd7e14 !default;
-$yellow:   $color--opui-yellow;
-$green:    $color--opui-green;
-$teal:     hsl(162, 73%, 46%); // #20c997 !default;
-$cyan:     $color--opui-blue300;
-$gray:     $color--opui-gray;
-$gray-100: $color--opui-gray100;
-$gray-200: $color--opui-gray200;
-$gray-300: $color--opui-gray300;
-$gray-400: $color--opui-gray400;
-$gray-500: $color--opui-gray500;
-$gray-600: $color--opui-gray600;
-$gray-700: $color--opui-gray700;
-$gray-800: $color--opui-gray800;
-
+$secondary: $color--opui-gray600;
+$blue: $color--opui-blue;
+$pink: hsl(332, 79%, 58%); // #e83e8c !default;
+$red: $color--opui-red;
+$orange: hsl(27, 98%, 54%); // #fd7e14 !default;
+$yellow: $color--opui-yellow;
+$green: $color--opui-green;
+$teal: hsl(162, 73%, 46%); // #20c997 !default;
+$cyan: $color--opui-blue300;
 // Grid
 $grid-gutter-height: 30px;
 $grid-breakpoints: (
@@ -101,44 +104,113 @@ $container-max-widths: (
 ) !default;
 
 // Borders
-$border-radius:               4px;
-$border-radius-lg:            6px;
-$border-radius-sm:            8px;
+$border-radius: 4px;
+$border-radius-lg: 6px;
+$border-radius-sm: 8px;
+$rounded-pill:                50%;
+
+// Shadows
+$box-shadow-sm:               0 2px 4px rgba($color--opui-black, .075);
+$box-shadow:                  0 8px 16px rgba($color--opui-black, .15);
+$box-shadow-lg:               0 16px 48px rgba($color--opui-black, .175);
 
 // Fonts
-$font-family:                "Open Sans", sans-serif !default;
-$font-size-base:              1.6rem; // Assumes the browser default, typically `16px`
-$font-size-lg:                $font-size-base * 1.25 !default;
-$font-size-sm:                $font-size-base * .875 !default;
-$navbar-brand-font-size:      2rem;
+$font-family:            Inter, sans-serif;
+$font-size-base:         16px; // Assumes the browser default, typically `16px`
+$font-size-lg:           $font-size-base * 1.25;
+$font-size-sm:           $font-size-base * .875;
+$navbar-brand-font-size: 20px;
+
+// Sizes
+$display1-size:               96px;
+$display2-size:               88px;
+$display3-size:               72px;
+$display4-size:               56px;
+$custom-control-gutter:                 8px;
+$custom-control-spacer-x:               16px;
+$custom-control-indicator-size:         16px;
+
+// Tables
+$table-cell-padding:          12px;
+$table-cell-padding-sm:       5px;
 
 // Forms
 $input-border-color: $color--opui-gray300;
+$input-btn-padding-y:         6px;
+$input-btn-padding-x:         12px;
+$input-btn-focus-width:       3px;
+$input-btn-padding-y-sm:      4px;
+$input-btn-padding-x-sm:      8px;
+$input-btn-padding-y-lg:      8px;
+$input-btn-padding-x-lg:      16px;
+$form-text-margin-top:                  4px;
+$form-check-input-gutter:               30px;
+$form-check-input-margin-y:             5px;
+$form-check-input-margin-x:             4px;
+$form-check-inline-margin-x:            12px;
+$form-check-inline-input-margin-x:      5px;
+$form-grid-gutter-width:                10px;
+$form-group-margin-bottom:              16px;
+$custom-select-indicator-padding:   16px;
+
+
+// Box Shadows
+$box-shadow: 0px 0px 5px 0px rgba($color--opui-black, 0.05);
+
+// Transitions
+$transition--opui-color-linear: color .3s linear;
 
 // Spacing
 $spacer: 10px !default;
 $spacers: () !default;
 $spacers: map-merge(
-    (
-        0: 0,
-        1: ($spacer * .25),
-        2: ($spacer * .5),
-        3: $spacer,
-        4: ($spacer * 1.5),
-        5: ($spacer * 3),
-        6: ($spacer * 4.5),
-        7: ($spacer * 6),
-        8: ($spacer * 7.5),
-        9: ($spacer * 9),
-        10: ($spacer * 12)
-    ),
-    $spacers
+        (
+            0: 0,
+            1: ($spacer * .25),
+            2: ($spacer * .5),
+            3: $spacer,
+            4: ($spacer * 1.5),
+            5: ($spacer * 3),
+            6: ($spacer * 4.5),
+            7: ($spacer * 6),
+            8: ($spacer * 7.5),
+            9: ($spacer * 9),
+            10: ($spacer * 12)
+        ),
+        $spacers
 );
+
+// Buttons
+$btn-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
+$btn-block-spacing-y:         8px;
+
+// Navs
+$nav-link-padding-y:                8px;
+$nav-link-padding-x:                16px;
+$navbar-nav-link-padding-x:         8px;
+$navbar-toggler-padding-y:          4px;
+$navbar-toggler-padding-x:          12px;
+
+// Alerts
+$alert-padding-y:                   12px;
+$alert-padding-x:                   20px;
+$alert-margin-bottom:               16px;
+
+// Progress bars
+$progress-height:                   16px;
+$progress-box-shadow:               inset 0 2px 2px rgba($color--opui-black, .1) !default;
+
 
 // Also define CSS variables for our colors and
 :root {
     // Fonts
     --#{$op-prefix}-font-family: #{$font-family};
+
+    // Borders
+    --#{$op-prefix}-border-radius: #{$border-radius};
+
+    // Box Shadow
+    --#{$op-prefix}-box-shadow: #{$box-shadow};
 
     // Black/White
     --#{$op-prefix}-white: #{$color--opui-white};
@@ -148,6 +220,7 @@ $spacers: map-merge(
     --#{$op-prefix}-gray:     #{$color--opui-gray};
     --#{$op-prefix}-darkgray: #{$color--opui-darkgray};
     --#{$op-prefix}-gray100:  #{$color--opui-gray100};
+    --#{$op-prefix}-gray150:  #{$color--opui-gray150};
     --#{$op-prefix}-gray200:  #{$color--opui-gray200};
     --#{$op-prefix}-gray300:  #{$color--opui-gray300};
     --#{$op-prefix}-gray400:  #{$color--opui-gray400};
@@ -158,26 +231,56 @@ $spacers: map-merge(
     --#{$op-prefix}-gray900:  #{$color--opui-gray900};
 
     // Blues
-    --#{$op-prefix}-blue:     #{$color--opui-blue};
-    --#{$op-prefix}-darkblue: #{$color--opui-darkblue};
-    --#{$op-prefix}-blue100:  #{$color--opui-blue100};
-    --#{$op-prefix}-blue200:  #{$color--opui-blue200};
-    --#{$op-prefix}-blue300:  #{$color--opui-blue300};
-    --#{$op-prefix}-blue400:  #{$color--opui-blue400};
-    --#{$op-prefix}-blue500:  #{$color--opui-blue500};
-    --#{$op-prefix}-blue600:  #{$color--opui-blue600};
-    --#{$op-prefix}-blue700:  #{$color--opui-blue700};
-    --#{$op-prefix}-blue800:  #{$color--opui-blue800};
-    --#{$op-prefix}-blue900:  #{$color--opui-blue900};
+    --#{$op-prefix}-blue:      #{$color--opui-blue};
+    --#{$op-prefix}-darkblue:  #{$color--opui-darkblue};
+    --#{$op-prefix}-lightblue: #{$color--opui-lightblue};
+    --#{$op-prefix}-blue100:   #{$color--opui-blue100};
+    --#{$op-prefix}-blue200:   #{$color--opui-blue200};
+    --#{$op-prefix}-blue300:   #{$color--opui-blue300};
+    --#{$op-prefix}-blue400:   #{$color--opui-blue400};
+    --#{$op-prefix}-blue500:   #{$color--opui-blue500};
+    --#{$op-prefix}-blue600:   #{$color--opui-blue600};
+    --#{$op-prefix}-blue700:   #{$color--opui-blue700};
+    --#{$op-prefix}-blue800:   #{$color--opui-blue800};
+    --#{$op-prefix}-blue900:   #{$color--opui-blue900};
+
+    // Greens
+    --#{$op-prefix}-green:        #{$color--opui-green};
+    --#{$op-prefix}-darkgreen:    #{$color--opui-darkgreen};
+    --#{$op-prefix}-lightgreen:   #{$color--opui-lightgreen};
+    --#{$op-prefix}-bright-green: #{$color--opui-lightgreen};
+    --#{$op-prefix}-green100:     #{$color--opui-green100};
+    --#{$op-prefix}-green200:     #{$color--opui-green200};
+    --#{$op-prefix}-green300:     #{$color--opui-green300};
+    --#{$op-prefix}-green400:     #{$color--opui-green400};
+    --#{$op-prefix}-green500:     #{$color--opui-green500};
+    --#{$op-prefix}-green600:     #{$color--opui-green600};
+    --#{$op-prefix}-green700:     #{$color--opui-green700};
+    --#{$op-prefix}-green800:     #{$color--opui-green800};
+    --#{$op-prefix}-green900:     #{$color--opui-green900};
 
     // Roles
     --#{$op-prefix}-primary:   #{$color--opui-blue};
     --#{$op-prefix}-secondary: #{$color--opui-blue100};
-    --#{$op-prefix}-success:   #{$color--opui-bright-green};
+    --#{$op-prefix}-success:   #{$color--opui-green};
     --#{$op-prefix}-info:      #{$color--opui-blue300};
     --#{$op-prefix}-warning:   #{$color--opui-yellow};
     --#{$op-prefix}-danger:    #{$color--opui-red};
     --#{$op-prefix}-light:     #{$color--opui-gray100};
     --#{$op-prefix}-dark:      #{$color--opui-darkgray};
+    --#{$op-prefix}-chapter:   #{$color--opui-chapter};
+    --#{$op-prefix}-lesson:    #{$color--opui-lesson};
+
+    // Rainbow
+    --#{$op-prefix}-indigo:       #{$color--opui-indigo};
+    --#{$op-prefix}-purple:       #{$color--opui-purple};
+    --#{$op-prefix}-pink:         #{$color--opui-pink};
+    --#{$op-prefix}-red:          #{$color--opui-red};
+    --#{$op-prefix}-orange:       #{$color--opui-orange};
+    --#{$op-prefix}-yellow:       #{$color--opui-yellow};
+    --#{$op-prefix}-green:        #{$color--opui-green};
+    --#{$op-prefix}-bright-green: #{$color--opui-bright-green};
+    --#{$op-prefix}-teal:         #{$color--opui-teal};
+    --#{$op-prefix}-cyan:         #{$color--opui-cyan};
 }
 

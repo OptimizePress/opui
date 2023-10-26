@@ -1,4 +1,5 @@
 div[class^='#{$op-prefix}col'], div[class*=' #{$op-prefix}col'] {
+    box-sizing: border-box;
     margin-bottom: $grid-gutter-height;
 }
 
@@ -11,10 +12,6 @@ div[class^='#{$op-prefix}collapse'], div[class*=' #{$op-prefix}collapse'] {
 
     & > div {
         height: 100%;
-
-        & > div {
-            // width: 100%;
-        }
     }
 }
 
@@ -22,4 +19,9 @@ div[class^='#{$op-prefix}collapse'], div[class*=' #{$op-prefix}collapse'] {
     & > div {
         width: 50%;
     }
+}
+
+.#{$op-prefix}container {
+    padding-left: 30px;
+    padding-right: 30px;
 }

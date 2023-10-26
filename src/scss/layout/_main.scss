@@ -1,6 +1,6 @@
 .op-plugin-app-container {
     margin-left: 0;
-    font-size: 2.56rem;
+    font-size: 16px;
 
     * {
         box-sizing: border-box;
@@ -23,4 +23,8 @@
 
 .#{$op-prefix}min-10vh {
     min-height: 100vh;
+}
+
+.#{$op-prefix}section {
+    border-bottom: 1px solid $color--opui-gray200;
 }

@@ -1,8 +1,12 @@
 .#{$op-prefix}form-text {
     font-size: 13px;
     line-height: 1.5;
-    margin: 12px 0;
-    color: $color--opui-gray400;
+    margin: 10px 0 20px 0;
+    color: $color--opui-gray500;
+}
+
+.#{$op-prefix}form-group, html .#{$op-prefix}form-group {
+    margin-bottom: 10px;
 }
 
 .opui-form-control:focus {
@@ -12,17 +16,33 @@
 
 .#{$op-prefix}opui-form form label, .#{$op-prefix}form-group label, label.#{$op-prefix}form-label {
     font-size: 15px;
-    color: $color--opui-black;
-    padding: 11px 0;
-    margin-bottom: 0.5rem;
+    line-height: 1.4;
+    font-weight: 500;
+    color: $color--opui-gray800;
+    padding: 12px 0 10px 0;
+    margin-bottom: 8px;
     display: inline-block;
+}
+
+label.#{$op-prefix}form-label-top {
+    font-size: 14px !important;
+    margin-bottom: 0 !important;
+    padding: 7px 0;
 }
 
 .#{$op-prefix}form-control {
     font-size: 16px;
     height: auto;
     line-height: 100%;
-    padding: 1rem 1.5rem;
+    padding: 15px;
+    border: 1px solid $color--opui-gray300;
+
+    border-radius: 6px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+
+    &:focus {
+        border-color: $color--opui-gray400;
+    }
 }
 
 .#{$op-prefix}form-check-input {
@@ -34,5 +54,81 @@
         margin: -1px 0 0 -2px;
         height: 16px;
         width: 16px;
+    }
+}
+
+.#{$op-prefix}form-file-upload-wrapper {
+    position: relative;
+    border: 1px solid var(--opui--gray300);
+    background-color: var(--opui--gray100);
+    border-radius: 4px;
+    color: $color--opui-gray500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    cursor: pointer;
+    padding: 10px 10px 6px 10px;
+
+    input {
+        opacity: 0;
+        position: absolute;
+        z-index: -1;
+    }
+
+    img {
+        object-fit: cover;
+        width: 100%;
+        min-height: 70px;
+        max-height: 120px;
+    }
+
+    .opui-form-file-upload-placeholder {
+        flex: 1;
+        padding: 0 20px;
+        text-align: center;
+        line-height: 150%;
+    }
+
+    .opui-form-file-upload-preview {
+        flex: 1;
+    }
+}
+
+.#{$op-prefix}form-slug-wrapper {
+    display: flex;
+    font-size: 16px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    overflow: hidden;
+
+    .#{$op-prefix}prefix {
+        width: fit-content;
+        display: flex;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        background-color: var(--opui--gray200);
+        height: 100%;
+        //line-height: 1;
+        padding: 13px 5px 13px 14px;
+        color: var(--opui--gray600);
+    }
+
+    input {
+        border: none;
+        width: 100%;
+        padding: 0;
+        outline: none !important;
+        box-shadow: none !important;
+        border-radius: 0;
+    }
+
+    i {
+        padding: 16px 24px;
+        background: var(--opui--blue600);
+        color: var(--opui--white);
+        cursor: pointer;
     }
 }

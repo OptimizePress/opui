@@ -66,8 +66,108 @@
     width: 300px;
 }
 
+.#{$op-prefix}w-80 {
+    width: 80px !important;
+}
+
+.#{$op-prefix}mnw-pc-10 {
+    min-width: 10% !important;
+}
+
+.#{$op-prefix}mnw-pc-20 {
+    min-width: 20% !important;
+}
+
+.#{$op-prefix}mnw-pc-25 {
+    min-width: 25% !important;
+}
+
+.#{$op-prefix}mnw-pc-33 {
+    min-width: 33% !important;
+}
+
+.#{$op-prefix}mnw-pc-50 {
+    min-width: 50% !important;
+}
+
+.#{$op-prefix}mnw-pc-66 {
+    min-width: 66% !important;
+}
+
+.#{$op-prefix}mnw-pc-75 {
+    min-width: 75% !important;
+}
+
+.#{$op-prefix}mnw-pc-80 {
+    min-width: 80% !important;
+}
+
+.#{$op-prefix}mnw-pc-90 {
+    min-width: 90% !important;
+}
+
+.#{$op-prefix}mxw-pc-10 {
+    max-width: 10% !important;
+}
+
+.#{$op-prefix}mxw-pc-20 {
+    max-width: 20% !important;
+}
+
+.#{$op-prefix}mxw-pc-25 {
+    max-width: 25% !important;
+}
+
+.#{$op-prefix}mxw-pc-33 {
+    max-width: 33% !important;
+}
+
+.#{$op-prefix}mxw-pc-50 {
+    max-width: 50% !important;
+}
+
+.#{$op-prefix}mxw-pc-66 {
+    max-width: 66% !important;
+}
+
+.#{$op-prefix}mxw-pc-75 {
+    max-width: 75% !important;
+}
+
+.#{$op-prefix}mxw-pc-80 {
+    max-width: 80% !important;
+}
+
+.#{$op-prefix}mxw-pc-90 {
+    max-width: 90% !important;
+}
+
 .#{$op-prefix}max-900 {
     max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.#{$op-prefix}max-1040 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.#{$op-prefix}max-1200 {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.#{$op-prefix}max-1600 {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.#{$op-prefix}max-1920 {
+    max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
 }

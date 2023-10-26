@@ -56,33 +56,44 @@
 
 // App classes wrapped
 #{$opui-wrapper}, html {
-    @import "general/typography";
     @import "layout/grid";
     @import "layout/main";
     @import "layout/sizing";
     @import "general/animations";
+    @import "components/alert";
     @import "components/buttons";
+    @import "components/boxes";
     @import "components/data";
     @import "components/forms";
+    @import "components/navigations";
     @import "components/header";
+    @import "components/headline";
     @import "components/settings";
     @import "components/cards";
     @import "components/badges";
     @import "components/navbar";
-    @import "components/check-switch";
     @import "components/toggle";
     @import "components/table";
     @import "components/inputs";
+    @import "components/pagination";
     @import "components/selects";
+    @import "components/skeleton";
+    @import "components/links";
     @import "components/restriction-overlay";
     @import "general/utilities";
     @import "general/colors";
+    @import "general/typography";
+
+    .op-plugin-app-container {
+        @import "general/forms";
+    }
 
     // Screens
     @import "screens/products";
     @import "screens/getting-started";
     @import "screens/empty-list";
     @import "screens/item-list";
+    @import "screens/table";
 }
 
 // App classes un-wrapped (overrides)

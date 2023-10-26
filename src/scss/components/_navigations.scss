@@ -1,0 +1,455 @@
+/*
+ * Primary navigation which should be used on
+ * admin views through all optimizepress plugins.
+ * Currently only op-dashboard and op-funnels are using it.
+ */
+.#{$op-prefix}top-menu {
+    position: relative;
+    background-color: $color--opui-white;
+    height: 65px;
+    box-sizing: border-box;
+
+    .#{$op-prefix}logo {
+        display: inline-block;
+        height: 35px;
+        color: $color--opui-blue;
+
+        i {
+            font-size: 35px;
+            line-height: 35px;
+        }
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0;
+            padding: 0;
+            position: relative;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                font-size: 20px;
+                line-height: 20px;
+            }
+        }
+    }
+
+    nav {
+        display: flex;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+
+        &.#{$op-prefix}right-menu {
+            li {
+                display: flex;
+                margin: 0 20px;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: $color--opui-gray500;
+                    position: relative;
+                    height: 65px;
+                    transition: $transition--opui-color-linear;
+
+                    i {
+                        font-size: 20px;
+                        margin-right: 7px;
+                    }
+
+                    span {
+                        font-size: 14px;
+                    }
+                }
+
+                &:hover {
+                    > a {
+                        color: $color--opui-dark;
+                    }
+                }
+
+                &.#{$op-prefix}fullscreen-btn {
+                    span {
+                        display: none;
+                    }
+
+                    i {
+                        color: $color--opui-dark;
+                        margin-right: 0;
+                    }
+                }
+
+                .#{$op-prefix}submenu-input[type="checkbox"] {
+                    width: 100%;
+                    height: 65px;
+                    position: absolute;
+                    z-index: 2;
+                    opacity: 0;
+                }
+
+                .#{$op-prefix}submenu {
+                    position: absolute;
+                    top: 100%;
+                    display: none;
+                    margin-left: -12px;
+                    padding: 6px 46px 6px 24px;
+                    z-index: 1000;
+                    background: #fff;
+                    text-align: left;
+                    box-shadow: $box-shadow;
+
+                    li {
+                        display: block;
+                        margin: 0;
+                        padding: 0;
+
+                        a {
+                            line-height: 46px;
+
+                            span {
+                                padding-left: 0;
+                            }
+                        }
+                    }
+                }
+
+                .#{$op-prefix}submenu-input:checked ~ .#{$op-prefix}submenu {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+
+    input.#{$op-prefix}hamburger-input[type="checkbox"] {
+        display: block;
+        opacity: 0;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+        cursor: pointer;
+        z-index: 2;
+
+        &:hover {
+            ~ .#{$op-prefix}hamburger-menu .#{$op-prefix}hamburger-bar {
+                background-color: $color--opui-dark;
+            }
+        }
+    }
+
+    .#{$op-prefix}hamburger-menu {
+        position: relative;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .#{$op-prefix}hamburger-bar {
+            display: flex;
+            width: 25px;
+            height: 2px;
+            margin-bottom: 5px;
+            position: relative;
+            background-color: $color--opui-gray500;
+            border-radius: 2px;
+            z-index: 1;
+            transform-origin: 3px;
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+                background-color 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
+                opacity 0.55s ease;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .#{$op-prefix}hamburger-input:checked
+        ~ .#{$op-prefix}hamburger-menu
+        span:first-of-type {
+        transform: rotate(50grad);
+    }
+
+    .#{$op-prefix}hamburger-input:checked
+        ~ .#{$op-prefix}hamburger-menu
+        .#{$op-prefix}hamburger-bar:nth-of-type(2) {
+        opacity: 0;
+    }
+
+    .#{$op-prefix}hamburger-input:checked
+        ~ .#{$op-prefix}hamburger-menu
+        span:last-of-type {
+        transform: rotate(-45deg);
+    }
+}
+
+@include media-breakpoint-down(xl) {
+    .#{$op-prefix}top-menu ul.#{$op-prefix}right-menu > li > a {
+        i {
+            margin-right: 0;
+        }
+
+        span {
+            display: none;
+        }
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    html.wp-toolbar body.wp-admin.ops_isFullScreen {
+        margin-top: -46px;
+    }
+
+    .#{$op-prefix}top-menu {
+        .#{$op-prefix}hamburger-menu {
+            display: flex;
+        }
+
+        .#{$op-prefix}hamburger-input:checked ~ ul.#{$op-prefix}right-menu {
+            display: flex;
+        }
+
+        ul.#{$op-prefix}right-menu {
+            display: none;
+            position: absolute;
+            width: 100%;
+            top: 100%;
+            background-color: white;
+            right: 0;
+            z-index: 2;
+            flex-direction: column;
+            border-top: 1px solid $color--opui-gray200;
+            box-shadow: $box-shadow;
+            padding: 10px 0;
+            transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+
+            li {
+                display: flex;
+                flex-direction: column;
+                margin: 0 20px;
+                width: 100%;
+
+                .#{$op-prefix}submenu {
+                    position: static;
+                    top: 0;
+                    margin-left: 20px;
+                    padding: 0;
+                    z-index: 1000;
+                    background: #fff;
+                    text-align: left;
+                    box-shadow: none;
+                    border-bottom: none;
+                }
+
+                &.#{$op-prefix}fullscreen-btn {
+                    span {
+                        display: flex;
+                    }
+
+                    i {
+                        margin-right: 15px;
+                    }
+                }
+
+                a {
+                    height: 45px;
+
+                    span {
+                        display: flex;
+                    }
+
+                    i {
+                        margin-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*
+ * Used as secondary navigation.
+ * Currently used on op-dashboard conversions views.
+ */
+.#{$op-prefix}navigation {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $color--opui-gray200;
+    width: 100%;
+    margin: 15px 0;
+
+    ul {
+        display: flex;
+        list-style-type: none;
+        padding: 20px 0;
+        margin: 0;
+
+        li {
+            position: relative;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 0 24px;
+            margin: 0;
+
+            &:first-child {
+                padding-left: 0;
+            }
+
+            &:last-child {
+                padding-right: 0;
+            }
+
+            &.active {
+                color: var(--opui--blue);
+            }
+
+            a {
+                color: inherit;
+                padding: 20px 0px;
+                text-decoration: none;
+            }
+
+            .#{$op-prefix}nested-input[type="checkbox"] {
+                width: 100%;
+                height: 50px;
+                position: absolute;
+                z-index: 2;
+                top: -12px;
+                left: -12px;
+                cursor: pointer;
+                opacity: 0;
+
+                ~ ul li .opui-nested-navigation {
+                    top: 0;
+                    left: calc(100% + 20px);
+                }
+
+                &:checked ~ .#{$op-prefix}nested-navigation {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            .#{$op-prefix}nested-navigation {
+                position: absolute;
+                top: calc(100% + 13px);
+                display: none;
+                padding: 0 20px;
+                z-index: 1000;
+                background: #fff;
+                text-align: left;
+                box-shadow: $box-shadow;
+
+                li {
+                    display: block;
+                    margin: 0;
+                    padding: 0;
+
+                    a {
+                        line-height: 46px;
+
+                        span {
+                            padding-left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .#{$op-prefix}navigation-hover {
+        background-color: var(--opui--blue);
+        bottom: 15px;
+        display: block;
+        height: 2px;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        transition: width 0.3s ease, left 0.3s ease;
+        width: 0;
+    }
+}
+
+@include media-breakpoint-down(sm) {
+    .#{$op-prefix}navigation {
+        border-bottom: none;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            li {
+                width: 100%;
+                border-bottom: 1px solid $color--opui-gray200;
+                padding: 10px 0;
+
+                a {
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+.#{$op-prefix}navigation-pills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    font-size: 13px;
+    gap: 10px;
+
+    .#{$op-prefix}pill {
+        margin: 0;
+        cursor: pointer;
+
+        &.#{$op-prefix}active {
+            .#{$op-prefix}link {
+                color: var(--opui--white);
+                background-color: var(--opui--blue);
+            }
+        }
+    }
+
+    .#{$op-prefix}-pills-more,
+    .#{$op-prefix}-pills-less {
+        display: none;
+
+        a {
+            color: var(--opui--blue);
+        }
+    }
+
+    .#{$op-prefix}link {
+        display: block;
+        padding: 10px 25px;
+        border-radius: 7px;
+        background-color: var(--opui--gray200);
+        color: var(--opui--darkgray);
+        transition: background-color 300ms;
+
+        &:hover {
+            color: var(--opui--white);
+            background-color: var(--opui--blue);
+            text-decoration: none;
+        }
+
+        &.disabled {
+            color: #ccc;
+            pointer-events: none;
+            cursor: default;
+        }
+    }
+}

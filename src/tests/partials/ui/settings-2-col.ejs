@@ -47,7 +47,7 @@
             <h2>Membership Information</h2>
             <div class="opui-settings-container">
                 <form class="opui-form">
-                    <div class="opp-settings-general">
+                    <div class="opm-settings-general">
                         <div class="opui-form-group opui-row">
                             <div class="opui-col-md-3"><label>Membership Name</label></div>
                             <div class="opui-col-md-9">
@@ -62,8 +62,12 @@
                                 <p class="opui-form-text">Set a priority for this membership. Higher membership will take priority for redirect options.</p>
                             </div>
                         </div>
-                        <div class="opui-form-actions">
-                            <button type="submit" class="opui-btn opui-btn-primary"> Save Changes </button>
+                        <div class="opui-form-actions opui-text-right">
+                            <button type="button" class="opui-btn opui-btn-primary saving">
+                                <span class="opui-spinner opui-spinner-border opui-text-light opui-mr-2"></span>
+                                <span class="opui-btn-label">Save changes</span>
+                                <span class="opui-btn-saving-label">Saving...</span>
+                            </button>
                         </div>
                     </div>
                 </form>
@@ -71,3 +75,12 @@
         </div>
     </div>
 </div>
+
+<script>
+$(function() {
+    var $buttons = $('.opui-2-col-settings .opui-btn');
+    $buttons.click(function() {
+        $(this).toggleClass('saving');
+    });
+});
+</script>

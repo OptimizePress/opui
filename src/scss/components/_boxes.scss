@@ -1,0 +1,91 @@
+.boxes, .#{$op-prefix}boxes {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.box, .#{$op-prefix}box {
+    width: 270px;
+    min-height: 350px;
+    background-color: white;
+    border: 1px solid var(--opui--gray200);
+    border-radius: var(--opui--border-radius);
+    box-shadow: var(--opui--box-shadow);
+    overflow: hidden;
+
+    * {
+        box-sizing: border-box;
+    }
+
+    &:hover {
+        .details, .#{$op-prefix}details {
+            opacity: 0;
+        }
+
+        .actions, .#{$op-prefix}actions {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .details-wrapper, .#{$op-prefix}details-wrapper {
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .actions, .#{$op-prefix}actions,
+    .details, .#{$op-prefix}details {
+        height: 100%;
+        width: 100%;
+
+        .opui-btn {
+            width: 100%;
+        }
+    }
+
+    .image-wrapper, .#{$op-prefix}image-wrapper {
+        height: 180px;
+        width: 100%;
+        overflow: hidden;
+        border-bottom: 1px solid var(--opui--gray200);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .title, .#{$op-prefix}title {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    .description, .#{$op-prefix}description {
+        font-size: 14px;
+        color: $color--opui-gray800;
+        margin-bottom: 0;
+    }
+
+    .actions, .#{$op-prefix}actions {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 25px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
+        buttons, .#{$op-prefix}btn {
+            width: 100%;
+        }
+    }
+}

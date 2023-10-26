@@ -1,37 +1,66 @@
 :root {
-  --opui--font-family: Open Sans, sans-serif;
+  --opui--font-family: Inter, sans-serif;
+  --opui--border-radius: 4px;
+  --opui--box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.05);
   --opui--white: white;
   --opui--black: black;
   --opui--gray: #6d767e;
   --opui--darkgray: #484f56;
   --opui--gray100: #f9fafb;
+  --opui--gray150: #f4f4f5;
   --opui--gray200: #ededed;
-  --opui--gray300: #ced4da;
+  --opui--gray300: #d1d5db;
   --opui--gray400: #acb6c3;
-  --opui--gray500: #89959f;
-  --opui--gray600: #6d767e;
+  --opui--gray500: #717b84;
+  --opui--gray600: #60666c;
   --opui--gray700: #484f56;
   --opui--gray800: #353b41;
   --opui--gray900: #22262a;
-  --opui--blue: #0063db;
-  --opui--darkblue: #0051c2;
-  --opui--blue100: #8fc1ff;
-  --opui--blue200: #4297ff;
-  --opui--blue300: #0f7bff;
-  --opui--blue400: #0063db;
-  --opui--blue500: #0057c2;
-  --opui--blue600: #0051c2;
-  --opui--blue700: #00479e;
-  --opui--blue800: #003575;
-  --opui--blue900: #001229;
-  --opui--primary: #0063db;
-  --opui--secondary: #8fc1ff;
+  --opui--blue: #4249ff;
+  --opui--darkblue: #000ac2;
+  --opui--lightblue: #000dff;
+  --opui--blue100: #8f94ff;
+  --opui--blue200: #424cff;
+  --opui--blue300: #0f1bff;
+  --opui--blue400: #4249ff;
+  --opui--blue500: #000ac2;
+  --opui--blue600: #000ac2;
+  --opui--blue700: #00089e;
+  --opui--blue800: #000675;
+  --opui--blue900: #000229;
+  --opui--green: #00d688;
+  --opui--darkgreen: #09903d;
+  --opui--lightgreen: #b2face;
+  --opui--bright-green: #b2face;
+  --opui--green100: #e2fded;
+  --opui--green200: #b2face;
+  --opui--green300: #80cb8a;
+  --opui--green400: #00d688;
+  --opui--green500: #3ff384;
+  --opui--green600: #09903d;
+  --opui--green700: #087833;
+  --opui--green800: #066029;
+  --opui--green900: #033014;
+  --opui--primary: #4249ff;
+  --opui--secondary: #8f94ff;
   --opui--success: #00d688;
-  --opui--info: #0f7bff;
+  --opui--info: #0f1bff;
   --opui--warning: #ffc105;
   --opui--danger: #dc3848;
   --opui--light: #f9fafb;
   --opui--dark: #484f56;
+  --opui--chapter: #6e96ed;
+  --opui--lesson: #4f6187;
+  --opui--indigo: #6812f3;
+  --opui--purple: #6f42c2;
+  --opui--pink: #d73385;
+  --opui--red: #dc3848;
+  --opui--orange: #fd7e17;
+  --opui--yellow: #ffc105;
+  --opui--green: #00d688;
+  --opui--bright-green: #b2face;
+  --opui--teal: #20cb98;
+  --opui--cyan: #0dccf2;
 }
 
 /*!
@@ -61,7 +90,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1.6rem;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -159,12 +188,12 @@ sup {
 }
 
 a {
-  color: #0063db;
+  color: #4249ff;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #00408f;
+  color: #0008f5;
   text-decoration: underline;
 }
 
@@ -211,9 +240,9 @@ table {
 }
 
 caption {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  color: #6d767e;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #6c757d;
   text-align: left;
   caption-side: bottom;
 }

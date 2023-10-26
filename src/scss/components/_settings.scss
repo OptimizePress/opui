@@ -40,7 +40,7 @@
                     line-height: initial;
                     margin: 0 0 5px 0;
 
-                    [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"] {
+                    [class^="#{$op-prefix}icon"], [class*=" #{$op-prefix}icon"], .#{$op-prefix}fa {
                         position: absolute;
                         top: 40%;
                         transform: translateY(-50%);
@@ -52,7 +52,7 @@
                     display: block;
                     margin-left: 30px;
                     font-size: 12px;
-                    color: $color--opui-gray400;
+                    color: $color--opui-gray500;
                 }
 
                 &.selected {
@@ -71,6 +71,7 @@
         background: $color--opui-gray100;
         width: calc(100% - 300px);
         box-sizing: border-box;
+        padding-bottom: 50px;
 
         h2 {
             padding: 0 0 0 50px;
@@ -80,6 +81,10 @@
             font-weight: 600;
             line-height: 74px;
             margin: 0 0 5px 0;
+        }
+
+        h6 {
+            color: $color--opui-gray500;
         }
 
         .#{$op-prefix}settings-container {

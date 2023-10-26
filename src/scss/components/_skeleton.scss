@@ -1,0 +1,33 @@
+@keyframes skeleton-loading-shimmer {
+    0% {
+        background-position: -468px 0;
+    }
+
+    100% {
+        background-position: 468px 0;
+    }
+}
+
+.#{$op-prefix}skeleton-shimmer {
+    white-space: nowrap;
+    animation-duration: 1.25s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: skeleton-loading-shimmer;
+    animation-timing-function: linear;
+    background: #f6f6f6;
+    background: linear-gradient(
+        to right,
+        hsl(0, 0%, 93%) 8%,
+        hsl(0, 0%, 96%) 18%,
+        hsl(0, 0%, 93%) 33%
+    );
+
+    color: transparent !important;
+    border: 0 !important;
+
+    * {
+        color: transparent !important;
+        border: 0 !important;
+    }
+}

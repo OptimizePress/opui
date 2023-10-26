@@ -2,25 +2,26 @@
     "name": "optimizepress-ui",
     "title": "OptimizePress UI",
     "description": "Style framework for OptimizePress Wordpress plugins.",
-    "version": "0.1.12",
+    "version": "0.2.20",
     "homepage": "https://github.com/OptimizePress/opui",
     "authors": [
         "Boris Strahija <bstrahija@gmail.com>"
     ],
     "devDependencies": {
         "cross-env": "^5.2.1",
-        "laravel-mix": "^6.0.31",
+        "del": "^6.0.0",
+        "laravel-mix": "^6.0.43",
         "laravel-mix-ejs": "^1.1.3",
         "sass": "1.32.13"
     },
     "scripts": {
         "dev": "npm run development",
-        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch-poll": "npm run watch -- --watch-poll",
-        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
         "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --config=node_modules/laravel-mix/setup/webpack.config.js"
+        "production": "mix --production"
     },
     "repository": {
         "type": "git",
