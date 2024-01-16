@@ -1,0 +1,11 @@
+{
+    "src": "{dirname}/../../fonts/opui-font.svg",
+    "glyphs": "{dirname}/glyphs",
+    "dst": {
+        "ttf": "{dirname}/../../fonts/opui-font.ttf",
+        "woff": "{dirname}/../../fonts/opui-font.woff",
+        "woff2": "{dirname}/../../fonts/opui-font.woff2",
+        "eot": "{dirname}/../../fonts/opui-font.eot",
+        "scss": "{dirname}/../../scss/general/_icons.scss"
+    }
+}
